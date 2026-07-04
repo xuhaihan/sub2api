@@ -1,0 +1,42 @@
+.ccloud.yml
+  f46925dfd5d9620e 1-338
+deploy/dev.yaml
+  f46925dfd5d9620e 8,35-36
+deploy/update-egress-proxy-config.py
+  bbe2736d9ba27939 1-616
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.3",
+  "base_commit_sha": "87ba730c253a0feab3c035d1b5edee424e526fc4",
+  "prompts": {
+    "bbe2736d9ba27939": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f2b6b-e712-7053-b076-0b00a3a61f19",
+        "model": "gpt-5.5"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 2254,
+      "total_deletions": 23,
+      "accepted_lines": 618,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/47c48bc3fdda66bddc967840f55b47900ed0f48dace74fff7b3f4e458ce9e3d2"
+    },
+    "f46925dfd5d9620e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f2808-adbc-7202-be8f-8baedee6c555",
+        "model": "gpt-5.5"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 531,
+      "total_deletions": 104,
+      "accepted_lines": 183099,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/ce1893a910f78188238d81cb3a2e29fbe1b17261289d6177897ce030d24a72ba"
+    }
+  }
+}
