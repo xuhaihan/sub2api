@@ -1,0 +1,34 @@
+frontend/src/components/admin/user/UserEditModal.vue
+  bbe2736d9ba27939 37-42,88-97,101,128
+backend/internal/service/admin_service.go
+  bbe2736d9ba27939 153,785-796,819-823
+backend/internal/service/admin_service_update_user_role_test.go
+  bbe2736d9ba27939 1-60
+backend/internal/service/admin_service_delete_test.go
+  bbe2736d9ba27939 28-30,110-113
+backend/internal/web/dist/.keep
+  bbe2736d9ba27939 1
+backend/internal/handler/admin/user_handler.go
+  bbe2736d9ba27939 69,307
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.3",
+  "base_commit_sha": "3bf5aacd5ce2b52425627e98b446b681601ea94c",
+  "prompts": {
+    "bbe2736d9ba27939": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f2b6b-e712-7053-b076-0b00a3a61f19",
+        "model": "gpt-5.5"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 14493,
+      "total_deletions": 28,
+      "accepted_lines": 14478,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/4af3737da5ba5dc4af697adb6d4bf26d17dc5265c6f23ef41ffc2e79cc50a3a2"
+    }
+  }
+}
