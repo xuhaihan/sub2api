@@ -1,0 +1,28 @@
+frontend/src/views/admin/__tests__/AccountsView.bulkEdit.spec.ts
+  68b474535f36e364 83,97-101,245,303
+frontend/src/views/admin/AccountsView.vue
+  68b474535f36e364 458,464
+frontend/src/components/admin/account/AccountBulkActionsBar.vue
+  68b474535f36e364 34,36-37
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "71369d0b99339cd595bea0dbb9caa10e18e0c98c",
+  "prompts": {
+    "68b474535f36e364": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f69d0-ec1e-7423-8c6f-8058ccea4050",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 26,
+      "total_deletions": 438,
+      "accepted_lines": 35640,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/cb1bf4fc6847e48a636c0f03449a64d57e3d02052499d399af55a5d7ce6f5a21"
+    }
+  }
+}
