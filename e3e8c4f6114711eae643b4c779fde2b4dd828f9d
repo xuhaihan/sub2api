@@ -1,0 +1,24 @@
+frontend/src/api/__tests__/admin.system.rollback.spec.ts
+  dc6ec18fbd124ee4 44-48,57-59
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.9",
+  "base_commit_sha": "e3e8c4f6114711eae643b4c779fde2b4dd828f9d",
+  "prompts": {
+    "dc6ec18fbd124ee4": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f828d-15d2-74a0-8224-318519e0cf89",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 33145,
+      "total_deletions": 2,
+      "accepted_lines": 33145,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/22e5232b4bbf984e48b28fd0ab4f2210eb16f8f3fd9b5bbcc88c2ad58737534d"
+    }
+  }
+}
