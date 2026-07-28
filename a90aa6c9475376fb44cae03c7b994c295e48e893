@@ -1,0 +1,24 @@
+PROXY_OPERATIONS.md
+  1df66a3474786054 1-206
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.4",
+  "base_commit_sha": "a90aa6c9475376fb44cae03c7b994c295e48e893",
+  "prompts": {
+    "1df66a3474786054": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fa2eb-f645-7d73-ab78-80ba66553240",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 27929,
+      "total_deletions": 0,
+      "accepted_lines": 27929,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/93719e7e3ad8d27474363d4f333091456cf3416e15be4cb6b1f3aaec35ee334f"
+    }
+  }
+}
