@@ -1,0 +1,26 @@
+backend/internal/domain/constants.go
+  5d14ddacb80f3eb1 130-131,134-136,138-147,149-151
+backend/migrations/194_add_glm_account.sql
+  5d14ddacb80f3eb1 1-51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "15f5438d70826f8e5c2882e82840106ae67d048f",
+  "prompts": {
+    "5d14ddacb80f3eb1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "aff8e994-585c-4988-b4b2-c6ba64d5781f",
+        "model": "glm-4.7"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 537,
+      "total_deletions": 747,
+      "accepted_lines": 69,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/46e0633b3562f80447d200cbd6241c0fcf2eb1b9dbfe971b1b0e21d782f8e189"
+    }
+  }
+}
