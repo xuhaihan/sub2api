@@ -1,0 +1,70 @@
+backend/internal/service/openai_gateway_scheduling.go
+  e450ff064b13e9f5 315-329,725,728,818-820,823,834,838,840,843,845,849-853,861,871,887,1318-1328,1343,1376-1386,1392,1414
+backend/internal/handler/api_key_handler_validation_test.go
+  e450ff064b13e9f5 1-43
+frontend/src/views/admin/__tests__/groupsImagePricing.spec.ts
+  e450ff064b13e9f5 30-34
+backend/internal/service/api_key_service.go
+  e450ff064b13e9f5 9,249-278,462-464,760-762
+backend/internal/service/openai_subscription_test.go
+  e450ff064b13e9f5 129-345
+backend/internal/service/account_scheduling_threshold_eval.go
+  e450ff064b13e9f5 248
+backend/internal/handler/api_key_handler.go
+  e450ff064b13e9f5 6-7,67-103,194-197,249-250
+frontend/src/views/admin/groupsImagePricing.ts
+  e450ff064b13e9f5 3
+backend/internal/handler/security_audit_helper_test.go
+  e450ff064b13e9f5 21-23,54-133,135-138,147-150
+backend/internal/handler/security_audit_helper.go
+  e450ff064b13e9f5 4,16-24,38-46,98-116,138-144
+backend/internal/handler/openai_gateway_handler.go
+  e450ff064b13e9f5 2026,2702-2706
+backend/internal/service/openai_privacy_service.go
+  e450ff064b13e9f5 91-96,156,167,170,183,185,189,193,199,201,203,272-274,277-288
+backend/internal/service/openai_oauth_service.go
+  e450ff064b13e9f5 272-274,280-281,284-294,300,314-320,322
+backend/internal/service/account_scheduling_threshold_eval_test.go
+  e450ff064b13e9f5 99,107,112-115,119,121-124,127-132
+backend/internal/handler/openai_gateway_handler_test.go
+  e450ff064b13e9f5 338-357
+backend/internal/service/api_key_service_validation_test.go
+  e450ff064b13e9f5 1-46
+backend/internal/service/openai_profit_control_legacy_diagnostics_test.go
+  e450ff064b13e9f5 1-85
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.17",
+  "base_commit_sha": "66ddf468e3f1e6d6650f1c8a8d4f88afc0b1f154",
+  "prompts": {
+    "061ba369b5a0f853": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019feace-20f2-7781-9175-b0f2f67fb031",
+        "model": "gpt-5.6"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 34,
+      "accepted_lines": 0,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/62417778b131fe4836ff14823e17e07ba8e6880698c33bbc34805a07e7e6ec54"
+    },
+    "e450ff064b13e9f5": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fdb34-5656-70c1-8df4-9decabdd7237",
+        "model": "deepseek-v4-flash"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 941,
+      "total_deletions": 35,
+      "accepted_lines": 62195,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/9b88f9efb5889f288ed52f07db92a561059fe3b4531c42ae53b4e137b050191d"
+    }
+  }
+}
