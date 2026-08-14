@@ -1,0 +1,90 @@
+backend/ent/usersubscription/usersubscription.go
+  a5486ee95907b216 46-51,115-117,239-251
+backend/ent/schema/user_subscription.go
+  a5486ee95907b216 72-84
+backend/ent/mutation.go
+  a5486ee95907b216 54799-54804,55536-55745,56062,56105-56113,56159-56164,56208-56213,56327-56347,56386-56394,56409-56414,56445-56465,56486-56494,56527-56535,56592-56599
+backend/ent/runtime/runtime.go
+  a5486ee95907b216 2464
+backend/ent/usersubscription.go
+  a5486ee95907b216 50-55,130,247-267,394-407
+frontend/src/utils/subscriptionLimits.ts
+  a5486ee95907b216 1-22
+backend/internal/service/user_subscription.go
+  a5486ee95907b216 28-31,204-205,208,212-213,216,220-221,224-258
+backend/internal/repository/user_subscription_repo.go
+  a5486ee95907b216 41-43,155-157,662-664
+frontend/src/types/index.ts
+  a5486ee95907b216 1983-1985,2025-2027,2034-2036,2043-2046
+backend/ent/usersubscription_update.go
+  a5486ee95907b216 253-333,600-626,1007-1087,1384-1409
+backend/internal/service/subscription_user_limits_test.go
+  a5486ee95907b216 1-169
+backend/internal/service/subscription_service.go
+  a5486ee95907b216 29-44,197-204,227-230,436-447,464-471,495-502,525-528,607-615,620-635,646-690,1222-1223,1249-1250,1273-1274
+backend/internal/handler/admin/subscription_handler_limits_test.go
+  a5486ee95907b216 1-23
+backend/internal/repository/billing_cache.go
+  a5486ee95907b216 53-60,62,218-220,240-255,259,266-275
+backend/internal/service/billing_cache_service.go
+  a5486ee95907b216 43-50,52,449-456,458,464-471,473,485-492,494,940-943,947-958,962,966,971-979
+frontend/src/utils/__tests__/subscriptionLimits.spec.ts
+  a5486ee95907b216 1-56
+backend/internal/handler/dto/types.go
+  a5486ee95907b216 649-652
+backend/internal/handler/dto/mappers.go
+  a5486ee95907b216 815-817
+backend/ent/migrate/schema.go
+  a5486ee95907b216 2002-2004,2019,2025,2031,2040,2045,2060,2065,2070
+frontend/src/components/common/SubscriptionProgressMini.vue
+  a5486ee95907b216 75,85,91,98,103,113,119,126,131,141,147,156,186-190,214-218,220-221,223-224,230-237
+frontend/src/i18n/locales/en/admin/channels.ts
+  a5486ee95907b216 669-681,732-733
+backend/internal/handler/admin/subscription_handler.go
+  a5486ee95907b216 43-49,54-60,68-73,160-167,190-197,270-299
+backend/internal/handler/subscription_handler.go
+  a5486ee95907b216 154-155,157-158,160-161
+frontend/src/views/user/PaymentView.vue
+  a5486ee95907b216 208,270
+frontend/src/views/user/SubscriptionsView.vue
+  a5486ee95907b216 104,111,121,127,141,148,158,164,182,189,199,205,225,266-275
+frontend/src/i18n/locales/zh/admin/channels.ts
+  a5486ee95907b216 669-681,730-731
+backend/internal/service/billing_cache_port.go
+  a5486ee95907b216 11-18,20
+backend/ent/usersubscription/where.go
+  a5486ee95907b216 128-142,743-890
+backend/ent/usersubscription_create.go
+  a5486ee95907b216 192-233,518-529,855-926,1251-1334,1833-1913
+backend/internal/repository/user_subscription_lock_test.go
+  a5486ee95907b216 34
+backend/internal/server/routes/admin.go
+  a5486ee95907b216 654
+frontend/src/views/admin/SubscriptionsView.vue
+  a5486ee95907b216 217,223,225,232,254,260,262,269,291,297,299,306,330,393-400,549-557,664-704,847-851,870,1036,1038,1044,1049-1052,1059-1064,1270-1272,1296-1298,1302-1305,1311,1324-1365,1508-1523
+backend/migrations/222_add_user_subscription_limits.sql
+  a5486ee95907b216 1-11
+frontend/src/api/admin/subscriptions.ts
+  a5486ee95907b216 13,152-162,215
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.19",
+  "base_commit_sha": "e655e89bbd43ce4b9d3230d62f32b8ef19b27214",
+  "prompts": {
+    "a5486ee95907b216": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019feee2-3893-70c1-b12c-2b751ece5599",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 17679,
+      "total_deletions": 241,
+      "accepted_lines": 17628,
+      "overriden_lines": 9,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/cb02f26f35aa01301964340e382a49a7fc49f2fb7a0dfbea70407d2d8e2ad208"
+    }
+  }
+}
