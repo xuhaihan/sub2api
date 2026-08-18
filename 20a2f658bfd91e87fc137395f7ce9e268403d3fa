@@ -1,0 +1,26 @@
+frontend/src/components/account/CNProviderQuotaCell.vue
+  a5486ee95907b216 2-6,11,38-43,55-59,65-69
+frontend/src/components/account/__tests__/CNProviderQuotaCell.spec.ts
+  a5486ee95907b216 1-69
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.3",
+  "base_commit_sha": "20a2f658bfd91e87fc137395f7ce9e268403d3fa",
+  "prompts": {
+    "a5486ee95907b216": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019feee2-3893-70c1-b12c-2b751ece5599",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 9730,
+      "total_deletions": 9,
+      "accepted_lines": 9727,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/1a273958b1872af5521ebe43cc6f86eb84c0670aaf0553bf41d3d436cd566cee"
+    }
+  }
+}
