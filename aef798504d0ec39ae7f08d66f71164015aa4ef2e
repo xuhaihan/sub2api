@@ -1,0 +1,168 @@
+backend/internal/service/openai_ws_http_bridge_test.go
+  a5486ee95907b216 173-290,455-458
+backend/internal/handler/ops_error_logger.go
+  a5486ee95907b216 1252-1256,1781
+backend/migrations/composite_routes_cn_providers_migration_test.go
+  a5486ee95907b216 1-18
+backend/internal/pkg/apicompat/chatcompletions_responses_bridge.go
+  a5486ee95907b216 20-35,40-45,50,227-232,257,266,274-280,283-289,303,315-326,348,369,385,417,426,451-462,464,466,758-775
+backend/internal/service/openai_cyber_session_block_test.go
+  a5486ee95907b216 151-157
+backend/internal/repository/gateway_cache.go
+  a5486ee95907b216 134-175
+backend/internal/service/scheduler_snapshot_retirement_test.go
+  a5486ee95907b216 179
+backend/internal/pkg/apicompat/chatcompletions_responses_reasoning_cache_test.go
+  a5486ee95907b216 1-161
+backend/internal/service/admin_service_composite_group_test.go
+  a5486ee95907b216 9,178-184,199,203-213
+backend/internal/pkg/apicompat/responses_client_tools.go
+  a5486ee95907b216 133-168,194,199,208,214,228-236
+backend/internal/service/openai_gateway_grok_inline_image_tool_test.go
+  a5486ee95907b216 1-184
+backend/internal/handler/openai_codex_models_handler_test.go
+  a5486ee95907b216 119-131,303-306,313
+backend/internal/service/openai_gateway_grok_tool_protocol.go
+  a5486ee95907b216 19-30,38
+backend/internal/service/openai_ws_http_bridge_resume_test.go
+  a5486ee95907b216 1-252
+backend/internal/service/channel_service.go
+  a5486ee95907b216 360
+backend/internal/handler/openai_alpha_search.go
+  a5486ee95907b216 33-34,78-81
+backend/internal/service/openai_gateway_messages.go
+  a5486ee95907b216 556-559,682-690,799
+backend/internal/handler/gateway_handler.go
+  a5486ee95907b216 1150,1153-1155,1377
+backend/internal/service/composite_platform_test.go
+  a5486ee95907b216 28-31,66,70-75
+backend/internal/handler/openai_live.go
+  a5486ee95907b216 18,33,47-58,247
+backend/internal/service/openai_gateway_compat_buffered_read_failover_test.go
+  a5486ee95907b216 1-152
+backend/internal/handler/endpoint.go
+  a5486ee95907b216 18-32,84-85,119-127,200
+backend/internal/handler/openai_live_test.go
+  a5486ee95907b216 90-92
+backend/internal/testutil/stubs.go
+  a5486ee95907b216 121-127
+backend/internal/service/openai_gateway_responses_chat_fallback.go
+  a5486ee95907b216 4,56-62,146,215-217,235-237,276-371
+backend/internal/service/openai_gateway_responses_chat_fallback_test.go
+  a5486ee95907b216 12,14,232-370
+backend/internal/handler/endpoint_test.go
+  a5486ee95907b216 30,54,62,106
+backend/internal/service/scheduler_snapshot_bulk_event_test.go
+  a5486ee95907b216 117-131
+backend/internal/service/gateway_multiplatform_test.go
+  a5486ee95907b216 294-300
+backend/internal/service/scheduler_snapshot_full_rebuild_lifecycle_test.go
+  a5486ee95907b216 293,295,299,370-371,377-378,401,419-420,459,531,540-541,564-565,571,603-605,635,639,657
+backend/internal/handler/openai_codex_models_handler.go
+  a5486ee95907b216 30-31
+backend/internal/service/gateway_service.go
+  a5486ee95907b216 455-458,493-502
+backend/internal/service/openai_account_scheduler_test.go
+  a5486ee95907b216 199-205
+backend/internal/handler/openai_gateway_count_tokens.go
+  a5486ee95907b216 6,14,18-141,207,246-248,253
+backend/internal/service/gateway_hotpath_optimization_test.go
+  a5486ee95907b216 161-167
+backend/internal/handler/gateway_models_test.go
+  a5486ee95907b216 10,325-345,360,371,410-457
+backend/internal/service/openai_gateway_request_body.go
+  a5486ee95907b216 423-428
+backend/internal/handler/composite_platform_test.go
+  a5486ee95907b216 25,28-41,43-60
+backend/internal/service/openai_ws_forwarder.go
+  a5486ee95907b216 105-140
+backend/internal/service/openai_gateway_grok_test.go
+  a5486ee95907b216 46-146,261-265,267-270,274,300-302
+backend/internal/service/openai_gateway_count_tokens.go
+  a5486ee95907b216 10,43-211
+backend/migrations/227_composite_routes_add_cn_providers.sql
+  a5486ee95907b216 1-8
+backend/internal/server/routes/composite_platform_test.go
+  a5486ee95907b216 136-207
+backend/internal/handler/openai_gateway_ws_failover_resume_test.go
+  a5486ee95907b216 1-35
+backend/internal/service/gemini_multiplatform_test.go
+  a5486ee95907b216 322-328
+backend/internal/pkg/apicompat/responses_client_tools_test.go
+  a5486ee95907b216 20-23,51,55,58,63,88-138
+backend/internal/handler/openai_gateway_handler_test.go
+  a5486ee95907b216 649-650,655-657,661-663,675-676,685-686
+backend/internal/service/channel_service_test.go
+  a5486ee95907b216 2044-2046,2072
+backend/internal/service/openai_ws_http_bridge.go
+  a5486ee95907b216 18,27-50,108-111,117-119,126,136-164,251-257,261-273,340,343,411,520
+backend/internal/handler/openai_responses_input_tokens_test.go
+  a5486ee95907b216 1-21
+backend/internal/service/scheduler_snapshot_group_lifecycle_test.go
+  a5486ee95907b216 328-329,444,456-457,475,480,484,500-501,549,556-557,574,578
+backend/internal/service/scheduler_snapshot_service.go
+  a5486ee95907b216 590,612,827-828,840,858
+backend/internal/service/openai_gateway_grok.go
+  a5486ee95907b216 498-501,565,576,602,622,629-634,641-645,774-836
+backend/internal/handler/openai_gateway_cn_dispatch_test.go
+  a5486ee95907b216 6-8,11,15,20,24,30,32-75
+backend/internal/server/routes/gateway_test.go
+  a5486ee95907b216 97,106
+backend/internal/server/routes/gateway.go
+  a5486ee95907b216 69-74,173-176,558-561,572,578-590,609-610,617-624,700-703
+backend/internal/handler/admin/group_handler.go
+  a5486ee95907b216 237
+backend/internal/repository/gateway_cache_reasoning_test.go
+  a5486ee95907b216 1-41
+backend/internal/service/openai_responses_input_tokens_test.go
+  a5486ee95907b216 1-103
+backend/internal/service/openai_gateway_chat_completions.go
+  a5486ee95907b216 4,426,522-560
+backend/internal/service/composite_platform.go
+  a5486ee95907b216 109-114,142-148,195-196
+backend/internal/service/openai_gateway_chat_completions_raw.go
+  a5486ee95907b216 108-114
+backend/internal/handler/admin/group_handler_platform_test.go
+  a5486ee95907b216 74,78-79
+backend/internal/service/openai_ws_state_store_test.go
+  a5486ee95907b216 210-216
+backend/internal/service/admin_group.go
+  a5486ee95907b216 270,513,893
+backend/internal/service/openai_ws_forwarder_payload.go
+  a5486ee95907b216 677-703
+backend/internal/handler/openai_gateway_handler.go
+  a5486ee95907b216 101,105-112,201,215-223,233-245,366,977,1020,1783,1901,2310,2329-2343,2986-2993
+backend/internal/service/admin_service_group_test.go
+  a5486ee95907b216 1032-1069
+backend/internal/service/openai_gateway_service_test.go
+  a5486ee95907b216 715-721
+backend/internal/service/upstream_path_guard_test.go
+  a5486ee95907b216 137,149-155
+backend/internal/service/openai_ws_forwarder_ingress.go
+  a5486ee95907b216 496-497,524-532,585-600,612-619
+backend/internal/service/openai_gateway_service.go
+  a5486ee95907b216 287-289
+backend/internal/service/openai_gateway_grok_chat_image_tools.go
+  a5486ee95907b216 1-83
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.3",
+  "base_commit_sha": "aef798504d0ec39ae7f08d66f71164015aa4ef2e",
+  "prompts": {
+    "a5486ee95907b216": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019feee2-3893-70c1-b12c-2b751ece5599",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 39462,
+      "total_deletions": 249,
+      "accepted_lines": 39403,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/5ce58019ec9c682b2f0c9138526a3382624436c88c6465609d46897ec5c55f54"
+    }
+  }
+}
