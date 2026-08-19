@@ -93,6 +93,11 @@ func resolveOpenAICompactForwardModel(account *Account, model string) string {
 
 	mappedModel, matched := account.ResolveCompactMappedModel(trimmedModel)
 	if !matched {
+		// DeepSeek 等没有独立 compact 模型的上游：把 Codex 侧的
+		// -openai-compact 别名回退到真实模型，避免上游收到未知模型。
+		if account.Platform == PlatformDeepseek && strings.HasSuffix(trimmedModel, "-openai-compact") {
+			return strings.TrimSuffix(trimmedModel, "-openai-compact")
+		}
 		return trimmedModel
 	}
 	if trimmedMapped := strings.TrimSpace(mappedModel); trimmedMapped != "" {

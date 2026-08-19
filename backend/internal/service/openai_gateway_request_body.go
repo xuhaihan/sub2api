@@ -57,13 +57,25 @@ func buildOpenAIResponsesURLForPlatform(platform string, base string) string {
 
 // normalizeDeepSeekResponsesRequestBody 适配 DeepSeek 无状态 Responses 端点：
 // 强制 store=false 并清除 previous_response_id（官方 /responses 不支持服务端
-// 状态存储，携带这些字段会被拒绝）。非 deepseek responses 协议账号原样返回。
+// 状态存储，携带这些字段会被拒绝）；同时把客户端回带的 compaction 摘要还原为
+// <conversation_summary> 用户消息（DeepSeek 会忽略未知 input item），并把
+// Codex 的 -openai-compact 压缩模型别名回退为真实模型。非 deepseek responses
+// 协议账号原样返回。
 func normalizeDeepSeekResponsesRequestBody(account *Account, body []byte) []byte {
 	if account == nil || account.Platform != PlatformDeepseek ||
 		(account.GetAPIProtocol() != APIProtocolResponses && !account.IsAdaptiveAPIProtocol()) {
 		return body
 	}
-	normalized, err := sjson.SetBytes(body, "store", false)
+	normalized := body
+	if model := strings.TrimSpace(gjson.GetBytes(normalized, "model").String()); strings.HasSuffix(model, "-openai-compact") {
+		if stripped, err := sjson.SetBytes(normalized, "model", strings.TrimSuffix(model, "-openai-compact")); err == nil {
+			normalized = stripped
+		}
+	}
+	if converted, changed, err := convertOpenAICompactInputsForDeepSeek(normalized); err == nil && changed {
+		normalized = converted
+	}
+	normalized, err := sjson.SetBytes(normalized, "store", false)
 	if err != nil {
 		return body
 	}

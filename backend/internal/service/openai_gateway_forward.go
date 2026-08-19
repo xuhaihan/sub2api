@@ -76,6 +76,14 @@ func (s *OpenAIGatewayService) Forward(ctx context.Context, c *gin.Context, acco
 	wsDecision = resolveOpenAIWSDecisionByClientTransport(wsDecision, GetOpenAIClientTransport(c))
 	passthroughEnabled := account.IsOpenAIPassthroughEnabled()
 	compactPath := isOpenAIResponsesCompactPath(c)
+	// DeepSeek 原生 Responses 端点没有 /responses/compact，也不识别原生 v2 的
+	// compaction_trigger（未知 input item 一律忽略）：远程压缩由网关本地执行。
+	// 原生 v2（裸 /responses + compaction_trigger + stream）统一重写为 legacy
+	// compact 路径，从而复用 compact 模型映射、unary 上游头与 SSE 桥写回。
+	if isDeepSeekServerSideCompactAccount(account) && (compactPath || isOpenAINativeCompactionV2(c)) && !compactPath {
+		c.Request.URL.Path = strings.TrimRight(c.Request.URL.Path, "/") + "/compact"
+		compactPath = true
+	}
 	if shouldFlattenOpenAIResponsesNamespaces(account, wsDecision.Transport, passthroughEnabled, compactPath) {
 		body, err = flattenOpenAIResponsesNamespaces(c, body)
 		if err != nil {
@@ -106,6 +114,16 @@ func (s *OpenAIGatewayService) Forward(ctx context.Context, c *gin.Context, acco
 	originalModel := reqModel
 	nativeDeepSeekResponses := account.Platform == PlatformDeepseek &&
 		(account.GetAPIProtocol() == APIProtocolResponses || account.IsAdaptiveAPIProtocol())
+
+	// DeepSeek 本地压缩：上游一律走 unary 摘要回合（stream=false），客户端若
+	// 以流式发起（原生 v2），下游由 openAICompactSSEBridge 按 SSE 协议回写。
+	if isDeepSeekServerSideCompactAccount(account) && compactPath {
+		clientStream := reqStream
+		reqStream = false
+		if clientStream {
+			MarkOpenAICompactClientStream(c)
+		}
+	}
 
 	if account.Platform == PlatformGrok {
 		return s.forwardGrokResponses(ctx, c, account, body, originalModel, reqStream, startTime)
@@ -1090,6 +1108,15 @@ func (s *OpenAIGatewayService) buildUpstreamRequest(ctx context.Context, c *gin.
 	// DeepSeek 原生 Responses 端点为无状态实现：强制 store=false、清除
 	// previous_response_id，避免携带状态字段被上游拒绝。
 	body = normalizeDeepSeekResponsesRequestBody(account, body)
+	// DeepSeek 没有原生 compact 端点：把客户端 compact 请求转换为普通摘要
+	// 回合（unary），响应侧再组装回 compaction 输出项。
+	if isOpenAIResponsesCompactPath(c) && isDeepSeekServerSideCompactAccount(account) {
+		convertedBody, convertErr := buildDeepSeekCompactRequestBody(body)
+		if convertErr != nil {
+			return nil, fmt.Errorf("build deepseek compact request: %w", convertErr)
+		}
+		body = convertedBody
+	}
 
 	req, err := http.NewRequestWithContext(ctx, "POST", targetURL, bytes.NewReader(body))
 	if err != nil {

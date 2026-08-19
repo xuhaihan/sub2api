@@ -300,6 +300,13 @@ func openAICompactSupportTier(account *Account) int {
 	if account.IsGrok() {
 		return 2
 	}
+	// DeepSeek 原生 Responses 端点没有 /responses/compact 也不识别
+	// compaction_trigger，但网关对这类账号执行本地摘要压缩
+	// （openai_deepseek_compact.go），因此 Responses 协议账号视为显式支持
+	// 远程压缩，允许被 /responses/compact 请求选中。
+	if isDeepSeekServerSideCompactAccount(account) {
+		return 2
+	}
 	if !account.IsOpenAI() {
 		return 0
 	}

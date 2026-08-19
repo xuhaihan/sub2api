@@ -1288,6 +1288,14 @@ func (s *OpenAIGatewayService) handleNonStreamingResponse(ctx context.Context, r
 			return nil, fmt.Errorf("convert Grok compact response: %w", err)
 		}
 	}
+	// DeepSeek 本地压缩：摘要回合的普通 Responses 终态需要组装成 Codex 期望的
+	// compaction 输出项（buildDeepSeekCompactRequestBody 的逆操作）。
+	if account != nil && isDeepSeekServerSideCompactAccount(account) && isOpenAIResponsesCompactPath(c) {
+		body, err = convertDeepSeekResponseToOpenAICompact(body)
+		if err != nil {
+			return nil, fmt.Errorf("convert DeepSeek compact response: %w", err)
+		}
+	}
 
 	usageValue, usageOK := extractOpenAIUsageFromJSONBytes(body)
 	if !usageOK {
