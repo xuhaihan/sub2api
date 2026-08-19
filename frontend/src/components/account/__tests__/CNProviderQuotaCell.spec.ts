@@ -60,7 +60,6 @@ describe('CNProviderQuotaCell', () => {
     const tiers = root.findAll('[data-test="cn-provider-quota-tier"]')
     expect(tiers).toHaveLength(2)
     for (const tier of tiers) {
-      expect(tier.classes()).toContain('min-w-0')
       expect(tier.classes()).toContain('leading-4')
     }
 
@@ -68,7 +67,8 @@ describe('CNProviderQuotaCell', () => {
     expect(labels).toHaveLength(2)
     for (const label of labels) {
       expect(label.classes()).toContain('w-14')
-      expect(label.classes()).toContain('whitespace-nowrap')
+      expect(label.classes()).toContain('truncate')
+      expect(label.attributes('title')).toBe(label.text())
     }
 
     expect(queryQuota).toHaveBeenCalledWith(account.id)

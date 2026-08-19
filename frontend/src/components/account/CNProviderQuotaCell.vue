@@ -39,11 +39,12 @@
         v-for="tier in data.tiers"
         :key="tier.window"
         data-test="cn-provider-quota-tier"
-        class="flex min-w-0 items-center gap-1.5 text-[10px] leading-4"
+        class="flex items-center gap-1.5 text-[10px] leading-4"
       >
         <span
           data-test="cn-provider-quota-label"
-          class="w-14 shrink-0 whitespace-nowrap text-gray-500 dark:text-gray-400"
+          class="w-14 shrink-0 truncate text-gray-500 dark:text-gray-400"
+          :title="windowLabel(tier.window)"
         >
           {{ windowLabel(tier.window) }}
         </span>
@@ -59,7 +60,7 @@
         </span>
         <span
           v-if="tier.reset_at"
-          class="min-w-0 truncate text-gray-400 dark:text-gray-500"
+          class="truncate text-gray-400 dark:text-gray-500"
           :title="tier.reset_at"
         >
           · {{ formatReset(tier.reset_at) }}
