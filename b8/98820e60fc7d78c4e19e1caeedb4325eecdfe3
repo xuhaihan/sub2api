@@ -1,0 +1,66 @@
+backend/internal/service/openai_deepseek_compact.go
+  4cb38f3a99c565fe 1-214,216
+backend/internal/service/openai_deepseek_compact_test.go
+  4cb38f3a99c565fe 1-224,227,238-268,270-318,320-356
+backend/internal/service/openai_gateway_forward.go
+  4cb38f3a99c565fe 79-86,118-127,1063-1078,1091-1093,1111-1119
+backend/internal/service/openai_gateway_request_body.go
+  1a596f2ff9bd0e21 966-967
+  4cb38f3a99c565fe 60-63,69-78
+  8e0d67cc776f7fa8 52
+backend/internal/service/openai_gateway_response_handling.go
+  4cb38f3a99c565fe 1291-1298
+backend/internal/service/openai_gateway_scheduling.go
+  4cb38f3a99c565fe 303-309
+backend/internal/service/openai_model_mapping.go
+  4cb38f3a99c565fe 96-100
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.3",
+  "base_commit_sha": "b898820e60fc7d78c4e19e1caeedb4325eecdfe3",
+  "prompts": {
+    "1a596f2ff9bd0e21": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fc557-66e1-7341-8889-16b5995be1ce",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 2,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/fa75f5ff04879a38d6058405a890a7772f3b75d2d0303d37fcb0dd5a82b3abf0"
+    },
+    "4cb38f3a99c565fe": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a01b3d-471e-7771-9765-6c1a92cc660f",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 637,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/61015d19d783f6f9eac30ff3e72aec6b0ff5637beed3454ec97d138aac470725"
+    },
+    "8e0d67cc776f7fa8": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a019cb-8172-7cc3-a104-63932e6d2114",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 80,
+      "total_deletions": 2,
+      "accepted_lines": 1,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/440295409c39ac2fab3147e250d36a08c35eeb307250c814ca9f764dafca7947"
+    }
+  }
+}
