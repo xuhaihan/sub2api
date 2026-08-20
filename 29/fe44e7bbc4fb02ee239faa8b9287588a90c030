@@ -1,0 +1,22 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.3",
+  "base_commit_sha": "29fe44e7bbc4fb02ee239faa8b9287588a90c030",
+  "prompts": {
+    "4cb38f3a99c565fe": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a01b3d-471e-7771-9765-6c1a92cc660f",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 0,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/61015d19d783f6f9eac30ff3e72aec6b0ff5637beed3454ec97d138aac470725"
+    }
+  }
+}
