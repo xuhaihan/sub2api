@@ -1,0 +1,26 @@
+backend/internal/service/cn_provider_balance_service_test.go
+  a5486ee95907b216 1-58,60-130
+backend/internal/service/cn_provider_balance_service.go
+  a5486ee95907b216 193-198,200-204,212-213
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.3",
+  "base_commit_sha": "b0b2734b0b1074255623862fd25bb08c0b12d998",
+  "prompts": {
+    "a5486ee95907b216": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019feee2-3893-70c1-b12c-2b751ece5599",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 143,
+      "total_deletions": 4,
+      "accepted_lines": 36414,
+      "overriden_lines": 1,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/7f534fcdcafe9fdc41fc4af615f00c41e5532976f5ffb5f0576151fc603c9440"
+    }
+  }
+}
