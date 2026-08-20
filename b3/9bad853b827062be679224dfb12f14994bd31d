@@ -1,0 +1,36 @@
+frontend/src/components/account/__tests__/CNProviderBalanceCell.spec.ts
+  45945b82bd9ba83a 1-79
+backend/internal/service/cn_provider_balance_service.go
+  45945b82bd9ba83a 37-39,61
+frontend/src/api/admin/cnProviders.ts
+  45945b82bd9ba83a 48
+frontend/src/i18n/locales/en/admin/accounts.ts
+  45945b82bd9ba83a 137-138
+frontend/src/i18n/locales/zh/admin/accounts.ts
+  45945b82bd9ba83a 340-341
+frontend/src/components/account/CNProviderBalanceCell.vue
+  45945b82bd9ba83a 2,39-45
+backend/internal/service/cn_provider_balance_service_test.go
+  45945b82bd9ba83a 106,113-130,147
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.3",
+  "base_commit_sha": "b39bad853b827062be679224dfb12f14994bd31d",
+  "prompts": {
+    "45945b82bd9ba83a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a01e32-5188-7123-b760-31f8772f3c97",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 118,
+      "total_deletions": 5,
+      "accepted_lines": 34181,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/90e8b5b7aab17d3db942d397a98ee1bf0e3aafccca8964f30e97447226607832"
+    }
+  }
+}
