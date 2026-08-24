@@ -1,0 +1,62 @@
+backend/internal/service/account_credentials_persistence.go
+  b441e70ede83447f 40-47,72-90
+backend/ent/account/account.go
+  b441e70ede83447f 235,245
+frontend/src/components/admin/account/__tests__/AccountActionMenu.spark_shadow.spec.ts
+  b441e70ede83447f 72-83
+backend/internal/service/shadow_routing.go
+  b441e70ede83447f 3,24-29,31-34
+backend/ent/migrate/schema.go
+  b441e70ede83447f 127
+backend/internal/handler/openai_gateway_handler.go
+  b441e70ede83447f 1673,1677-1678,1705,1720,1728-1729
+backend/migrations/231_account_linked_routes.sql
+  b441e70ede83447f 1-7
+backend/internal/service/openai_account_runtime_block_fastpath.go
+  b441e70ede83447f 164,189,203,210,224
+backend/ent/account.go
+  b441e70ede83447f 80,82
+backend/internal/service/account_usage_service.go
+  b441e70ede83447f 722,740-747
+frontend/src/components/admin/account/AccountActionMenu.vue
+  b441e70ede83447f 75
+backend/internal/service/openai_gateway_scheduling.go
+  b441e70ede83447f 1475-1482,1486-1498
+backend/internal/service/account_service.go
+  b441e70ede83447f 123-124
+backend/internal/service/admin_account.go
+  b441e70ede83447f 171-174,262-263,274,276,331-334,581-587,592-593,604-605,620-624,1227,1230,1234
+backend/ent/schema/account.go
+  b441e70ede83447f 201-203
+backend/internal/repository/account_repo.go
+  b441e70ede83447f 3806-3807,3811
+backend/internal/service/account.go
+  b441e70ede83447f 3219,3225-3233
+backend/internal/service/ratelimit_service.go
+  b441e70ede83447f 285-292,1102,1618
+backend/internal/service/domain_constants.go
+  b441e70ede83447f 698,702-703
+backend/internal/service/admin_service_duplicate_account_test.go
+  b441e70ede83447f 225-261
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "7debfd612ab97974c535f19c52637b3aea0a274e",
+  "prompts": {
+    "b441e70ede83447f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0318a-6b24-7e12-af12-4f6839f2f683",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 8623,
+      "total_deletions": 53,
+      "accepted_lines": 8090,
+      "overriden_lines": 2,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/de0ce62aa360997afd5ac969642ff1218477ce56be1aee9d6946d48e26ab98a1"
+    }
+  }
+}
