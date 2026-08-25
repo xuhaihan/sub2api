@@ -1,0 +1,26 @@
+frontend/src/components/admin/account/__tests__/ReAuthAccountModal.grok.spec.ts
+  b441e70ede83447f 20-21
+frontend/src/components/admin/account/ReAuthAccountModal.vue
+  b441e70ede83447f 143,629-694
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "25e4a58d9a7704f25a3f2a8565098c7300cf9744",
+  "prompts": {
+    "b441e70ede83447f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0318a-6b24-7e12-af12-4f6839f2f683",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 84,
+      "total_deletions": 16,
+      "accepted_lines": 7957,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/f0a5a99a76aa1ec2b2469553797fe6afc82477cc9c542ff3a1e2189228f19195"
+    }
+  }
+}
