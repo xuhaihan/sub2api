@@ -1,0 +1,934 @@
+backend/internal/pkg/apicompat/responses_to_anthropic_instructions_test.go
+  8de21e274edd348e 1-126
+backend/ent/runtime/runtime.go
+  8de21e274edd348e 15-17,438-603,1018-1021,1023,1027,1030-1045,1047,1051,1055,1059,1063,1067,1071,1075,1079,1085,1089,1093,1979-1986,1988,1992,2060-2063,2065,2069,2075,2081,2085,2089,2095,2099,2103,2107,2111
+frontend/src/i18n/locales/zh/admin/channels.ts
+  8de21e274edd348e 1-713
+backend/internal/service/gateway_count_tokens.go
+  8de21e274edd348e 1-606
+backend/ent/usagelog_create.go
+  8de21e274edd348e 528-569,722-725,866-873,1052-1063,1899-1958,2821-2890,3921-3987
+backend/internal/service/openai_gateway_forward.go
+  8de21e274edd348e 1-985
+backend/internal/service/openai_gateway_responses_chat_fallback.go
+  8de21e274edd348e 31,36,45,51,83-84,86,88,90,95-97,119,121,123,154,185-187,189,192,200-201,214-215,220,228
+frontend/src/api/admin/accounts.ts
+  8de21e274edd348e 44,80,563-565
+frontend/src/i18n/locales/zh/common.ts
+  8de21e274edd348e 1-416
+backend/internal/service/openai_ws_forwarder_logutil.go
+  8de21e274edd348e 1-691
+backend/internal/service/openai_compact_body_signal_test.go
+  8de21e274edd348e 1-56
+backend/resources/model-pricing/model_prices_and_context_window.json
+  8de21e274edd348e 876,1628-1668,1770-1802,4964-4967,4975-4977,5016-5029,5035-5038,5068-5081,5087-5090
+backend/migrations/168_restore_empty_batch_image_task_names.sql
+  8de21e274edd348e 1-5
+backend/internal/service/gateway_upstream_response.go
+  8de21e274edd348e 1-1435
+backend/ent/batchimageitem_create.go
+  8de21e274edd348e 1-1745
+backend/internal/service/openai_image_generation_controls_test.go
+  8de21e274edd348e 5,195-250
+.github/workflows/release.yml
+  8de21e274edd348e 118
+frontend/src/i18n/locales/zh/dashboard.ts
+  8de21e274edd348e 1-821
+backend/migrations/160_add_user_frozen_balance.sql
+  8de21e274edd348e 1-2
+backend/ent/group.go
+  8de21e274edd348e 36,38,60-61,72-85,224,226,374-379,413-457,701-703,725-748
+backend/internal/service/user_subscription_daily_quota_test.go
+  8de21e274edd348e 18
+backend/internal/service/billing_service_test.go
+  8de21e274edd348e 875-934,1026-1039
+backend/internal/repository/user_repo_redeem_adjustment_test.go
+  8de21e274edd348e 1-56
+backend/internal/repository/batch_image_queue.go
+  8de21e274edd348e 1-354
+README_CN.md
+  8de21e274edd348e 36-39,50-54,161-165
+backend/internal/handler/admin/admin_helpers_test.go
+  8de21e274edd348e 268,273
+backend/internal/service/setting_oauth.go
+  8de21e274edd348e 1-1015
+frontend/src/components/keys/UseKeyModal.vue
+  8de21e274edd348e 639-655,669-670,686-687,703-704
+frontend/src/utils/latencyHealth.ts
+  8de21e274edd348e 1-69
+backend/internal/service/account.go
+  8de21e274edd348e 753-759,763-765
+backend/internal/service/openai_gateway_service.go
+  8de21e274edd348e 38,52,245-248,1044-1047,1049,1051,1053-1061,1063-1065,1067,1069-1073,1075-1080,1082-1087,1089,1091-1093,1095,1097
+backend/internal/service/openai_images.go
+  8de21e274edd348e 458-466
+frontend/src/i18n/locales/zh/admin/ops.ts
+  8de21e274edd348e 1-810
+backend/internal/pkg/apicompat/chatcompletions_to_responses.go
+  8de21e274edd348e 30-36,73-77
+backend/internal/service/update_service_test.go
+  8de21e274edd348e 31-33,40-43,71-186
+backend/internal/service/image_billing_multiplier.go
+  8de21e274edd348e 12-21
+frontend/src/i18n/locales/en/admin/ops.ts
+  8de21e274edd348e 1-809
+backend/ent/tx.go
+  8de21e274edd348e 31-36,231-233
+backend/internal/server/middleware/api_key_auth.go
+  8de21e274edd348e 129-130,198-206,221,297-301
+backend/internal/service/openai_codex_function_call_id_test.go
+  8de21e274edd348e 1-136
+frontend/src/i18n/locales/en/admin/resources.ts
+  8de21e274edd348e 1-599
+backend/internal/service/admin_proxy.go
+  8de21e274edd348e 1-608
+backend/internal/repository/user_repo.go
+  8de21e274edd348e 35-36,756-776,818-833
+backend/internal/service/openai_oauth_passthrough_test.go
+  8de21e274edd348e 706-708,1116-1162
+backend/internal/repository/api_key_repo_sort_integration_test.go
+  8de21e274edd348e 26-42
+backend/internal/service/batch_image_worker.go
+  8de21e274edd348e 1-286
+backend/internal/service/setting_update.go
+  8de21e274edd348e 1-623
+backend/migrations/167_clear_auto_batch_image_task_names.sql
+  8de21e274edd348e 1-5
+backend/ent/group/where.go
+  8de21e274edd348e 153-157,183-217,1168-1177,1378-1655
+backend/internal/service/batch_image_billing_hold.go
+  8de21e274edd348e 1-116
+backend/internal/service/group.go
+  8de21e274edd348e 39-52,133-144
+backend/internal/service/openai_gateway_chat_completions_raw_test.go
+  8de21e274edd348e 125-208
+frontend/src/i18n/locales/en/admin/overview.ts
+  8de21e274edd348e 1-1047
+backend/internal/service/openai_messages_dispatch_test.go
+  8de21e274edd348e 34-36
+backend/internal/service/billing_service.go
+  8de21e274edd348e 93-110,127-128,286-325,554-561,746-748,765-772,781-795,824-826,837-838,912,942,956-958,1012,1033,1042,1059,1106-1109,1112-1116,1120-1126,1128-1137,1149,1153-1154,1302-1324,1356-1384,1409-1429,1432-1435,1448,1461-1530
+backend/internal/service/openai_compact_sse_keepalive.go
+  8de21e274edd348e 1-233
+backend/internal/repository/group_repo.go
+  8de21e274edd348e 53,59-65,143,149-155,203-216
+backend/internal/repository/api_key_repo_last_used_unit_test.go
+  8de21e274edd348e 11,34,49-125
+Dockerfile
+  8de21e274edd348e 1,11,16,22,31-33
+frontend/src/i18n/locales/en/common.ts
+  8de21e274edd348e 1-417
+frontend/src/i18n/locales/zh/admin/resources.ts
+  8de21e274edd348e 1-596
+backend/ent/migrate/schema.go
+  8de21e274edd348e 438-619,855,861-867,918,1575-1577,1594,1600,1606,1612,1618,1627,1632,1637,1642,1647,1652,1672,1677,1682,1696,1723,1996-1998,2062-2069
+backend/internal/service/openai_codex_identity_test.go
+  8de21e274edd348e 1-114
+backend/internal/handler/openai_gateway_handler_test.go
+  8de21e274edd348e 443
+frontend/src/stores/auth.ts
+  8de21e274edd348e 400-409
+frontend/src/i18n/locales/en/misc.ts
+  8de21e274edd348e 1-609
+frontend/src/components/admin/usage/UsageFilters.vue
+  8de21e274edd348e 2,136-137,177,207-213,218-219,303-304,494-502
+frontend/src/views/admin/AccountsView.vue
+  8de21e274edd348e 550,552-554,710-715,720,733,806-812,816-821,842,887,903,912,920,928,941,1041
+backend/ent/user/where.go
+  8de21e274edd348e 93-97,543-580
+backend/internal/repository/usage_billing_repo.go
+  8de21e274edd348e 66-69,76,83,86,99,101,112-173,275-413
+backend/internal/web/embed_on.go
+  8de21e274edd348e 10,234
+backend/ent/predicate/predicate.go
+  8de21e274edd348e 30-38
+backend/internal/service/gateway_claude_oauth_body.go
+  8de21e274edd348e 1-1210
+backend/internal/service/openai_gateway_messages_usage_test.go
+  8de21e274edd348e 1-28
+frontend/src/i18n/locales/zh/misc.ts
+  8de21e274edd348e 1-632
+backend/internal/service/batch_image_settlement.go
+  8de21e274edd348e 1-378
+backend/internal/service/rate_limit_429_cooldown_test.go
+  8de21e274edd348e 100-138
+backend/internal/service/model_pricing_resolver.go
+  8de21e274edd348e 153-156,170-173,186-187,256-257
+backend/internal/handler/admin/admin_service_stub_test.go
+  8de21e274edd348e 19-20,356,364
+backend/internal/service/antigravity_gateway_retry.go
+  8de21e274edd348e 1-1279
+backend/internal/handler/admin/setting_handler_runtime.go
+  8de21e274edd348e 1-445
+backend/internal/service/pricing_service.go
+  8de21e274edd348e 38-88,115,128-132,148,152-154,383,438,447,465-467,477-485,519,541-571,737-742,914-924,926-927
+frontend/src/components/account/__tests__/BulkEditAccountModal.spec.ts
+  8de21e274edd348e 110
+backend/migrations/162_add_group_batch_image_generation_gate.sql
+  8de21e274edd348e 1-4
+backend/internal/service/admin_service_group_test.go
+  8de21e274edd348e 177-212,271-310,346-381,441-487,546-630
+README_JA.md
+  8de21e274edd348e 35-38,49-53,156-160
+.github/workflows/security-scan.yml
+  8de21e274edd348e 26
+backend/internal/service/account_test_service.go
+  8de21e274edd348e 614-615,1717,1724-1725
+frontend/src/components/layout/__tests__/docUrlSanitization.spec.ts
+  8de21e274edd348e 1-36
+backend/ent/hook/hook.go
+  8de21e274edd348e 96-131
+backend/internal/service/payment_fulfillment.go
+  8de21e274edd348e 31-36,197,238,241,243,245,248-249,255-305,330,341,356,359-362,364-368,372-386,478,484,486,488,491-492,498,505-550,552-556,558-572,574,576-607,609,803-807,810,812-816,840-841
+frontend/src/components/admin/usage/UsageTable.vue
+  8de21e274edd348e 2,188-205,444-451,496-497,506-507,577,581-584
+backend/internal/service/admin_service.go
+  8de21e274edd348e 128,133-134,142,151-152,204-211,220-222,258-265,274-276
+backend/internal/service/openai_model_mapping.go
+  8de21e274edd348e 23-77
+backend/internal/service/openai_ws_http_bridge_test.go
+  8de21e274edd348e 286
+frontend/src/views/user/KeysView.vue
+  8de21e274edd348e 357-363,1178,1184,1190,1193-1196,1227-1239,1242
+backend/internal/service/openai_gateway_upstream_errors.go
+  8de21e274edd348e 1-597
+backend/ent/batchimagejob.go
+  8de21e274edd348e 1-609
+backend/cmd/server/VERSION
+  8de21e274edd348e 1
+frontend/src/components/common/VersionBadge.vue
+  8de21e274edd348e 34-35,172-176,358-626,644-651,654-657,687-729,749,763,776-850,937-945
+backend/internal/service/api_key_service.go
+  8de21e274edd348e 9,44-46,87-90,446-449,458-524
+frontend/src/i18n/__tests__/opsLocaleKeys.spec.ts
+  8de21e274edd348e 1-38
+backend/migrations/auth_identity_payment_migrations_regression_test.go
+  8de21e274edd348e 216-242
+backend/internal/pkg/apicompat/chatcompletions_responses_bridge_test.go
+  8de21e274edd348e 76-149
+backend/internal/repository/migrations_schema_integration_test.go
+  8de21e274edd348e 52-54,72-74
+backend/internal/repository/account_repo.go
+  8de21e274edd348e 732
+backend/internal/service/openai_oauth_model_support_test.go
+  8de21e274edd348e 1-110
+backend/internal/pkg/xai/oauth_test.go
+  8de21e274edd348e 210-213,215-217
+backend/internal/service/redeem_service.go
+  8de21e274edd348e 138,158,162,432,460-467,473-480
+backend/internal/service/admin_account.go
+  8de21e274edd348e 1-1075
+backend/ent/batchimageevent/where.go
+  8de21e274edd348e 1-345
+backend/internal/service/api_key.go
+  8de21e274edd348e 43
+backend/internal/service/batch_image_worker_runtime_redis_test.go
+  8de21e274edd348e 1-58
+backend/internal/service/openai_ws_v2/passthrough_relay.go
+  8de21e274edd348e 790,813-835
+backend/internal/service/token_refresher.go
+  8de21e274edd348e 41-45,47
+backend/internal/handler/batch_image_handler.go
+  8de21e274edd348e 1-270
+backend/internal/service/gateway_usage_billing.go
+  8de21e274edd348e 1-974
+backend/internal/handler/wire.go
+  8de21e274edd348e 118,139,161
+backend/internal/service/batch_image.go
+  8de21e274edd348e 1-414
+backend/internal/service/batch_image_download_test.go
+  8de21e274edd348e 1-299
+backend/internal/service/batch_image_provider_gemini.go
+  8de21e274edd348e 1-719
+backend/internal/service/openai_codex_transform.go
+  8de21e274edd348e 596-603,615,622-645,648-671,681,687,690-718,720-721,723-724,726,729-755,1398-1407,1433-1442
+.github/workflows/backend-ci.yml
+  8de21e274edd348e 23,63
+backend/migrations/173_allow_cyber_blocked_usage_request_type.sql
+  8de21e274edd348e 1-8
+backend/internal/service/usage_log.go
+  8de21e274edd348e 178-182
+backend/ent/batchimagejob_delete.go
+  8de21e274edd348e 1-88
+backend/ent/schema/batch_image_event.go
+  8de21e274edd348e 1-43
+frontend/src/composables/useModelWhitelist.ts
+  8de21e274edd348e 11,138,141,147,149-151,283,304,306-307,309-311,337-338,343-344,346-347
+backend/internal/pkg/apicompat/chatcompletions_responses_test.go
+  8de21e274edd348e 35-75,286-341,575-591
+frontend/src/components/layout/__tests__/AppSidebar.spec.ts
+  8de21e274edd348e 22-44
+backend/internal/service/api_key_service_delete_test.go
+  8de21e274edd348e 12,28-47,113,126-170,376-463
+backend/internal/pkg/apicompat/responses_to_anthropic_request.go
+  8de21e274edd348e 14,101-108,113-117,129,132,211-214
+backend/internal/handler/ops_error_logger_test.go
+  8de21e274edd348e 142-232
+backend/internal/service/openai_model_alias.go
+  8de21e274edd348e 74-81,109-124
+backend/internal/service/ops_upstream_context.go
+  8de21e274edd348e 35-40,95-139
+backend/migrations/163_batch_image_default_discount_and_hold_ratio.sql
+  8de21e274edd348e 1-19
+frontend/src/views/user/PaymentQRCodeView.vue
+  8de21e274edd348e 135,138-154
+backend/internal/service/setting_parse.go
+  8de21e274edd348e 1-1157
+frontend/src/i18n/locales/en/landing.ts
+  8de21e274edd348e 1-255
+backend/internal/service/openai_codex_models_service_test.go
+  8de21e274edd348e 1-138
+backend/internal/service/openai_gateway_chat_completions_raw.go
+  8de21e274edd348e 73,79,103-129,146,152-153,155,157,163,185-186,196-197,199-204,206,218,240-241,384-386,413-414
+backend/cmd/server/wire_gen.go
+  8de21e274edd348e 99-101,140-144,270,273,292,334-335,417-425
+backend/internal/config/config_test.go
+  8de21e274edd348e 273-280
+backend/ent/usagelog/usagelog.go
+  8de21e274edd348e 95-100,196-198,272-275,480-492
+backend/internal/service/gateway_anthropic_passthrough.go
+  8de21e274edd348e 1-810
+backend/internal/service/settings_view.go
+  8de21e274edd348e 578-581,587,589
+backend/internal/service/batch_image_provider.go
+  8de21e274edd348e 1-180
+backend/internal/handler/admin/user_handler.go
+  8de21e274edd348e 56,274,279,304-310,324
+backend/internal/repository/usage_log_repo.go
+  8de21e274edd348e 83-85,165-167,169,172-177,179-181,183,186-191,193-195,197,200-202,205-210,212-218,220
+backend/ent/usagelog_update.go
+  8de21e274edd348e 814-881,1050-1054,1286-1306,2254-2321,2503-2507,2756-2775
+backend/internal/service/batch_image_test.go
+  8de21e274edd348e 1-63
+backend/internal/service/email_html_escape_test.go
+  8de21e274edd348e 1-67
+backend/internal/pkg/apicompat/chatcompletions_responses_bridge.go
+  8de21e274edd348e 31,42-44,612-613,615-622
+backend/migrations/161_batch_image_pricing_snapshot.sql
+  8de21e274edd348e 1-25
+backend/ent/intercept/intercept.go
+  8de21e274edd348e 18-20,297-377,1151-1156
+backend/ent/batchimageitem.go
+  8de21e274edd348e 1-320
+backend/internal/repository/batch_image_repo.go
+  8de21e274edd348e 1-986
+backend/internal/handler/dto/settings.go
+  8de21e274edd348e 425
+backend/ent/batchimagejob/batchimagejob.go
+  8de21e274edd348e 1-420
+frontend/src/utils/__tests__/latencyHealth.spec.ts
+  8de21e274edd348e 1-25
+frontend/src/views/admin/__tests__/GroupsView.columnSettings.spec.ts
+  8de21e274edd348e 311-315
+frontend/src/api/admin/grok.ts
+  8de21e274edd348e 66
+backend/internal/pkg/openai/request_identity_test.go
+  8de21e274edd348e 1-86
+frontend/src/views/admin/SettingsView.vue
+  8de21e274edd348e 1161-1165,1192-1257,1370,9213,9721-9724,9801,10195-10198,10217,10229-10238
+backend/ent/user_create.go
+  8de21e274edd348e 119-132,611-614,697-699,803-806,1219-1236,1626-1646,2243-2260
+backend/internal/service/setting_gateway_runtime.go
+  8de21e274edd348e 1-892
+frontend/src/i18n/locales/en/admin/accounts.ts
+  8de21e274edd348e 1-1257
+backend/migrations/164_batch_image_download_and_user_delete.sql
+  8de21e274edd348e 1-9
+deploy/Dockerfile
+  8de21e274edd348e 10,21,23-25
+backend/internal/pkg/openai/constants.go
+  8de21e274edd348e 21
+backend/internal/handler/admin/setting_handler.go
+  8de21e274edd348e 413-417,419-420,423-465,467
+backend/internal/handler/admin/account_handler_list_test.go
+  8de21e274edd348e 95,150-186,228,286
+backend/internal/handler/dto/types.go
+  8de21e274edd348e 17,62,104-111,120-122
+frontend/src/views/admin/__tests__/UsageView.spec.ts
+  8de21e274edd348e 98-101,170,208,289,335,348-349,361-413
+backend/internal/repository/github_release_service_test.go
+  8de21e274edd348e 32-34,251-318
+backend/internal/service/grok_media.go
+  8de21e274edd348e 46-56,119-120,134-137,237-242,318-322,372-386,457-459,469-492,499-502,508-516,537-540
+backend/internal/handler/openai_codex_models_handler.go
+  8de21e274edd348e 1-53
+frontend/src/i18n/locales/en/admin/settings.ts
+  8de21e274edd348e 982-986,1020
+backend/migrations/169_batch_image_parent_batch.sql
+  8de21e274edd348e 1-8
+backend/internal/service/openai_model_mapping_test.go
+  8de21e274edd348e 256-266,297-301
+frontend/src/composables/useClipboard.ts
+  8de21e274edd348e 21-22,24,26
+backend/internal/service/antigravity_gateway_upstream.go
+  8de21e274edd348e 1-375
+backend/internal/service/token_refresher_test.go
+  8de21e274edd348e 198-202
+frontend/src/components/account/__tests__/AccountUsageCell.spec.ts
+  8de21e274edd348e 569-620
+backend/internal/service/openai_gateway_usage.go
+  8de21e274edd348e 1-786
+backend/ent/schema/batch_image_item.go
+  8de21e274edd348e 1-53
+backend/internal/pkg/usagestats/usage_log_types.go
+  8de21e274edd348e 167-176,193-194
+backend/internal/service/batch_image_public_test.go
+  8de21e274edd348e 1-963
+backend/ent/schema/group.go
+  8de21e274edd348e 96-98,118-141
+backend/migrations/165_hide_pre_upstream_batch_image_failures.sql
+  8de21e274edd348e 1-16
+backend/internal/repository/wire.go
+  8de21e274edd348e 80,119-120
+frontend/src/components/account/AccountUsageCell.vue
+  8de21e274edd348e 375-381,1041,1097
+backend/internal/handler/admin/group_handler.go
+  8de21e274edd348e 96,99-102,110-112,149,152-155,163-165,320,323-326,334-336,388,391-394,402-404
+backend/internal/repository/batch_image_repo_integration_test.go
+  8de21e274edd348e 1-381
+backend/internal/service/batch_image_mvp_smoke_test.go
+  8de21e274edd348e 1-265
+frontend/src/i18n/locales/zh/landing.ts
+  8de21e274edd348e 1-255
+backend/internal/handler/openai_embeddings.go
+  8de21e274edd348e 63
+frontend/src/views/admin/ops/components/OpsErrorLogTable.vue
+  8de21e274edd348e 3,301-302
+backend/internal/service/openai_codex_version_consistency_test.go
+  8de21e274edd348e 1-21
+backend/internal/service/openai_gateway_messages_transport_failover_test.go
+  8de21e274edd348e 1-92
+backend/internal/service/openai_ws_forwarder_payload.go
+  8de21e274edd348e 1-707
+backend/internal/repository/usage_log_repo_dashboard.go
+  8de21e274edd348e 1-628
+backend/internal/service/openai_gateway_messages_failed_response_test.go
+  8de21e274edd348e 1-107
+backend/internal/config/config.go
+  8de21e274edd348e 32,96,179-228,1786-1832,2434-2487
+backend/ent/mutation.go
+  8de21e274edd348e 22-24,73-75,9129-14598,20822,20832-20844,21859-21894,22197-22610,23645,23703-23705,23721-23741,23833-23834,23845-23858,23936-23937,23948-23961,24134-24140,24176-24224,24368-24385,24426-24437,24525-24566,24627-24635,24683-24691,24766-24768,24784-24804,41715-41719,43858-44032,44274,44392-44400,44493-44498,44590-44595,44882-44902,44982-44987,45034-45037,45180-45193,45256-45261,45330-45335,45461-45469,45640-45641,46090-46145,47604,47626-47628,47699-47700,47756-47757,47848-47854,47978-47980,48003-48004,48029-48035,48151-48152
+backend/internal/service/openai_compact_stream_bridge_test.go
+  8de21e274edd348e 1-526
+backend/internal/service/media_price_config.go
+  8de21e274edd348e 1-31
+backend/internal/service/openai_embeddings.go
+  8de21e274edd348e 209-210
+backend/ent/batchimageitem_update.go
+  8de21e274edd348e 1-1132
+frontend/src/views/HomeView.vue
+  8de21e274edd348e 413,422,424
+backend/internal/service/openai_gateway_record_usage_test.go
+  8de21e274edd348e 250,1005-1047,1849-1851,1859-1867,1878-1881,1892-1983,1985-1986,1991-2179,2291-2303,2367-2396
+backend/internal/handler/openai_gateway_count_tokens.go
+  8de21e274edd348e 49,66
+backend/internal/server/routes/gateway.go
+  8de21e274edd348e 124-133,176-185,226
+backend/internal/service/gateway_request.go
+  8de21e274edd348e 6,172,220-237
+backend/internal/service/openai_images_test.go
+  8de21e274edd348e 337-358
+backend/internal/service/openai_codex_transform_test.go
+  8de21e274edd348e 799-902
+backend/internal/service/batch_image_billing_recovery.go
+  8de21e274edd348e 1-103
+backend/internal/service/grok_quota_service.go
+  8de21e274edd348e 25,66-67,100,113-114,181-188
+backend/internal/service/api_key_auth_cache.go
+  8de21e274edd348e 70,76-80
+backend/internal/service/wire.go
+  8de21e274edd348e 48-57,579-583
+frontend/src/router/index.ts
+  8de21e274edd348e 209-220,829-836,840-857
+backend/internal/server/routes/admin.go
+  8de21e274edd348e 548
+backend/internal/service/usage_billing.go
+  8de21e274edd348e 122-169,172-174
+backend/internal/service/openai_codex_identity.go
+  8de21e274edd348e 1-34
+backend/internal/repository/batch_image_download_limiter.go
+  8de21e274edd348e 1-102
+frontend/src/components/admin/user/UserCreateModal.vue
+  8de21e274edd348e 28-34,79,96
+backend/internal/handler/request_body_parse_log_test.go
+  8de21e274edd348e 1-100
+backend/internal/handler/admin/dashboard_handler_user_breakdown_test.go
+  8de21e274edd348e 62-76,244-281
+backend/internal/repository/usage_log_repo_breakdown_test.go
+  8de21e274edd348e 6-7,9,11,13,56-78
+backend/internal/service/gateway_scheduling.go
+  8de21e274edd348e 1-2459
+backend/internal/service/channel.go
+  8de21e274edd348e 17,29-32
+backend/internal/handler/usage_handler.go
+  8de21e274edd348e 141
+backend/internal/service/openai_gateway_messages_chat_fallback.go
+  8de21e274edd348e 1-274
+backend/internal/service/image_generation_intent.go
+  8de21e274edd348e 42-44,96-100,109-144,148-150,181,186-192,195,198,207,209-215,218,221
+backend/internal/service/email_service.go
+  8de21e274edd348e 10,458,677
+backend/internal/service/openai_ws_forwarder_ingress.go
+  8de21e274edd348e 1-1579
+backend/internal/service/user_service.go
+  8de21e274edd348e 125-132
+backend/internal/handler/usage_handler_request_type_test.go
+  8de21e274edd348e 165-176
+backend/internal/service/setting_service.go
+  8de21e274edd348e 246-249,252-254,257-260,262
+backend/migrations/159_batch_image_foundation.sql
+  8de21e274edd348e 1-86
+frontend/src/api/admin/dashboard.ts
+  8de21e274edd348e 170-171,176
+frontend/src/i18n/locales/en/index.ts
+  8de21e274edd348e 1-13
+frontend/src/components/common/BaseDialog.vue
+  8de21e274edd348e 23
+frontend/src/components/common/DataTable.vue
+  8de21e274edd348e 97,259-263,493-497
+frontend/src/stores/app.ts
+  8de21e274edd348e 22,36,310-316,320,326,328,372,376,378,382,384-402,432
+backend/ent/batchimagejob_query.go
+  8de21e274edd348e 1-564
+backend/internal/repository/user_subscription_repo.go
+  8de21e274edd348e 369,371-393,397,400,402-408,412,415,417-423,427-447
+frontend/src/i18n/locales/zh/admin/settings.ts
+  8de21e274edd348e 977-981,1015
+backend/internal/handler/ops_error_logger.go
+  8de21e274edd348e 593-596,1006-1135
+backend/ent/user/user.go
+  8de21e274edd348e 32-33,204,263-264,338-340
+backend/internal/service/openai_compact_sse_keepalive_test.go
+  8de21e274edd348e 1-192
+backend/migrations/172_video_per_second_billing_metadata.sql
+  8de21e274edd348e 1-38
+backend/internal/service/batch_image_public.go
+  8de21e274edd348e 1-1438
+backend/internal/repository/user_repo_integration_test.go
+  8de21e274edd348e 7,357-379,452-472
+backend/internal/service/openai_gateway_response_failed_passthrough_test.go
+  8de21e274edd348e 1-224
+backend/ent/usagelog/where.go
+  8de21e274edd348e 248-262,2168-2330
+backend/internal/service/openai_compact_body_signal.go
+  8de21e274edd348e 1-34
+backend/internal/repository/user_msg_queue_cache_integration_test.go
+  8de21e274edd348e 56,59-60
+frontend/src/i18n/locales/zh/admin/accounts.ts
+  8de21e274edd348e 1-1273
+backend/internal/repository/api_key_repo.go
+  8de21e274edd348e 17,21,182,188-192,398,418-423,446-448,453-558,628-629,635-643,645,890,933,939-945
+backend/internal/service/admin_service_role_test.go
+  8de21e274edd348e 1-143
+backend/internal/handler/admin/setting_handler_email.go
+  8de21e274edd348e 1-347
+backend/internal/service/openai_gateway_response_handling.go
+  8de21e274edd348e 1-1357
+backend/internal/handler/gateway_handler.go
+  8de21e274edd348e 140,160,1631-1635,1784,1804
+backend/internal/service/model_pricing_resolver_test.go
+  8de21e274edd348e 117-162,776-834
+frontend/src/views/admin/__tests__/AccountsView.schedulerScore.spec.ts
+  8de21e274edd348e 199-202,220-241
+backend/internal/service/subscription_service.go
+  8de21e274edd348e 215-218,267,281-294,345-347,846-847,868-869,879-880,890-891,910-935,952-953,966-967
+backend/cmd/server/wire.go
+  8de21e274edd348e 88-89,172-180
+backend/internal/service/openai_model_alias_test.go
+  8de21e274edd348e 1-36
+backend/ent/schema/usage_log.go
+  8de21e274edd348e 152-165
+backend/ent/batchimagejob_update.go
+  8de21e274edd348e 1-2308
+backend/internal/service/openai_gateway_cc_pipeline.go
+  8de21e274edd348e 1-324
+backend/internal/handler/admin/account_handler.go
+  8de21e274edd348e 488-489,525,535
+backend/internal/repository/migrations_runner.go
+  8de21e274edd348e 80-81
+backend/internal/service/batch_image_worker_runtime.go
+  8de21e274edd348e 1-143
+backend/migrations/160_batch_image_provider_refs.sql
+  8de21e274edd348e 1-3
+backend/internal/service/setting_features.go
+  8de21e274edd348e 1-922
+frontend/src/components/keys/__tests__/UseKeyModal.spec.ts
+  8de21e274edd348e 126-162
+backend/internal/service/batch_image_queue.go
+  8de21e274edd348e 1-64
+frontend/src/components/layout/AppHeader.vue
+  8de21e274edd348e 50,66,68-91,138-141,252,266,268-274,352-354
+backend/internal/repository/account_repo_temp_unsched_test.go
+  8de21e274edd348e 46-47
+backend/internal/service/openai_ws_forwarder_v2.go
+  8de21e274edd348e 1-716
+backend/internal/service/admin_user.go
+  8de21e274edd348e 1-1251
+backend/internal/service/setting_public.go
+  8de21e274edd348e 1-688
+backend/internal/service/video_billing_resolution.go
+  8de21e274edd348e 1-45
+backend/ent/batchimagejob_create.go
+  8de21e274edd348e 1-3518
+frontend/src/types/index.ts
+  8de21e274edd348e 89,521,524-525,529-533,593,654,657-658,662-666,701,704-705,709-713,1597-1599
+backend/internal/server/middleware/api_key_auth_google.go
+  8de21e274edd348e 5,10,51-55,59-76,90-95,111-130,144-152,166
+backend/ent/user_update.go
+  8de21e274edd348e 132-152,1021-1026,1808-1828,2727-2731
+frontend/src/i18n/locales/zh/index.ts
+  8de21e274edd348e 1-13
+backend/internal/handler/request_body_limit.go
+  8de21e274edd348e 7-9,31-40
+backend/ent/ent.go
+  8de21e274edd348e 22-24,120-122
+backend/internal/service/batch_image_download.go
+  8de21e274edd348e 1-660
+backend/internal/handler/admin/dashboard_handler.go
+  8de21e274edd348e 660-664,666-667,681-682
+frontend/src/api/batchImage.ts
+  8de21e274edd348e 1-245
+backend/internal/service/openai_ws_forwarder_success_test.go
+  8de21e274edd348e 673-674,680,682-690,755
+backend/ent/batchimagejob/where.go
+  8de21e274edd348e 1-2535
+backend/internal/repository/usage_log_repo_stats.go
+  8de21e274edd348e 1-1145
+backend/internal/pkg/openai/request.go
+  8de21e274edd348e 130-132,200-255
+backend/internal/repository/usage_log_repo_trend.go
+  8de21e274edd348e 1-812
+backend/internal/service/openai_ws_v2_passthrough_adapter_effort_test.go
+  8de21e274edd348e 1-42
+backend/internal/handler/admin/setting_handler_audit.go
+  8de21e274edd348e 1-758
+backend/internal/repository/user_subscription_repo_integration_test.go
+  8de21e274edd348e 475,486-526,536,555,767
+backend/internal/service/batch_image_settlement_test.go
+  8de21e274edd348e 1-507
+backend/internal/service/user.go
+  8de21e274edd348e 22
+frontend/src/api/admin/settings.ts
+  8de21e274edd348e 1276,1278,1281
+backend/ent/batchimageitem/batchimageitem.go
+  8de21e274edd348e 1-200
+backend/internal/service/gateway_service.go
+  8de21e274edd348e 1042-1051,1053-1058,1060-1061,1063,1065,1067-1069,1071,1073-1078,1080,1083-1086,1088-1089,1092-1100,1104,1106-1107,1109-1112,1115-1116,1119-1124,1127,1130-1132,1134-1139,1144-1148,1150,1153-1156,1158,1160-1162,1164,1167-1169,1172-1176,1179-1183,1185-1187
+backend/internal/handler/dto/mappers.go
+  8de21e274edd348e 21,92,185,188-191,199-201
+frontend/src/views/user/__tests__/KeysView.spec.ts
+  8de21e274edd348e 47,117,154,160-163,169-174,182,189,195-205,218,241-243,297,308-329,349-352,365,375-418
+frontend/src/api/admin/users.ts
+  8de21e274edd348e 124
+backend/internal/service/batch_image_cleanup_test.go
+  8de21e274edd348e 1-231
+backend/internal/service/openai_gateway_chat_completions.go
+  8de21e274edd348e 269,280-281,428-439,484,502,596-607,610-611,615
+README.md
+  8de21e274edd348e 35-38,49-53,158-162
+frontend/src/components/layout/__tests__/siteLogoSanitization.spec.ts
+  8de21e274edd348e 1-32
+backend/internal/service/gateway_forward.go
+  8de21e274edd348e 1-965
+backend/internal/service/batch_image_processor_test.go
+  8de21e274edd348e 1-929
+backend/internal/handler/admin/system_handler_test.go
+  8de21e274edd348e 11,21-32,46,50-60,94-95,167-266
+frontend/src/utils/billingMode.ts
+  8de21e274edd348e 4,10,19,31
+backend/internal/handler/gateway_handler_responses.go
+  8de21e274edd348e 47,66
+backend/internal/service/payment_fulfillment_test.go
+  8de21e274edd348e 16,590-819
+backend/ent/batchimageevent/batchimageevent.go
+  8de21e274edd348e 1-87
+backend/ent/schema/user.go
+  8de21e274edd348e 52-53
+backend/ent/batchimageevent.go
+  8de21e274edd348e 1-158
+backend/internal/service/antigravity_gateway_streaming.go
+  8de21e274edd348e 1-1150
+backend/internal/server/routes/gateway_codex_models_test.go
+  8de21e274edd348e 1-22
+backend/internal/handler/dto/api_key_mapper_last_used_test.go
+  8de21e274edd348e 13,21,29-30,46
+frontend/src/composables/useBatchImageAccess.ts
+  8de21e274edd348e 1-83
+backend/internal/handler/openai_chat_completions.go
+  8de21e274edd348e 51,66
+frontend/src/router/__tests__/feature-access.spec.ts
+  8de21e274edd348e 1-177
+backend/internal/service/antigravity_gateway_claude.go
+  8de21e274edd348e 1-754
+backend/internal/pkg/ctxkey/ctxkey.go
+  8de21e274edd348e 44-47
+backend/internal/handler/handler.go
+  8de21e274edd348e 61
+backend/internal/service/admin_group.go
+  8de21e274edd348e 1-998
+backend/internal/service/user_subscription_port.go
+  8de21e274edd348e 32-35
+frontend/src/components/payment/PaymentStatusPanel.vue
+  8de21e274edd348e 278,281-304
+frontend/src/views/admin/__tests__/DashboardView.spec.ts
+  8de21e274edd348e 3,91-92
+deploy/docker-compose.dev.yml
+  8de21e274edd348e 16-17,46-51,66-74
+backend/internal/service/openai_compact_stream_bridge.go
+  8de21e274edd348e 1-216
+backend/internal/pkg/httputil/body.go
+  8de21e274edd348e 19,68-77,105-177
+backend/internal/service/openai_codex_models_service.go
+  8de21e274edd348e 1-107
+backend/cmd/server/wire_gen_test.go
+  8de21e274edd348e 68-69
+backend/ent/group_update.go
+  8de21e274edd348e 355-368,485-642,1291-1293,1330-1377,2079-2092,2209-2366,3045-3047,3084-3130
+frontend/src/i18n/locales/zh/admin/index.ts
+  8de21e274edd348e 1-15
+backend/internal/pkg/apicompat/responses_to_anthropic_tool_pairing_test.go
+  8de21e274edd348e 61
+frontend/src/i18n/locales/zh/admin/overview.ts
+  8de21e274edd348e 1-1032
+backend/internal/service/gateway_upstream_request.go
+  8de21e274edd348e 1-923
+frontend/src/i18n/locales/en/admin/channels.ts
+  8de21e274edd348e 1-715
+frontend/src/views/KeyUsageView.vue
+  8de21e274edd348e 426,434-435
+backend/internal/repository/batch_image_queue_test.go
+  8de21e274edd348e 1-199
+backend/internal/repository/usage_billing_repo_unit_test.go
+  8de21e274edd348e 19-22,124-259
+backend/ent/batchimageitem_query.go
+  8de21e274edd348e 1-564
+backend/internal/repository/usage_log_repo_request_type_test.go
+  8de21e274edd348e 83-85,169-171,290,292-297,323,808-810,879-881,934-936,989-991
+backend/internal/service/openai_gateway_scheduling.go
+  8de21e274edd348e 1-1266
+backend/internal/repository/usage_log_repo_insert.go
+  8de21e274edd348e 1-1297
+backend/internal/handler/gateway_handler_chat_completions.go
+  8de21e274edd348e 47,66
+backend/migrations/170_add_grok_video_pricing_controls.sql
+  8de21e274edd348e 1-16
+backend/internal/repository/usage_log_repo_query.go
+  8de21e274edd348e 1-726
+backend/internal/service/openai_ws_forwarder_support.go
+  8de21e274edd348e 1-653
+docs/BATCH_IMAGE_MVP.md
+  8de21e274edd348e 1-358
+backend/Dockerfile
+  8de21e274edd348e 1
+backend/ent/user.go
+  8de21e274edd348e 34-35,242,314-319,550-551
+frontend/src/composables/__tests__/useModelWhitelist.spec.ts
+  8de21e274edd348e 17,46-78
+backend/internal/service/openai_ws_v2_passthrough_adapter.go
+  8de21e274edd348e 145,150,172,177,314,458
+backend/ent/client.go
+  8de21e274edd348e 25-27,79-84,159-161,289-291,346-348,407-415,427-435,459-464,1700-2098,6670-6677,6681-6688
+backend/internal/service/account_usage_service.go
+  8de21e274edd348e 114,715-717
+backend/internal/service/grok_quota_service_test.go
+  8de21e274edd348e 16,89,101,107-171
+backend/internal/service/openai_gpt56_max_test.go
+  8de21e274edd348e 1-266
+backend/internal/service/openai_reasoning_effort_candidates_test.go
+  8de21e274edd348e 1-122
+frontend/src/components/admin/usage/UserTokenRanking.vue
+  8de21e274edd348e 1-172
+backend/internal/pkg/openai/constants_test.go
+  8de21e274edd348e 1-11
+backend/internal/service/gateway_websearch_block_filter.go
+  8de21e274edd348e 1-138
+frontend/src/i18n/locales/en/dashboard.ts
+  8de21e274edd348e 1-816
+backend/internal/service/openai_gateway_request_body.go
+  8de21e274edd348e 1-1255
+backend/internal/service/update_service.go
+  8de21e274edd348e 17,26-27,41-45,57,114-115,119-125,175-181,187,306-399
+frontend/src/views/user/BatchImageGuideView.vue
+  8de21e274edd348e 1-2799
+backend/internal/service/api_key_auth_cache_impl.go
+  8de21e274edd348e 17,262,268-272,345,351-355
+backend/internal/service/openai_gateway_messages.go
+  8de21e274edd348e 16,35-42,262-268,312,318,337-338,358,434,470-488,560,719,729-730,732,797-798,820-850,885-890,1124-1126
+backend/internal/service/openai_fast_policy_ws_test.go
+  8de21e274edd348e 17,71-124,1052,1069
+backend/ent/schema/batch_image_job.go
+  8de21e274edd348e 1-86
+backend/go.mod
+  8de21e274edd348e 3,11,14,41,62,64-65,67-71,76
+backend/ent/batchimageitem_delete.go
+  8de21e274edd348e 1-88
+backend/internal/handler/admin/system_handler.go
+  8de21e274edd348e 29-30,107-123,126-142,154-159,168
+backend/internal/service/antigravity_gateway_gemini.go
+  8de21e274edd348e 1-550
+backend/internal/pkg/apicompat/response_format.go
+  8de21e274edd348e 1-92
+backend/internal/service/batch_image_cleanup.go
+  8de21e274edd348e 1-312
+backend/internal/service/batch_image_provider_gemini_test.go
+  8de21e274edd348e 1-360
+frontend/src/api/index.ts
+  8de21e274edd348e 20
+backend/internal/repository/batch_image_download_limiter_test.go
+  8de21e274edd348e 1-43
+backend/internal/handler/openai_gateway_compact_body_signal_test.go
+  8de21e274edd348e 1-162
+backend/internal/handler/openai_gateway_handler.go
+  8de21e274edd348e 187,204-206,208-212,216,410-412,446,573-620,647-653,738,753,1960-1964,1997-2000,2036-2038,2064-2071,2080-2088,2351-2359
+frontend/src/views/admin/__tests__/groupsImagePricing.spec.ts
+  8de21e274edd348e 4-7,9,11-12,16,21-25,29-50
+backend/ent/batchimageevent_query.go
+  8de21e274edd348e 1-564
+backend/internal/service/openai_gateway_service_test.go
+  8de21e274edd348e 17,1414,1456,1460-1513,1853-1940,1981,2485-2486,2492,2494-2503,2528,2814,2816,2819,2821,2826-2842,2917-2949
+backend/migrations/166_batch_image_task_name.sql
+  8de21e274edd348e 1-10
+frontend/src/components/admin/user/UserEditModal.vue
+  8de21e274edd348e 33-38,114
+backend/internal/handler/request_body_parse_log.go
+  8de21e274edd348e 1-54
+frontend/src/views/admin/groupsImagePricing.ts
+  8de21e274edd348e 10-93
+backend/ent/usagelog.go
+  8de21e274edd348e 104-109,203,205,483-502,727-738
+backend/internal/service/batch_image_worker_test.go
+  8de21e274edd348e 1-157
+backend/ent/batchimageevent_create.go
+  8de21e274edd348e 1-714
+backend/internal/service/batch_image_provider_vertex.go
+  8de21e274edd348e 1-997
+frontend/src/views/user/StripePopupView.vue
+  8de21e274edd348e 87-88,92-98,100,103-108,111,117-118,126-131,172,174-176,178-180,193-195
+backend/ent/batchimageitem/where.go
+  8de21e274edd348e 1-1205
+backend/internal/service/openai_ws_http_bridge.go
+  8de21e274edd348e 266
+backend/internal/server/api_contract_test.go
+  8de21e274edd348e 55-58,237,288,366-368,370-372,375-376,2126,2129,2132-2135
+backend/internal/service/gateway_request_invalid_json_test.go
+  8de21e274edd348e 1-52
+backend/ent/batchimageevent_delete.go
+  8de21e274edd348e 1-88
+backend/internal/handler/admin/setting_handler_update.go
+  8de21e274edd348e 1-1985
+backend/internal/service/openai_gateway_passthrough.go
+  8de21e274edd348e 1-1222
+backend/internal/service/ratelimit_service.go
+  8de21e274edd348e 997-999,1001,1005
+backend/migrations/171_allow_video_usage_without_image_size.sql
+  8de21e274edd348e 1-17
+backend/ent/group_create.go
+  8de21e274edd348e 290-303,374-471,851-854,863-878,1004-1006,1013-1024,1169-1172,1193-1220,1719-1730,1833-1970,2567-2580,2700-2860,3660-3673,3793-3950
+backend/internal/service/openai_ws_forwarder_ingress_test.go
+  8de21e274edd348e 36,156-173,191-245
+frontend/src/i18n/locales/en/admin/index.ts
+  8de21e274edd348e 1-15
+frontend/src/i18n/__tests__/localesNoKeyCollision.spec.ts
+  8de21e274edd348e 1-82
+frontend/src/views/admin/DashboardView.vue
+  8de21e274edd348e 219-266,365,392,752
+backend/internal/service/openai_fast_policy_test.go
+  8de21e274edd348e 10,142-172,214-264,375-395,400,402,411-412
+backend/internal/server/middleware/api_key_auth_test.go
+  8de21e274edd348e 61,70-78,82-85,93-94,98-105,122,126-172,289-293,1069-1154,1279,1328-1330,1407-1411,1418,1425
+backend/internal/service/subscription_assign_idempotency_test.go
+  8de21e274edd348e 9,12,16-51,160-163,166,169
+backend/internal/service/subscription_reset_quota_test.go
+  8de21e274edd348e 14,37-68,77,82,174,234
+backend/internal/pkg/xai/models.go
+  8de21e274edd348e 13,16,44,48-50,52-54
+frontend/src/api/__tests__/admin.system.rollback.spec.ts
+  8de21e274edd348e 1-55
+backend/internal/service/batch_image_worker_runtime_test.go
+  8de21e274edd348e 1-87
+frontend/src/components/user/dashboard/UserDashboardQuickActions.vue
+  8de21e274edd348e 37-51,71,75,78-82
+frontend/src/views/user/UsageView.vue
+  8de21e274edd348e 392,712
+backend/internal/service/openai_ws_v2/passthrough_relay_internal_test.go
+  8de21e274edd348e 303,338-342
+backend/internal/server/middleware/openai_fast_policy_forwarding_test.go
+  8de21e274edd348e 1-189
+backend/internal/service/batch_image_billing_recovery_test.go
+  8de21e274edd348e 1-117
+backend/ent/batchimageevent_update.go
+  8de21e274edd348e 1-377
+frontend/src/views/admin/UsageView.vue
+  8de21e274edd348e 67-88,90-92,94-97,99-118,120-162,164,196,265-273,514,620,740-755
+backend/internal/service/batch_image_processor.go
+  8de21e274edd348e 1-682
+frontend/src/composables/__tests__/useGrokOAuth.spec.ts
+  8de21e274edd348e 1-55
+backend/internal/service/gateway_websearch_block_filter_test.go
+  8de21e274edd348e 1-140
+backend/internal/service/openai_gateway_messages_chat_fallback_test.go
+  8de21e274edd348e 1-389
+frontend/src/api/client.ts
+  8de21e274edd348e 208-210
+backend/internal/service/openai_gateway_grok.go
+  8de21e274edd348e 13,20-24,125,132,157-166,329-623
+backend/internal/service/subscription_expiry_service_test.go
+  8de21e274edd348e 90,94,98-102
+frontend/src/components/layout/AppSidebar.vue
+  8de21e274edd348e 33,191,197,199,245,250,260,295-314,690,704,925,929-941
+backend/internal/service/openai_gateway_grok_test.go
+  8de21e274edd348e 44-98,259-265,268-272,279-280,285,337-373,432,460,462,466-509,656,658,670,721-722,730-731,794,804-873,911,915
+backend/internal/pkg/httputil/body_lenient_json_test.go
+  8de21e274edd348e 1-184
+backend/internal/pkg/apicompat/responses_to_chatcompletions.go
+  8de21e274edd348e 341-348,360,364-367
+backend/internal/service/batch_image_provider_vertex_test.go
+  8de21e274edd348e 1-438
+frontend/src/views/admin/GroupsView.vue
+  8de21e274edd348e 171,173,179,181-204,213-214,223-224,228,232-241,828,831,840,848,856,876,887,898,903,907,918-1061,2307,2310,2319,2327,2335,2355,2366,2377,2382,2386,2397-2540,3529-3538,3622-3624,3639,3799-3804,3877,3880-3881,3885-3890,4222,4225-4226,4230-4235,4268-4270,4274-4275,4285-4294,4301-4306,4315-4322,4334-4344,4346,4349,4351-4353,4356,4363-4379,4386-4406,4449,4480-4499,4501,4509,4605,4608-4609,4613-4617,4711-4728,4767-4768,4771-4773,4777-4781,4834-4838,4897-4916,5035,5041-5054,5068,5076-5086
+backend/internal/server/middleware/api_key_auth_google_test.go
+  8de21e274edd348e 27,119-121,181-184,190,196,540-601
+frontend/src/composables/useGrokOAuth.ts
+  8de21e274edd348e 6,43,76-81,104-109
+frontend/src/api/admin/system.ts
+  8de21e274edd348e 48-63,74-75,77-81,97
+frontend/src/stores/__tests__/app.spec.ts
+  8de21e274edd348e 5-61,77,208-218,324-392
+backend/internal/service/gateway_bedrock.go
+  8de21e274edd348e 1-412
+backend/internal/repository/github_release_service.go
+  8de21e274edd348e 70-73,110-141
+backend/internal/service/image_generation_intent_test.go
+  8de21e274edd348e 45-57,72-99,109-190
+backend/internal/pkg/apicompat/types.go
+  8de21e274edd348e 219-220,323-326,335-338,343-345,352-358,366-375,382-395,404-407,479,484,590-591
+backend/internal/web/embed_test.go
+  8de21e274edd348e 82-100
+frontend/src/components/admin/usage/__tests__/UserTokenRanking.spec.ts
+  8de21e274edd348e 1-81
+backend/ent/group/group.go
+  8de21e274edd348e 57-58,69-82,207,213-219,304-305,310-317,449-453,479-511
+backend/internal/service/pricing_service_test.go
+  8de21e274edd348e 9,22,25-27,41,43-45,49-347
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.9",
+  "base_commit_sha": "ffe488b14e0a22b8509290e5698fbac25cccd1ff",
+  "prompts": {
+    "8de21e274edd348e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f4af6-90b3-7262-a99c-7c3954283505",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 140506,
+      "total_deletions": 61139,
+      "accepted_lines": 140482,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/c7485daa57edfa11b3ce8fcfc99a057f8076fcf56a7c41cbeb149274002fea3c"
+    }
+  }
+}

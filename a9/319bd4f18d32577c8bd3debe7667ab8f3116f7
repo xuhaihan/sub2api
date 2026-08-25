@@ -1,0 +1,24 @@
+backend/internal/domain/constants.go
+  5d14ddacb80f3eb1 26,129-146
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "a9319bd4f18d32577c8bd3debe7667ab8f3116f7",
+  "prompts": {
+    "5d14ddacb80f3eb1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "aff8e994-585c-4988-b4b2-c6ba64d5781f",
+        "model": "glm-4.7"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 19,
+      "total_deletions": 0,
+      "accepted_lines": 19,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/ef7cae5afac15200228054a951e0f3005bb372e5564f1946ddb780fadff5aa6c"
+    }
+  }
+}

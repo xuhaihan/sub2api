@@ -1,0 +1,802 @@
+backend/internal/service/admin_service_apikey_test.go
+  68b474535f36e364 78-80
+frontend/src/i18n/locales/en/admin/accounts.ts
+  68b474535f36e364 155,173,176-200,344,354,494,496,498-504,506-508,610-615,626-636,873-875,877,883-888
+backend/internal/repository/account_repo_upstream_billing_probe_cas_test.go
+  68b474535f36e364 1-186
+backend/internal/service/openai_quota_service.go
+  68b474535f36e364 161,176,210,280-281,283-311,397,414,434,437,442,444,450,454,457,461,465,468
+backend/internal/config/config.go
+  68b474535f36e364 9,98,231-257,1084-1085,1091-1112,1922-1929,2097,2964-2974,2978-2982
+frontend/src/i18n/locales/en/admin/resources.ts
+  68b474535f36e364 234
+backend/internal/repository/channel_monitor_template_repo.go
+  68b474535f36e364 6,13,115-116,121-146,173-207
+backend/internal/service/gateway_upstream_request.go
+  68b474535f36e364 376-377,499-501,525-526
+backend/internal/service/ops_advisory_lock.go
+  68b474535f36e364 6,18-22,24,32,38,42,51
+frontend/src/components/account/__tests__/EditAccountModal.spec.ts
+  68b474535f36e364 591-608,774-777,816-817
+backend/cmd/server/wire_gen_test.go
+  68b474535f36e364 86-87
+backend/internal/repository/proxy_repo.go
+  68b474535f36e364 26-27,96-151,182,184-266,725-731,740-746,751-757
+backend/internal/repository/channel_repo_pricing.go
+  68b474535f36e364 19,60-61,63,94,175,232-233,236
+backend/internal/repository/wire.go
+  68b474535f36e364 4,71,89,123,143-145,177-187
+backend/internal/service/upstream_billing_probe_test.go
+  68b474535f36e364 1-939
+frontend/src/i18n/locales/zh/misc.ts
+  68b474535f36e364 572-574
+backend/internal/handler/admin/group_handler.go
+  68b474535f36e364 5,8,13,367-411
+backend/internal/repository/group_repo_duplicate_integration_test.go
+  68b474535f36e364 1-91
+backend/internal/service/admin_group_duplicate_test.go
+  68b474535f36e364 1-279
+backend/internal/handler/admin/user_handler_batch_limits_test.go
+  68b474535f36e364 1-146
+backend/internal/service/openai_account_runtime_block_fastpath.go
+  68b474535f36e364 5,7,48-50,71,78-93,97-107,225-284
+backend/internal/service/user_service.go
+  68b474535f36e364 110
+backend/internal/handler/admin/account_upstream_billing_probe.go
+  68b474535f36e364 1-122
+backend/internal/service/admin_account_upstream_billing_probe_test.go
+  68b474535f36e364 1-378
+backend/internal/service/refresh_token_cache.go
+  68b474535f36e364 16-18
+frontend/src/i18n/locales/zh/admin/index.ts
+  68b474535f36e364 7,16
+frontend/src/api/admin/users.ts
+  68b474535f36e364 47-57,198-208,410
+frontend/src/components/account/__tests__/credentialsBuilder.spec.ts
+  68b474535f36e364 12-15,18,101-219
+backend/internal/service/openai_account_scheduler_upstream_cost_test.go
+  68b474535f36e364 1-814
+backend/internal/handler/openai_gateway_count_tokens.go
+  68b474535f36e364 114
+backend/internal/server/routes/payment.go
+  68b474535f36e364 21,71
+backend/internal/pkg/xai/oauth_test.go
+  68b474535f36e364 169-239
+backend/internal/service/payment_config_plans.go
+  68b474535f36e364 11,15-27,139-142,145,177-182
+backend/internal/service/image_generation_intent_grok_test.go
+  68b474535f36e364 1-108
+frontend/src/components/layout/__tests__/TablePageLayout.spec.ts
+  68b474535f36e364 1-26
+backend/internal/service/openai_account_runtime_transient_test.go
+  68b474535f36e364 1-116
+frontend/src/views/admin/__tests__/AccountsView.schedulerScore.spec.ts
+  68b474535f36e364 26
+backend/internal/repository/group_repo.go
+  68b474535f36e364 35-40,46-59,103-105,116-154,156-193,196
+backend/internal/service/openai_quota_spark_window_test.go
+  68b474535f36e364 179-183,189-193,197-283,285-292
+backend/internal/service/gateway_anthropic_apikey_passthrough_test.go
+  68b474535f36e364 797,801-805,808-811,814-824,833-834,844,846,865,881-889,891,898-901,909,914-919,924-980
+backend/internal/service/wire.go
+  68b474535f36e364 202,205,436-443,524-539,664,674,693,699
+backend/internal/repository/usage_log_repo_request_type_test.go
+  68b474535f36e364 61-62,150-151,274-278,797,865-866,928,985
+frontend/src/views/admin/ChannelMonitorView.vue
+  68b474535f36e364 54,56,172,284-299
+frontend/src/components/common/DataTable.vue
+  68b474535f36e364 35-47,52-55,59-69,104-118,171-173,184,205,216-219,222-232,254,281-282,467-472,481-483,706-750
+.gitignore
+  68b474535f36e364 138
+backend/internal/service/grok_upstream_url.go
+  68b474535f36e364 18-26,28-31,33-34,40-59,84-93
+backend/internal/service/group_service.go
+  68b474535f36e364 40-55
+backend/internal/handler/admin/admin_basic_handlers_test.go
+  68b474535f36e364 19
+backend/internal/service/openai_images_test.go
+  68b474535f36e364 495,499-512,536,540-551,576-639,726,750-752,783-857,1414,1436,1461
+backend/internal/service/openai_alpha_search_test.go
+  68b474535f36e364 9,11,20-40,96-232,306-399
+backend/internal/repository/account_repo_upstream_billing_probe_due_integration_test.go
+  68b474535f36e364 1-51
+backend/internal/repository/scheduler_cache_unit_test.go
+  68b474535f36e364 8-10,88-251,781-902
+backend/internal/server/middleware/audit_log_test.go
+  68b474535f36e364 1-22
+backend/internal/handler/dto/mappers.go
+  68b474535f36e364 637-638
+backend/internal/service/openai_gateway_upstream_errors.go
+  68b474535f36e364 225-227,234-273,308-310,374-394,452
+backend/ent/subscriptionplan_update.go
+  68b474535f36e364 128-141,294-298,351-353,498-511,677-681,751-752
+frontend/src/components/auth/TotpStepUpDialog.vue
+  68b474535f36e364 1-180
+frontend/src/i18n/locales/en/misc.ts
+  68b474535f36e364 548-550
+frontend/src/components/admin/account/AccountBulkActionsBar.vue
+  68b474535f36e364 31,45-59
+backend/ent/subscriptionplan.go
+  68b474535f36e364 30-31,62,118-123,225-226
+backend/internal/handler/admin/setting_handler_update.go
+  68b474535f36e364 29-31,154,248-263,400-403,1184-1185,1294,1439-1450,1477,1712-1713,1817,1856-1857,1869,1880
+frontend/src/views/admin/orders/AdminPaymentPlansView.vue
+  68b474535f36e364 33
+backend/internal/server/routes/user.go
+  68b474535f36e364 16,22-23,58-59
+frontend/src/api/admin/groups.ts
+  68b474535f36e364 118-196,420
+backend/internal/service/admin_user.go
+  68b474535f36e364 462-494,523,561-576
+backend/internal/service/grok_media.go
+  68b474535f36e364 332-333
+backend/internal/handler/dto/settings.go
+  68b474535f36e364 39-40,153,214-240
+backend/internal/server/api_contract_test.go
+  68b474535f36e364 606-607,689-690,711-712,845,887-888,900,911,1025-1026,1127,1166-1167,1179,1190,1393,1560-1562,1737-1742
+backend/internal/service/openai_responses_lite_tools.go
+  68b474535f36e364 10-14,19-23,26,60,67-69,79-92
+backend/internal/service/openai_ws_v2_passthrough_adapter.go
+  68b474535f36e364 215-219,394,408,580-588,607,610-617,663-671
+backend/internal/handler/grok_media.go
+  68b474535f36e364 192,277,325,336
+backend/ent/group.go
+  68b474535f36e364 46-47,234,333-339,692-695
+backend/internal/handler/admin/user_handler_list_apikey_group_test.go
+  68b474535f36e364 42
+backend/internal/service/admin_group_duplicate.go
+  68b474535f36e364 1-205
+backend/internal/handler/openai_grok_image_intent_gate_test.go
+  68b474535f36e364 1-101
+backend/internal/service/openai_request_body_limit_failover_test.go
+  68b474535f36e364 1-135
+backend/internal/service/channel_monitor_duplicate_test.go
+  68b474535f36e364 1-239
+backend/internal/handler/openai_chat_completions.go
+  68b474535f36e364 83-86,158,259,304,320,322
+backend/internal/service/scheduler_snapshot_bulk_event_test.go
+  68b474535f36e364 1-211
+backend/internal/service/group.go
+  68b474535f36e364 31-33
+backend/ent/subscriptionplan/where.go
+  68b474535f36e364 82-86,387-449
+backend/internal/service/openai_gateway_service.go
+  68b474535f36e364 239-257,268-282,414,421,498
+frontend/src/components/admin/user/BulkEditUserModal.vue
+  68b474535f36e364 1-214
+frontend/src/api/admin/accounts.ts
+  68b474535f36e364 23-25,853-884,931-936
+backend/internal/repository/channel_monitor_template_duplicate_metadata_unit_test.go
+  68b474535f36e364 1-108
+backend/internal/service/crs_sync_helpers_test.go
+  68b474535f36e364 5-6,115-169
+backend/internal/service/openai_gateway_service_hotpath_test.go
+  68b474535f36e364 187-240
+backend/internal/service/admin_service_email_identity_sync_test.go
+  68b474535f36e364 122-124
+backend/internal/service/channel.go
+  68b474535f36e364 95
+backend/internal/service/grok_quota_service.go
+  68b474535f36e364 15,56,65,78,142,159-160,315-319,324-325
+backend/ent/group/where.go
+  68b474535f36e364 118-122,848-920
+backend/internal/handler/admin/grok_oauth_handler.go
+  68b474535f36e364 376,410-419
+backend/internal/repository/user_repo_integration_test.go
+  68b474535f36e364 164-217
+backend/internal/server/routes/gateway_key_billing_test.go
+  68b474535f36e364 1-172
+backend/internal/service/image_generation_intent.go
+  68b474535f36e364 82-131,193-204,213-214,299-335
+frontend/src/i18n/locales/zh/dashboard.ts
+  68b474535f36e364 136,143,146,176-178,180,182-185,341-343,518
+backend/internal/handler/admin/account_codex_import.go
+  68b474535f36e364 777-782
+backend/internal/repository/api_key_repo.go
+  68b474535f36e364 931
+backend/internal/service/openai_ws_client_read.go
+  68b474535f36e364 1-70
+backend/internal/service/openai_ws_http_bridge_test.go
+  68b474535f36e364 778-785
+backend/internal/handler/admin/setting_handler_auth_source_defaults_test.go
+  68b474535f36e364 226,245,257
+deploy/config.example.yaml
+  68b474535f36e364 351-352,1178-1213
+backend/internal/service/image_task.go
+  68b474535f36e364 1-238
+frontend/src/views/admin/__tests__/SettingsView.spec.ts
+  68b474535f36e364 164-168,184,437-438,450,461,659-679,851-908
+backend/internal/service/channel_service.go
+  68b474535f36e364 648
+backend/internal/service/openai_responses_rejected_field_retry_test.go
+  68b474535f36e364 1-230
+backend/internal/service/openai_responses_lite_tools_test.go
+  68b474535f36e364 138,154-193,284,300-301
+backend/internal/service/admin_service_batch_limits_test.go
+  68b474535f36e364 1-92
+backend/internal/service/totp_verification_method_test.go
+  68b474535f36e364 1-107
+backend/internal/server/middleware/api_key_auth.go
+  68b474535f36e364 7,29-31,134-138,150-152,157,162-163,248-250,256-260
+backend/internal/pkg/tlsfingerprint/dialer_integration_test.go
+  68b474535f36e364 31-33,80-82,88,214-216,222
+backend/internal/repository/scheduler_cache.go
+  68b474535f36e364 398-434,455-456,458-464,466-467,469-518,723-732,734,738-744,771-776,780,786,788,963,968-974,983-1019
+backend/internal/handler/admin/channel_monitor_duplicate_test.go
+  68b474535f36e364 1-170
+frontend/src/api/totp.ts
+  68b474535f36e364 74-91,98-99
+backend/internal/handler/openai_gateway_handler_test.go
+  68b474535f36e364 99-111,237-273,873,875-880,882-902,974-995
+backend/internal/service/image_storage_test.go
+  68b474535f36e364 1-157
+backend/internal/service/admin_account.go
+  68b474535f36e364 12,398-400,523-526,539,591,593-602,604-612,617-623,654-659,712-731,778-781,891-898,972-994
+backend/internal/service/gateway_forward.go
+  68b474535f36e364 182-186,188,192
+backend/internal/service/openai_account_scheduler.go
+  68b474535f36e364 17,31-33,37-41,45-52,56-62,79,139,291-351,496-497,591,799-800,802,811,880-894,950-953,961-962,999,1007-1009,1012-1014,1017-1037,1097-1107,1110-1114,1117-1135,1138,1141-1145,1147,1152,1155-1160,1162-1170,1172-1176,1181-1200,1224-1228,1231,1237-1239,1277,1304,1340,1348,1359,1367,1373,1377,1384,1405,1408-1410,1432,1443,1447-1449,1451,1476-1494,1513,1532-1573,1610,1694-1700,1709-1715,1720-1721,1732-1733,1749-1750,1760-1767,1770-1776,1788-1796,1809-1810,1836,1914,1931,1938,1949,1955,1973,1984,2009,2063,2114-2117,2210,2223,2236-2240,2263-2264,2283,2288-2302,2319-2325,2333,2341,2386-2393,2439-2442,2449-2450,2464-2600
+frontend/src/composables/useStepUp.ts
+  68b474535f36e364 1-127
+backend/internal/repository/image_task_store.go
+  68b474535f36e364 1-48
+frontend/src/api/__tests__/admin.channelMonitor.duplicate.spec.ts
+  68b474535f36e364 1-103
+backend/internal/service/openai_gateway_response_handling.go
+  68b474535f36e364 1018-1024,1027
+backend/internal/handler/admin/channel_handler.go
+  68b474535f36e364 67,119,227,279,505
+frontend/src/i18n/locales/en/common.ts
+  68b474535f36e364 193,417-423
+frontend/src/composables/useAccountOAuth.ts
+  68b474535f36e364 6
+backend/internal/service/openai_endpoint_url.go
+  68b474535f36e364 9,12-14,16-22,24-27
+backend/migrations/180_audit_logs.sql
+  68b474535f36e364 1-35
+backend/internal/handler/image_task_handler_test.go
+  68b474535f36e364 1-145
+backend/internal/handler/admin/user_handler_role_stepup_test.go
+  68b474535f36e364 1-86
+backend/internal/service/openai_ws_forwarder_v2.go
+  68b474535f36e364 6,203,356,460-478,507-509,580,679,751-764
+backend/internal/service/user_service_test.go
+  68b474535f36e364 211-214
+backend/internal/service/session_binding.go
+  68b474535f36e364 1-58
+frontend/src/components/layout/AppSidebar.vue
+  68b474535f36e364 803-804
+README_CN.md
+  68b474535f36e364 175-186
+frontend/src/components/admin/user/UserCreateModal.vue
+  68b474535f36e364 67-69,73,75,78-79,83,87-94,100-102,104-117
+frontend/src/types/index.ts
+  68b474535f36e364 868-909,926-927,1445-1446,1737
+backend/internal/service/account_header_override.go
+  68b474535f36e364 12-13,32-33,64,73-74,76-84
+backend/internal/handler/gateway_handler.go
+  68b474535f36e364 42,63,99
+backend/internal/handler/auth_oauth_pending_flow_test.go
+  68b474535f36e364 3171-3173,3366-3371
+backend/internal/service/account.go
+  68b474535f36e364 17,91-97,1274-1277,1282,1284-1292,1301-1302,1409-1426,1439
+frontend/src/api/channels.ts
+  68b474535f36e364 42
+backend/internal/handler/admin/account_upstream_billing_probe_test.go
+  68b474535f36e364 1-71
+backend/internal/service/openai_ws_ratelimit_signal_test.go
+  68b474535f36e364 242-287
+backend/internal/service/admin_service_update_balance_test.go
+  68b474535f36e364 7,54-77,123-194
+backend/internal/handler/image_task_handler.go
+  68b474535f36e364 1-281
+frontend/src/views/admin/ChannelsView.vue
+  68b474535f36e364 858,891,956,1072,1113,1202,1391
+frontend/src/i18n/locales/zh/admin/audit.ts
+  68b474535f36e364 1-52
+backend/internal/server/middleware/step_up.go
+  68b474535f36e364 1-100
+backend/internal/repository/audit_log_repo.go
+  68b474535f36e364 1-368
+frontend/src/i18n/locales/zh/admin/settings.ts
+  68b474535f36e364 48-49,129-134,324,1109-1113,1129
+frontend/src/api/__tests__/admin.groups.duplicate.spec.ts
+  68b474535f36e364 1-103
+backend/internal/server/middleware/api_key_auth_test.go
+  68b474535f36e364 1069-1191,1281,1283-1286
+backend/internal/service/billing_service.go
+  68b474535f36e364 156-157,806,864,1007-1008,1022-1023,1051,1058,1286
+backend/internal/repository/account_repo_upstream_billing_probe_due_test.go
+  68b474535f36e364 1-48
+backend/internal/service/setting_service_update_test.go
+  68b474535f36e364 8-9,131-161,344-345,357,366-367,379,384-453,465-467,483-484
+backend/internal/repository/account_repo_upstream_billing_probe_test.go
+  68b474535f36e364 1-16
+frontend/src/views/admin/UsersView.vue
+  68b474535f36e364 245-254,270-273,280,753-758,779,806,1294-1310,1323,1628-1630
+backend/internal/handler/openai_gateway_handler.go
+  68b474535f36e364 45-48,279,353-360,378,381,497,557,582,584,925,1026,1078,1089,1091,1377-1398,1421-1427,1482-1483,1576,1610-1616,1630,1633,1803,1883,2107-2115
+backend/internal/handler/auth_linuxdo_oauth_test.go
+  68b474535f36e364 285
+backend/internal/service/openai_sse_concatenated_json_test.go
+  68b474535f36e364 93-224
+backend/internal/service/scheduler_snapshot_service.go
+  68b474535f36e364 58-68,73-75,106,543-549,560-620,945,960-988
+frontend/src/views/admin/AccountsView.vue
+  68b474535f36e364 136-169,215,360-374,478,492-493,498,517,525-526,604-612,1197-1221,1391,1502-1530,1790-1810,1828,1835,1853-1863,1869,2066
+backend/internal/handler/auth_handler.go
+  68b474535f36e364 110
+backend/internal/handler/chat_completions_image_model_test.go
+  68b474535f36e364 1-96
+backend/internal/service/gateway_context_management_test.go
+  68b474535f36e364 149,153-157,210-219,225,230,314-315,336-359,449,460,472-503,569-570
+backend/internal/service/openai_account_scheduler_ws_snapshot_test.go
+  68b474535f36e364 23
+backend/ent/runtime/runtime.go
+  68b474535f36e364 998-1001,1003,1009,1015,1019,1023,1027,1031,1035,1039,1043,1047,1051,1055,1059,1063,1067,1071,1075,1079,1083,1089,1093,1097,1725-1730,1732,1736,1742,1746,1752,1756,1760,1764
+backend/internal/service/pricing_service.go
+  68b474535f36e364 128,162,440,494-495
+backend/internal/server/middleware/jwt_auth.go
+  68b474535f36e364 14-20,32-38,91-95,101-102
+frontend/src/components/admin/monitor/MonitorActionsCell.spec.ts
+  68b474535f36e364 1-77
+backend/internal/repository/scheduler_cache_test.go
+  68b474535f36e364 4,39-109
+frontend/src/components/admin/usage/UsageTable.vue
+  68b474535f36e364 147-152,255,259-266,344-347,358,360-364,496-498
+frontend/src/components/admin/user/UserEditModal.vue
+  68b474535f36e364 78-80,94-95,134-135,146,151-153,157-167
+backend/internal/handler/admin/channel_monitor_handler.go
+  68b474535f36e364 4-5,338-392
+frontend/src/i18n/locales/en/admin/settings.ts
+  68b474535f36e364 48-49,129-134,330,1114-1118,1134
+frontend/src/components/account/BulkEditAccountModal.vue
+  68b474535f36e364 113-117,546-549,1220,1223,1229,1269-1274,1305-1306,1311-1313,1785-1792
+frontend/src/i18n/locales/en/dashboard.ts
+  68b474535f36e364 137,143,146,172-174,176,179-181,336-338,513
+backend/internal/service/openai_codex_models_service_test.go
+  68b474535f36e364 6,21,247-333,473-547,771
+backend/internal/handler/admin/group_handler_duplicate_test.go
+  68b474535f36e364 1-163
+backend/ent/mutation.go
+  68b474535f36e364 20811,21488-21536,23767,23804-23806,23947-23948,24054-24055,24221-24227,24771-24773,24833-24835,24919-24921,38228,38597-38632,38995,39011-39013,39056-39057,39093-39094,39155-39161,39354-39355
+backend/internal/handler/openai_embeddings.go
+  68b474535f36e364 122,196,220,231
+backend/internal/service/openai_ws_forwarder_success_test.go
+  68b474535f36e364 284,300,380,470-471,476-522
+backend/internal/service/audit_log_test.go
+  68b474535f36e364 1-186
+frontend/src/components/account/UpstreamBillingRateCell.vue
+  68b474535f36e364 1-160
+backend/internal/handler/totp_handler.go
+  68b474535f36e364 162-172,192-229
+backend/internal/service/openai_responses_rejected_field_retry.go
+  68b474535f36e364 1-133
+backend/internal/handler/admin/user_handler_get_deleted_test.go
+  68b474535f36e364 29
+backend/internal/repository/s3_client.go
+  68b474535f36e364 1-53
+frontend/src/components/account/__tests__/CreateAccountModal.spec.ts
+  68b474535f36e364 67-74,158-183
+backend/internal/service/setting_features.go
+  68b474535f36e364 80-89,182-217
+backend/ent/subscriptionplan/subscriptionplan.go
+  68b474535f36e364 26-27,56,82-85,143-145
+backend/internal/server/middleware/session_binding.go
+  68b474535f36e364 1-81
+backend/internal/server/middleware/admin_auth_test.go
+  68b474535f36e364 46,52,70,87,107,203-205
+backend/migrations/181_group_duplicate_operation_id.sql
+  68b474535f36e364 1-8
+backend/internal/repository/totp_cache.go
+  68b474535f36e364 18,151-170
+backend/internal/handler/admin/user_handler.go
+  68b474535f36e364 16,34-35,44-45,52-53,276-282,325-339,609-668
+frontend/src/components/account/__tests__/BulkEditAccountModal.spec.ts
+  68b474535f36e364 133-220
+backend/internal/service/openai_ws_forwarder_support.go
+  68b474535f36e364 207-298,535
+backend/internal/service/payment_config_service.go
+  68b474535f36e364 165,180
+backend/internal/handler/dto/types.go
+  68b474535f36e364 506-507
+backend/internal/service/openai_gateway_cc_pipeline.go
+  68b474535f36e364 118-124,205-207
+backend/internal/handler/endpoint.go
+  68b474535f36e364 26,92-93
+backend/internal/service/account_base_url_test.go
+  68b474535f36e364 181,189,192,197,200,203,208,214,219,225,230,233,236,241,244,264,274,277,304,312,315,323,354,364
+backend/internal/service/gateway_claude_oauth_body.go
+  68b474535f36e364 376,393
+backend/internal/service/openai_account_model_transient.go
+  68b474535f36e364 1-177
+backend/internal/handler/gateway_key_billing_test.go
+  68b474535f36e364 1-311
+backend/internal/repository/upstream_billing_probe_persistence_integration_test.go
+  68b474535f36e364 1-395
+backend/internal/service/audit_log.go
+  68b474535f36e364 1-256
+backend/internal/service/openai_gateway_passthrough.go
+  68b474535f36e364 464-466,582-583,596-602,645-646
+backend/internal/service/totp_service.go
+  68b474535f36e364 44-47,144-168,187-188,319-320,403-422,530-538,540
+README.md
+  68b474535f36e364 172-183,703-705
+frontend/src/components/account/CreateAccountModal.vue
+  68b474535f36e364 1120-1124,1506,1541-1544,1912-1996,3150,3528-3529,3534,3724-3749,3752-3755,3757,4226-4227,4230-4231,4623-4624,5071-5072,5240,5261,5325,5331,5501-5524,5532-5535,5954,5977
+backend/internal/pkg/xai/oauth.go
+  68b474535f36e364 44-46,303-308,329,337-378
+backend/migrations/178_channel_image_input_price.sql
+  68b474535f36e364 1-8
+frontend/src/components/keys/UseKeyModal.vue
+  68b474535f36e364 32-33,37,103-110,114-115,119,151,153,155,367-368,419-424,447-454,539-544,584,587,598-659,780-814
+frontend/src/components/admin/channel/PricingEntryCard.vue
+  68b474535f36e364 104,125-129,336
+frontend/src/components/admin/monitor/MonitorActionsCell.vue
+  68b474535f36e364 12-22,41,46,49,54,60-64
+backend/internal/handler/admin/setting_handler.go
+  68b474535f36e364 126-127,234,274-275,287,298
+backend/internal/handler/gateway_key_billing.go
+  68b474535f36e364 1-108
+backend/internal/handler/admin/setting_handler_audit.go
+  68b474535f36e364 311-313,443-448,482-483
+backend/internal/service/http_upstream_profile.go
+  68b474535f36e364 15,44-55
+frontend/src/router/index.ts
+  68b474535f36e364 419-429
+frontend/src/components/payment/SubscriptionPlanCard.vue
+  68b474535f36e364 31,35
+frontend/src/components/admin/channel/types.ts
+  68b474535f36e364 24
+backend/internal/service/openai_gateway_scheduling.go
+  68b474535f36e364 162,573,597,662,666-667,690,694-695,710,726-728,730-740,742-743,745-747,785,788,798,807,861,864,866,929,942-945,994-998,1024,1050-1054,1063,1100-1104,1113,1183,1203,1222-1224,1231,1237-1241
+frontend/src/views/admin/GroupsView.vue
+  68b474535f36e364 370-388,3606,3991,5151-5167
+backend/internal/service/admin_service_duplicate_account_test.go
+  68b474535f36e364 143-144
+frontend/src/views/admin/__tests__/AccountsView.sparkShadow.spec.ts
+  68b474535f36e364 40
+backend/internal/server/routes/auth_rate_limit_test.go
+  68b474535f36e364 31
+frontend/src/views/admin/__tests__/AccountsView.usageWindowsHint.spec.ts
+  68b474535f36e364 26,74-76,168-178
+backend/internal/service/admin_service.go
+  68b474535f36e364 23,43-48,592,610-614,624,641,646,664
+frontend/src/components/common/__tests__/DataTable.spec.ts
+  68b474535f36e364 28-43,278-325
+backend/internal/handler/openai_alpha_search.go
+  68b474535f36e364 121-122,167,176,184
+backend/internal/server/router.go
+  68b474535f36e364 29-30,57-58,89,101-102,117-119,121
+frontend/src/api/admin/settings.ts
+  68b474535f36e364 369-370,381,612-613,625,636,674-675,685,891-892,904
+frontend/src/i18n/locales/en/admin/overview.ts
+  68b474535f36e364 421-439,765-768
+backend/internal/repository/channel_monitor_repo.go
+  68b474535f36e364 15-17,53,72-95,120,734-736,738-739,741-760,769-783
+backend/internal/service/auth_service.go
+  68b474535f36e364 60-63,272,467,568,1192-1203,1218-1219,1289-1296,1298,1476-1487,1533,1618-1627,1658-1664
+backend/internal/server/middleware/admin_auth.go
+  68b474535f36e364 19,21,32,41,69,151,162-163,195-199,211-212
+frontend/src/components/admin/user/__tests__/BulkEditUserModal.spec.ts
+  68b474535f36e364 1-132
+backend/internal/handler/admin/account_codex_agent_identity_import_test.go
+  68b474535f36e364 4,49-82
+backend/internal/service/model_pricing_resolver.go
+  68b474535f36e364 164,203-216,280-281,287
+backend/internal/service/audit_log_service.go
+  68b474535f36e364 1-237
+backend/internal/service/openai_gateway_forward.go
+  68b474535f36e364 394-395,412-423,427,758,845,851-859,881-887
+README_JA.md
+  68b474535f36e364 170-181
+backend/internal/config/config_test.go
+  68b474535f36e364 4,219-221,1873-1908,1960-1980
+backend/internal/service/admin_service_delete_test.go
+  68b474535f36e364 143-145
+backend/internal/server/routes/gateway_test.go
+  68b474535f36e364 31,117-132
+backend/internal/repository/channel_monitor_template_duplicate_metadata_integration_test.go
+  68b474535f36e364 1-61
+backend/internal/repository/account_repo_upstream_billing_probe_update_test.go
+  68b474535f36e364 1-306
+backend/internal/service/openai_ws_client_read_test.go
+  68b474535f36e364 1-143
+frontend/src/components/account/EditAccountModal.vue
+  68b474535f36e364 50-54,429-452,454-455,457-470,472-478,481-495,498-510,1464,1601-1617,2586,2593-2594,2602-2603,2743-2745,2747-2749,2757,3239,3391,3394-3411,4082-4083,4258-4292,4493
+backend/internal/repository/backup_s3_store.go
+  68b474535f36e364 8,26-32,34,87-89,91-93
+backend/internal/repository/usage_log_repo_insert.go
+  68b474535f36e364 44-45,239-240,284,693-694,734,780-781,838-839,936-937,977,1020-1021,1078-1079,1144-1145,1189,1264-1265
+frontend/src/i18n/locales/zh/common.ts
+  68b474535f36e364 193,416-422
+backend/internal/repository/http_upstream_test.go
+  68b474535f36e364 4,6,8,10-11,23-187
+backend/internal/server/routes/gateway.go
+  68b474535f36e364 117,195-197,278-280
+frontend/src/types/payment.ts
+  68b474535f36e364 127-128
+frontend/src/i18n/locales/en/admin/channels.ts
+  68b474535f36e364 119,159,482-486
+frontend/src/components/account/OAuthAuthorizationFlow.vue
+  68b474535f36e364 106-116,291,296,304,316,320,836,860,917,938
+frontend/src/components/account/HeaderOverrideEditor.vue
+  68b474535f36e364 1-84
+backend/ent/group/group.go
+  68b474535f36e364 43-44,204,298-299,422-424
+backend/internal/service/openai_account_model_transient_test.go
+  68b474535f36e364 1-130
+backend/internal/service/channel_monitor_types.go
+  68b474535f36e364 54-59
+backend/internal/handler/endpoint_test.go
+  68b474535f36e364 34,56
+backend/internal/service/domain_constants.go
+  68b474535f36e364 36,142,172-177,378-381,446-449,462
+backend/internal/service/account_header_override_test.go
+  68b474535f36e364 33-34
+frontend/src/components/account/__tests__/EditAccountModal.grokUpstream.spec.ts
+  68b474535f36e364 1-228
+backend/internal/handler/openai_codex_models_handler_test.go
+  68b474535f36e364 52,66-73,162-174
+frontend/src/api/__tests__/admin.users.spec.ts
+  68b474535f36e364 14,18-19,69-82,134-148
+backend/internal/service/account_test_service.go
+  68b474535f36e364 761-762
+backend/internal/handler/admin/admin_service_stub_test.go
+  68b474535f36e364 198-201,300-306
+backend/internal/pkg/xai/billing_test.go
+  68b474535f36e364 17-30
+backend/internal/service/setting_parse.go
+  68b474535f36e364 184-185,208-209,230,263-264,341,797-798,810,822,913,922,933-936,951,967-980,985-990
+backend/internal/handler/user_handler_test.go
+  68b474535f36e364 96-98
+backend/internal/repository/group_repo_integration_test.go
+  68b474535f36e364 9,71-153
+backend/internal/service/auth_service_email_bind_test.go
+  68b474535f36e364 966-968
+backend/internal/service/scheduler_snapshot_batch_query_test.go
+  68b474535f36e364 119-184,300-477
+frontend/src/i18n/locales/zh/admin/accounts.ts
+  68b474535f36e364 111,129,132-156,448,457,592,594,596-602,604-606,703-708,719-729,960-962,964,970-975
+backend/ent/group_update.go
+  68b474535f36e364 1276-1278,3069-3070
+backend/internal/handler/admin/grok_oauth_handler_test.go
+  68b474535f36e364 116,154,226-262
+backend/cmd/server/wire_gen.go
+  68b474535f36e364 176-177,180-181,187,254-258,262,269-275,286-288,290-292,307,367-368,398-403,550-552
+frontend/src/i18n/locales/en/admin/index.ts
+  68b474535f36e364 7,16
+backend/internal/repository/account_repo.go
+  68b474535f36e364 60,399-408,412-460,466,472,541-545,547,549-551,553-614,618,620,622-673,2289-2292,2294-2310,2313,2328-2338,2344-2346,2351-2480,2510-2519,2593-2597,2611-2630,2640-2646,2648-2649,2658,3106-3204
+backend/internal/server/middleware/wire.go
+  68b474535f36e364 22-23
+frontend/src/composables/__tests__/useStepUp.spec.ts
+  68b474535f36e364 1-87
+frontend/src/api/admin/channels.ts
+  68b474535f36e364 33,158
+backend/internal/service/openai_ws_http_bridge.go
+  68b474535f36e364 238-240,264,282-293,334-336,395,405
+backend/internal/server/middleware/step_up_test.go
+  68b474535f36e364 1-105
+backend/internal/service/usage_log.go
+  68b474535f36e364 142-143
+backend/internal/service/proxy_update_probe_invalidation_test.go
+  68b474535f36e364 1-71
+backend/internal/service/openai_account_scheduler_test.go
+  68b474535f36e364 8,92-93,97-99,109-111,315-317,324,338-339,341-388,593,602-670,707,911,935,1078,1153,1170,1181-1184,1490-1493,1557-1560,1588-1591,1610-1704,2104-2109,2122,2131-2132,2136,2311-2334,2790,3127
+backend/ent/schema/group.go
+  68b474535f36e364 69-74,253-256
+backend/internal/service/upstream_billing_probe.go
+  68b474535f36e364 1-926
+frontend/src/views/admin/__tests__/AccountsView.bulkEdit.spec.ts
+  68b474535f36e364 11-12,18-19,28,32,74,83,88,117,134,402-461
+frontend/src/api/admin/index.ts
+  68b474535f36e364 36,71-72,105-106,112
+backend/internal/service/grok_upstream_url_test.go
+  68b474535f36e364 107-116,118-301
+frontend/src/api/admin/audit.ts
+  68b474535f36e364 1-82
+backend/internal/service/openai_alpha_search.go
+  68b474535f36e364 6,43,45,47,49,58-74,92-99,130-197,199-212,216-230,232-335,353-356,358-367,369-407,411-623
+backend/internal/repository/usage_log_repo_query.go
+  68b474535f36e364 22,446-447,506-507,564-565
+backend/internal/service/openai_image_generation_controls_test.go
+  68b474535f36e364 652-657
+backend/internal/handler/openai_body_limit_failover_test.go
+  68b474535f36e364 1-59
+frontend/src/i18n/locales/zh/admin/channels.ts
+  68b474535f36e364 119,159,482-486
+backend/internal/service/crs_sync_service.go
+  68b474535f36e364 12,367-371,422,426,503-507,551,555,659-662,705,810-813,862,939-943,990,994,1069-1073,1117,1121,1157-1179
+backend/internal/service/openai_gateway_grok.go
+  68b474535f36e364 772-774
+backend/internal/service/openai_codex_models_service.go
+  68b474535f36e364 4,7,47-50,142,224-227,316,323-342,346-351,445,451-453,466-476,480-500
+frontend/src/api/__tests__/admin.accounts.upstreamBillingProbe.spec.ts
+  68b474535f36e364 1-53
+backend/internal/handler/payment_handler.go
+  68b474535f36e364 67,85,129,184
+backend/internal/service/grok_quota_service_test.go
+  68b474535f36e364 230,272,295,323,369,396,431,454,496,523,656,692,749,769,795
+frontend/src/views/admin/__tests__/UsersView.spec.ts
+  68b474535f36e364 80-81,86,88-95,106-121,168-169,254-255,296-370
+backend/cmd/server/VERSION
+  68b474535f36e364 1
+backend/internal/service/auth_service_register_test.go
+  68b474535f36e364 487,498,523,564,589
+frontend/src/components/keys/__tests__/UseKeyModal.spec.ts
+  68b474535f36e364 5-8,17,85-232,271,309-321
+backend/internal/handler/wire.go
+  68b474535f36e364 44-45,47,81,122,144,167,203
+backend/ent/group_create.go
+  68b474535f36e364 192-205,1010-1014,1174-1177,2272-2274,3395-3396
+backend/internal/service/content_moderation_test.go
+  68b474535f36e364 252-254
+backend/internal/service/payment_config_plans_validation_test.go
+  68b474535f36e364 194-239
+backend/ent/subscriptionplan_create.go
+  68b474535f36e364 71-84,236-239,293-300,382-385,554-565,805-818,1240-1250
+backend/internal/service/openai_ws_forwarder_ingress.go
+  68b474535f36e364 308,386-392,394-395,673-674,806-808,822-823,956-957,985-996
+backend/internal/handler/admin/audit_log_handler.go
+  68b474535f36e364 1-170
+backend/internal/handler/admin/user_handler_activity_test.go
+  68b474535f36e364 38,92
+frontend/src/views/admin/__tests__/ChannelMonitorView.duplicate.spec.ts
+  68b474535f36e364 1-217
+backend/internal/service/openai_ws_forwarder_test.go
+  68b474535f36e364 4-5,8,10,114-186
+backend/internal/pkg/xai/billing.go
+  68b474535f36e364 97-111
+frontend/src/components/account/credentialsBuilder.ts
+  68b474535f36e364 28,38-46,79-80,160-243
+backend/internal/service/settings_view.go
+  68b474535f36e364 23-24,157,224-225,237,248
+backend/internal/repository/image_storage_s3.go
+  68b474535f36e364 1-80
+backend/internal/service/image_task_test.go
+  68b474535f36e364 1-91
+frontend/src/i18n/__tests__/localesMessageCompile.spec.ts
+  68b474535f36e364 1-41
+backend/internal/server/middleware/jwt_auth_test.go
+  68b474535f36e364 65,91,118,151,156,247,271,303
+frontend/src/utils/imageUsage.ts
+  68b474535f36e364 25-44
+backend/internal/server/middleware/api_key_auth_image_task_test.go
+  68b474535f36e364 1-15
+backend/internal/handler/available_channel_handler.go
+  68b474535f36e364 75,288
+frontend/src/i18n/locales/zh/admin/resources.ts
+  68b474535f36e364 232
+backend/internal/repository/proxy_repo_upstream_billing_probe_test.go
+  68b474535f36e364 1-158
+backend/internal/server/http.go
+  68b474535f36e364 36-37,99
+frontend/src/components/account/__tests__/UpstreamBillingRateCell.spec.ts
+  68b474535f36e364 1-233
+frontend/src/views/admin/BackupView.vue
+  68b474535f36e364 279,288-289,293-304,541,546-553,565-571,573-574
+backend/internal/server/routes/admin.go
+  68b474535f36e364 17-18,23-24,40,58,70,73,113-125,278,300,313,317-319,328-329,352-353,437,442-443,525,538-540,542-543,549,554-555,563,567-568,687
+backend/internal/service/image_storage.go
+  68b474535f36e364 1-192
+backend/internal/repository/channel_monitor_duplicate_test.go
+  68b474535f36e364 1-29
+backend/internal/repository/http_upstream.go
+  68b474535f36e364 198,229-233,260,278-288,1205-1209
+backend/internal/handler/gateway_handler_responses.go
+  68b474535f36e364 88
+backend/internal/service/openai_endpoint_url_test.go
+  68b474535f36e364 1-31
+frontend/src/i18n/locales/zh/admin/overview.ts
+  68b474535f36e364 421-439,762-765
+backend/internal/handler/handler.go
+  68b474535f36e364 41,62
+backend/ent/migrate/schema.go
+  68b474535f36e364 848,900,905,920-928,1459,1483
+backend/ent/schema/subscription_plan.go
+  68b474535f36e364 46-48
+backend/internal/service/openai_ws_forwarder_ingress_session_test.go
+  68b474535f36e364 41,76,80,142-145,154-155,257-264,547,600,611-612,773,866,997,1031-1032,1056,1154,1156
+backend/internal/handler/gateway_handler_chat_completions.go
+  68b474535f36e364 83-86
+frontend/src/components/channels/SupportedModelChip.vue
+  68b474535f36e364 94-99
+docs/ASYNC_IMAGE_TASKS.md
+  68b474535f36e364 1-136
+backend/internal/handler/admin/account_handler.go
+  68b474535f36e364 65-70
+backend/internal/pkg/claude/constants.go
+  68b474535f36e364 51-52,76-77
+backend/internal/service/billing_service_test.go
+  68b474535f36e364 758,767-771,774,779,785-820
+backend/internal/server/routes/auth.go
+  68b474535f36e364 20,30-31
+backend/migrations/177_add_subscription_plan_currency.sql
+  68b474535f36e364 1-4
+frontend/src/i18n/locales/en/admin/audit.ts
+  68b474535f36e364 1-52
+frontend/src/views/admin/orders/PlanEditDialog.vue
+  68b474535f36e364 56-60,125,178,181,195
+backend/internal/service/openai_gateway_grok_test.go
+  68b474535f36e364 262,291,298,304-356
+backend/internal/repository/image_task_store_test.go
+  68b474535f36e364 1-43
+backend/internal/server/middleware/audit_log.go
+  68b474535f36e364 1-272
+backend/internal/service/http_upstream_profile_test.go
+  68b474535f36e364 22-32
+backend/internal/service/openai_gateway_service_test.go
+  68b474535f36e364 262-286
+backend/internal/service/channel_monitor_service.go
+  68b474535f36e364 5-6,9,27,73-80,162-317
+frontend/src/components/account/GrokBaseUrlPresets.vue
+  68b474535f36e364 1-32
+backend/internal/service/openai_gateway_usage.go
+  68b474535f36e364 101-112,157,265,283
+backend/internal/handler/openai_images.go
+  68b474535f36e364 256,272,326,351,353
+backend/internal/service/openai_images.go
+  68b474535f36e364 458-462,464,1154-1155
+backend/cmd/jwtgen/main.go
+  68b474535f36e364 51
+frontend/src/components/account/__tests__/CreateAccountModal.grok.spec.ts
+  68b474535f36e364 19-30
+backend/cmd/server/wire.go
+  68b474535f36e364 106-107,138-143,290-292
+backend/internal/service/setting_update.go
+  68b474535f36e364 124-125,302,386-387,399,549-554,563
+frontend/src/components/account/HeaderOverrideJsonTools.vue
+  68b474535f36e364 1-110
+frontend/src/views/admin/__tests__/GroupsView.duplicate.spec.ts
+  68b474535f36e364 1-268
+backend/internal/repository/user_repo.go
+  68b474535f36e364 870-902
+backend/internal/service/gateway_usage_billing.go
+  68b474535f36e364 32-36,670
+backend/migrations/179_usage_log_image_input_tokens.sql
+  68b474535f36e364 1-6
+frontend/src/api/admin/channelMonitor.ts
+  68b474535f36e364 160-240,284
+frontend/src/views/admin/SettingsView.vue
+  68b474535f36e364 1580-1614,4058-4112,4125-4128,4169-4200,6065-6076,8166-8167,8179,8195-8196,8207,8376-8377,8389,8438,8451,8515-8519,9561-9566,9579,9770-9773,9795-9796
+backend/internal/service/openai_images_responses.go
+  68b474535f36e364 1075-1233,1247,1354
+frontend/src/views/admin/AuditLogView.vue
+  68b474535f36e364 1-685
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "e6f6d752c6c4e00915d32e58ec09832822ac7b03",
+  "prompts": {
+    "68b474535f36e364": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f69d0-ec1e-7423-8c6f-8058ccea4050",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 63730,
+      "total_deletions": 1772,
+      "accepted_lines": 63707,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/3cbd38777de41de9db7c9a68895c362fda9bbf1e736c6c9e21db85bb870db65d"
+    },
+    "fe5d71b08768d21b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f5ac5-6e59-7fd2-ba32-b0e4da119683",
+        "model": "gpt-5.5"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 25232,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/dd3475b0543a3529f015177b5befb7ee096a8ded386f58895717342dbe87b7ae"
+    }
+  }
+}

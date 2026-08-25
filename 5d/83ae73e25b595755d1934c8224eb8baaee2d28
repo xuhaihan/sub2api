@@ -1,0 +1,24 @@
+deploy/build-ccloud-tar.sh
+  f46925dfd5d9620e 18-19,46,61-63
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.3",
+  "base_commit_sha": "5d83ae73e25b595755d1934c8224eb8baaee2d28",
+  "prompts": {
+    "f46925dfd5d9620e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f2808-adbc-7202-be8f-8baedee6c555",
+        "model": "gpt-5.5"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 6,
+      "total_deletions": 1,
+      "accepted_lines": 182751,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/f455b6f5478568dd6ff8a0e2eabcdf6aac3bebc42ce49546d7a69e204f3317d9"
+    }
+  }
+}

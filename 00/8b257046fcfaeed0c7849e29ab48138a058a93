@@ -1,0 +1,356 @@
+backend/internal/service/account.go
+  b70f63884afcc8b7 92,1439-1443
+backend/ent/group.go
+  b70f63884afcc8b7 108-109,234,542-547,837-838
+backend/internal/repository/gateway_cache.go
+  b70f63884afcc8b7 5-6,8,16,61,79-216
+backend/internal/service/auth_service_email_bind_test.go
+  b70f63884afcc8b7 877-880,964-973
+backend/internal/service/gemini_messages_compat_service.go
+  b70f63884afcc8b7 8,1072,1969,2721,2744-2753,2796-2810
+backend/internal/platform/liveattestation/attestation_darwin.go
+  b70f63884afcc8b7 1-294
+backend/ent/mutation.go
+  b70f63884afcc8b7 21914,24230-24265,24947,25077-25079,25198-25199,25311-25312,25639-25645,26234-26235
+backend/internal/repository/migrations_schema_integration_test.go
+  b70f63884afcc8b7 58-60
+backend/internal/repository/user_repo_email_alias_test.go
+  b70f63884afcc8b7 1-100
+backend/internal/service/openai_live_test.go
+  b70f63884afcc8b7 1-242
+backend/internal/repository/account_repo_ollama_cloud_usage.go
+  b70f63884afcc8b7 357-409,416-424,426-430,437-452,454-459,461-485,487-498,500-508,510,513-515,520-524,527-528,531-532,541,544-558,560
+backend/internal/service/gateway_anthropic_apikey_passthrough_test.go
+  b70f63884afcc8b7 1626-1736
+backend/internal/service/session_id_test.go
+  b70f63884afcc8b7 1-155
+backend/internal/repository/batch_image_repo.go
+  b70f63884afcc8b7 753,763,774,828,841,856,878
+backend/internal/platform/liveattestation/attestation_unsupported.go
+  b70f63884afcc8b7 1-19
+backend/internal/server/api_contract_test.go
+  b70f63884afcc8b7 380,1498-1501,1578-1581
+backend/internal/service/openai_gateway_scheduling.go
+  b70f63884afcc8b7 29-37,47
+backend/internal/service/claude_opus5_test.go
+  b70f63884afcc8b7 1-139
+backend/internal/service/openai_live.go
+  b70f63884afcc8b7 1-792
+backend/internal/handler/grok_media.go
+  b70f63884afcc8b7 468,497
+frontend/src/components/admin/usage/UsageTable.vue
+  b70f63884afcc8b7 586,596
+backend/internal/service/gemini_chat_completions_compat_service.go
+  b70f63884afcc8b7 476
+backend/resources/model-pricing/model_prices_and_context_window.json
+  b70f63884afcc8b7 523-527
+backend/internal/config/config.go
+  b70f63884afcc8b7 916-917,1004-1008,2198,3050-3051
+frontend/src/i18n/locales/zh/admin/resources.ts
+  b70f63884afcc8b7 433
+frontend/src/styles/announcement-markdown.css
+  b70f63884afcc8b7 1-113
+frontend/src/views/admin/GroupsView.vue
+  b70f63884afcc8b7 1397-1429,2948-2980,3565-3575,4513-4521,4624,4974,5172-5209,5416,5604,5661,6066,6109,6154,6220
+backend/migrations/187_add_usage_log_session_id.sql
+  b70f63884afcc8b7 1-14
+frontend/src/views/admin/UsageView.vue
+  b70f63884afcc8b7 541
+backend/internal/handler/openai_images.go
+  b70f63884afcc8b7 94-95,379,394
+backend/internal/server/routes/gateway.go
+  b70f63884afcc8b7 183-184,282-283
+backend/internal/service/batch_image_public_test.go
+  b70f63884afcc8b7 30-31,33,66,395,397,401,406
+backend/internal/service/gateway_usage_billing.go
+  b70f63884afcc8b7 49,576,596,619,642,1018
+frontend/src/i18n/locales/zh/admin/settings.ts
+  b70f63884afcc8b7 331,333-337
+backend/internal/pkg/claude/constants.go
+  b70f63884afcc8b7 151-155
+backend/internal/service/admin_service_email_identity_sync_test.go
+  b70f63884afcc8b7 38-41,116-118
+backend/internal/platform/liveattestation/attestation.go
+  b70f63884afcc8b7 1-17
+backend/internal/service/registration_email_alias_test.go
+  b70f63884afcc8b7 1-164
+backend/internal/repository/usage_log_session_id_unit_test.go
+  b70f63884afcc8b7 1-91
+backend/internal/repository/concurrency_cache_integration_test.go
+  b70f63884afcc8b7 100-135
+backend/internal/service/gateway_upstream_response.go
+  b70f63884afcc8b7 359-360
+backend/internal/service/api_key_auth_cache.go
+  b70f63884afcc8b7 97
+backend/internal/service/openai_gateway_apikey_item_id_test.go
+  b70f63884afcc8b7 1-90
+backend/internal/repository/usage_log_repo_query.go
+  b70f63884afcc8b7 22,484,545,666-667
+backend/internal/service/ollama_cloud_usage_test.go
+  b70f63884afcc8b7 188,316,318,320-328,334-450
+frontend/src/i18n/locales/en/dashboard.ts
+  b70f63884afcc8b7 320
+backend/internal/repository/api_key_repo.go
+  b70f63884afcc8b7 202,952
+backend/internal/service/openai_gateway_forward.go
+  b70f63884afcc8b7 75-84,98-109
+backend/internal/service/user_service_test.go
+  b70f63884afcc8b7 93-94,206-208
+backend/migrations/188_allow_live_usage_request_type.sql
+  b70f63884afcc8b7 1-6
+frontend/src/i18n/locales/en/admin/resources.ts
+  b70f63884afcc8b7 436
+backend/internal/service/openai_account_runtime_block_fastpath_test.go
+  b70f63884afcc8b7 145-227
+backend/internal/repository/concurrency_cache_live_test.go
+  b70f63884afcc8b7 1-73
+backend/internal/service/openai_responses_namespace_test.go
+  b70f63884afcc8b7 4,8,39-111
+frontend/src/components/account/AccountStatusIndicator.vue
+  b70f63884afcc8b7 228
+backend/internal/handler/admin/account_ollama_cloud_usage_test.go
+  b70f63884afcc8b7 64,276
+backend/internal/service/admin_group_duplicate_test.go
+  b70f63884afcc8b7 165
+backend/internal/service/auth_oauth_email_flow.go
+  b70f63884afcc8b7 135-136,163,215-216,246
+backend/internal/service/pricing_service.go
+  b70f63884afcc8b7 221-225,797-800,833-837
+backend/internal/service/openai_ws_forwarder_success_test.go
+  b70f63884afcc8b7 736,748
+backend/internal/service/pricing_service_test.go
+  b70f63884afcc8b7 8,14-42
+frontend/src/components/common/AnnouncementPopup.vue
+  b70f63884afcc8b7 5,38,46,69,73-76,79,91,97-112,116-118,126,133-136,142,146-147,149-150,152-157
+backend/migrations/189_add_group_allow_live.sql
+  b70f63884afcc8b7 1
+backend/internal/handler/openai_live.go
+  b70f63884afcc8b7 1-236
+backend/internal/repository/usage_log_repo_insert.go
+  b70f63884afcc8b7 82,278,286,733,737-739,823,882,981,985,1066,1125,1192,1200,1241,1314
+backend/internal/handler/openai_embeddings.go
+  b70f63884afcc8b7 246,261
+backend/internal/service/openai_live_attestation.go
+  b70f63884afcc8b7 1-110
+backend/internal/service/admin_group.go
+  b70f63884afcc8b7 473,484-486,784-786,820-822
+backend/internal/repository/integration_harness_test.go
+  b70f63884afcc8b7 143-151,153-156
+backend/internal/repository/usage_log_session_id_integration_test.go
+  b70f63884afcc8b7 1-71
+backend/internal/service/registration_email_alias.go
+  b70f63884afcc8b7 1-142
+frontend/src/components/admin/usage/UsageFilters.vue
+  b70f63884afcc8b7 266
+frontend/src/components/common/__tests__/AnnouncementPopup.spec.ts
+  b70f63884afcc8b7 1-129
+frontend/src/views/user/AffiliateView.vue
+  b70f63884afcc8b7 54-56,65-67
+backend/internal/service/admin_service_apikey_test.go
+  b70f63884afcc8b7 36-38,87
+frontend/src/views/admin/SettingsView.vue
+  b70f63884afcc8b7 4223-4259,7957
+backend/internal/service/auth_service.go
+  b70f63884afcc8b7 192-193,227,299-300,340-341
+backend/cmd/server/VERSION
+  b70f63884afcc8b7 1
+frontend/src/composables/useModelWhitelist.ts
+  b70f63884afcc8b7 35,271,365
+backend/internal/service/auth_service_register_test.go
+  b70f63884afcc8b7 368-391
+backend/internal/repository/usage_log_repo_request_type_test.go
+  b70f63884afcc8b7 99,189,831,906,964,1022
+backend/internal/service/batch_image.go
+  b70f63884afcc8b7 140,200
+backend/internal/service/batch_image_settlement.go
+  b70f63884afcc8b7 280
+backend/internal/service/openai_upstream_transport_error.go
+  b70f63884afcc8b7 127-131
+backend/internal/service/api_key_auth_cache_impl.go
+  b70f63884afcc8b7 17,412,499
+backend/internal/service/batch_image_processor_test.go
+  b70f63884afcc8b7 428
+backend/internal/service/batch_image_settlement_test.go
+  b70f63884afcc8b7 21,24-28,40
+backend/internal/service/openai_gateway_usage.go
+  b70f63884afcc8b7 32,59,94,339-340
+backend/internal/handler/dto/types.go
+  b70f63884afcc8b7 135-136,526-528
+frontend/package.json
+  b70f63884afcc8b7 65-66
+backend/internal/service/openai_gateway_grok_cache.go
+  b70f63884afcc8b7 128-132
+backend/internal/domain/constants.go
+  b70f63884afcc8b7 136
+deploy/config.example.yaml
+  b70f63884afcc8b7 296-298
+backend/ent/group/where.go
+  b70f63884afcc8b7 263-267,1993-2000
+backend/internal/handler/openai_gateway_handler.go
+  b70f63884afcc8b7 630,648,1143,1160,1869,1885,2893-2894,2951
+frontend/src/types/index.ts
+  b70f63884afcc8b7 554-555,747,798,1026,1028-1029,1521
+backend/internal/service/admin_group_duplicate.go
+  b70f63884afcc8b7 123
+backend/internal/service/openai_gateway_service.go
+  b70f63884afcc8b7 22,414-415,505-506
+frontend/src/components/common/AnnouncementBell.vue
+  b70f63884afcc8b7 325
+backend/ent/group_create.go
+  b70f63884afcc8b7 610-623,965-968,1122-1124,1358-1361,2252-2263,3233-3246,4399-4409
+backend/internal/service/openai_responses_namespace.go
+  b70f63884afcc8b7 10-11,31-43,67-113
+backend/internal/service/openai_oauth_passthrough_test.go
+  b70f63884afcc8b7 453-456,494-496
+backend/internal/repository/group_repo.go
+  b70f63884afcc8b7 93,259
+backend/ent/group/group.go
+  b70f63884afcc8b7 105-106,241,347-348,584-586
+backend/ent/schema/group.go
+  b70f63884afcc8b7 201-203
+backend/internal/repository/account_repo_ollama_cloud_usage_integration_test.go
+  b70f63884afcc8b7 26,32-33,38,42-61,67-68,75-94,99,101-110,115-117,120,124-203,205,208-218,534-640
+backend/internal/service/content_moderation_test.go
+  b70f63884afcc8b7 171-174,264-265
+backend/internal/handler/dto/mappers.go
+  b70f63884afcc8b7 207,673
+backend/internal/service/openai_upstream_transport_error_handle_test.go
+  b70f63884afcc8b7 213-277
+backend/internal/service/usage_log.go
+  b70f63884afcc8b7 22,27,51-52,74-75,77,173-176
+backend/internal/handler/openai_images_failover_test.go
+  b70f63884afcc8b7 15,21-22,160-163,181-189
+backend/internal/service/admin_service_group_test.go
+  b70f63884afcc8b7 960,970,982,999
+backend/internal/service/gemini_chat_completions_compat_service_test.go
+  b70f63884afcc8b7 1-163
+backend/internal/service/session_id.go
+  b70f63884afcc8b7 1-75
+backend/internal/server/routes/prompt_audit_route_coverage_test.go
+  b70f63884afcc8b7 37-38
+backend/internal/service/openai_account_runtime_block_fastpath.go
+  b70f63884afcc8b7 54-57,98-103
+backend/internal/service/batch_image_public.go
+  b70f63884afcc8b7 60,285
+backend/internal/service/openai_gateway_grok.go
+  b70f63884afcc8b7 666-672,1372
+backend/internal/service/gateway_forward.go
+  b70f63884afcc8b7 372-375
+backend/internal/handler/batch_image_handler.go
+  b70f63884afcc8b7 45-47
+frontend/src/views/admin/__tests__/SettingsView.spec.ts
+  b70f63884afcc8b7 53,651,1012,1020
+backend/internal/platform/liveattestation/attestation_unsupported_test.go
+  b70f63884afcc8b7 1-20
+backend/internal/server/middleware/admin_auth_test.go
+  b70f63884afcc8b7 134-137,215-216
+backend/internal/repository/concurrency_cache.go
+  b70f63884afcc8b7 32-35,40,66,76,88,99,111,118,127-180,393-404,634,658,680,685,687,691,701,711,735,795-845,861,866,868,872,882,968,974,977,982,994,1032,1038,1041,1046,1058
+frontend/src/views/user/UsageView.vue
+  b70f63884afcc8b7 379,599
+backend/internal/handler/admin/group_handler.go
+  b70f63884afcc8b7 16,29-38,139,198,515,634
+backend/internal/service/openai_gateway_grok_test.go
+  b70f63884afcc8b7 212-265,2532-2566
+frontend/src/api/__tests__/admin.accounts.ollamaCloudUsage.spec.ts
+  b70f63884afcc8b7 41
+backend/internal/service/openai_live_types.go
+  b70f63884afcc8b7 1-103
+backend/ent/migrate/schema.go
+  b70f63884afcc8b7 941
+backend/internal/service/openai_codex_transform.go
+  b70f63884afcc8b7 1497-1499
+backend/internal/service/billing_service.go
+  b70f63884afcc8b7 261-265,596-602
+backend/internal/handler/gemini_v1beta_handler.go
+  b70f63884afcc8b7 535,553
+frontend/src/utils/usageRequestType.ts
+  b70f63884afcc8b7 9,27
+backend/internal/service/bedrock_request.go
+  b70f63884afcc8b7 350-356
+backend/internal/service/gateway_anthropic_passthrough.go
+  b70f63884afcc8b7 117-119
+backend/internal/service/group.go
+  b70f63884afcc8b7 85
+backend/internal/service/openai_responses_rejected_field_retry_test.go
+  b70f63884afcc8b7 117-118,132-169,194-195,210-216,258-267
+backend/internal/handler/auth_oauth_pending_flow_test.go
+  b70f63884afcc8b7 2981-2991,3199-3210
+backend/internal/handler/gateway_handler.go
+  b70f63884afcc8b7 538,551,975,988
+backend/internal/handler/user_handler_test.go
+  b70f63884afcc8b7 29-31,103-105
+backend/internal/service/openai_live_lifecycle_test.go
+  b70f63884afcc8b7 1-469
+backend/internal/service/user_service.go
+  b70f63884afcc8b7 88-92,117-119
+frontend/src/api/admin/groups.ts
+  b70f63884afcc8b7 19-23,89-94,481
+frontend/src/i18n/locales/zh/admin/overview.ts
+  b70f63884afcc8b7 1096-1103
+backend/internal/service/admin_service_delete_test.go
+  b70f63884afcc8b7 16-33,52-62,168-172
+backend/internal/handler/openai_alpha_search.go
+  b70f63884afcc8b7 236,256
+backend/internal/handler/openai_chat_completions.go
+  b70f63884afcc8b7 343,359
+backend/internal/handler/gateway_handler_responses.go
+  b70f63884afcc8b7 279,294
+frontend/src/i18n/locales/en/admin/overview.ts
+  b70f63884afcc8b7 1098-1105
+frontend/src/views/admin/AnnouncementsView.vue
+  b70f63884afcc8b7 118-123,129,250-255,281,605-609
+backend/internal/handler/gateway_handler_chat_completions.go
+  b70f63884afcc8b7 301,316
+backend/ent/runtime/runtime.go
+  b70f63884afcc8b7 1144-1147,1149,1153,1157,1163,1167,1171,1175,1181
+backend/internal/repository/gateway_cache_live_test.go
+  b70f63884afcc8b7 1-62
+backend/internal/repository/user_repo.go
+  b70f63884afcc8b7 46-55,82-86,91,102-111,932-1013,1061-1068
+backend/ent/group_update.go
+  b70f63884afcc8b7 825-838,1512-1514,2647-2660,3364-3365
+backend/internal/service/openai_responses_item_id.go
+  b70f63884afcc8b7 1-78
+frontend/src/i18n/locales/en/admin/settings.ts
+  b70f63884afcc8b7 338,340-344
+frontend/src/utils/errorBadges.ts
+  b70f63884afcc8b7 18,21,31,48
+frontend/src/i18n/locales/zh/dashboard.ts
+  b70f63884afcc8b7 325
+frontend/src/views/user/__tests__/AffiliateView.spec.ts
+  b70f63884afcc8b7 1-116
+backend/internal/repository/account_repo_ollama_cloud_usage_test.go
+  b70f63884afcc8b7 193-194,196-198,201,214,217-231
+backend/internal/server/routes/admin.go
+  b70f63884afcc8b7 320
+backend/internal/service/ollama_cloud_usage.go
+  b70f63884afcc8b7 35-41,46-48,89-93,96-97,132-137,166,192-194,206-209,216-230,240-244,254-372,700,730-731,747-749,755,770,774-778,827-841
+backend/migrations/190_add_users_email_alias_dedup_index_notx.sql
+  b70f63884afcc8b7 1-8
+backend/internal/service/admin_service.go
+  b70f63884afcc8b7 255,316
+backend/internal/handler/openai_live_test.go
+  b70f63884afcc8b7 1-118
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "008b257046fcfaeed0c7849e29ab48138a058a93",
+  "prompts": {
+    "b70f63884afcc8b7": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f8f04-48d9-7581-b0b7-93553f22f82a",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 53082,
+      "total_deletions": 425,
+      "accepted_lines": 53057,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/1463f326cf54d0518ca9ff69433fcb5779420738f704a255fe786201f987d093"
+    }
+  }
+}

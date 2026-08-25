@@ -1,0 +1,24 @@
+backend/go.mod
+  f46925dfd5d9620e 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.3",
+  "base_commit_sha": "a582372915359ca68c004f681d80e072ed686168",
+  "prompts": {
+    "f46925dfd5d9620e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f2808-adbc-7202-be8f-8baedee6c555",
+        "model": "gpt-5.5"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 1,
+      "accepted_lines": 182821,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/150e304a861466575e2f13b9cf0a4d7cfb84094c073333b2a12fd15e0c39d86a"
+    }
+  }
+}

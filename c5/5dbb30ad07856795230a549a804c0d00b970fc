@@ -1,0 +1,24 @@
+frontend/src/components/admin/user/UserEditModal.vue
+  bbe2736d9ba27939 38-42,74,81,90-93
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.3",
+  "base_commit_sha": "c55dbb30ad07856795230a549a804c0d00b970fc",
+  "prompts": {
+    "bbe2736d9ba27939": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f2b6b-e712-7053-b076-0b00a3a61f19",
+        "model": "gpt-5.5"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 915,
+      "total_deletions": 9,
+      "accepted_lines": 15285,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/cbc2f35c344da45b34388e1c8ae71c94423f0cfddde5dc72df1a60ab739ed076"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+frontend/src/components/admin/account/__tests__/AccountBulkActionsBar.spec.ts
+  fe5d71b08768d21b 1-42
+frontend/src/i18n/locales/zh/admin/accounts.ts
+  fe5d71b08768d21b 415-416
+frontend/src/components/admin/account/AccountBulkActionsBar.vue
+  fe5d71b08768d21b 33,35-36
+frontend/src/i18n/locales/en/admin/accounts.ts
+  fe5d71b08768d21b 311-312
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "268a3f37427bfacceefba1db3a7f8bd135ddfe81",
+  "prompts": {
+    "fe5d71b08768d21b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f5ac5-6e59-7fd2-ba32-b0e4da119683",
+        "model": "gpt-5.5"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 49,
+      "total_deletions": 3,
+      "accepted_lines": 25395,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/dd3475b0543a3529f015177b5befb7ee096a8ded386f58895717342dbe87b7ae"
+    }
+  }
+}

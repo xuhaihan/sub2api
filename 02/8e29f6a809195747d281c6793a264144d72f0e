@@ -1,0 +1,28 @@
+backend/internal/service/openai_gateway_responses_client_tools_test.go
+  4a8e74befb3af5d0 216
+backend/internal/service/openai_deepseek_compact.go
+  4a8e74befb3af5d0 64,73
+backend/internal/service/openai_deepseek_compact_test.go
+  4a8e74befb3af5d0 213-224,242
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.3",
+  "base_commit_sha": "028e29f6a809195747d281c6793a264144d72f0e",
+  "prompts": {
+    "4a8e74befb3af5d0": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a02934-f47b-76c3-81aa-96b9817b7b06",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 16,
+      "total_deletions": 3,
+      "accepted_lines": 16,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/77a4d9dba50be338aa359b0fd102efb29bd986804b58477854fa56f2f2b274e4"
+    }
+  }
+}

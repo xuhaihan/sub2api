@@ -1,0 +1,51 @@
+deploy/update-egress-proxy-config.py
+  d28dc8ec92c3a561 9,299-301,304,316-392,395-538,540-555,719,1086-1088
+  8de21e274edd348e 71,788-790
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.9",
+  "base_commit_sha": "8eb73d5c80c4536e5a25bb05ad0ddea5f8efdb5d",
+  "prompts": {
+    "8de21e274edd348e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f4af6-90b3-7262-a99c-7c3954283505",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": null,
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 4,
+      "overriden_lines": 0
+    },
+    "d28dc8ec92c3a561": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f5ac5-a14a-7813-9515-619aea5c745d",
+        "model": "unknown"
+      },
+      "human_author": null,
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 246,
+      "overriden_lines": 0
+    },
+    "fe5d71b08768d21b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f5ac5-6e59-7fd2-ba32-b0e4da119683",
+        "model": "gpt-5.5"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 41719,
+      "total_deletions": 0,
+      "accepted_lines": 41919,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/2a8e90e2be1cd33d49eb78229d49c34293bb23dc4b3498904dc80a19f4480074"
+    }
+  }
+}

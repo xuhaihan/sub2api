@@ -1,0 +1,28 @@
+Makefile
+  f46925dfd5d9620e 1,26-28
+deploy/build-ccloud-tar.sh
+  f46925dfd5d9620e 1-14,16-40,42-43,45-66
+backend/internal/web/dist/.keep
+  f46925dfd5d9620e 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.3",
+  "base_commit_sha": "f854da2c97bd1133b904a126c1e05cf0b087276d",
+  "prompts": {
+    "f46925dfd5d9620e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f2808-adbc-7202-be8f-8baedee6c555",
+        "model": "gpt-5.5"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 82,
+      "total_deletions": 4,
+      "accepted_lines": 69,
+      "overriden_lines": 2,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/b13e4373b9bb038383cdd2cb864317a24b93b883c28f2898a2f17492771c4005"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+frontend/src/views/admin/GroupsView.vue
+  3c43fcb662e980b9 1617,1619,1658-1664,3345,3347,3386-3391,4476,6661,6711,6763
+frontend/src/views/admin/__tests__/groupsMessagesDispatch.spec.ts
+  3c43fcb662e980b9 8,12-17
+backend/internal/handler/openai_gateway_handler.go
+  3c43fcb662e980b9 226,231-232
+backend/internal/service/openai_gateway_responses_client_tools_test.go
+  3c43fcb662e980b9 111,141,146,153-229
+frontend/src/api/__tests__/tokenRefresh.spec.ts
+  3c43fcb662e980b9 94-110
+backend/internal/server/routes/gateway_test.go
+  3c43fcb662e980b9 348-359
+frontend/src/views/admin/groupsMessagesDispatch.ts
+  3c43fcb662e980b9 16-19
+backend/internal/server/routes/gateway.go
+  3c43fcb662e980b9 98-101
+backend/internal/service/account_test_service_cn_adaptive_test.go
+  3c43fcb662e980b9 217-304
+frontend/src/components/account/CNProviderBalanceCell.vue
+  3c43fcb662e980b9 3-25,29-30,32,49
+backend/internal/service/account_test_service.go
+  3c43fcb662e980b9 296-297
+frontend/src/i18n/locales/zh/admin/accounts.ts
+  3c43fcb662e980b9 338,340
+frontend/src/i18n/locales/en/admin/accounts.ts
+  3c43fcb662e980b9 135,137
+frontend/src/components/account/__tests__/CNProviderBalanceCell.spec.ts
+  3c43fcb662e980b9 22,33-43,60,81,90-127
+backend/internal/service/openai_images_test.go
+  3c43fcb662e980b9 596-656
+frontend/src/views/HomeView.vue
+  3c43fcb662e980b9 43-51,144-154,503,518,534-539
+backend/internal/service/openai_messages_dispatch.go
+  3c43fcb662e980b9 119-121
+backend/internal/handler/openai_gateway_cn_dispatch_test.go
+  3c43fcb662e980b9 4,6-7,37,40,47,51-52,54-55
+backend/internal/service/openai_messages_dispatch_test.go
+  3c43fcb662e980b9 72-93
+backend/internal/service/openai_gateway_response_handling.go
+  3c43fcb662e980b9 1625-1628,1722-1724
+backend/internal/service/openai_content_session_seed.go
+  3c43fcb662e980b9 21-23,121,126-130,133,141-142
+backend/internal/service/openai_content_session_seed_test.go
+  3c43fcb662e980b9 47-105,332,345,350,381,386-390,393,401-402
+frontend/src/components/account/__tests__/CNProviderQuotaCell.spec.ts
+  3c43fcb662e980b9 76-94
+frontend/src/components/account/CNProviderQuotaCell.vue
+  3c43fcb662e980b9 7,41-69
+backend/internal/service/account_test_service_cn_adaptive.go
+  3c43fcb662e980b9 10,211-312
+frontend/src/views/__tests__/HomeView.compact.spec.ts
+  3c43fcb662e980b9 28-31,62-68,133-182
+backend/internal/service/account.go
+  3c43fcb662e980b9 1909-1911,1914-1916,1923-1925,1930-1932,1940-1942
+backend/internal/service/openai_gateway_forward.go
+  3c43fcb662e980b9 126-137,1087-1093
+backend/internal/service/openai_gateway_passthrough.go
+  3c43fcb662e980b9 106-116,128-136,243,2132-2134
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.3",
+  "base_commit_sha": "a3c2f58f95a38f050bf73f01690ee548f05299a6",
+  "prompts": {
+    "3c43fcb662e980b9": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a02454-514e-7593-a7bc-95e6a3ab392b",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 12833,
+      "total_deletions": 203,
+      "accepted_lines": 12240,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/9ec2172c0697a16f044fd783f61744aa5eef7b9b4a0ec28cf7079374d39a35fe"
+    }
+  }
+}
