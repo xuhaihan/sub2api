@@ -1,0 +1,28 @@
+backend/internal/service/openai_gateway_service_test.go
+  a88e2009eb623eea 394,420-442
+backend/internal/service/openai_ws_forwarder_logutil.go
+  a88e2009eb623eea 68-71
+backend/internal/service/openai_gateway_scheduling.go
+  a88e2009eb623eea 31,149
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "8a12a40a43cf7bbae7be49970604de5573939f1b",
+  "prompts": {
+    "a88e2009eb623eea": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a02fb3-ef9c-73d1-a9fd-a98c51f05c81",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 30,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/679d2d6e956711eac1e6e79c97dab6ce580dfa8808d27e22bca6e48955e51cab"
+    }
+  }
+}
