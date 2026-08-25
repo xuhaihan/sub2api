@@ -1,0 +1,24 @@
+backend/internal/service/openai_gateway_request_body_reasoning_test.go
+  b441e70ede83447f 338,348
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "1884f6550c7ea630960dfea662e8f4e89bdc835e",
+  "prompts": {
+    "b441e70ede83447f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0318a-6b24-7e12-af12-4f6839f2f683",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 1005,
+      "total_deletions": 3,
+      "accepted_lines": 1005,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/3f0943d9d4fa16ec51662fe4c29247f8887e94d336de37a3f5a8db214ad22966"
+    }
+  }
+}
