@@ -1,0 +1,144 @@
+backend/internal/service/openai_codex_model_metadata.go
+  8381e3e4eeaacd07 1-313
+backend/internal/pkg/xai/models_test.go
+  8381e3e4eeaacd07 61-70
+backend/internal/service/gateway_hotpath_optimization_test.go
+  8381e3e4eeaacd07 567-606
+backend/internal/service/openai_gateway_cc_pipeline.go
+  8381e3e4eeaacd07 189-192
+backend/internal/server/routes/gateway_codex_models_test.go
+  8381e3e4eeaacd07 5,8-10,29-63
+frontend/src/components/account/__tests__/ModelWhitelistSelector.spec.ts
+  8381e3e4eeaacd07 4-20,34-37,41-47,56,60-61,86-91,120-185
+backend/internal/handler/openai_codex_models_handler_test.go
+  8381e3e4eeaacd07 5,20,48-55,129-358,391-407,441,555,559-562,567-569,571-572,579-625
+frontend/src/api/__tests__/codex.spec.ts
+  8381e3e4eeaacd07 1-79
+frontend/src/i18n/locales/zh/admin/accounts.ts
+  8381e3e4eeaacd07 824
+frontend/src/components/account/CreateAccountModal.vue
+  8381e3e4eeaacd07 1408-1413,1895-1900,2236-2241,4099-4103,4108-4109,4126,4613,5005-5021,5162
+backend/internal/handler/admin/account_handler.go
+  8381e3e4eeaacd07 2777,2784-2785,2798,2805-2809,2815-2818,2824-2826,2835,2842-2843,2856
+backend/internal/service/openai_images_tool_cooldown_test.go
+  8381e3e4eeaacd07 1-177
+backend/internal/service/gateway_service.go
+  8381e3e4eeaacd07 74-76,532-535,866-868,1458-1510,1543,1572-1588
+backend/internal/service/openai_images_responses.go
+  8381e3e4eeaacd07 40-46,338-357,741-744,1809,1957-1976,2072-2074
+backend/internal/handler/endpoint_test.go
+  8381e3e4eeaacd07 187-196
+backend/internal/service/ratelimit_service.go
+  8381e3e4eeaacd07 78-79,2203-2238
+backend/internal/service/ratelimit_service_openai_image_test.go
+  8381e3e4eeaacd07 123-127,168-217,225-340
+backend/internal/service/upstream_models.go
+  8381e3e4eeaacd07 6,9,11,14,21-127,138-139,144-147,187-192,194-568,570,573,577-578,582,587,593,600,603,607-612,621,624,627,1077,1084-1099,1108-1267,1323,1333
+frontend/src/i18n/locales/en/dashboard.ts
+  8381e3e4eeaacd07 191-216
+backend/internal/service/openai_codex_models_service_test.go
+  8381e3e4eeaacd07 6,32-1190,1286-1314,1599,1656-1697,1722-1725,1730-1939,2011-2026,2359-2429,2486-2489,2513-2518,2529-2530,2535-2536,2989,3001-3008,3011,3017-3026
+backend/internal/pkg/claude/effort_catalog_test.go
+  8381e3e4eeaacd07 1-29
+backend/internal/service/composite_route_resolver_test.go
+  8381e3e4eeaacd07 5,73-162
+backend/internal/handler/endpoint.go
+  8381e3e4eeaacd07 315-322
+backend/internal/service/openai_account_runtime_block_fastpath.go
+  8381e3e4eeaacd07 136-146
+backend/internal/service/openai_gateway_messages.go
+  8381e3e4eeaacd07 37-40
+frontend/src/api/admin/accounts.ts
+  8381e3e4eeaacd07 544-562,580
+backend/internal/service/composite_route_resolver.go
+  8381e3e4eeaacd07 11-12,19-24,61-85
+backend/internal/server/routes/gateway.go
+  8381e3e4eeaacd07 68-70,73-74,380,507-512
+backend/internal/service/openai_ws_forwarder_success_test.go
+  8381e3e4eeaacd07 807-873
+frontend/src/components/account/ModelWhitelistSelector.vue
+  8381e3e4eeaacd07 175,316-319,330-333
+backend/internal/handler/admin/account_handler_available_models_test.go
+  8381e3e4eeaacd07 41-43,50-54,77,357-449,480-527
+backend/internal/service/composite_platform_test.go
+  8381e3e4eeaacd07 11-154
+frontend/src/components/keys/UseKeyModal.vue
+  8381e3e4eeaacd07 175-233,260,264,266-271,309-331,358-365,454,461,471-477,481,516-522,541-548,555-561,593-600,608-667,735-737,740-742,755-764,766-768,934-936,939-942,987-990,1139,1165-1166,1168,1202-1266,1270-1271,1275-1278
+frontend/src/utils/__tests__/codexCatalogConfig.spec.ts
+  8381e3e4eeaacd07 1-59
+frontend/src/i18n/locales/en/admin/accounts.ts
+  8381e3e4eeaacd07 748-749
+backend/internal/service/gateway_scheduling.go
+  8381e3e4eeaacd07 2535-2539
+backend/internal/service/openai_codex_models_service.go
+  8381e3e4eeaacd07 19,22-23,38,41-94,97-1222,1238-1244,1252-1259,1385-1388,1451,1697,1716,1718-1720,1734-1749,1764-1769,1784-1789,1853-1854,1875,1881,1883,1886,1893-2184,2225-2238,2246,2271-2274
+backend/internal/service/openai_gateway_forward.go
+  8381e3e4eeaacd07 23-31
+frontend/src/components/account/__tests__/CreateAccountModal.spec.ts
+  8381e3e4eeaacd07 8-9,16-17,27,44,128-133,202-203,250-312
+backend/internal/service/openai_gateway_service.go
+  8381e3e4eeaacd07 322-331
+backend/internal/service/openai_gateway_request_body_reasoning_test.go
+  8381e3e4eeaacd07 274-333
+backend/internal/service/composite_model_route.go
+  8381e3e4eeaacd07 26,28-37
+backend/internal/service/openai_gateway_responses_chat_fallback_test.go
+  8381e3e4eeaacd07 43,49,61-88
+backend/internal/pkg/xai/models.go
+  8381e3e4eeaacd07 254-277
+backend/internal/service/upstream_models_test.go
+  8381e3e4eeaacd07 5,17-38,420-795
+backend/internal/service/openai_ws_http_bridge.go
+  8381e3e4eeaacd07 119,130,415,1090
+frontend/src/components/account/EditAccountModal.vue
+  8381e3e4eeaacd07 4150-4153
+frontend/src/utils/codexCatalogConfig.ts
+  8381e3e4eeaacd07 1-63
+frontend/src/components/keys/__tests__/UseKeyModal.spec.ts
+  8381e3e4eeaacd07 1-2,5-7,22-25,28-36,38-41,320,616-844
+backend/internal/service/openai_ws_http_bridge_test.go
+  8381e3e4eeaacd07 34,43,47-60
+backend/internal/handler/openai_codex_models_handler.go
+  8381e3e4eeaacd07 18-20,35-52,77-79,93-94,97-99,101,104-116,119
+backend/internal/service/openai_gateway_request_body.go
+  8381e3e4eeaacd07 67-129
+backend/internal/service/gateway_multiplatform_test.go
+  8381e3e4eeaacd07 398-452
+frontend/src/api/codex.ts
+  8381e3e4eeaacd07 1-56
+backend/internal/handler/gateway_handler.go
+  8381e3e4eeaacd07 1143-1215,1416-1423,1427-1435,1454
+backend/internal/service/account_test_service.go
+  8381e3e4eeaacd07 150-152
+frontend/src/i18n/locales/zh/dashboard.ts
+  8381e3e4eeaacd07 195-220
+backend/internal/service/openai_gateway_chat_completions.go
+  8381e3e4eeaacd07 63-66
+backend/internal/handler/gateway_models_test.go
+  8381e3e4eeaacd07 28-43,71-74,93-333,457-512,777-857
+backend/internal/pkg/claude/effort_catalog.go
+  8381e3e4eeaacd07 1-69
+backend/internal/service/openai_codex_model_metadata_test.go
+  8381e3e4eeaacd07 1-385
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "3cb4365a9d4728153c130e3739b59df94e0c1bb6",
+  "prompts": {
+    "8381e3e4eeaacd07": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a02d3b-87e7-7051-a4c6-5413230b79af",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 11869,
+      "total_deletions": 198,
+      "accepted_lines": 10950,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/3b17d101c01a2547d0337e7de9eb268bff4f138d560ac43c6cde4d02b07905d1"
+    }
+  }
+}
