@@ -1,0 +1,30 @@
+backend/internal/service/model_plaza_service_test.go
+  8381e3e4eeaacd07 24,28,30-35,40-51,54-55,266-338
+backend/internal/service/upstream_model_catalog_sync_service.go
+  8381e3e4eeaacd07 131,138,141-153,156-159,191-200
+backend/internal/service/upstream_model_catalog_sync_service_test.go
+  8381e3e4eeaacd07 19,48-72,86,107-140
+backend/internal/service/model_plaza_service.go
+  8381e3e4eeaacd07 84-85,224,230-240,329-422
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "a5484c5ad26bc9271316e0d0c6ec987ddd8495ce",
+  "prompts": {
+    "8381e3e4eeaacd07": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a02d3b-87e7-7051-a4c6-5413230b79af",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 306,
+      "total_deletions": 20,
+      "accepted_lines": 46927,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/24d81c884eb653eed8fd77c40307fcae7b64cc51c2767e7537e09f67df527d25"
+    }
+  }
+}
