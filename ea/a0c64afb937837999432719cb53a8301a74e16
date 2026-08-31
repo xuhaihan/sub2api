@@ -1,0 +1,66 @@
+backend/internal/service/upstream_model_catalog_sync_service_test.go
+  8381e3e4eeaacd07 1-82
+frontend/src/api/modelPlaza.ts
+  8381e3e4eeaacd07 52-57,90-95
+backend/internal/service/upstream_models.go
+  8381e3e4eeaacd07 26,48-57,130-162,244-245,291-292,298,301-303,305-320,322-324
+backend/internal/service/pricing_service.go
+  8381e3e4eeaacd07 167-174,289-290,333,352,419,421,553-558,1106,1111-1157
+frontend/src/components/modelPlaza/__tests__/PlazaModelPricingTable.spec.ts
+  8381e3e4eeaacd07 133-142
+backend/internal/service/pricing_service_test.go
+  8381e3e4eeaacd07 722-742
+frontend/src/i18n/locales/zh/dashboard.ts
+  8381e3e4eeaacd07 612-616,660-662
+frontend/src/components/modelPlaza/PlazaModelPricingTable.vue
+  8381e3e4eeaacd07 69-75
+backend/internal/service/upstream_model_catalog_sync_service.go
+  8381e3e4eeaacd07 1-82,84-88,90-110,116-181
+backend/internal/service/model_plaza_service_test.go
+  8381e3e4eeaacd07 19-39,201-281,420,428,445
+backend/cmd/server/wire_gen_test.go
+  8381e3e4eeaacd07 71
+backend/internal/service/model_plaza_service.go
+  8381e3e4eeaacd07 6,9,30-37,77,83-86,91,99,164-180,182-196,207,211-232,273-276,292-376
+backend/cmd/server/wire_gen.go
+  8381e3e4eeaacd07 307-308,342,352,407,580-581
+backend/cmd/server/wire.go
+  8381e3e4eeaacd07 102,276-277
+frontend/src/i18n/locales/en/dashboard.ts
+  8381e3e4eeaacd07 607-611,656-658
+backend/internal/repository/account_repo.go
+  8381e3e4eeaacd07 70
+backend/internal/service/upstream_models_test.go
+  8381e3e4eeaacd07 768-770,797-799
+backend/internal/repository/account_repo_upstream_model_catalog_test.go
+  8381e3e4eeaacd07 1-19
+frontend/src/components/modelPlaza/ModelPlazaContent.vue
+  8381e3e4eeaacd07 16-39,125-130
+backend/internal/handler/model_plaza_handler_test.go
+  8381e3e4eeaacd07 10,94-98,134-136,159-175
+backend/internal/handler/model_plaza_handler.go
+  8381e3e4eeaacd07 5,72-74,106-115,169-171,209-211,239-249
+backend/internal/service/wire.go
+  8381e3e4eeaacd07 45-48,882-883
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "eaa0c64afb937837999432719cb53a8301a74e16",
+  "prompts": {
+    "8381e3e4eeaacd07": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a02d3b-87e7-7051-a4c6-5413230b79af",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 874,
+      "total_deletions": 82,
+      "accepted_lines": 47476,
+      "overriden_lines": 4,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/1eceb6d570e8a49f24777c74c20487c272573ce1f90fac2462b647d28f64c309"
+    }
+  }
+}
