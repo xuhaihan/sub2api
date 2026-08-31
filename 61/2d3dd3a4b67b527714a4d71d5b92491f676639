@@ -1,0 +1,40 @@
+backend/internal/service/model_plaza_service.go
+  8381e3e4eeaacd07 50-57,250,275-277,286-323
+frontend/src/components/modelPlaza/PlazaGroupSection.vue
+  8381e3e4eeaacd07 19-20,22-28,46-50
+backend/internal/handler/model_plaza_handler.go
+  8381e3e4eeaacd07 87,187-190,226,239-242
+frontend/src/i18n/locales/zh/dashboard.ts
+  8381e3e4eeaacd07 627-628,630
+frontend/src/i18n/locales/en/dashboard.ts
+  8381e3e4eeaacd07 622-623,625-626
+backend/internal/service/model_plaza_service_test.go
+  8381e3e4eeaacd07 333-366
+backend/internal/handler/model_plaza_handler_test.go
+  8381e3e4eeaacd07 77-89,172-181
+frontend/src/components/modelPlaza/__tests__/PlazaGroupSection.spec.ts
+  8381e3e4eeaacd07 140-156
+frontend/src/api/modelPlaza.ts
+  8381e3e4eeaacd07 69-70
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "612d3dd3a4b67b527714a4d71d5b92491f676639",
+  "prompts": {
+    "8381e3e4eeaacd07": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a02d3b-87e7-7051-a4c6-5413230b79af",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 122,
+      "total_deletions": 17,
+      "accepted_lines": 122,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/e83a508e31f8427c41d25f6401a999bd5484e861eba5d7767e7006d2d026563c"
+    }
+  }
+}
