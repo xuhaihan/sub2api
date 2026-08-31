@@ -1,0 +1,66 @@
+backend/internal/service/openai_gateway_response_handling.go
+  8381e3e4eeaacd07 122,267,287,309,314,666,669,708,725,733
+backend/internal/handler/admin/setting_handler.go
+  8381e3e4eeaacd07 291
+frontend/src/i18n/locales/zh/admin/settings.ts
+  8381e3e4eeaacd07 469-472
+backend/internal/server/api_contract_test.go
+  8381e3e4eeaacd07 925,1240
+frontend/src/api/admin/settings.ts
+  8381e3e4eeaacd07 623,939
+backend/internal/service/domain_constants.go
+  8381e3e4eeaacd07 625-628
+backend/internal/handler/admin/setting_handler_update.go
+  8381e3e4eeaacd07 246,1687-1691
+backend/internal/service/setting_update.go
+  8381e3e4eeaacd07 463-467,705
+backend/internal/pkg/apicompat/anthropic_to_responses_response.go
+  8381e3e4eeaacd07 307-314,316,332-334,336,543,545-551,555,561
+backend/internal/service/setting_gateway_runtime.go
+  8381e3e4eeaacd07 56,740,750,767,783,797,807,809,832,845,863-865
+frontend/src/views/admin/SettingsView.vue
+  8381e3e4eeaacd07 5271-5296,9764,11338-11339
+backend/cmd/server/VERSION
+  8381e3e4eeaacd07 1
+backend/internal/handler/dto/settings.go
+  8381e3e4eeaacd07 204
+backend/internal/service/openai_visible_ttft_test.go
+  8381e3e4eeaacd07 51,66,108-123,126-133
+backend/internal/service/openai_first_output_timeout_test.go
+  8381e3e4eeaacd07 406-415
+frontend/src/views/admin/__tests__/SettingsView.spec.ts
+  8381e3e4eeaacd07 467,1367-1385
+backend/internal/service/openai_gateway_passthrough.go
+  8381e3e4eeaacd07 1287-1327,1905,2197
+backend/internal/pkg/apicompat/anthropic_to_responses_stream_test.go
+  8381e3e4eeaacd07 508-716
+backend/internal/service/settings_view.go
+  8381e3e4eeaacd07 231
+frontend/src/i18n/locales/en/admin/settings.ts
+  8381e3e4eeaacd07 476-479
+backend/internal/handler/admin/setting_handler_audit.go
+  8381e3e4eeaacd07 455-457
+backend/internal/service/setting_parse.go
+  8381e3e4eeaacd07 849,983-987
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "294f6ee74d62a03bf76c1177fe9e4081141dd07e",
+  "prompts": {
+    "8381e3e4eeaacd07": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a02d3b-87e7-7051-a4c6-5413230b79af",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 431,
+      "total_deletions": 16,
+      "accepted_lines": 47056,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/1a6fb521148c14f0e79dd2baf4583510843f9cbd3264c4a5abb4ff650b6990ed"
+    }
+  }
+}
