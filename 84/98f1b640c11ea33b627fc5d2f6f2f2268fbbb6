@@ -1,0 +1,268 @@
+backend/internal/server/routes/admin.go
+  8381e3e4eeaacd07 577-579
+backend/internal/service/ollama_cloud_usage_test.go
+  8381e3e4eeaacd07 470-477,498-504
+backend/internal/service/openai_images_responses.go
+  8381e3e4eeaacd07 1953-1954,1983-1992
+frontend/src/components/account/CreateAccountModal.vue
+  8381e3e4eeaacd07 2961-2964,3829-3833,3865
+frontend/src/components/account/UsageProgressBar.vue
+  8381e3e4eeaacd07 30-31,63-76,114-121,132,134,151,153
+backend/internal/service/service_tier_billing.go
+  8381e3e4eeaacd07 61-88,92
+frontend/src/components/account/__tests__/AccountUsageCell.spec.ts
+  8381e3e4eeaacd07 57-90,156-240
+frontend/src/utils/__tests__/formatDateTimeLocalInput.spec.ts
+  8381e3e4eeaacd07 1-46
+backend/internal/service/openai_gateway_responses_chat_fallback_test.go
+  8381e3e4eeaacd07 26,36,58-60
+backend/cmd/server/wire_gen.go
+  8381e3e4eeaacd07 181
+frontend/src/views/admin/__tests__/UsageView.spec.ts
+  8381e3e4eeaacd07 274-338,739,744-747
+backend/internal/handler/admin/usage_handler.go
+  8381e3e4eeaacd07 135-140,201,286-291,360
+backend/internal/handler/admin/dashboard_handler.go
+  8381e3e4eeaacd07 265-270,276,357-362,368,439-444,450,719-725
+backend/internal/handler/admin/usage_query_cache.go
+  8381e3e4eeaacd07 24,49
+backend/internal/service/openai_fast_policy_ws_test.go
+  8381e3e4eeaacd07 909-910,933-934,936,1033,1041
+backend/internal/service/openai_fast_service_tier_test.go
+  8381e3e4eeaacd07 552,555,594-595,601,641-642,647,688-689,785,793-794,807,814-815,828,834
+backend/internal/service/openai_ws_session_preemption.go
+  8381e3e4eeaacd07 59-62
+frontend/src/components/admin/usage/__tests__/UsageTable.spec.ts
+  8381e3e4eeaacd07 57-59,175-222
+backend/internal/pkg/usagestats/usage_log_types.go
+  8381e3e4eeaacd07 189-195,282
+backend/internal/repository/channel_monitor_v2_repo.go
+  8381e3e4eeaacd07 118-124,221-223,288-290,369-371,389,522,600-607,609-618,625-627,629-637,771,1175
+backend/internal/repository/usage_log_repo.go
+  8381e3e4eeaacd07 202-222
+backend/internal/service/cn_provider_balance_check_service.go
+  8381e3e4eeaacd07 116-122
+backend/internal/service/openai_gateway_grok_model_input.go
+  8381e3e4eeaacd07 41,45-46,56-58,61-62,64-65,68-69,151,164-333
+backend/internal/service/openai_gateway_record_usage_test.go
+  8381e3e4eeaacd07 2869-2892,2901-2902,2915,2978,2991-3073,3091
+backend/internal/service/service_tier_billing_test.go
+  8381e3e4eeaacd07 38-43,47,56,62,66-116,125
+frontend/src/api/usage.ts
+  8381e3e4eeaacd07 67,289
+backend/internal/repository/account_repo_temp_unsched_test.go
+  8381e3e4eeaacd07 29-38
+backend/internal/handler/usage_handler.go
+  8381e3e4eeaacd07 129-138,208-219
+backend/internal/service/openai_compact_body_signal.go
+  8381e3e4eeaacd07 73-79
+frontend/src/components/account/__tests__/UsageProgressBar.spec.ts
+  8381e3e4eeaacd07 149-205
+backend/internal/repository/proxy_repo.go
+  8381e3e4eeaacd07 236
+backend/internal/repository/usage_log_repo_trend.go
+  8381e3e4eeaacd07 268,273,277,280-281,324,355,368-369,434,440,444,447,494,527,531,534,572,670
+backend/internal/repository/account_repo_ollama_cloud_usage_integration_test.go
+  8381e3e4eeaacd07 387-478
+backend/internal/handler/admin/setting_handler_runtime.go
+  8381e3e4eeaacd07 157-183
+backend/internal/repository/account_repo_ollama_cloud_usage.go
+  8381e3e4eeaacd07 18-23
+backend/internal/service/account_service_delete_test.go
+  8381e3e4eeaacd07 218
+backend/internal/service/admin_service_group_test.go
+  8381e3e4eeaacd07 606-641
+backend/internal/handler/openai_gateway_handler.go
+  8381e3e4eeaacd07 781,3689,3757
+backend/internal/service/openai_ws_http_bridge_test.go
+  8381e3e4eeaacd07 63,68-69,99-100,103,106-107,136-137,936-972,1918-1919,1922,1932-1940,1943,1949,1951,1954-1965,1997,2037-2048,2051-2053
+backend/internal/service/openai_gateway_usage.go
+  8381e3e4eeaacd07 42-45,70,108,152-155,159,352
+backend/internal/service/openai_gateway_service.go
+  8381e3e4eeaacd07 256-258
+frontend/src/components/admin/usage/__tests__/UsageFilters.spec.ts
+  8381e3e4eeaacd07 22-24,83,266-305
+frontend/src/views/admin/UsageView.vue
+  8381e3e4eeaacd07 249,301,455,506,547
+backend/internal/repository/account_repo_integration_test.go
+  8381e3e4eeaacd07 959-1005
+backend/internal/handler/dto/mappers_usage_test.go
+  8381e3e4eeaacd07 31-51
+backend/internal/repository/proxy_repo_upstream_billing_probe_test.go
+  8381e3e4eeaacd07 36,79
+backend/internal/handler/admin/group_handler.go
+  8381e3e4eeaacd07 84-85
+backend/internal/handler/admin/group_handler_limit_test.go
+  8381e3e4eeaacd07 1-33
+backend/internal/repository/account_repo_ollama_cloud_usage_test.go
+  8381e3e4eeaacd07 7,182,210,254,319-380
+backend/internal/service/openai_ws_v2_passthrough_adapter.go
+  8381e3e4eeaacd07 807-810
+backend/internal/service/openai_gateway_messages_chat_fallback.go
+  8381e3e4eeaacd07 155-164,216-227,252-263
+backend/internal/service/admin_group.go
+  8381e3e4eeaacd07 683-692
+backend/internal/repository/usage_log_repo_insert.go
+  8381e3e4eeaacd07 86,286,294,745,839,902,1005,1094,1157,1228,1236,1357
+backend/internal/service/openai_compact_body_signal_test.go
+  8381e3e4eeaacd07 8,13-20
+backend/internal/repository/usage_log_repo_query.go
+  8381e3e4eeaacd07 22,125,503,568,601
+backend/internal/service/setting_features.go
+  8381e3e4eeaacd07 767-800
+frontend/src/components/admin/usage/UsageFilters.vue
+  8381e3e4eeaacd07 130-135,283-285
+frontend/src/components/admin/usage/__tests__/UsageStatsCards.spec.ts
+  8381e3e4eeaacd07 67-88
+frontend/src/components/common/MonitorQuotaView.vue
+  8381e3e4eeaacd07 10,12-22,46,50-53,61-62,67,104-106,112
+backend/internal/service/admin_service_reset_quota_test.go
+  8381e3e4eeaacd07 1-95
+frontend/src/components/admin/usage/UsageStatsCards.vue
+  8381e3e4eeaacd07 39
+frontend/src/views/user/UsageView.vue
+  8381e3e4eeaacd07 114-117,364,390-393,565
+backend/internal/handler/channel_monitor_v2_handler.go
+  8381e3e4eeaacd07 4,17-18,21-26,77-80,87,107-109,123-125,144-146,160-164,182-184,193-216
+backend/internal/service/ratelimit_session_window_test.go
+  8381e3e4eeaacd07 167-169
+backend/internal/service/gemini_multiplatform_test.go
+  8381e3e4eeaacd07 192
+backend/internal/repository/usage_log_repo_request_type_test.go
+  8381e3e4eeaacd07 103,197,263-286,409-428,506-573,959,1038,1100,1109,1163
+backend/internal/service/openai_ws_forwarder_ingress.go
+  8381e3e4eeaacd07 139-142
+backend/internal/service/settings_view.go
+  8381e3e4eeaacd07 568-577,611-612
+frontend/src/api/admin/dashboard.ts
+  8381e3e4eeaacd07 58,91,121,184
+frontend/src/i18n/locales/en/admin/accounts.ts
+  8381e3e4eeaacd07 149-150,948
+backend/internal/repository/account_repo.go
+  8381e3e4eeaacd07 629-630,817,2938,3766-3769,3773-3774,3780-3786,3791
+frontend/src/components/account/AccountUsageCell.vue
+  8381e3e4eeaacd07 434-443
+backend/internal/handler/usage_handler_request_type_test.go
+  8381e3e4eeaacd07 134-159,218,249
+backend/internal/handler/dto/settings.go
+  8381e3e4eeaacd07 451-454
+backend/internal/service/openai_ws_session_preemption_test.go
+  8381e3e4eeaacd07 14,155-205
+frontend/src/utils/format.ts
+  8381e3e4eeaacd07 204-260
+backend/internal/handler/admin/dashboard_handler_request_type_test.go
+  8381e3e4eeaacd07 18-30,41,69,79,217-256
+backend/internal/repository/migrations_schema_integration_test.go
+  8381e3e4eeaacd07 72-73
+backend/internal/service/openai_gateway_responses_chat_fallback.go
+  8381e3e4eeaacd07 195-196,332-342,463-474
+backend/internal/repository/usage_log_session_id_unit_test.go
+  8381e3e4eeaacd07 33,41-42,48,50-51,58,65
+backend/internal/service/usage_log.go
+  8381e3e4eeaacd07 176-184
+backend/internal/handler/admin/dashboard_snapshot_v2_handler.go
+  8381e3e4eeaacd07 47,63,110,192,214,235,305-310
+frontend/src/i18n/locales/zh/admin/accounts.ts
+  8381e3e4eeaacd07 352-353,1019
+frontend/src/components/account/CNProviderQuotaCell.vue
+  8381e3e4eeaacd07 7-8,10,14-18,69
+backend/internal/service/openai_gateway_grok_test.go
+  8381e3e4eeaacd07 147-187
+backend/internal/handler/admin/dashboard_query_cache.go
+  8381e3e4eeaacd07 31,46,90,105,112,130,144,151,168,181,188
+frontend/src/components/account/EditAccountModal.vue
+  8381e3e4eeaacd07 1617-1620,2924-2929,2967
+backend/internal/handler/channel_monitor_v2_handler_test.go
+  8381e3e4eeaacd07 4,9,15-25,45,49-86
+frontend/src/components/account/__tests__/CNProviderQuotaCell.spec.ts
+  8381e3e4eeaacd07 4,17-27,48,61,63-64,66-70,72-84
+frontend/src/i18n/locales/en/dashboard.ts
+  8381e3e4eeaacd07 359-362
+backend/internal/service/admin_account.go
+  8381e3e4eeaacd07 1588
+frontend/src/i18n/locales/zh/admin/resources.ts
+  8381e3e4eeaacd07 323-324
+frontend/src/components/admin/usage/UsageTable.vue
+  8381e3e4eeaacd07 128-139
+backend/internal/service/account_service.go
+  8381e3e4eeaacd07 118-120
+frontend/src/i18n/locales/zh/dashboard.ts
+  8381e3e4eeaacd07 364-367
+frontend/src/components/common/__tests__/MonitorQuotaView.spec.ts
+  8381e3e4eeaacd07 45,47,62-64
+frontend/src/types/index.ts
+  8381e3e4eeaacd07 1683,2131
+frontend/src/views/user/__tests__/UsageView.spec.ts
+  8381e3e4eeaacd07 56-58,131,214-257,261,286
+backend/internal/service/openai_ws_forwarder_v2_test.go
+  8381e3e4eeaacd07 15-17,90-91
+backend/internal/handler/dto/types.go
+  8381e3e4eeaacd07 525-529
+backend/migrations/231_add_usage_log_native_compaction_v2.sql
+  8381e3e4eeaacd07 1-5
+backend/internal/service/openai_gateway_grok_model_input_test.go
+  8381e3e4eeaacd07 115-169
+backend/internal/service/openai_ws_forwarder_ingress_session_test.go
+  8381e3e4eeaacd07 1121-1255
+backend/internal/repository/usage_log_repo_stats.go
+  8381e3e4eeaacd07 680
+backend/internal/service/ollama_cloud_usage.go
+  8381e3e4eeaacd07 1010-1023,1025
+backend/internal/service/openai_ws_http_bridge.go
+  8381e3e4eeaacd07 119-243
+backend/internal/service/ratelimit_service_openai_image_test.go
+  8381e3e4eeaacd07 15,224-240
+backend/internal/repository/usage_log_repo_breakdown_test.go
+  8381e3e4eeaacd07 80-102
+backend/internal/service/cn_provider_balance_check_service_test.go
+  8381e3e4eeaacd07 5,79-122
+backend/internal/service/gateway_multiplatform_test.go
+  8381e3e4eeaacd07 228
+backend/internal/handler/dto/mappers.go
+  8381e3e4eeaacd07 670
+backend/internal/handler/admin/usage_handler_request_type_test.go
+  8381e3e4eeaacd07 98-123,173-183
+backend/internal/service/channel_monitor_v2.go
+  8381e3e4eeaacd07 80-88
+backend/internal/service/openai_images_oauth_unavailable_cooldown_test.go
+  8381e3e4eeaacd07 1-59
+backend/internal/service/domain_constants.go
+  8381e3e4eeaacd07 542-543
+backend/internal/service/upstream_response_model.go
+  8381e3e4eeaacd07 25-27,220-226
+frontend/src/api/admin/usage.ts
+  8381e3e4eeaacd07 127
+frontend/src/i18n/locales/en/admin/resources.ts
+  8381e3e4eeaacd07 332-333
+backend/internal/server/api_contract_test.go
+  8381e3e4eeaacd07 593,2038
+backend/internal/repository/channel_monitor_v2_repo_test.go
+  8381e3e4eeaacd07 4,9,11,99-261
+frontend/src/views/admin/RedeemView.vue
+  8381e3e4eeaacd07 465-467,621-625,648,1009-1011,1014
+backend/internal/service/openai_gateway_chat_completions_raw.go
+  8381e3e4eeaacd07 106-107
+backend/internal/service/openai_gateway_messages_chat_fallback_test.go
+  8381e3e4eeaacd07 143,165-166
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "8498f1b640c11ea33b627fc5d2f6f2f2268fbbb6",
+  "prompts": {
+    "8381e3e4eeaacd07": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a02d3b-87e7-7051-a4c6-5413230b79af",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 8026,
+      "total_deletions": 563,
+      "accepted_lines": 49917,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/ba0c660ac2d9f1076427a054425ab06c04970bd7add61b59ae512320fedd1d67"
+    }
+  }
+}
