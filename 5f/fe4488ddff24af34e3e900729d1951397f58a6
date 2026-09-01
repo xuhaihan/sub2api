@@ -1,0 +1,28 @@
+deploy/local-proxy-runner.sh
+  85b4d56143fe4306 1-171
+deploy/local-proxy-runner_test.sh
+  85b4d56143fe4306 1-66
+deploy/build-ccloud-tar.sh
+  85b4d56143fe4306 20-22,79-120
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "5ffe4488ddff24af34e3e900729d1951397f58a6",
+  "prompts": {
+    "85b4d56143fe4306": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a05b01-03e4-7ea3-8fb3-63ebc1009dca",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 299,
+      "total_deletions": 17,
+      "accepted_lines": 284,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/33a4b4d3d81d6ebce5d25d4800416ff1a53b1902bcf9ee204aafccd934a8d047"
+    }
+  }
+}
