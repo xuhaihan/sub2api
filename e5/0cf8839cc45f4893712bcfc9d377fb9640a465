@@ -1,0 +1,42 @@
+deploy/local-proxy-runner_test.sh
+  8381e3e4eeaacd07 65-66,68-87,100-103
+PROXY_OPERATIONS.md
+  8381e3e4eeaacd07 215-223
+deploy/local-proxy-runner.sh
+  8381e3e4eeaacd07 51-53,55-62,78-88,102-106
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "e50cf8839cc45f4893712bcfc9d377fb9640a465",
+  "prompts": {
+    "8381e3e4eeaacd07": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a02d3b-87e7-7051-a4c6-5413230b79af",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 63,
+      "total_deletions": 2,
+      "accepted_lines": 63,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/3c1fa04bb3e23176e82bb15d63020744a519aee5f4a330b6fbaacc7fca2f3c2a"
+    },
+    "85b4d56143fe4306": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a05b01-03e4-7ea3-8fb3-63ebc1009dca",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 2076,
+      "total_deletions": 0,
+      "accepted_lines": 2076,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/fa0cfcd361ced36713dba22f8938b3ae7245e3f613d8332084bba361679c14bc"
+    }
+  }
+}
