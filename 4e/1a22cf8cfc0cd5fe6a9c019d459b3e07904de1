@@ -1,0 +1,34 @@
+backend/cmd/mihomo-controller-proxy/main.go
+  8381e3e4eeaacd07 1-265
+deploy/local-proxy-runner_test.sh
+  8381e3e4eeaacd07 60,99
+PROXY_OPERATIONS.md
+  8381e3e4eeaacd07 224
+deploy/local-proxy-runner.sh
+  8381e3e4eeaacd07 7-8,12,48,76,127,160-161,165,172-185,192-194,208,222-250,256-258,269-275,287
+deploy/build-ccloud-tar.sh
+  8381e3e4eeaacd07 73-77,81,84
+backend/cmd/mihomo-controller-proxy/main_test.go
+  8381e3e4eeaacd07 1-114
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "4e1a22cf8cfc0cd5fe6a9c019d459b3e07904de1",
+  "prompts": {
+    "8381e3e4eeaacd07": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a02d3b-87e7-7051-a4c6-5413230b79af",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 456,
+      "total_deletions": 14,
+      "accepted_lines": 35265,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/b7386e5448b7a06c6efa13b613f0412ee5b48fb36dafa1bc2b516f92b07e7869"
+    }
+  }
+}
