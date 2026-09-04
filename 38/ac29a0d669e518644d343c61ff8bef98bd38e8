@@ -1,0 +1,30 @@
+backend/internal/service/openai_deepseek_compact.go
+  b538500a4806b8f1 34-43,55-77
+backend/internal/service/account_test_service.go
+  b538500a4806b8f1 302-304
+backend/internal/service/openai_gateway_scheduling.go
+  b538500a4806b8f1 351-356
+backend/internal/service/openai_deepseek_compact_test.go
+  b538500a4806b8f1 255-286,296-298,346-359
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "38ac29a0d669e518644d343c61ff8bef98bd38e8",
+  "prompts": {
+    "b538500a4806b8f1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a066cc-ac27-7a83-a61b-6bb408c5efb6",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 185,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/d657d7a2fb074275b276324a586248744d87e2357cbffbacd2b665d3edcb55bf"
+    }
+  }
+}

@@ -1,0 +1,318 @@
+backend/internal/service/openai_gateway_usage.go
+  8381e3e4eeaacd07 135-152,298-320
+backend/internal/repository/migrations_schema_integration_test.go
+  8381e3e4eeaacd07 58,60-61
+backend/ent/mutation.go
+  8381e3e4eeaacd07 22161-22162,22171,24950-25021,25294-25329,25887,26041-26046,26068-26070,26193-26196,26211-26212,26332-26335,26350-26351,26726-26739,26789-26795,27488-27493,27515-27516
+backend/ent/group_create.go
+  8381e3e4eeaacd07 707-734,833-846,1140-1147,1176-1179,1343-1348,1380-1387,1631-1638,1667-1670,2701-2724,2815-2826,3936-3963,4069-4082,5368-5395,5501-5511
+backend/internal/service/openai_ws_v2_passthrough_adapter.go
+  8381e3e4eeaacd07 710-713,1047-1050
+frontend/src/components/account/credentialsBuilder.ts
+  8381e3e4eeaacd07 259,263-267,281,283-284,355
+frontend/src/components/account/__tests__/EditAccountModal.spec.ts
+  8381e3e4eeaacd07 358-390
+backend/internal/repository/channel_repo_account_stats_pricing.go
+  8381e3e4eeaacd07 70,86,181-182,184,205-206,208,220,236
+frontend/src/components/modelPlaza/PlazaModelPricingTable.vue
+  8381e3e4eeaacd07 148,151-154,167-171,246,249-252,445,498
+backend/internal/service/openai_apikey_responses_probe_test.go
+  8381e3e4eeaacd07 64-65
+backend/ent/schema/group.go
+  8381e3e4eeaacd07 245-250,280-283,287
+backend/internal/handler/admin/channel_handler_test.go
+  8381e3e4eeaacd07 323-332,345,358-367,390,565-610
+backend/migrations/233_group_free_openai_fast.sql
+  8381e3e4eeaacd07 1-5
+backend/internal/repository/scheduler_cache.go
+  8381e3e4eeaacd07 1008-1014
+backend/internal/service/admin_service_group_test.go
+  8381e3e4eeaacd07 889-902,952-958,967,1101-1162
+backend/internal/service/openai_gateway_record_usage_test.go
+  8381e3e4eeaacd07 3084-3154
+backend/internal/pkg/antigravity/claude_types_test.go
+  8381e3e4eeaacd07 15
+backend/internal/handler/composite_platform_test.go
+  8381e3e4eeaacd07 120-121,129-130,138-139,143-153,157-158
+README_CN.md
+  8381e3e4eeaacd07 180
+backend/internal/service/openai_gateway_messages_chat_fallback.go
+  8381e3e4eeaacd07 6,84-93
+backend/internal/pkg/antigravity/claude_types.go
+  8381e3e4eeaacd07 156
+frontend/src/components/channels/SupportedModelChip.vue
+  8381e3e4eeaacd07 82,87-90
+backend/internal/service/api_key_auth_cache.go
+  8381e3e4eeaacd07 106-107,117-118
+frontend/src/views/admin/GroupsView.vue
+  8381e3e4eeaacd07 470,634,1505-1506,1510,1585-1652,2269,2433,3302-3303,3307,3382-3449,4617-4620,4640,4643,4673,4694,4716,5197-5198,5257,5561-5562,5622,6038-6039,6065,6141-6148,6277-6278,6346-6348,6370,6389-6390,6424-6431,6856-6862,6913-6919
+backend/internal/pkg/claude/constants_model_test.go
+  8381e3e4eeaacd07 1-20
+backend/internal/handler/available_channel_handler.go
+  8381e3e4eeaacd07 69-78,83-91,297-305,326-335
+backend/internal/service/channel.go
+  8381e3e4eeaacd07 90-108,135,382
+frontend/src/types/index.ts
+  8381e3e4eeaacd07 547-548,552-553,564,619-620,785-786,830,850-851,895
+frontend/src/views/admin/ChannelsView.vue
+  8381e3e4eeaacd07 864,901,970,1088,1131,1233,1426
+backend/internal/service/api_key_auth_cache_openai_fast_test.go
+  8381e3e4eeaacd07 1-36
+backend/internal/service/openai_gateway_forward.go
+  8381e3e4eeaacd07 145,147-150,154-165,669-676,1321-1322,1374
+backend/internal/service/billing_service_test.go
+  8381e3e4eeaacd07 1749-1774
+backend/internal/service/channel_service.go
+  8381e3e4eeaacd07 728,756
+backend/migrations/232_channel_cache_write_1h_pricing.sql
+  8381e3e4eeaacd07 1-20
+backend/internal/service/admin_service.go
+  8381e3e4eeaacd07 269-270,280-281,348-349,359-360
+backend/internal/service/openai_oauth_passthrough_test.go
+  8381e3e4eeaacd07 18,477-508,984-1048
+backend/ent/group/group.go
+  8381e3e4eeaacd07 121-124,139-140,275-276,284,398-401,420-423,677-686,712-714
+backend/cmd/server/VERSION
+  8381e3e4eeaacd07 1
+frontend/src/views/admin/groupsReasoningEffort.ts
+  8381e3e4eeaacd07 1-5,16-24,57-74,76-84,91,93-94,98-103,108-118,120-122,126-134,138-148,153-156,159-179,181-182,188-202,210-211,214-217,219-246,249-252
+backend/internal/service/api_key_auth_cache_profit_test.go
+  8381e3e4eeaacd07 56
+backend/internal/repository/channel_repo_pricing_time_test.go
+  8381e3e4eeaacd07 19,36,108,111,121,124,156,159,169,172
+backend/internal/handler/admin/group_handler_openai_fast_test.go
+  8381e3e4eeaacd07 1-27
+frontend/src/components/admin/group/__tests__/ReasoningEffortPolicyFields.spec.ts
+  8381e3e4eeaacd07 1-92
+backend/ent/group.go
+  8381e3e4eeaacd07 125-128,143-144,261,267,625-636,683-688,982-987,1009-1010
+frontend/src/components/admin/channel/types.ts
+  8381e3e4eeaacd07 12,28,205,224,349
+backend/internal/handler/openai_chat_completions.go
+  8381e3e4eeaacd07 84-87
+frontend/src/views/admin/groupsOpenAIFast.ts
+  8381e3e4eeaacd07 1-10
+backend/internal/handler/openai_automation_bootstrap_test.go
+  8381e3e4eeaacd07 1-133
+backend/internal/service/admin_group_duplicate_test.go
+  8381e3e4eeaacd07 169-170,180-191,218-219,223
+backend/internal/service/admin_service_composite_group_test.go
+  8381e3e4eeaacd07 45-49,59,95,99-102,108
+backend/internal/service/openai_gateway_chat_completions_raw.go
+  8381e3e4eeaacd07 42-43
+backend/internal/service/gateway_request.go
+  8381e3e4eeaacd07 16,902-917,928-951,953-961,964-970,972-973,975-977,979
+frontend/src/composables/useModelWhitelist.ts
+  8381e3e4eeaacd07 38,60,269,334,371
+backend/internal/service/openai_gateway_chat_completions_test.go
+  8381e3e4eeaacd07 241-329
+frontend/src/components/account/EditAccountModal.vue
+  8381e3e4eeaacd07 75,2912,3061,3071,3957
+backend/internal/service/openai_apikey_responses_probe.go
+  8381e3e4eeaacd07 126-129
+backend/internal/service/openai_gateway_passthrough.go
+  8381e3e4eeaacd07 639-641,659-660
+frontend/src/components/modelPlaza/__tests__/PlazaModelPricingTable.spec.ts
+  8381e3e4eeaacd07 217-226
+frontend/src/api/admin/channels.ts
+  8381e3e4eeaacd07 19,49,178
+backend/internal/service/account_stats_pricing.go
+  8381e3e4eeaacd07 191-196,206-213,216
+backend/internal/domain/reasoning_effort.go
+  8381e3e4eeaacd07 3-8,11-14,16-19
+backend/internal/handler/dto/group_mapper_openai_fast_test.go
+  8381e3e4eeaacd07 1-25
+frontend/src/components/account/CreateAccountModal.vue
+  8381e3e4eeaacd07 1322,3817,4010,4031,4038,4048
+backend/internal/repository/api_key_repo_openai_fast_projection_integration_test.go
+  8381e3e4eeaacd07 1-46
+backend/internal/repository/scheduler_cache_unit_test.go
+  8381e3e4eeaacd07 1082-1123
+backend/internal/pkg/antigravity/request_transformer.go
+  8381e3e4eeaacd07 225
+backend/internal/service/gateway_fallbacks_sanitize_test.go
+  8381e3e4eeaacd07 1-295
+backend/internal/server/api_contract_test.go
+  8381e3e4eeaacd07 395
+backend/internal/service/api_key_auth_cache_impl.go
+  8381e3e4eeaacd07 17,421-422,428,522-523,529
+backend/internal/service/openai_compat_prompt_cache_key.go
+  8381e3e4eeaacd07 16
+backend/ent/group_update.go
+  8381e3e4eeaacd07 992-1019,1125-1138,1532-1536,1847-1852,1877-1879,3169-3196,3302-3315,3722-3726,4054-4059,4084-4085
+frontend/src/components/keys/__tests__/UseKeyModal.spec.ts
+  8381e3e4eeaacd07 674,677-680
+backend/internal/repository/api_key_repo.go
+  8381e3e4eeaacd07 213-214,220,1013-1014,1022
+backend/internal/repository/group_repo.go
+  8381e3e4eeaacd07 106-107,115,285-286,294
+backend/internal/service/account.go
+  8381e3e4eeaacd07 1389-1391,1397,1421-1422,1442-1450
+backend/migrations/232_group_force_openai_fast.sql
+  8381e3e4eeaacd07 1-5
+backend/internal/service/account_stats_pricing_test.go
+  8381e3e4eeaacd07 231-248
+frontend/src/views/admin/__tests__/groupsOpenAIFast.spec.ts
+  8381e3e4eeaacd07 1-40
+backend/internal/domain/constants_test.go
+  8381e3e4eeaacd07 32-34,96-98
+backend/internal/handler/dto/types.go
+  8381e3e4eeaacd07 156-158,169-172
+backend/internal/domain/constants.go
+  8381e3e4eeaacd07 46,101,162-163
+backend/internal/handler/no_account_error_test.go
+  8381e3e4eeaacd07 237-305
+frontend/src/api/channels.ts
+  8381e3e4eeaacd07 32,42
+backend/internal/service/account_test_service_cn_adaptive_test.go
+  8381e3e4eeaacd07 86-104,135,157-176
+frontend/src/components/account/AccountStatusIndicator.vue
+  8381e3e4eeaacd07 227
+backend/internal/service/antigravity_model_mapping_test.go
+  8381e3e4eeaacd07 80-84,242
+backend/internal/service/bedrock_request.go
+  8381e3e4eeaacd07 12,642-650,655-661,674-683,790-791,804-808
+backend/internal/service/cn_providers_test.go
+  8381e3e4eeaacd07 472,492,496,503-512,561,676-677,681,707-721
+backend/internal/service/bedrock_request_test.go
+  8381e3e4eeaacd07 544-557
+backend/internal/service/account_test_service_cn_adaptive.go
+  8381e3e4eeaacd07 21-22,163-165
+frontend/src/i18n/locales/en/dashboard.ts
+  8381e3e4eeaacd07 588-589
+frontend/src/components/account/AccountUsageCell.vue
+  8381e3e4eeaacd07 862
+backend/internal/handler/no_account_error.go
+  8381e3e4eeaacd07 45-61
+backend/ent/group/where.go
+  8381e3e4eeaacd07 293-302,328-332,2288-2307,2498-2560
+backend/internal/service/openai_ws_forwarder_ingress.go
+  8381e3e4eeaacd07 269-272
+backend/internal/service/openai_ws_v2/passthrough_relay.go
+  8381e3e4eeaacd07 536-544,549,555
+backend/internal/service/adaptive_api_protocol_test.go
+  8381e3e4eeaacd07 119,122,134-151,168,170,176,181-203
+frontend/src/i18n/locales/zh/dashboard.ts
+  8381e3e4eeaacd07 593-594
+frontend/src/components/account/__tests__/CreateAccountModal.spec.ts
+  8381e3e4eeaacd07 378-402
+backend/ent/migrate/schema.go
+  8381e3e4eeaacd07 957-958,966
+backend/internal/service/openai_fast_policy_test.go
+  8381e3e4eeaacd07 39-45,305-381
+frontend/src/components/admin/group/ReasoningEffortPolicyFields.vue
+  8381e3e4eeaacd07 20-35,38-45,48-49,58-60,62-131,133,137-138,141,145,148,152,156,161,165-166,169,173,176,180,186-189,194-202,216,218,220-221,231,237,246-269,277-279,284-291,293-315,321-329,334,341-359,362-366
+backend/internal/service/openai_reasoning_effort_policy.go
+  8381e3e4eeaacd07 8,16-21,31,35-59,120-155,175-273,275-277,300-308,310-313,316-321,359,365,373,375,379,381,384,387-392,394,403,410-412,414,418-423,426,428-429,431,444,448-451,465-479
+frontend/src/i18n/locales/en/admin/overview.ts
+  8381e3e4eeaacd07 862-866,868,870,872-879,888-890,1170-1175
+backend/migrations/232_group_reasoning_effort_over_limit.sql
+  8381e3e4eeaacd07 1-5
+backend/internal/handler/ops_error_logger.go
+  8381e3e4eeaacd07 2290
+backend/internal/service/openai_gateway_chat_completions.go
+  8381e3e4eeaacd07 62-72,117-118,175,178-181,324,342-346,368
+backend/ent/runtime/runtime.go
+  8381e3e4eeaacd07 1160-1167,1169,1173,1177,1183,1187,1191,1195,1200-1205,1207,1211,1215,1219
+backend/internal/handler/admin/group_handler_reasoning_effort_test.go
+  8381e3e4eeaacd07 32-42
+backend/internal/service/openai_reasoning_effort_policy_test.go
+  8381e3e4eeaacd07 7,87-148,180-206,210-211,216,218-219,222-229,234-242,257-386,390-399
+backend/internal/service/admin_group_duplicate.go
+  8381e3e4eeaacd07 147-148,157-160
+backend/internal/service/billing_service.go
+  8381e3e4eeaacd07 362-382,806-812,1212-1220
+backend/internal/service/openai_fast_policy_ws_test.go
+  8381e3e4eeaacd07 143-168
+backend/internal/handler/admin/channel_handler.go
+  8381e3e4eeaacd07 60-74,96,132-147,170,261-276,308,343,359-373,608-615,618-625
+backend/internal/service/openai_ws_v2/passthrough_relay_test.go
+  8381e3e4eeaacd07 44-48,73-80,317-346
+backend/internal/service/openai_ws_forwarder_payload.go
+  8381e3e4eeaacd07 46-48
+backend/internal/pkg/claude/constants.go
+  8381e3e4eeaacd07 28-38,131-136
+README_JA.md
+  8381e3e4eeaacd07 177-181
+backend/internal/service/openai_gateway_messages_chat_fallback_test.go
+  8381e3e4eeaacd07 117,467
+backend/internal/service/openai_gateway_request_body.go
+  8381e3e4eeaacd07 130-135,137-139,162-163,1686-1693,1698-1702,1713-1719,1800,1839-1844
+backend/internal/service/admin_group.go
+  8381e3e4eeaacd07 298-310,325-328,520-521,529,533,886-891,917-923,932
+backend/internal/service/openai_ws_forwarder.go
+  8381e3e4eeaacd07 264-266
+frontend/src/composables/__tests__/useModelWhitelist.spec.ts
+  8381e3e4eeaacd07 40-41
+frontend/src/views/admin/__tests__/groupsModelsListLayout.spec.ts
+  8381e3e4eeaacd07 19-25
+frontend/src/i18n/locales/en/admin/channels.ts
+  8381e3e4eeaacd07 33-34,82,128-129,132-133
+backend/internal/handler/dto/mappers.go
+  8381e3e4eeaacd07 151-152,226
+backend/internal/service/group.go
+  8381e3e4eeaacd07 103-104,118-120
+backend/internal/repository/channel_repo_pricing.go
+  8381e3e4eeaacd07 19,64-66,99,139,156,182,250-251,253,296-297,299
+backend/internal/handler/composite_platform.go
+  8381e3e4eeaacd07 4,63,65,68,71,73,104,106,108,110-118,133,137
+backend/internal/service/openai_gateway_messages.go
+  8381e3e4eeaacd07 273-282,303
+frontend/src/components/admin/channel/IntervalRow.vue
+  8381e3e4eeaacd07 6,28,32-36,125,149-154
+frontend/src/views/admin/__tests__/groupsReasoningEffort.spec.ts
+  8381e3e4eeaacd07 4,7-8,12-13,62-126,136-143,149-152,161-164,168-247,251,254-270
+frontend/src/i18n/locales/zh/admin/overview.ts
+  8381e3e4eeaacd07 844-848,850,852,854-861,870-872,1168-1173
+frontend/src/components/account/__tests__/credentialsBuilder.cnAdaptive.spec.ts
+  8381e3e4eeaacd07 3-13,20,25
+README.md
+  8381e3e4eeaacd07 177
+backend/internal/handler/openai_gateway_handler.go
+  8381e3e4eeaacd07 438-441,444-449,1603-1610,1649,1658,1662,1752-1761,1772-1836,2626,2653-2659
+backend/internal/handler/admin/group_handler.go
+  8381e3e4eeaacd07 150-151,161-163,223-224,234-235,561-562,570,693-694,702
+frontend/src/components/keys/UseKeyModal.vue
+  8381e3e4eeaacd07 1711-1726
+frontend/src/i18n/locales/zh/admin/channels.ts
+  8381e3e4eeaacd07 33-34,82,128-129,132-133
+backend/internal/service/api_key_service_cache_test.go
+  8381e3e4eeaacd07 298-305,319
+backend/internal/service/model_pricing_resolver.go
+  8381e3e4eeaacd07 237-247,290,350-352,359-361
+backend/internal/handler/ops_error_logger_test.go
+  8381e3e4eeaacd07 1247-1254,1516-1518
+backend/internal/repository/fixtures_integration_test.go
+  8381e3e4eeaacd07 93-94
+backend/internal/service/channel_available.go
+  8381e3e4eeaacd07 144,150,191-197
+backend/internal/service/openai_agent_identity_compat_test.go
+  8381e3e4eeaacd07 17,445-487
+backend/migrations/group_force_openai_fast_migration_test.go
+  8381e3e4eeaacd07 1-18
+backend/migrations/group_free_openai_fast_migration_test.go
+  8381e3e4eeaacd07 1-18
+frontend/src/components/admin/channel/PricingEntryCard.vue
+  8381e3e4eeaacd07 109,121,125-129,320,337,369,382,395-398
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "44ad861f905de06b0410aeb6284879ed53137fbf",
+  "prompts": {
+    "8381e3e4eeaacd07": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a02d3b-87e7-7051-a4c6-5413230b79af",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 39942,
+      "total_deletions": 768,
+      "accepted_lines": 39742,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/a4a2505e9b3d31a7886cd2e83aa7655d62fe49893de2fed65990beade5106561"
+    }
+  }
+}

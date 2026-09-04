@@ -1,0 +1,136 @@
+backend/internal/service/usage_log_helpers.go
+  8381e3e4eeaacd07 20-31
+backend/internal/service/usage_log.go
+  8381e3e4eeaacd07 134-135,139-141
+backend/internal/handler/gateway_handler_chat_completions.go
+  8381e3e4eeaacd07 79,339
+backend/internal/handler/openai_chat_completions.go
+  8381e3e4eeaacd07 270
+backend/internal/handler/gateway_handler.go
+  8381e3e4eeaacd07 172,545,887
+frontend/src/utils/format.ts
+  8381e3e4eeaacd07 214-217,222,244-266
+frontend/src/components/auth/LinuxDoOAuthSection.vue
+  8381e3e4eeaacd07 51,66-71
+frontend/src/components/auth/__tests__/EmailOAuthButtons.spec.ts
+  8381e3e4eeaacd07 36,51,64,78
+frontend/src/i18n/locales/en/dashboard.ts
+  8381e3e4eeaacd07 338
+backend/internal/service/openai_gateway_service.go
+  8381e3e4eeaacd07 259-260,263-267
+frontend/src/components/admin/usage/UsageTable.vue
+  8381e3e4eeaacd07 94-102,511,598-602
+backend/internal/service/gateway_usage_billing.go
+  8381e3e4eeaacd07 1214-1256
+backend/internal/repository/usage_log_repo_insert.go
+  8381e3e4eeaacd07 75,274,292,732,746,748,825,887,989,1003,1077,1139,1209,1227,1262,1337
+backend/internal/repository/usage_log_session_id_unit_test.go
+  8381e3e4eeaacd07 35,69-97,101-102,114
+backend/internal/service/openai_nonstreaming_terminal_failure_failover_test.go
+  8381e3e4eeaacd07 1-258
+backend/internal/service/openai_gateway_grok.go
+  8381e3e4eeaacd07 77-84,556,1062-1063,1099-1111,1163-1182
+backend/internal/handler/composite_platform_test.go
+  8381e3e4eeaacd07 123-125
+frontend/src/i18n/locales/zh/dashboard.ts
+  8381e3e4eeaacd07 343
+backend/internal/repository/usage_log_repo_request_type_test.go
+  8381e3e4eeaacd07 92,184-187,836,914,975
+backend/internal/service/openai_responses_tool_schema.go
+  8381e3e4eeaacd07 31,33
+backend/migrations/231_add_usage_log_requested_reasoning_effort.sql
+  8381e3e4eeaacd07 1-7
+backend/internal/service/openai_reasoning_effort_policy.go
+  8381e3e4eeaacd07 20,140-167
+backend/internal/service/openai_gateway_messages_anthropic_native.go
+  8381e3e4eeaacd07 64,66
+backend/internal/service/openai_ws_http_bridge.go
+  8381e3e4eeaacd07 705
+backend/internal/handler/dto/mappers.go
+  8381e3e4eeaacd07 6,648,715-726,730-759
+frontend/src/types/index.ts
+  8381e3e4eeaacd07 1711
+backend/internal/service/openai_responses_tool_schema_test.go
+  8381e3e4eeaacd07 253,273,291,297-305
+backend/internal/handler/dto/mappers_usage_test.go
+  8381e3e4eeaacd07 182-236
+backend/internal/handler/gateway_handler_responses.go
+  8381e3e4eeaacd07 79,327
+backend/internal/handler/dto/types.go
+  8381e3e4eeaacd07 492,494,570-572
+backend/internal/service/openai_gateway_passthrough.go
+  8381e3e4eeaacd07 1751-1809,2298-2299
+frontend/src/__tests__/integration/usage-reasoning-effort.spec.ts
+  8381e3e4eeaacd07 1-322
+frontend/src/components/admin/usage/__tests__/UsageTable.spec.ts
+  8381e3e4eeaacd07 87,260-339,645
+backend/internal/service/openai_reasoning_effort_policy_test.go
+  8381e3e4eeaacd07 11-38
+backend/internal/service/openai_gateway_response_handling.go
+  8381e3e4eeaacd07 1695-1697
+backend/internal/service/openai_ws_v2_passthrough_adapter.go
+  8381e3e4eeaacd07 138-142,167-174,709,820,1046,1052,1229,1381
+frontend/src/views/auth/RegisterView.vue
+  8381e3e4eeaacd07 287,298
+backend/internal/service/openai_gateway_record_usage_test.go
+  8381e3e4eeaacd07 1530-1531,1541-1571
+backend/internal/handler/composite_platform.go
+  8381e3e4eeaacd07 75-102,104,116
+backend/internal/service/openai_gateway_service_test.go
+  8381e3e4eeaacd07 3809-3812
+frontend/src/components/auth/EmailOAuthButtons.vue
+  8381e3e4eeaacd07 43,87-89
+backend/internal/service/gateway_service.go
+  8381e3e4eeaacd07 630-631
+backend/internal/service/openai_ws_forwarder_v2.go
+  8381e3e4eeaacd07 787
+backend/internal/handler/openai_gateway_handler.go
+  8381e3e4eeaacd07 64-112,754,1319,2604-2620,2645
+backend/internal/handler/openai_ws_client_close_attribution_test.go
+  8381e3e4eeaacd07 1-149
+backend/internal/service/openai_ws_forwarder_ingress.go
+  8381e3e4eeaacd07 200,264,481,1065,1336,1366,1888,2051
+backend/internal/service/openai_gateway_grok_test.go
+  8381e3e4eeaacd07 328,398-453,2008,2043,2049-2099,2167-2168
+frontend/src/components/auth/__tests__/OAuthLoginSections.spec.ts
+  8381e3e4eeaacd07 44-62
+frontend/src/views/admin/UsageView.vue
+  8381e3e4eeaacd07 90,107,580,600
+backend/internal/repository/usage_log_repo_query.go
+  8381e3e4eeaacd07 22,491,555,661-662
+frontend/src/views/user/UsageView.vue
+  8381e3e4eeaacd07 134,150
+backend/internal/service/openai_ws_v2_passthrough_adapter_effort_test.go
+  8381e3e4eeaacd07 27,32-34
+backend/internal/service/openai_gateway_request_body.go
+  8381e3e4eeaacd07 1388-1446,2139-2161
+backend/internal/payment/provider/easypay.go
+  8381e3e4eeaacd07 205-251
+backend/internal/payment/provider/easypay_url_test.go
+  8381e3e4eeaacd07 1-228
+backend/internal/service/openai_gateway_usage.go
+  8381e3e4eeaacd07 324-349
+frontend/src/utils/__tests__/formatReasoningEffort.spec.ts
+  8381e3e4eeaacd07 1-33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "4f6950857e231930752a5055234d955e02699514",
+  "prompts": {
+    "8381e3e4eeaacd07": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a02d3b-87e7-7051-a4c6-5413230b79af",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 6739,
+      "total_deletions": 130,
+      "accepted_lines": 12710,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/f04cf144ed7444df8dd46c1ddfa3fd810141ad02a0b55c3c746020a3f61e9c57"
+    }
+  }
+}

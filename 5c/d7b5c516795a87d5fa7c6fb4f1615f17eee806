@@ -1,0 +1,182 @@
+backend/internal/service/gateway_forward.go
+  8381e3e4eeaacd07 395-396
+backend/internal/service/openai_gateway_request_body_reasoning_test.go
+  8381e3e4eeaacd07 364
+backend/internal/service/openai_upstream_transport_error_test.go
+  8381e3e4eeaacd07 14,20,79,81
+backend/internal/handler/dto/mappers.go
+  8381e3e4eeaacd07 71-75
+backend/internal/service/openai_quota_reset_workflow.go
+  8381e3e4eeaacd07 18,63
+backend/internal/service/openai_ws_v2_passthrough_adapter.go
+  8381e3e4eeaacd07 1281-1284,1296-1298,1532-1547
+backend/internal/service/openai_responses_namespace_forward_test.go
+  8381e3e4eeaacd07 69-91
+backend/internal/handler/stream_error_event.go
+  8381e3e4eeaacd07 8,23-24,26-32,68-73
+backend/internal/service/gateway_forward_as_chat_completions.go
+  8381e3e4eeaacd07 134-135
+backend/internal/handler/admin/user_handler.go
+  8381e3e4eeaacd07 62-71,77-87,289-299,348-360
+backend/internal/handler/gateway_handler.go
+  8381e3e4eeaacd07 1310,1315-1318
+backend/internal/service/openai_quota_spark_window_test.go
+  8381e3e4eeaacd07 30-33,57,699-719
+backend/internal/pkg/apicompat/chatcompletions_anthropic_bridge.go
+  8381e3e4eeaacd07 252-253,292-293,297-323
+backend/ent/mutation.go
+  8381e3e4eeaacd07 48425,49351-49386,50413,50468-50470,50533-50534,50592-50593,50741-50747,51007-51008
+backend/ent/migrate/schema.go
+  8381e3e4eeaacd07 1804
+backend/internal/handler/openai_gateway_handler.go
+  8381e3e4eeaacd07 2278-2284
+backend/ent/schema/user.go
+  8381e3e4eeaacd07 99-103
+backend/ent/user_create.go
+  8381e3e4eeaacd07 273-286,653-656,751-753,868-871,1412-1423,1859-1872,2490-2500
+backend/internal/service/gateway_anthropic_apikey_passthrough_test.go
+  8381e3e4eeaacd07 1238-1243
+frontend/src/i18n/locales/en/admin/overview.ts
+  8381e3e4eeaacd07 615-617
+backend/internal/repository/user_repo.go
+  8381e3e4eeaacd07 156,320-321
+backend/internal/handler/admin/openai_oauth_handler_reset_quota_test.go
+  8381e3e4eeaacd07 51-56
+backend/internal/service/api_key_auth_cache_impl.go
+  8381e3e4eeaacd07 363,468
+backend/internal/pkg/apicompat/chatcompletions_anthropic_bridge_test.go
+  8381e3e4eeaacd07 146-148,150
+backend/internal/service/openai_quota_service.go
+  8381e3e4eeaacd07 228-244,252-256
+backend/internal/pkg/apicompat/anthropic_to_responses_response.go
+  8381e3e4eeaacd07 25-26,28-31,675-680,727
+backend/internal/pkg/apicompat/chatcompletions_anthropic_reasoning_passback_test.go
+  8381e3e4eeaacd07 1-229
+backend/internal/service/admin_user.go
+  8381e3e4eeaacd07 144-145,284-289,310
+backend/internal/service/user_can_bind_group_test.go
+  8381e3e4eeaacd07 1-87
+backend/internal/service/openai_ws_v2_passthrough_lifecycle_test.go
+  8381e3e4eeaacd07 11,14,26,48-51,71,162-171,204-208,213-412
+frontend/src/i18n/locales/zh/admin/overview.ts
+  8381e3e4eeaacd07 619-621
+backend/internal/handler/openai_ws_v2_passthrough_cyber_test.go
+  8381e3e4eeaacd07 1-319
+backend/internal/service/openai_quota_auto_reset_test.go
+  8381e3e4eeaacd07 195-198
+backend/internal/service/openai_compact_stream_failure_created_at_test.go
+  8381e3e4eeaacd07 1-49
+backend/internal/pkg/apicompat/types.go
+  8381e3e4eeaacd07 361-367
+backend/internal/handler/stream_error_event_test.go
+  8381e3e4eeaacd07 230-245
+backend/internal/service/openai_stream_read_error.go
+  8381e3e4eeaacd07 15-19,22-25,73-75
+backend/internal/service/gateway_upstream_transport_error.go
+  8381e3e4eeaacd07 1-106
+backend/internal/service/gateway_bedrock.go
+  8381e3e4eeaacd07 204-205
+backend/internal/service/openai_gateway_forward.go
+  8381e3e4eeaacd07 133,515-520,523-529,533-537
+backend/ent/user_update.go
+  8381e3e4eeaacd07 324-337,1086-1088,2017-2030,2809-2810
+backend/ent/runtime/runtime.go
+  8381e3e4eeaacd07 2220-2223,2225,2229,2233,2237,2241
+backend/ent/user/where.go
+  8381e3e4eeaacd07 148-152,1123-1130
+backend/internal/handler/dto/types.go
+  8381e3e4eeaacd07 51-53
+backend/ent/user.go
+  8381e3e4eeaacd07 56-57,242,386-391,599-600
+backend/internal/service/openai_compact_stream_bridge.go
+  8381e3e4eeaacd07 9,121-125
+backend/internal/service/openai_gateway_responses_client_tools_test.go
+  8381e3e4eeaacd07 515-542
+backend/internal/repository/api_key_repo.go
+  8381e3e4eeaacd07 158,935
+backend/internal/service/api_key_service.go
+  8381e3e4eeaacd07 1074-1075,1079,1082,1088
+backend/internal/service/openai_raw_stream_truncation.go
+  8381e3e4eeaacd07 1-161
+backend/internal/service/user_service.go
+  8381e3e4eeaacd07 116-117
+backend/internal/service/openai_gateway_chat_completions_raw_test.go
+  8381e3e4eeaacd07 690-1009
+backend/migrations/231_user_restrict_public_groups.sql
+  8381e3e4eeaacd07 1-7
+backend/ent/user/user.go
+  8381e3e4eeaacd07 54-55,217,286-287,396-400
+backend/internal/service/admin_service.go
+  8381e3e4eeaacd07 142-151,167-168
+backend/internal/pkg/apicompat/chatcompletions_responses_bridge.go
+  8381e3e4eeaacd07 1550-1559,1563,2268,2340
+backend/internal/testutil/redis.go
+  8381e3e4eeaacd07 1-21
+backend/internal/service/gateway_upstream_transport_error_test.go
+  8381e3e4eeaacd07 1-150
+backend/internal/service/openai_gateway_chat_completions_raw.go
+  8381e3e4eeaacd07 288,327,355-405,407-413,436
+frontend/src/types/index.ts
+  8381e3e4eeaacd07 110-112,1979
+backend/internal/service/user.go
+  8381e3e4eeaacd07 26-30,81-83,85-87,90
+frontend/src/components/account/__tests__/AccountUsageCell.spec.ts
+  8381e3e4eeaacd07 522,563
+frontend/src/components/admin/user/UserAllowedGroupsModal.vue
+  8381e3e4eeaacd07 98,100-102,104-112,114,122,124-134,232,260,273-275,291-307,325-329,349
+backend/internal/pkg/apicompat/responses_client_tools_test.go
+  8381e3e4eeaacd07 572-620
+backend/internal/service/gateway_forward_as_responses.go
+  8381e3e4eeaacd07 147-148
+backend/internal/service/openai_quota_auto_reset.go
+  8381e3e4eeaacd07 57
+backend/internal/service/openai_upstream_transport_error.go
+  8381e3e4eeaacd07 27,30,38,43,52,68,70,77,81,86,88,91,138
+backend/internal/handler/model_plaza_handler.go
+  8381e3e4eeaacd07 18-19,131-133,136,150,163-165,168-169,173-174,177
+backend/internal/handler/gateway_models_test.go
+  8381e3e4eeaacd07 367-396,407,429,432
+backend/internal/service/openai_responses_namespace_test.go
+  8381e3e4eeaacd07 81,96-102,109
+backend/internal/service/openai_oauth_passthrough_test.go
+  8381e3e4eeaacd07 135-172
+backend/internal/pkg/apicompat/responses_created_at_wire_test.go
+  8381e3e4eeaacd07 1-166
+backend/internal/handler/admin/openai_oauth_handler.go
+  8381e3e4eeaacd07 30
+backend/internal/service/gateway_anthropic_passthrough.go
+  8381e3e4eeaacd07 117-119
+backend/internal/service/openai_responses_namespace.go
+  8381e3e4eeaacd07 80-82,89,91,97-102,106-119
+backend/internal/handler/model_plaza_handler_test.go
+  8381e3e4eeaacd07 28,37,49,53-73
+backend/internal/service/openai_gateway_grok.go
+  8381e3e4eeaacd07 726,737-739
+backend/internal/service/openai_codex_models_service.go
+  8381e3e4eeaacd07 480
+backend/internal/service/api_key_auth_cache.go
+  8381e3e4eeaacd07 44
+backend/internal/pkg/apicompat/responses_client_tools.go
+  8381e3e4eeaacd07 385-387,400-416
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "5cd7b5c516795a87d5fa7c6fb4f1615f17eee806",
+  "prompts": {
+    "8381e3e4eeaacd07": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a02d3b-87e7-7051-a4c6-5413230b79af",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 6852,
+      "total_deletions": 824,
+      "accepted_lines": 8796,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/999940d0d529513603b6e6644bc3179ba5ad61488c0f3f65ba95b83063710639"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+backend/internal/service/admin_service_duplicate_account_test.go
+  b538500a4806b8f1 262-291
+backend/internal/service/admin_account_change_parent_test.go
+  b538500a4806b8f1 233-275
+frontend/src/views/admin/AccountsView.vue
+  b538500a4806b8f1 1713-1715,1718-1721
+backend/internal/service/admin_account.go
+  b538500a4806b8f1 101-105,954-958
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "5f4bc13c1d2038378817b8ab6e62c764adf4196c",
+  "prompts": {
+    "b538500a4806b8f1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a066cc-ac27-7a83-a61b-6bb408c5efb6",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 90,
+      "total_deletions": 2,
+      "accepted_lines": 123,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/f741d59237daa571fc9b6c8be48d31881ce743925ccece75f311a0e767c761eb"
+    }
+  }
+}

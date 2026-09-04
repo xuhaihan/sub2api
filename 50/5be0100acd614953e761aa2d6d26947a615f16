@@ -1,0 +1,76 @@
+backend/internal/repository/user_repo.go
+  8381e3e4eeaacd07 1148-1152,1154,1158,1172-1173,1175,1179,1181-1182,1184-1188,1190-1217,1219-1247
+backend/internal/service/openai_gateway_upstream_errors.go
+  8381e3e4eeaacd07 336-349
+backend/internal/service/antigravity_gateway_compat_test.go
+  8381e3e4eeaacd07 15,289-303,329-348
+backend/internal/service/openai_account_runtime_block_fastpath_test.go
+  8381e3e4eeaacd07 17,65-96,199
+backend/internal/pkg/apicompat/responses_client_tools_test.go
+  8381e3e4eeaacd07 143,150
+backend/internal/service/openai_gateway_passthrough.go
+  8381e3e4eeaacd07 1734-1741
+backend/internal/service/auth_email_binding.go
+  8381e3e4eeaacd07 59-60,114-115,122-123,133-171,188-193,233-234,237-241
+backend/internal/service/openai_ws_forwarder_logutil_test.go
+  8381e3e4eeaacd07 1-37
+backend/cmd/server/VERSION
+  8381e3e4eeaacd07 1
+backend/internal/service/auth_service_email_bind_test.go
+  8381e3e4eeaacd07 9,17,74-75,220-354
+backend/internal/service/admin_service_update_user_role_test.go
+  8381e3e4eeaacd07 41
+backend/internal/pkg/apicompat/responses_client_tools_item_id_test.go
+  8381e3e4eeaacd07 1-132
+backend/internal/pkg/apicompat/responses_client_tools.go
+  8381e3e4eeaacd07 262,267,276,286,307,309-313,315-373,524,532,562-568,607-609,628,630,652-654,794-802,826-834,890,897
+backend/internal/service/openai_gateway_service_test.go
+  8381e3e4eeaacd07 1210-1252
+backend/internal/service/admin_user.go
+  8381e3e4eeaacd07 167,173
+backend/internal/service/openai_gateway_scheduling.go
+  8381e3e4eeaacd07 1183-1187,1229,1381,1420
+backend/internal/service/antigravity_gateway_compat.go
+  8381e3e4eeaacd07 32-33,163
+backend/internal/service/ratelimit_service_401_test.go
+  8381e3e4eeaacd07 28,42
+backend/internal/service/ratelimit_service.go
+  8381e3e4eeaacd07 947-953
+backend/internal/service/openai_gateway_cn_fixes_test.go
+  8381e3e4eeaacd07 14,146-253
+backend/internal/service/ratelimit_cn_providers.go
+  8381e3e4eeaacd07 29-55
+backend/internal/service/admin_service_duplicate_account_test.go
+  8381e3e4eeaacd07 262-273,279-280
+backend/internal/pkg/apicompat/responses_client_tools_item_id_helper_test.go
+  8381e3e4eeaacd07 1-29
+backend/internal/service/openai_account_runtime_block_fastpath.go
+  8381e3e4eeaacd07 31-73,211-212,217-220,229-232,236-239,250,254-255
+backend/internal/repository/channel_monitor_v2_aggregation.go
+  8381e3e4eeaacd07 258
+backend/internal/repository/channel_monitor_v2_repo_test.go
+  8381e3e4eeaacd07 119-120
+backend/internal/service/admin_service_spark_shadow_test.go
+  8381e3e4eeaacd07 383,393-398,400
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "505be0100acd614953e761aa2d6d26947a615f16",
+  "prompts": {
+    "8381e3e4eeaacd07": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a02d3b-87e7-7051-a4c6-5413230b79af",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 2037,
+      "total_deletions": 1153,
+      "accepted_lines": 967,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/c53d575527fc6d866dbe513df9d422e98221ab4ecb7056e00533b2d9eab3c1eb"
+    }
+  }
+}

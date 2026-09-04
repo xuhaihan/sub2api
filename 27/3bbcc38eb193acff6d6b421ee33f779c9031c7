@@ -1,0 +1,26 @@
+deploy/local-proxy-runner.sh
+  85b4d56143fe4306 11-19,49-52,64
+deploy/local-proxy-runner_test.sh
+  85b4d56143fe4306 66-79
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "273bbcc38eb193acff6d6b421ee33f779c9031c7",
+  "prompts": {
+    "85b4d56143fe4306": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a05b01-03e4-7ea3-8fb3-63ebc1009dca",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 28,
+      "total_deletions": 5,
+      "accepted_lines": 28,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/aa2fd1a82ae2b4022e93ebef2c0de254f429adfe675dbe5b4711121343829710"
+    }
+  }
+}

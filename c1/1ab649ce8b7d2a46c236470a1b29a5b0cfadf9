@@ -1,0 +1,26 @@
+frontend/src/views/admin/__tests__/AccountsView.sparkShadow.spec.ts
+  b538500a4806b8f1 278,297-298,300
+frontend/src/views/admin/AccountsView.vue
+  b538500a4806b8f1 1713-1715,1719
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "c11ab649ce8b7d2a46c236470a1b29a5b0cfadf9",
+  "prompts": {
+    "b538500a4806b8f1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a066cc-ac27-7a83-a61b-6bb408c5efb6",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 8,
+      "total_deletions": 8,
+      "accepted_lines": 41,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/d2d297e9c8ebd7c37255fa40f7ce1b7a0b49c8bde0840ac1fcdf85c14bbc14a8"
+    }
+  }
+}
