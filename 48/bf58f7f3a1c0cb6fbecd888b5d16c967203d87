@@ -1,0 +1,26 @@
+backend/internal/service/openai_deepseek_compact_test.go
+  b538500a4806b8f1 283
+backend/internal/handler/admin/account_handler.go
+  b538500a4806b8f1 136-138
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "48bf58f7f3a1c0cb6fbecd888b5d16c967203d87",
+  "prompts": {
+    "b538500a4806b8f1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a066cc-ac27-7a83-a61b-6bb408c5efb6",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 4,
+      "total_deletions": 4,
+      "accepted_lines": 90,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/3cb9f76611f91de5fc88e842ef62d29503127021a631c22cc9a6a758058d3206"
+    }
+  }
+}
