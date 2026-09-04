@@ -435,6 +435,35 @@
            Ollama 用量窗口负责。这类账号不是国产厂商订阅，CN 的额度/余额探测端点由
            base_url 衍生，对 ollama.com 会被后端出站 URL 白名单拒绝，渲染出来只会
            给用户一行探测报错，因此不再渲染 CN 子单元格与占位符。 -->
+      <!-- 今日 token/请求数统计：与 Key 类账号一致，GLM(Kimi/Zhipu/DeepSeek) 行也展示 -->
+      <div v-if="isCNProviderUsageRow && todayStats" class="mb-0.5 flex items-center">
+        <div class="flex items-center gap-1.5 text-[9px] text-gray-500 dark:text-gray-400">
+          <span class="rounded bg-gray-100 px-1.5 py-0.5 dark:bg-gray-800">
+            {{ formatKeyRequests }} req
+          </span>
+          <span class="rounded bg-gray-100 px-1.5 py-0.5 dark:bg-gray-800">
+            {{ formatKeyTokens }}
+          </span>
+          <span class="rounded bg-gray-100 px-1.5 py-0.5 dark:bg-gray-800" :title="t('usage.accountBilled')">
+            A ${{ formatKeyCost }}
+          </span>
+          <span
+            v-if="todayStats.user_cost != null"
+            class="rounded bg-gray-100 px-1.5 py-0.5 dark:bg-gray-800"
+            :title="t('usage.userBilled')"
+          >
+            U ${{ formatKeyUserCost }}
+          </span>
+        </div>
+      </div>
+      <div
+        v-else-if="isCNProviderUsageRow && todayStatsLoading"
+        class="mb-0.5 flex items-center gap-1"
+      >
+        <div class="h-3 w-10 animate-pulse rounded bg-gray-200 dark:bg-gray-700"></div>
+        <div class="h-3 w-8 animate-pulse rounded bg-gray-200 dark:bg-gray-700"></div>
+        <div class="h-3 w-12 animate-pulse rounded bg-gray-200 dark:bg-gray-700"></div>
+      </div>
       <OllamaCloudUsageCell
         v-if="account.ollama_cloud_usage?.eligible"
         :account="account"
@@ -761,6 +790,16 @@ const cnAccountMode = computed(() => {
 })
 const cnQuotaCellVisible = computed(() => cnQuotaCellVisibleFn(props.account.platform, cnAccountMode.value))
 const cnBalanceCellVisible = computed(() => cnBalanceCellVisibleFn(props.account.platform, cnAccountMode.value))
+
+// CN 供应商（kimi/zhipu/deepseek）行同样展示今日 requests/tokens/cost，
+// 与 Key 类账号一致；数据来自 usage log（平台无关），不走各平台上游探测。
+const isCNProviderUsageRow = computed(() => {
+  return (
+    props.account.platform === 'kimi' ||
+    props.account.platform === 'zhipu' ||
+    props.account.platform === 'deepseek'
+  )
+})
 
 const isBatchManaged = computed(() => typeof props.requestBatchedUsage === 'function')
 
