@@ -1,0 +1,25 @@
+frontend/src/components/account/EditAccountModal.vue
+  b538500a4806b8f1 29-31,37-39,2926-2927,2944-2956,2971-2972
+  8381e3e4eeaacd07 86,3060,3070,3951
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "64cc35ec77d6e918d88674b710ba80e736cbb598",
+  "prompts": {
+    "b538500a4806b8f1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a066cc-ac27-7a83-a61b-6bb408c5efb6",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 78,
+      "total_deletions": 0,
+      "accepted_lines": 2,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/2cd470a929e4ffa719605b53c21d890a49977cd6f5f2464d914ad20801a10dc8"
+    }
+  }
+}
