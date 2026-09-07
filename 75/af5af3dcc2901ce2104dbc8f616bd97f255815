@@ -1,0 +1,23 @@
+frontend/src/views/admin/__tests__/GroupsView.codexManifest.spec.ts
+  b538500a4806b8f1 51-56
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "75af5af3dcc2901ce2104dbc8f616bd97f255815",
+  "prompts": {
+    "b538500a4806b8f1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a066cc-ac27-7a83-a61b-6bb408c5efb6",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": null,
+      "messages": [],
+      "total_additions": 12,
+      "total_deletions": 1,
+      "accepted_lines": 32191,
+      "overriden_lines": 0
+    }
+  }
+}
