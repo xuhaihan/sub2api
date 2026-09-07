@@ -1,0 +1,42 @@
+skills/sub2api-proxy-operations/SKILL.md
+  b538500a4806b8f1 3,6,23,45-46,74,90
+deploy/mihomo-redis-runner.sh
+  b538500a4806b8f1 1-69,71,73-113,115-129,131-183
+deploy/local-proxy-runner.sh
+  b538500a4806b8f1 9,161,165-169,227-237
+deploy/mihomo-redis-runner_test.sh
+  b538500a4806b8f1 1-74
+backend/cmd/mihomo-controller-proxy/main.go
+  b538500a4806b8f1 6,13,20,24-25,29,35-41,46-49,67,71,107-127,129-133,136,147,183-185,198,224,240,249-308,317-394,399-400,407-419,421-425,427
+deploy/tests/fixtures/mihomo-redis/config.yaml
+  b538500a4806b8f1 1-26
+skills/sub2api-proxy-operations/references/PROXY_OPERATIONS.md
+  b538500a4806b8f1 3,37-42,70-90,240-241,547,549,551,558-572
+deploy/local-proxy-runner_test.sh
+  b538500a4806b8f1 105-116
+backend/cmd/mihomo-controller-proxy/main_test.go
+  b538500a4806b8f1 7,15,17-18,26,49-54,68,91,103,111,120-188
+deploy/Dockerfile.mihomo-redis
+  b538500a4806b8f1 1-55
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "1ad2d3a89cbec59878413fe5446a08d4922342f8",
+  "prompts": {
+    "b538500a4806b8f1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a066cc-ac27-7a83-a61b-6bb408c5efb6",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 652,
+      "total_deletions": 81,
+      "accepted_lines": 55870,
+      "overriden_lines": 4,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/726bc397351547ae3c194bf9d804d78142de821d778fed5df4ea050254250dae"
+    }
+  }
+}
