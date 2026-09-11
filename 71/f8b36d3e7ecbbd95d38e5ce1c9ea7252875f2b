@@ -1,0 +1,26 @@
+skills/sub2api-proxy-operations/SKILL.md
+  25a8d70d933a53c5 50-51,62,90
+skills/sub2api-proxy-operations/references/PROXY_OPERATIONS.md
+  25a8d70d933a53c5 215,217,219,244,344,349,482,524,530,557,572,699
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "71f8b36d3e7ecbbd95d38e5ce1c9ea7252875f2b",
+  "prompts": {
+    "25a8d70d933a53c5": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a07eb8-7d41-7162-817d-1de5126e5efd",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 810,
+      "total_deletions": 0,
+      "accepted_lines": 826,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/e2b527a0c8ca81e47f892e3cc2a22dcd7e0dbcc2289225fe926f16aef5669833"
+    }
+  }
+}
