@@ -1,0 +1,396 @@
+frontend/src/utils/__tests__/featureFlags.spec.ts
+  25a8d70d933a53c5 1-65
+backend/internal/handler/openai_images_failover_test.go
+  25a8d70d933a53c5 160
+backend/internal/service/openai_gateway_passthrough.go
+  25a8d70d933a53c5 777
+frontend/src/components/account/CNProviderQuotaCell.vue
+  25a8d70d933a53c5 111-112,120-122,168-172
+backend/internal/handler/openai_gateway_handler.go
+  25a8d70d933a53c5 201-202,205,308,311,315,325-326
+backend/internal/service/composite_platform.go
+  25a8d70d933a53c5 205
+frontend/src/constants/__tests__/platforms.spec.ts
+  25a8d70d933a53c5 13-14
+frontend/src/components/account/EditAccountModal.vue
+  25a8d70d933a53c5 67,90-141,143,163,184-188,3066,3073,3076-3078,3080,3095-3097,3232-3234,3245-3248,3250,3252-3255,3305,3317,3320,3324,3336-3337,3348-3366,3876-3877,3879,4255-4260,4272,4308-4312,4323-4325,5062,5065,5075-5076
+frontend/src/i18n/locales/en/admin/overview.ts
+  25a8d70d933a53c5 768,986
+backend/internal/service/openai_gateway_record_usage_test.go
+  25a8d70d933a53c5 2134-2138,2168
+backend/internal/service/upstream_billing_probe_multiplatform_test.go
+  25a8d70d933a53c5 19,175-176,218-219
+frontend/src/i18n/locales/en/admin/accounts.ts
+  25a8d70d933a53c5 113,155,164-179
+frontend/src/components/common/PlatformIcon.vue
+  25a8d70d933a53c5 47-50
+backend/internal/service/auth_service_register_test.go
+  25a8d70d933a53c5 301-303,309-321
+backend/ent/migrate/schema.go
+  25a8d70d933a53c5 626,779
+backend/internal/service/channel_service.go
+  25a8d70d933a53c5 370
+backend/internal/domain/channel_monitor_quota.go
+  25a8d70d933a53c5 22-23
+backend/internal/handler/admin/setting_handler_audit.go
+  25a8d70d933a53c5 582-584
+frontend/src/components/common/SubscriptionProgressMini.vue
+  25a8d70d933a53c5 2,185,203-204,313
+backend/internal/handler/endpoint.go
+  25a8d70d933a53c5 318
+frontend/src/stores/app.ts
+  25a8d70d933a53c5 374-375
+backend/internal/handler/admin/user_handler.go
+  25a8d70d933a53c5 793-794,797,803-807,869
+backend/internal/handler/openai_gateway_cn_dispatch_test.go
+  25a8d70d933a53c5 21,77-83
+frontend/src/components/user/dashboard/UserDashboardStats.vue
+  25a8d70d933a53c5 140,147-148,231,272,275,279-281,283-286,335-336
+backend/migrations/238_purge_unlimited_user_platform_quotas.sql
+  25a8d70d933a53c5 1-10
+backend/internal/service/openai_images_direct.go
+  25a8d70d933a53c5 1-261
+frontend/src/i18n/locales/en/admin/settings.ts
+  25a8d70d933a53c5 48-62,425
+backend/internal/service/account_header_override_test.go
+  25a8d70d933a53c5 33,39
+frontend/src/views/admin/__tests__/channelPlatformOptions.spec.ts
+  25a8d70d933a53c5 14
+backend/internal/service/openai_gateway_chat_completions.go
+  25a8d70d933a53c5 74,117-150,153-155,193,416,440
+frontend/src/router/title.ts
+  25a8d70d933a53c5 4,27-64,69,76,78
+backend/internal/service/openai_images.go
+  25a8d70d933a53c5 695,937,963-975,978-980,984-988,991-1037,1052,1079-1081,1110,1177
+backend/internal/service/openai_gateway_forward.go
+  25a8d70d933a53c5 177,196-207,242,1382,1391-1395,1571
+frontend/src/components/layout/__tests__/AppSidebar.spec.ts
+  25a8d70d933a53c5 65-82
+backend/internal/domain/constants.go
+  25a8d70d933a53c5 27-34,42-43
+backend/internal/service/upstream_models.go
+  25a8d70d933a53c5 681,741-742,848-850
+backend/internal/service/openai_gateway_messages.go
+  25a8d70d933a53c5 36,47-63,72,546
+backend/internal/service/ratelimit_service.go
+  25a8d70d933a53c5 523,1001,1165
+backend/internal/handler/admin/channel_monitor_handler.go
+  25a8d70d933a53c5 43,67
+backend/internal/service/domain_constants.go
+  25a8d70d933a53c5 47-52,62-63,86-89,100-102,115-125,139,152,541-548
+backend/internal/service/openai_gateway_cn_fixes_test.go
+  25a8d70d933a53c5 27,60-65
+backend/internal/service/scheduler_snapshot_service.go
+  25a8d70d933a53c5 612,827-828
+backend/internal/service/cn_provider_quota_service.go
+  25a8d70d933a53c5 38-39,48,134-135,153-155,242-244,290-295,631-635,641-683
+backend/internal/service/account_test_service_openai_image_test.go
+  25a8d70d933a53c5 46
+backend/internal/service/openai_setup_token_compat_test.go
+  25a8d70d933a53c5 70,103
+backend/internal/repository/user_platform_quota_upsert_test.go
+  25a8d70d933a53c5 10,150-189
+backend/internal/model/error_passthrough_rule.go
+  25a8d70d933a53c5 48,63
+backend/internal/service/auth_service.go
+  25a8d70d933a53c5 1933,1944-1945,1948-1949,1951-1960
+backend/internal/service/user_platform_quota_port.go
+  25a8d70d933a53c5 14-15,47-52,58,60,65-68,74
+backend/internal/service/cn_providers_test.go
+  25a8d70d933a53c5 180-207,533,568-575,597-598,648-649,660-661,683-684
+frontend/src/components/user/monitor/ProviderIcon.vue
+  25a8d70d933a53c5 86-90
+frontend/src/App.vue
+  25a8d70d933a53c5 3,12-13,29-31,52-53,73-91,102-106
+backend/internal/service/setting_service.go
+  25a8d70d933a53c5 165-169
+frontend/src/constants/channelMonitor.ts
+  25a8d70d933a53c5 21,31,50
+frontend/src/composables/useModelWhitelist.ts
+  25a8d70d933a53c5 456-467
+backend/internal/service/openai_gateway_chat_completions_anthropic_native.go
+  25a8d70d933a53c5 114
+backend/internal/service/openai_images_direct_test.go
+  25a8d70d933a53c5 1-231
+frontend/src/views/__tests__/KeyUsageView.spec.ts
+  25a8d70d933a53c5 50,87-90,93-95,242-305
+backend/internal/service/setting_service_public_test.go
+  25a8d70d933a53c5 243-311
+frontend/src/components/keys/UseKeyModal.vue
+  25a8d70d933a53c5 1239,1254
+frontend/src/i18n/locales/zh/admin/accounts.ts
+  25a8d70d933a53c5 316,358,367-382
+backend/internal/config/config.go
+  25a8d70d933a53c5 2051
+frontend/src/i18n/locales/zh/common.ts
+  25a8d70d933a53c5 200-201
+backend/internal/service/channel_service_test.go
+  25a8d70d933a53c5 2130
+frontend/src/views/KeyUsageView.vue
+  25a8d70d933a53c5 423,432,733-735
+frontend/src/components/account/credentialsBuilder.ts
+  25a8d70d933a53c5 48-49,262,274-278,282-367,418,431-432,449-450,466-467,475-476,490
+backend/internal/handler/admin/group_handler_platform_test.go
+  25a8d70d933a53c5 15-17,30,75,82-85
+backend/internal/service/setting_update.go
+  25a8d70d933a53c5 435-436
+frontend/src/api/admin/cnProviders.ts
+  25a8d70d933a53c5 10
+backend/internal/service/admin_account.go
+  25a8d70d933a53c5 339-341,537-539,678-680,1165-1167
+frontend/src/components/layout/AppSidebar.vue
+  25a8d70d933a53c5 200,695-707,731-732,793-794
+frontend/src/components/account/OpenCodeGoProtocolRulesEditor.vue
+  25a8d70d933a53c5 1-106
+frontend/src/utils/__tests__/siteBillingMode.spec.ts
+  25a8d70d933a53c5 1-37
+frontend/src/i18n/locales/en/dashboard.ts
+  25a8d70d933a53c5 476-477,494
+backend/internal/service/opencode_go.go
+  25a8d70d933a53c5 1-330
+frontend/src/i18n/locales/zh/misc.ts
+  25a8d70d933a53c5 65-66,414
+frontend/src/components/account/ModelWhitelistSelector.vue
+  25a8d70d933a53c5 212-213
+backend/internal/service/pricing_service.go
+  25a8d70d933a53c5 45,158,193,669-670
+backend/internal/service/setting_parse.go
+  25a8d70d933a53c5 205-207,826-827
+frontend/src/components/layout/AppHeader.vue
+  25a8d70d933a53c5 54-55,264-265,314-321,331,339
+frontend/src/components/admin/monitor/MonitorFormDialog.vue
+  25a8d70d933a53c5 273,285,481,490
+frontend/src/components/admin/user/UserPlatformQuotaModal.vue
+  25a8d70d933a53c5 46-47,65-66,84-85,151-162,205,209,290
+frontend/src/router/index.ts
+  25a8d70d933a53c5 300-301,911,939-945
+backend/internal/service/billing_service.go
+  25a8d70d933a53c5 99,183,1278,1601-1603
+backend/internal/service/channel_monitor_validate.go
+  25a8d70d933a53c5 218-219
+frontend/src/components/admin/user/__tests__/UserPlatformQuotaModal.spec.ts
+  25a8d70d933a53c5 171-204,206,218
+backend/internal/service/openai_gateway_responses_anthropic_native.go
+  25a8d70d933a53c5 119
+backend/internal/service/composite_platform_test.go
+  25a8d70d933a53c5 219,225
+backend/internal/service/openai_messages_dispatch.go
+  25a8d70d933a53c5 82-85
+backend/internal/service/openai_gateway_cc_pipeline.go
+  25a8d70d933a53c5 226
+backend/internal/service/openai_gateway_response_handling.go
+  25a8d70d933a53c5 1242-1244
+backend/internal/service/openai_images_actual_size_test.go
+  25a8d70d933a53c5 77,87-88
+frontend/src/utils/platformColors.ts
+  25a8d70d933a53c5 18,32,48,63,79,96,112,128,144,160,176,192,208,223,241,309
+frontend/src/views/admin/__tests__/GroupsView.compositePlatforms.spec.ts
+  25a8d70d933a53c5 7
+frontend/src/i18n/locales/zh/dashboard.ts
+  25a8d70d933a53c5 481-482,499
+frontend/src/views/admin/GroupsView.vue
+  25a8d70d933a53c5 159-160,3836-3837
+backend/internal/service/openai_gateway_usage.go
+  25a8d70d933a53c5 188-194,370-377,405,930,1156-1165
+backend/internal/service/user_platform_quota_flusher.go
+  25a8d70d933a53c5 183-184,197-199
+backend/ent/schema/channel_monitor_request_template.go
+  25a8d70d933a53c5 43
+backend/internal/service/account_test_service_opencode_go_test.go
+  25a8d70d933a53c5 1-124
+backend/internal/service/openai_opencode_session_test.go
+  25a8d70d933a53c5 95-101,117-122,127-226,261-276
+backend/internal/service/admin_group.go
+  25a8d70d933a53c5 297-298,319
+frontend/src/components/user/dashboard/__tests__/UserDashboardStats.spec.ts
+  25a8d70d933a53c5 1-154
+backend/internal/handler/admin/setting_handler_update.go
+  25a8d70d933a53c5 347-349,1943-1948,2392
+frontend/src/components/admin/monitor/MonitorTemplateManagerDialog.vue
+  25a8d70d933a53c5 257,284
+backend/ent/schema/channel_monitor.go
+  25a8d70d933a53c5 39
+backend/internal/service/openai_gateway_service.go
+  25a8d70d933a53c5 226,318-329
+backend/internal/service/settings_view.go
+  25a8d70d933a53c5 215-220,375,403-404
+frontend/src/i18n/locales/zh/admin/settings.ts
+  25a8d70d933a53c5 48-62,420
+frontend/src/stores/__tests__/app.spec.ts
+  25a8d70d933a53c5 58-59
+backend/internal/service/openai_gateway_opencode_mapping_test.go
+  25a8d70d933a53c5 1-124
+frontend/src/views/user/__tests__/UsageView.spec.ts
+  25a8d70d933a53c5 1,92-95,99-101,469-498
+frontend/src/api/admin/channelMonitor.ts
+  25a8d70d933a53c5 18
+backend/internal/service/auth_service_platform_quota_test.go
+  25a8d70d933a53c5 18,27,56-57,63,67,70,76-77,79,81-82,84,86,89-119
+backend/internal/service/channel_monitor_quota_fetcher.go
+  25a8d70d933a53c5 224-225
+backend/migrations/238_opencode_go_platform.sql
+  25a8d70d933a53c5 1-62
+backend/internal/service/account_scheduling_threshold_eval.go
+  25a8d70d933a53c5 61,359,363-366,378-380
+backend/ent/channelmonitorrequesttemplate/channelmonitorrequesttemplate.go
+  25a8d70d933a53c5 112,122
+backend/internal/service/openai_images_responses.go
+  25a8d70d933a53c5 12,982-983,1195,1802-1808,1825-1832,1841-1845,1848-1855,1884-1886,1895-1897,1913,1924,1938-1942,1946-1961,1968,1976-1980,1986,1998-2013,2117-2120
+backend/internal/model/error_passthrough_rule_test.go
+  25a8d70d933a53c5 20
+backend/internal/repository/user_platform_quota_repo_integration_test.go
+  25a8d70d933a53c5 13-14,28-37,51,56,61,129-131,183,185,211,232,248-267,362-363,365,374-375,382,461-504
+backend/internal/service/scheduler_snapshot_bulk_event_test.go
+  25a8d70d933a53c5 118
+backend/internal/server/routes/gateway.go
+  25a8d70d933a53c5 51-52,61
+backend/internal/service/image_output_accounting.go
+  25a8d70d933a53c5 77,141
+frontend/src/components/account/__tests__/CreateAccountModal.spec.ts
+  25a8d70d933a53c5 448-506
+frontend/src/views/user/__tests__/PaymentView.spec.ts
+  25a8d70d933a53c5 1,29-33,81-97,822-887
+backend/internal/service/openai_gateway_messages_anthropic_native.go
+  25a8d70d933a53c5 136-139,143-148,156,213-214
+backend/internal/service/openai_opencode_session.go
+  25a8d70d933a53c5 6,10-11,14-17,19-23,26-27,29-55,59-60,71-171
+backend/migrations/user_platform_quota_purge_unlimited_migration_test.go
+  25a8d70d933a53c5 1-27
+frontend/src/i18n/locales/zh/admin/overview.ts
+  25a8d70d933a53c5 765,919
+backend/internal/service/account_test_service_cn_adaptive.go
+  25a8d70d933a53c5 88,185,274
+frontend/src/components/account/CreateAccountModal.vue
+  25a8d70d933a53c5 164,170,183,196,209,218-230,482-534,536,595-596,1362,1377,1405-1409,3940,3947-3948,3952,3960-3962,4035-4037,4066,4158,4162-4164,4174-4178,4187-4192,4215-4218,4232-4233,4248-4249,4267-4276,4278-4296,4298,4304-4305,4317,4319,4326,4337,4842-4844,5318,5320,5795-5796,5799-5802,5811,5821-5822
+backend/internal/service/billing_cache_service.go
+  25a8d70d933a53c5 1185-1187
+backend/internal/service/ratelimit_cn_providers.go
+  25a8d70d933a53c5 130-133,137-140,142,162-191
+frontend/src/utils/siteBillingMode.ts
+  25a8d70d933a53c5 1-50
+deploy/config.example.yaml
+  25a8d70d933a53c5 150
+backend/internal/handler/endpoint_test.go
+  25a8d70d933a53c5 236-247
+frontend/src/i18n/locales/zh/landing.ts
+  25a8d70d933a53c5 166
+backend/internal/handler/dto/settings.go
+  25a8d70d933a53c5 321-324,411-415,434
+backend/internal/service/ratelimit_service_openai_image_test.go
+  25a8d70d933a53c5 131,181
+frontend/src/i18n/locales/en/landing.ts
+  25a8d70d933a53c5 166
+backend/internal/handler/admin/setting_handler_partial_payload_test.go
+  25a8d70d933a53c5 189-205
+frontend/src/router/__tests__/feature-access.spec.ts
+  25a8d70d933a53c5 28,146,167,181-210
+frontend/src/views/admin/ChannelsView.vue
+  25a8d70d933a53c5 766,768
+backend/internal/service/auth_email_oauth_auto_test.go
+  25a8d70d933a53c5 78
+frontend/src/i18n/locales/en/misc.ts
+  25a8d70d933a53c5 66-67,390
+backend/ent/channelmonitor/channelmonitor.go
+  25a8d70d933a53c5 186,196
+frontend/src/views/admin/SettingsView.vue
+  25a8d70d933a53c5 7244-7270,8858-8865,9866-9867,11075-11092,11550-11551
+frontend/src/views/user/UsageView.vue
+  25a8d70d933a53c5 118,225,395-396
+frontend/src/api/admin/settings.ts
+  25a8d70d933a53c5 42,47,55,732-734,1037-1038
+backend/internal/handler/admin/user_platform_quota_admin_test.go
+  25a8d70d933a53c5 115-117,120-124,131-166
+frontend/src/router/meta.d.ts
+  25a8d70d933a53c5 59-63
+frontend/src/views/user/PaymentView.vue
+  25a8d70d933a53c5 36-39,41,273,521-524,528,532-540,1164-1166,1181-1184
+frontend/src/types/index.ts
+  25a8d70d933a53c5 280-283,541,921
+frontend/src/composables/useChannelMonitorFormat.ts
+  25a8d70d933a53c5 25,121-122,187-190,277-278
+backend/internal/service/openai_gateway_count_tokens.go
+  25a8d70d933a53c5 267,274
+backend/internal/service/account_header_override.go
+  25a8d70d933a53c5 81
+backend/internal/handler/gateway_handler.go
+  25a8d70d933a53c5 1272,1277,1454-1455,1459
+backend/internal/service/openai_images_test.go
+  25a8d70d933a53c5 794,836-837,856,863,949,1007,1060,1117,1250,1660,1680,1682,1712,1724,1793,1857,1871,1896,1898,1929,1941,2067,2117,2124,2179
+frontend/src/router/__tests__/title.spec.ts
+  25a8d70d933a53c5 1-12,60-120
+backend/internal/service/openai_gateway_scheduling.go
+  25a8d70d933a53c5 295
+frontend/src/utils/featureFlags.ts
+  25a8d70d933a53c5 107-111,148-160
+backend/internal/service/openai_images_direct_payload_test.go
+  25a8d70d933a53c5 1-123
+backend/internal/service/account_test_service.go
+  25a8d70d933a53c5 391-394,398-440,2111,3074,3108-3109,3114-3120,3142-3145,3164,3176,3187-3195,3203-3206
+backend/internal/service/opencode_go_test.go
+  25a8d70d933a53c5 1-220
+backend/internal/service/setting_public.go
+  25a8d70d933a53c5 218,238,350,369-370,613,639,707,723
+frontend/src/components/account/AccountUsageCell.vue
+  25a8d70d933a53c5 434,761-762
+backend/migrations/opencode_go_platform_migration_test.go
+  25a8d70d933a53c5 1-29
+backend/internal/service/account.go
+  25a8d70d933a53c5 299,301,1346-1347,1349,1352,1380-1381,1406-1408,1414,1441,1456-1458,1482,1515-1516,1534-1535,1591-1592,1622-1623,1632,1642-1648,1777-1780,1785
+frontend/src/components/account/__tests__/EditAccountModal.spec.ts
+  25a8d70d933a53c5 448-521
+frontend/src/components/account/__tests__/credentialsBuilder.spec.ts
+  25a8d70d933a53c5 6,10,14-17,19,23,109-155,165
+backend/internal/server/api_contract_test.go
+  25a8d70d933a53c5 866,998,1185,1313
+backend/internal/service/auth_oauth_email_flow_test.go
+  25a8d70d933a53c5 542
+frontend/src/components/account/__tests__/ModelWhitelistSelector.spec.ts
+  25a8d70d933a53c5 222-239
+frontend/src/constants/platforms.ts
+  25a8d70d933a53c5 22-23
+backend/internal/service/upstream_billing_probe.go
+  25a8d70d933a53c5 1016,1054
+backend/internal/handler/setting_handler.go
+  25a8d70d933a53c5 98,115
+backend/internal/handler/admin/setting_handler.go
+  25a8d70d933a53c5 386
+backend/internal/repository/user_platform_quota_repo.go
+  25a8d70d933a53c5 31-36,40,58,64,68,70-71,84,86,89-90,94,173,175-176,188,314-315,317-318,320,375-377,380,420,423,425,427,448-456,459,466,476-478,486-495
+frontend/src/components/user/monitor/MonitorCard.vue
+  25a8d70d933a53c5 104
+backend/internal/service/openai_images_json_keepalive_test.go
+  25a8d70d933a53c5 183
+backend/ent/schema/user_platform_quota.go
+  25a8d70d933a53c5 45
+backend/internal/service/account_service.go
+  25a8d70d933a53c5 518-519
+frontend/src/i18n/locales/en/common.ts
+  25a8d70d933a53c5 200-201
+backend/internal/handler/admin/channel_handler.go
+  25a8d70d933a53c5 647
+frontend/src/components/admin/monitor/MonitorFiltersBar.vue
+  25a8d70d933a53c5 79,110
+backend/internal/handler/admin/group_handler.go
+  25a8d70d933a53c5 187,261,335
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "58d6dfc8772f70e956a22fffb628e519e26e7659",
+  "prompts": {
+    "25a8d70d933a53c5": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a07eb8-7d41-7162-817d-1de5126e5efd",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 51510,
+      "total_deletions": 597,
+      "accepted_lines": 63158,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/63cee9998e72e093f8734406268249786eb8cf53b532856b5e7cbf4b73a53ea9"
+    }
+  }
+}
