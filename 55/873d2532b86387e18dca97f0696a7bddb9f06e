@@ -1,0 +1,132 @@
+frontend/src/views/admin/ops/components/OpsErrorLogTable.vue
+  25a8d70d933a53c5 218-219,222-229,298-299
+frontend/src/components/admin/usage/UsageTable.vue
+  25a8d70d933a53c5 413,417,421,425,473,477,482,486,490,504,508,523
+backend/internal/service/gateway_count_tokens.go
+  25a8d70d933a53c5 63,80-85
+backend/internal/repository/channel_monitor_v2_aggregation.go
+  25a8d70d933a53c5 398-407,411-412,430,446,459,470
+backend/internal/repository/scheduler_cache.go
+  25a8d70d933a53c5 959-961,965,984-990
+frontend/src/views/admin/SettingsView.vue
+  25a8d70d933a53c5 6766-6776,9631
+backend/internal/service/openai_ua_validation_test.go
+  25a8d70d933a53c5 1-29
+backend/internal/service/channel_monitor_const.go
+  25a8d70d933a53c5 188
+frontend/src/views/admin/__tests__/SubscriptionsView.userUsageLink.spec.ts
+  25a8d70d933a53c5 7,9-11,17-19,58,84-91,98,102-105,117-167
+frontend/src/i18n/locales/zh/admin/overview.ts
+  25a8d70d933a53c5 439-445
+frontend/src/types/index.ts
+  25a8d70d933a53c5 194
+backend/internal/handler/gateway_handler.go
+  25a8d70d933a53c5 1119-1120,1176,1181,1189,1314,1373,1406
+backend/internal/pkg/openai/request_ua_validation_test.go
+  25a8d70d933a53c5 1-37
+frontend/src/views/admin/SubscriptionsView.vue
+  25a8d70d933a53c5 828,1011,1014,1238-1241,1250
+backend/internal/repository/account_repo_integration_test.go
+  25a8d70d933a53c5 1543-1577
+backend/internal/server/routes/gateway.go
+  25a8d70d933a53c5 211-212,377
+deploy/APPLE_CONTAINER.md
+  25a8d70d933a53c5 9,149,161-167
+frontend/src/i18n/locales/zh/admin/settings.ts
+  25a8d70d933a53c5 675
+deploy/tests/apple-container-test.sh
+  25a8d70d933a53c5 51-60
+backend/internal/handler/dto/settings.go
+  25a8d70d933a53c5 12-19
+deploy/tests/fixtures/bin/container
+  25a8d70d933a53c5 12-13,134-135,140,142,149-153,162-165
+backend/internal/service/channel_monitor_checker.go
+  25a8d70d933a53c5 559-560,566-572
+frontend/src/api/admin/channelMonitor.ts
+  25a8d70d933a53c5 132
+frontend/src/components/admin/usage/__tests__/UsageTable.spec.ts
+  25a8d70d933a53c5 278-324
+frontend/src/views/user/CustomPageView.vue
+  25a8d70d933a53c5 99
+frontend/src/views/admin/RedeemView.vue
+  25a8d70d933a53c5 353
+backend/internal/pkg/openai/request.go
+  25a8d70d933a53c5 6-7,203-206,226-232
+frontend/src/views/admin/__tests__/SettingsView.spec.ts
+  25a8d70d933a53c5 723-747
+backend/internal/repository/channel_monitor_v2_repo.go
+  25a8d70d933a53c5 952,994,1447,1543
+backend/internal/service/channel_monitor_endpoint_test.go
+  25a8d70d933a53c5 1-96
+backend/internal/service/gateway_forward.go
+  25a8d70d933a53c5 212
+backend/internal/service/gateway_system_cache_control_test.go
+  25a8d70d933a53c5 1-124
+backend/internal/service/openai_codex_identity.go
+  25a8d70d933a53c5 117,142-146
+frontend/src/i18n/locales/en/admin/channels.ts
+  25a8d70d933a53c5 430
+backend/internal/repository/scheduler_threshold_cache_unit_test.go
+  25a8d70d933a53c5 1-132
+frontend/src/i18n/locales/en/admin/settings.ts
+  25a8d70d933a53c5 680
+deploy/README.md
+  25a8d70d933a53c5 45
+frontend/src/i18n/locales/zh/admin/channels.ts
+  25a8d70d933a53c5 430
+backend/internal/service/channel_monitor_validate.go
+  25a8d70d933a53c5 123,160-161
+backend/internal/handler/openai_gateway_handler.go
+  25a8d70d933a53c5 1892-1894,1899-1909,1927-1937,1943-1946,1953
+backend/internal/setup/setup.go
+  25a8d70d933a53c5 9,21,34-35,191-193,196-214,217-218,220-231,234-238,241,245,266-267
+backend/internal/service/gateway_claude_oauth_body.go
+  25a8d70d933a53c5 45-46,143-150,231,396
+frontend/src/views/user/__tests__/CustomPageView.spec.ts
+  25a8d70d933a53c5 82-88
+frontend/src/i18n/locales/en/admin/overview.ts
+  25a8d70d933a53c5 439-445
+backend/internal/handler/openai_automation_bootstrap_test.go
+  25a8d70d933a53c5 169-209
+deploy/apple-container.sh
+  25a8d70d933a53c5 472-473,491,537-583,587-591,735-737
+frontend/src/views/admin/ops/components/__tests__/OpsErrorLogTable.spec.ts
+  25a8d70d933a53c5 78-108
+backend/internal/repository/channel_monitor_v2_repo_test.go
+  25a8d70d933a53c5 15-30
+frontend/src/views/admin/__tests__/UsersView.spec.ts
+  25a8d70d933a53c5 9-11,18-20,32,49-50,59-60,129-166,173-175,198-272
+backend/internal/server/routes/gateway_models_pinned_test.go
+  25a8d70d933a53c5 95-150
+frontend/src/views/admin/UsersView.vue
+  25a8d70d933a53c5 255-265,762-770,1318-1319,1346-1347,1811-1832
+backend/internal/setup/setup_test.go
+  25a8d70d933a53c5 4-5,11-13,234,244-245,247-249,251,253-257,259-355
+backend/internal/handler/gateway_models_retrieve_test.go
+  25a8d70d933a53c5 1-114
+frontend/src/views/admin/ops/components/OpsErrorDetailsModal.vue
+  25a8d70d933a53c5 279
+backend/internal/handler/openai_models_handler.go
+  25a8d70d933a53c5 4,6,22-25,27,49-52,63-108
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "55873d2532b86387e18dca97f0696a7bddb9f06e",
+  "prompts": {
+    "25a8d70d933a53c5": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a07eb8-7d41-7162-817d-1de5126e5efd",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 12952,
+      "total_deletions": 228,
+      "accepted_lines": 79205,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/918501287bc7ebad78428ddeb72caec470da2d080721dfcf386d2d9c1278a380"
+    }
+  }
+}
