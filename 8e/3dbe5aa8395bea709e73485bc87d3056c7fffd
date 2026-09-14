@@ -1,0 +1,34 @@
+frontend/src/types/index.ts
+  f965f3800c91023f 990-991
+frontend/src/utils/proxyLocation.ts
+  f965f3800c91023f 1-24
+backend/internal/service/admin_service.go
+  f965f3800c91023f 595-596
+frontend/src/utils/__tests__/proxyLocation.spec.ts
+  f965f3800c91023f 1-35
+backend/internal/service/admin_proxy.go
+  f965f3800c91023f 303-304
+frontend/src/views/admin/ProxiesView.vue
+  f965f3800c91023f 992,1508,1511-1515,1619-1621,1665-1667
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "8e3dbe5aa8395bea709e73485bc87d3056c7fffd",
+  "prompts": {
+    "f965f3800c91023f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0908a-561f-7e13-ac9c-c51661659735",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 92,
+      "total_deletions": 15,
+      "accepted_lines": 41571,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/8f9c9d58cd395d07d7445db8598d957eb11d5948babb15518bf17bf1b20c0e40"
+    }
+  }
+}
