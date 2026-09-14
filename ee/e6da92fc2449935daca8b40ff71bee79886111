@@ -1,0 +1,26 @@
+backend/internal/service/admin_proxy.go
+  f965f3800c91023f 601,609-651
+backend/internal/service/admin_service_proxy_quality_test.go
+  f965f3800c91023f 8,138-197
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "eee6da92fc2449935daca8b40ff71bee79886111",
+  "prompts": {
+    "f965f3800c91023f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0908a-561f-7e13-ac9c-c51661659735",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 108,
+      "total_deletions": 15,
+      "accepted_lines": 41594,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/085ed65f2c7c860a5129462ab8e4ee460b67dee8f3d5f6b16338259271e12ab2"
+    }
+  }
+}
