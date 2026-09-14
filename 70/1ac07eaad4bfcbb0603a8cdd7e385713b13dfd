@@ -1,0 +1,92 @@
+backend/ent/proxy/where.go
+  f965f3800c91023f 103-107,648-720
+backend/internal/service/proxy.go
+  f965f3800c91023f 24
+frontend/src/views/admin/ProxyConsoleView.vue
+  f965f3800c91023f 1-112
+backend/internal/handler/dto/proxy_mapper_console_test.go
+  f965f3800c91023f 1-37
+backend/ent/proxy/proxy.go
+  f965f3800c91023f 36-37,85,127-128,194-196
+backend/ent/runtime/runtime.go
+  f965f3800c91023f 1704-1707,1709,1715,1721
+backend/internal/handler/dto/types.go
+  f965f3800c91023f 473-474
+backend/internal/service/admin_service.go
+  f965f3800c91023f 532,548
+frontend/src/i18n/locales/zh/common.ts
+  f965f3800c91023f 187
+backend/internal/handler/dto/mappers.go
+  f965f3800c91023f 569-571
+frontend/src/types/index.ts
+  f965f3800c91023f 942,1552,1566,1592
+frontend/src/views/admin/ProxiesView.vue
+  f965f3800c91023f 41-44,500-509,739-748,1158,1172,1294,1431,1456,1497
+frontend/src/utils/proxyConsole.ts
+  f965f3800c91023f 1-22
+backend/cmd/mihomo-controller-proxy/main.go
+  f965f3800c91023f 136,427
+backend/ent/schema/proxy.go
+  f965f3800c91023f 52-56
+frontend/src/utils/__tests__/proxyConsole.spec.ts
+  f965f3800c91023f 1-21
+backend/internal/service/admin_proxy.go
+  f965f3800c91023f 8-9,76-79,88,131-137,175-187
+deploy/mihomo-redis-runner.sh
+  f965f3800c91023f 131
+backend/ent/proxy_update.go
+  f965f3800c91023f 161-180,427-431,493-498,785-804,1064-1068,1147-1151
+backend/ent/proxy_create.go
+  f965f3800c91023f 120-133,350-354,437-440,678-695,959-979,1422-1439
+backend/internal/handler/admin/proxy_partial_update_test.go
+  f965f3800c91023f 61-89
+backend/internal/service/admin_proxy_partial_update_test.go
+  f965f3800c91023f 17,26,31-52
+backend/ent/migrate/schema.go
+  f965f3800c91023f 1412,1427,1436,1446,1451
+frontend/src/i18n/locales/en/common.ts
+  f965f3800c91023f 187
+frontend/src/components/layout/AppSidebar.vue
+  f965f3800c91023f 799
+backend/ent/mutation.go
+  f965f3800c91023f 37382,37883-37931,38327,38355-38357,38399-38400,38438-38439,38522-38528,38630-38632,38662-38664,38706-38707
+backend/internal/repository/proxy_repo.go
+  f965f3800c91023f 51-53,172-176,600,618-622
+skills/sub2api-proxy-operations/references/PROXY_OPERATIONS.md
+  f965f3800c91023f 557,559,561
+backend/internal/handler/admin/account_data.go
+  f965f3800c91023f 46,181,319,368,397
+backend/ent/proxy.go
+  f965f3800c91023f 38-39,105,187-193,310-311
+backend/internal/handler/admin/proxy_data.go
+  f965f3800c91023f 77,181,239,268
+frontend/src/i18n/locales/zh/admin/resources.ts
+  f965f3800c91023f 47-57
+backend/internal/handler/admin/proxy_handler.go
+  f965f3800c91023f 36,51,160,200,217-222
+frontend/src/i18n/locales/en/admin/resources.ts
+  f965f3800c91023f 47-57
+frontend/src/router/index.ts
+  f965f3800c91023f 565-575
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "701ac07eaad4bfcbb0603a8cdd7e385713b13dfd",
+  "prompts": {
+    "f965f3800c91023f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0908a-561f-7e13-ac9c-c51661659735",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 1508,
+      "total_deletions": 249,
+      "accepted_lines": 42990,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/eb1e2f612a96740292bb2b994e68852bf91255b46a13ba88c036a2a2237d908e"
+    }
+  }
+}
