@@ -1,0 +1,26 @@
+frontend/src/views/admin/ProxyConsoleView.vue
+  f965f3800c91023f 4
+frontend/src/views/admin/__tests__/ProxyConsoleView.spec.ts
+  f965f3800c91023f 1-51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "66927881a56d8870a60d90d46ae958071074163f",
+  "prompts": {
+    "f965f3800c91023f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0908a-561f-7e13-ac9c-c51661659735",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 52,
+      "total_deletions": 9,
+      "accepted_lines": 43701,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/9d903fbf445948a34e65414791cbc7fa318a82f0841e18e8f00b19fdbd5d2039"
+    }
+  }
+}
