@@ -1,0 +1,76 @@
+backend/internal/service/account.go
+  f965f3800c91023f 851-854,868-869
+frontend/src/i18n/locales/zh/dashboard.ts
+  f965f3800c91023f 119-131
+frontend/src/views/user/__tests__/KeysView.spec.ts
+  f965f3800c91023f 6,231-233,274,549-642
+backend/internal/service/openai_compact_stream_failure_created_at_test.go
+  f965f3800c91023f 34-36,46-47
+backend/internal/service/openai_account_scheduler.go
+  f965f3800c91023f 964,971-972,1005,2741-2742,2772,2961-2962,2966-2969,2976-3043
+backend/internal/service/antigravity_gateway_service_test.go
+  f965f3800c91023f 1390-1432
+frontend/src/i18n/locales/en/dashboard.ts
+  f965f3800c91023f 119-131
+backend/internal/service/openai_model_mapping.go
+  f965f3800c91023f 85-121
+backend/internal/service/account_wildcard_test.go
+  f965f3800c91023f 234-309
+backend/internal/pkg/apicompat/responses_stream_event_wire_test.go
+  f965f3800c91023f 154-176
+backend/internal/service/openai_compact_stream_bridge.go
+  f965f3800c91023f 117-118,147-148,181-187,191,193,207-209,217
+README_JA.md
+  f965f3800c91023f 52-53
+backend/cmd/server/VERSION
+  f965f3800c91023f 1
+README_CN.md
+  f965f3800c91023f 53-54
+frontend/src/views/user/KeysView.vue
+  f965f3800c91023f 488-535,537,539-541,543,545,1201,1230-1232,1528-1555
+backend/internal/handler/stream_error_event.go
+  f965f3800c91023f 36-38,40-42,55
+README.md
+  f965f3800c91023f 52-53
+backend/internal/service/openai_ws_http_bridge.go
+  f965f3800c91023f 473-475,483,518,520
+backend/internal/service/openai_compact_stream_bridge_test.go
+  f965f3800c91023f 76-77,86,93
+frontend/src/utils/keyGroupProviders.ts
+  f965f3800c91023f 1-32
+backend/internal/service/antigravity_gateway_streaming.go
+  f965f3800c91023f 291-298
+backend/internal/handler/stream_error_event_test.go
+  f965f3800c91023f 51-56,322-335,352
+backend/internal/service/openai_gateway_scheduling.go
+  f965f3800c91023f 725-730,732,736,741,743-745,747
+backend/internal/service/openai_model_mapping_test.go
+  f965f3800c91023f 432-455
+backend/internal/service/openai_codex_transform.go
+  f965f3800c91023f 1231-1239
+backend/internal/pkg/apicompat/types.go
+  f965f3800c91023f 645-649
+backend/internal/service/openai_account_scheduler_canonical_quota_test.go
+  f965f3800c91023f 1-141
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "0712270d48f42616409407b9da6b5892ff0c0d9f",
+  "prompts": {
+    "f965f3800c91023f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0908a-561f-7e13-ac9c-c51661659735",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 2659,
+      "total_deletions": 113,
+      "accepted_lines": 52787,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/328ec67855c65387cbdbd60aa5617aadfa78a026ba2cb6634cfe0c80e17e8009"
+    }
+  }
+}
