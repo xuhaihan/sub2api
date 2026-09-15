@@ -1,0 +1,26 @@
+skills/sub2api-proxy-operations/references/PROXY_OPERATIONS.md
+  f965f3800c91023f 37,39,75-76,85,87,536
+deploy/Dockerfile.mihomo-redis
+  f965f3800c91023f 8-10,38,40,42-46,50-53
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "92f78151d73e70eb8d918eb1c7b2ba8d368ced96",
+  "prompts": {
+    "f965f3800c91023f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0908a-561f-7e13-ac9c-c51661659735",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 1964,
+      "total_deletions": 53,
+      "accepted_lines": 44170,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/95558cce05c81eab7f23efb4972bb0ea02c26bcc5fd838a54ac26301d15b952a"
+    }
+  }
+}
