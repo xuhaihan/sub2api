@@ -1,0 +1,26 @@
+backend/internal/web/embed_test.go
+  f965f3800c91023f 334,349,352,360,362-365,367-368,370-374,376-378,396
+backend/internal/web/embed_on.go
+  f965f3800c91023f 155,187
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "1c3b01988130391a08aaeac81047202cc7fd12a7",
+  "prompts": {
+    "f965f3800c91023f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0908a-561f-7e13-ac9c-c51661659735",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 24,
+      "total_deletions": 43,
+      "accepted_lines": 50169,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/58db47db3a9bd8a8a2d6adbd436affcd9b792c79e4511bc70aa8b5989b3d8605"
+    }
+  }
+}
