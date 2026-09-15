@@ -1,0 +1,40 @@
+frontend/src/components/admin/account/__tests__/AccountTestModal.spec.ts
+  f965f3800c91023f 39-41,226-280
+backend/internal/handler/admin/account_handler.go
+  f965f3800c91023f 1295-1297
+frontend/src/components/admin/account/AccountTestModal.vue
+  f965f3800c91023f 416,426-428,430-439,495-497,685-687,778-788,977-981,1004-1008,1058-1085
+backend/internal/service/account_test_service_openai_degradation_test.go
+  f965f3800c91023f 1-121
+backend/internal/service/openai_compact_probe_test.go
+  f965f3800c91023f 19-20
+backend/internal/service/account_test_service.go
+  f965f3800c91023f 45-48,53,56-72,799-804,881-883,980-982,2793-2812,3031-3204
+frontend/src/i18n/locales/en/admin/accounts.ts
+  f965f3800c91023f 706-713
+backend/internal/service/openai_compact_probe.go
+  f965f3800c91023f 16-18,25-26
+frontend/src/i18n/locales/zh/admin/accounts.ts
+  f965f3800c91023f 784-791
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "51deb1609e0ac793f0c34fe68369f6f9a1519b89",
+  "prompts": {
+    "f965f3800c91023f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0908a-561f-7e13-ac9c-c51661659735",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 506,
+      "total_deletions": 9,
+      "accepted_lines": 44155,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/b5b734270b2a5ded810095991d468648d9eeb9e96b572903cae6c464ea874be5"
+    }
+  }
+}
