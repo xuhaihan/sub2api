@@ -1,0 +1,26 @@
+frontend/src/components/admin/account/AccountTestModal.vue
+  f965f3800c91023f 858-876
+frontend/src/components/admin/account/__tests__/AccountTestModal.spec.ts
+  f965f3800c91023f 239,273-276
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "2bd6f29682c25439f269c3c73baecb9be47bb258",
+  "prompts": {
+    "f965f3800c91023f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0908a-561f-7e13-ac9c-c51661659735",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 49,
+      "total_deletions": 5,
+      "accepted_lines": 50164,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/6d85594c3a4d348e7cc4be4c34522eb710ce8e889a7271b32035865813ec92b2"
+    }
+  }
+}
