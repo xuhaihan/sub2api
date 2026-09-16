@@ -1,0 +1,189 @@
+backend/cmd/mihomo-controller-proxy/main.go
+  8381e3e4eeaacd07 1-5,7-12,14-19,21-23,26-28,30-34,42-45,50-66,68-70,72-106,128,134-135,137-146,148-182,186-197,199-223,225-239,241-248,309-316,395-398,401-406,420,426,428-434,436-443
+  b538500a4806b8f1 6,13,20,24-25,29,35-41,46-49,67,71,107-127,129-133,147,183-185,198,224,240,249-308,317-394,399-400,407-419,421-425
+  f965f3800c91023f 136,427
+backend/ent/migrate/schema.go
+  a5486ee95907b216 2016-2018,2033,2039,2045,2054,2059,2074,2079,2084
+  b441e70ede83447f 127
+  f965f3800c91023f 1412,1427,1436,1446,1451
+backend/ent/mutation.go
+  a5486ee95907b216 55459-55464,56196-56405,56722,56765-56773,56819-56824,56868-56873,56987-57007,57046-57054,57069-57074,57105-57125,57146-57154,57187-57195,57252-57259
+  f965f3800c91023f 37382,37883-37931,38327,38355-38357,38399-38400,38438-38439,38522-38528,38630-38632,38662-38664,38706-38707
+backend/ent/proxy.go
+  f965f3800c91023f 38-39,105,187-193,310-311
+backend/ent/proxy/proxy.go
+  f965f3800c91023f 36-37,85,127-128,194-196
+backend/ent/proxy/where.go
+  f965f3800c91023f 103-107,648-720
+backend/ent/proxy_create.go
+  f965f3800c91023f 120-133,350-354,437-440,678-695,959-979,1422-1439
+backend/ent/proxy_update.go
+  f965f3800c91023f 161-180,427-431,493-498,785-804,1064-1068,1147-1151
+backend/ent/runtime/runtime.go
+  a5486ee95907b216 2482
+  f965f3800c91023f 1704-1707,1709,1715,1721
+backend/ent/schema/proxy.go
+  f965f3800c91023f 52-56
+backend/internal/handler/admin/account_data.go
+  f965f3800c91023f 46,181,319,368,397
+backend/internal/handler/admin/proxy_data.go
+  f965f3800c91023f 77,181,239,268
+backend/internal/handler/admin/proxy_handler.go
+  f965f3800c91023f 36,51,160,200,217-222
+backend/internal/handler/admin/proxy_partial_update_test.go
+  f965f3800c91023f 61-89
+backend/internal/handler/dto/mappers.go
+  a5486ee95907b216 898-900
+  f965f3800c91023f 569-571
+backend/internal/handler/dto/proxy_mapper_console_test.go
+  f965f3800c91023f 1-37
+backend/internal/handler/dto/types.go
+  a5486ee95907b216 766-769
+  f965f3800c91023f 473-474
+backend/internal/repository/proxy_repo.go
+  f965f3800c91023f 51-53,172-176,600,618-622
+backend/internal/service/admin_proxy.go
+  f965f3800c91023f 8-9,76-79,88,131-137,175-187,332-333,632,640-682
+backend/internal/service/admin_proxy_partial_update_test.go
+  f965f3800c91023f 17,26,31-52
+backend/internal/service/admin_service.go
+  b538500a4806b8f1 432
+  f965f3800c91023f 532,548,597-598
+backend/internal/service/proxy.go
+  f965f3800c91023f 24
+backend/migrations/239_add_proxy_console_url.sql
+  f965f3800c91023f 1-3
+deploy/mihomo-redis-runner.sh
+  b538500a4806b8f1 1-69,71,73-113,115-129,132-183
+  f965f3800c91023f 131
+frontend/src/i18n/locales/en/admin/resources.ts
+  f965f3800c91023f 47-57
+frontend/src/i18n/locales/en/common.ts
+  f965f3800c91023f 187
+frontend/src/i18n/locales/zh/admin/resources.ts
+  f965f3800c91023f 47-57
+frontend/src/i18n/locales/zh/common.ts
+  f965f3800c91023f 187
+frontend/src/types/index.ts
+  a5486ee95907b216 2065-2067,2107-2109,2116-2118,2125-2128
+  f965f3800c91023f 942,991-992,1552,1566,1592
+frontend/src/utils/__tests__/proxyConsole.spec.ts
+  f965f3800c91023f 1-21
+frontend/src/utils/proxyConsole.ts
+  f965f3800c91023f 1-9,13,17-24
+frontend/src/views/admin/ProxiesView.vue
+  f965f3800c91023f 192,194-197,500-509,739-748,1016-1017,1158,1172,1294,1431,1456,1497,1538,1541-1545,1649-1651,1695-1697
+frontend/src/views/admin/ProxyConsoleView.vue
+  6978de55994fe779 41-42
+  f965f3800c91023f 1-40,43-106
+frontend/src/views/admin/__tests__/ProxyConsoleView.spec.ts
+  f965f3800c91023f 1-51
+skills/sub2api-proxy-operations/references/PROXY_OPERATIONS.md
+  25a8d70d933a53c5 215,217,219,244,344,349,482,524,530,563,578,705
+  b538500a4806b8f1 3,38,40-42,70-82,84,86-90,240-241,532,536,543-556
+  f965f3800c91023f 37,39,83,85,534,557-562
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "35411d29458f74321c45839be76c766f4a0bd565",
+  "prompts": {
+    "25a8d70d933a53c5": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a07eb8-7d41-7162-817d-1de5126e5efd",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 51510,
+      "total_deletions": 597,
+      "accepted_lines": 12,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/63cee9998e72e093f8734406268249786eb8cf53b532856b5e7cbf4b73a53ea9"
+    },
+    "6978de55994fe779": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0a7f8-4bbd-7651-89df-7121e8f12949",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 12,
+      "total_deletions": 38,
+      "accepted_lines": 2,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/9d7a4223b1dbc48526b03b4c92a15ca2d72d928c5c4df957acfbe8d3f81fccf2"
+    },
+    "8381e3e4eeaacd07": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a02d3b-87e7-7051-a4c6-5413230b79af",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 230,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/f7ac91a16114c5d68499ae0e1fc43daee56882f5052c973a182e6355bb792b01"
+    },
+    "a5486ee95907b216": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019feee2-3893-70c1-b12c-2b751ece5599",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 353,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/7f534fcdcafe9fdc41fc4af615f00c41e5532976f5ffb5f0576151fc603c9440"
+    },
+    "b441e70ede83447f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0318a-6b24-7e12-af12-4f6839f2f683",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 1,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/bbfb19e16f3525bfd62c7333f368393d88dce0cba9bc1049cccd96da9a241c1d"
+    },
+    "b538500a4806b8f1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a066cc-ac27-7a83-a61b-6bb408c5efb6",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": null,
+      "messages": [],
+      "total_additions": 12,
+      "total_deletions": 1,
+      "accepted_lines": 431,
+      "overriden_lines": 0
+    },
+    "f965f3800c91023f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0908a-561f-7e13-ac9c-c51661659735",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 821,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/56e1f96d84c5cc2ff0afe370bafcc83194ad4497c95c434f80744deeb3c4e8ac"
+    }
+  }
+}
