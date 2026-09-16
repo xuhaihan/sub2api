@@ -1,0 +1,24 @@
+frontend/src/views/admin/ProxiesView.vue
+  6978de55994fe779 273-284
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "5b588eb439862b047a9a354ff335ea2bf538b123",
+  "prompts": {
+    "6978de55994fe779": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0a7f8-4bbd-7651-89df-7121e8f12949",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 12,
+      "total_deletions": 38,
+      "accepted_lines": 12,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/9d7a4223b1dbc48526b03b4c92a15ca2d72d928c5c4df957acfbe8d3f81fccf2"
+    }
+  }
+}
