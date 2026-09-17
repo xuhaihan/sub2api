@@ -1,0 +1,49 @@
+backend/internal/service/openai_gateway_request_body.go
+  175dde1810f699ac 188-190,193
+backend/internal/service/openai_ws_http_bridge_test.go
+  175dde1810f699ac 371-439
+backend/internal/handler/openai_gateway_handler.go
+  175dde1810f699ac 2395-2397
+backend/internal/service/composite_platform_test.go
+  175dde1810f699ac 159-183
+backend/internal/service/openai_gateway_passthrough.go
+  175dde1810f699ac 652-654
+backend/internal/service/openai_account_scheduler_compact_test.go
+  175dde1810f699ac 489-495
+backend/internal/service/openai_gateway_responses_client_tools_test.go
+  175dde1810f699ac 395,428
+backend/internal/service/composite_platform.go
+  175dde1810f699ac 11,31-43,257-261,264-265
+backend/internal/service/openai_ws_http_bridge.go
+  175dde1810f699ac 276,281-287,566,569,609-613,615,818,891,894
+backend/internal/service/openai_gateway_response_handling.go
+  175dde1810f699ac 1626-1627
+backend/internal/service/openai_deepseek_compact.go
+  175dde1810f699ac 26-29,44-46,80,87-89,109-110,118,167-168,171
+backend/internal/service/openai_gateway_forward.go
+  175dde1810f699ac 121,182,184,1443-1444,1452,1454-1455
+backend/internal/server/routes/gateway.go
+  175dde1810f699ac 575-578
+backend/internal/service/openai_deepseek_compact_test.go
+  175dde1810f699ac 32,59,82,106,113,203-226,311-313,326-328,553-612
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "fcaf5a7236b6d02ca457b38fb9f446cafda55957",
+  "prompts": {
+    "175dde1810f699ac": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0aec4-419e-7912-85c6-7bb1a60c27cf",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 278,
+      "total_deletions": 59,
+      "accepted_lines": 6439,
+      "overriden_lines": 0
+    }
+  }
+}
