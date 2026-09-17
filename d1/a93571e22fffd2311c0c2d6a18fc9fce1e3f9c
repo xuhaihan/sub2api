@@ -1,0 +1,85 @@
+frontend/src/views/admin/GroupsView.vue
+  175dde1810f699ac 3986-4000,4131-4173,4281-4288,4909-4912,4934,6521,6528-6538,6544-6547,6601-6606
+backend/ent/compositemodelroute_create.go
+  175dde1810f699ac 16,123-128,253-256,315-317,390-393,569-580,791-804,1191-1201
+backend/internal/server/routes/gateway.go
+  175dde1810f699ac 552-557
+frontend/src/i18n/locales/zh/admin/overview.ts
+  175dde1810f699ac 1129-1135
+backend/ent/migrate/schema.go
+  175dde1810f699ac 814,829,838,843,848,853,863
+backend/internal/service/composite_route_resolver_test.go
+  175dde1810f699ac 15-24,83-206
+backend/ent/compositemodelroute.go
+  175dde1810f699ac 6,15,39-40,80-81,160-167,260-261
+backend/ent/schema/composite_model_route.go
+  175dde1810f699ac 53-56
+backend/internal/handler/openai_gateway_handler.go
+  175dde1810f699ac 32,2395-2405,2408-2416
+backend/internal/service/openai_account_scheduler_test.go
+  175dde1810f699ac 3675,3678-3688,3690-3691,3693-3694,3696-3698
+backend/ent/runtime/runtime.go
+  175dde1810f699ac 916-919,921,927,931
+backend/internal/service/openai_ws_forwarder_ingress.go
+  175dde1810f699ac 119,2139-2144
+backend/ent/compositemodelroute_update.go
+  175dde1810f699ac 13,18,130-141,335-342,506-517,741-747
+backend/internal/service/composite_platform.go
+  175dde1810f699ac 10-29,222-258
+backend/internal/repository/composite_model_route_repo.go
+  175dde1810f699ac 50,72,102-114
+backend/ent/mutation.go
+  175dde1810f699ac 19710-19732,20134-20184,20423,20448-20450,20487-20488,20522-20523,20597-20603,20735-20736
+backend/internal/domain/composite_route.go
+  175dde1810f699ac 1-9
+backend/ent/compositemodelroute/compositemodelroute.go
+  175dde1810f699ac 11,35-36,69,114-115
+backend/internal/service/openai_ws_protocol_resolver_test.go
+  175dde1810f699ac 174-195
+backend/internal/service/openai_account_scheduler.go
+  175dde1810f699ac 2417-2419
+backend/migrations/240_composite_route_fallback_targets.sql
+  175dde1810f699ac 1-5
+backend/internal/handler/admin/group_handler.go
+  175dde1810f699ac 333-341,518-526
+backend/internal/service/cn_providers_test.go
+  175dde1810f699ac 720-740
+backend/internal/service/account.go
+  175dde1810f699ac 1443-1459
+frontend/src/i18n/locales/en/admin/overview.ts
+  175dde1810f699ac 1132-1138
+frontend/src/types/index.ts
+  175dde1810f699ac 686-690,698,712,733-735
+backend/internal/service/gateway_service.go
+  175dde1810f699ac 872
+backend/internal/service/composite_platform_test.go
+  175dde1810f699ac 6,21-30,117-156
+backend/internal/service/composite_route_resolver.go
+  175dde1810f699ac 20-22,37-42,57,62-72,75-86,135-220
+backend/internal/service/composite_model_route.go
+  175dde1810f699ac 8,40-46,55-67,76-87,91-99,144,157-177
+backend/internal/service/admin_service_group_test.go
+  175dde1810f699ac 2029-2035,2046,2054-2068
+backend/internal/service/admin_group.go
+  175dde1810f699ac 262-269,274-283
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "d1a93571e22fffd2311c0c2d6a18fc9fce1e3f9c",
+  "prompts": {
+    "175dde1810f699ac": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0aec4-419e-7912-85c6-7bb1a60c27cf",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 7172,
+      "total_deletions": 224,
+      "accepted_lines": 7122,
+      "overriden_lines": 2
+    }
+  }
+}
