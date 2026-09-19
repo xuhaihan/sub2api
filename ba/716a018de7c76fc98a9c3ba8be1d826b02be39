@@ -1,0 +1,137 @@
+backend/internal/server/routes/gateway.go
+  175dde1810f699ac 371-375
+backend/internal/handler/grok_media.go
+  175dde1810f699ac 55-60,108-114,231-232,247,272,276,293,296,325,376-378,509-513,544-546,565,738
+backend/internal/server/routes/admin.go
+  175dde1810f699ac 763
+backend/pkg/pluginapi/v1/runtime.go
+  175dde1810f699ac 17-20,32-45,52,54-57,61-63
+backend/internal/service/plugin_runtime_integration_test.go
+  175dde1810f699ac 50
+backend/internal/service/plugin_runtime.go
+  175dde1810f699ac 11,23-25,38,73-74,78,105-107,111-154,216-230
+frontend/src/components/account/CreateAccountModal.vue
+  175dde1810f699ac 4534-4535,4542,4544,4570
+backend/internal/handler/seedance.go
+  175dde1810f699ac 1-63
+frontend/src/views/admin/PluginsView.vue
+  175dde1810f699ac 614-615,654-669
+backend/internal/service/plugin_host_services.go
+  175dde1810f699ac 1-265
+backend/internal/service/grok_media.go
+  175dde1810f699ac 44,48-50,343-348,357
+backend/pkg/pluginapi/v1/plugin.proto
+  175dde1810f699ac 14-35,53-58,88-90,149-223
+frontend/src/components/account/BulkEditAccountModal.vue
+  175dde1810f699ac 1789-1790,1800,1802,2000
+backend/internal/service/ratelimit_service.go
+  175dde1810f699ac 1003-1010
+backend/internal/service/antigravity_gemini_thinking_variant.go
+  175dde1810f699ac 1-137
+backend/cmd/server/wire_gen.go
+  175dde1810f699ac 207-209
+backend/internal/repository/plugin_kv_store.go
+  175dde1810f699ac 1-99
+backend/internal/handler/admin/plugin_handler.go
+  175dde1810f699ac 186-201
+backend/internal/service/seedance.go
+  175dde1810f699ac 1-155
+backend/internal/pkg/apicompat/responses_to_anthropic_request.go
+  175dde1810f699ac 649-651,665
+backend/internal/pkg/apicompat/responses_to_anthropic_tools_test.go
+  175dde1810f699ac 141-317
+backend/internal/service/openai_gateway_cc_pipeline.go
+  175dde1810f699ac 185-189
+backend/pkg/pluginapi/docs/ui-bridge.md
+  175dde1810f699ac 47,51-53
+backend/internal/service/antigravity_gateway_gemini.go
+  175dde1810f699ac 89-96
+backend/pkg/pluginapi/README.md
+  175dde1810f699ac 33-47,79-87,89,91-93
+backend/internal/service/ratelimit_cn_providers.go
+  175dde1810f699ac 9-10,40-72,75,77,80-98,199-237,247,276-278
+backend/internal/service/antigravity_gateway_streaming.go
+  175dde1810f699ac 200-204
+backend/internal/service/plugin_host_services_test.go
+  175dde1810f699ac 1-331
+backend/internal/handler/endpoint.go
+  175dde1810f699ac 32,85-86
+backend/internal/service/gateway_forward_as_responses_test.go
+  175dde1810f699ac 78-124
+frontend/src/types/index.ts
+  175dde1810f699ac 1471
+backend/internal/service/gemini_sse_comment_compat_test.go
+  175dde1810f699ac 1-95
+frontend/src/components/account/__tests__/EditAccountModal.spec.ts
+  175dde1810f699ac 1317-1329
+backend/internal/service/plugin_manager_routing_test.go
+  175dde1810f699ac 115-135
+backend/internal/service/ratelimit_service_cn_quota_403_test.go
+  175dde1810f699ac 1-171
+backend/internal/server/routes/seedance_test.go
+  175dde1810f699ac 1-34
+backend/internal/handler/grok_media_slots_test.go
+  175dde1810f699ac 123-138,201,209-213
+backend/internal/repository/wire.go
+  175dde1810f699ac 100
+backend/internal/server/routes/gateway_model_allowlist_test.go
+  175dde1810f699ac 160-163
+frontend/src/api/admin/plugins.ts
+  175dde1810f699ac 78-84,148-152,167
+backend/internal/service/gemini_sse_comment_compat.go
+  175dde1810f699ac 1-35
+backend/internal/service/seedance_test.go
+  175dde1810f699ac 1-112
+frontend/src/components/account/EditAccountModal.vue
+  175dde1810f699ac 3734-3735,3742,3744,3752,3790
+backend/internal/service/plugin_host_services_broker_test.go
+  175dde1810f699ac 1-130
+docs/seedance-api.md
+  175dde1810f699ac 1-45
+frontend/src/components/layout/AppHeader.vue
+  175dde1810f699ac 41,45-47
+backend/internal/service/ratelimit_service_401_test.go
+  175dde1810f699ac 20,29-30,48-52
+backend/internal/service/openai_plugin_account_directory.go
+  175dde1810f699ac 1-79
+backend/internal/repository/plugin_kv_store_test.go
+  175dde1810f699ac 1-148
+backend/internal/service/openai_gateway_responses_chat_fallback.go
+  175dde1810f699ac 10-11,20-23,712-774
+backend/internal/pkg/apicompat/responses_to_anthropic_tool_schema.go
+  175dde1810f699ac 1-213
+backend/internal/service/openai_gateway_deepseek_chat_reasoning_test.go
+  175dde1810f699ac 1-193
+backend/cmd/server/VERSION
+  175dde1810f699ac 1
+frontend/src/components/account/__tests__/BulkEditAccountModal.spec.ts
+  175dde1810f699ac 560-571
+backend/internal/service/antigravity_gemini_thinking_variant_test.go
+  175dde1810f699ac 1-118
+backend/internal/service/account.go
+  175dde1810f699ac 1878-1882
+backend/internal/handler/seedance_test.go
+  175dde1810f699ac 1-97
+backend/internal/service/plugin_manager.go
+  175dde1810f699ac 49-53,65,72,822-841,1047-1084
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "ba716a018de7c76fc98a9c3ba8be1d826b02be39",
+  "prompts": {
+    "175dde1810f699ac": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0aec4-419e-7912-85c6-7bb1a60c27cf",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 22767,
+      "total_deletions": 96,
+      "accepted_lines": 28928,
+      "overriden_lines": 0
+    }
+  }
+}
