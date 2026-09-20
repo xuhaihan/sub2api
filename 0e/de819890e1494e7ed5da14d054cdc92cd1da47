@@ -1,0 +1,25 @@
+backend/internal/service/openai_tool_loop_guard_test.go
+  175dde1810f699ac 131-189
+backend/internal/service/openai_tool_loop_guard.go
+  175dde1810f699ac 15-23,45,50-53,56,61,70,87,94-96,100-101,108-110,113,117,119,146-155,158-159,161-166,224,227,247,258,263-271,275-294,300-319,321-324,328,343-344,353,357-372
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "0ede819890e1494e7ed5da14d054cdc92cd1da47",
+  "prompts": {
+    "175dde1810f699ac": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0aec4-419e-7912-85c6-7bb1a60c27cf",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 188,
+      "total_deletions": 38,
+      "accepted_lines": 25655,
+      "overriden_lines": 0
+    }
+  }
+}
