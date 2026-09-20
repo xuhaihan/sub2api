@@ -1,0 +1,179 @@
+backend/internal/service/content_moderation_typesafe_live_test.go
+  175dde1810f699ac 1-36
+frontend/src/components/account/OpenAIReferralCell.vue
+  175dde1810f699ac 1-225
+backend/internal/service/openai_quota_reset_credits_test.go
+  175dde1810f699ac 178
+backend/internal/service/content_moderation_engines.go
+  175dde1810f699ac 1-175
+backend/migrations/content_moderation_engine_meta_test.go
+  175dde1810f699ac 1-18
+backend/internal/pkg/typesafe/client.go
+  175dde1810f699ac 1-86
+frontend/src/components/account/__tests__/OpenAIReferralCell.transport.spec.ts
+  175dde1810f699ac 1-65
+frontend/src/i18n/locales/zh/admin/channels.ts
+  175dde1810f699ac 231-238,247,264,266-267,295,297,339,445
+frontend/src/types/openaiReferrals.ts
+  175dde1810f699ac 1-25
+frontend/src/views/admin/__tests__/RiskControlView.spec.ts
+  175dde1810f699ac 7,16,26,38,204,223-337
+backend/internal/service/openai_referral_service.go
+  175dde1810f699ac 1-181
+frontend/src/i18n/locales/en/admin/accounts.ts
+  175dde1810f699ac 1598-1622,1624-1630,1632-1633,1635
+backend/internal/repository/http_upstream_http2_keepalive_test.go
+  175dde1810f699ac 5,42-59,70-79,82-83,90-119,124,127-135
+backend/internal/service/account_usage_service_batch_test.go
+  175dde1810f699ac 332-410
+frontend/src/components/account/__tests__/OpenAIQuotaResetCell.spark_shadow.spec.ts
+  175dde1810f699ac 6,11-12,69-151,330,356
+backend/cmd/server/wire_gen.go
+  175dde1810f699ac 202-203,209
+frontend/src/views/admin/RiskControlView.vue
+  175dde1810f699ac 26-32,411-417,420,424,605,680-683,929-930,1088-1095,1150,1172-1173,1254-1256,1260,1299-1345,1555,1783-1784,1825-1831,1848,1865,1887,1932-1933,2090-2091,2109-2112
+frontend/src/api/__tests__/client.spec.ts
+  175dde1810f699ac 497,499,509
+backend/internal/repository/http_upstream_http2_ping_test.go
+  175dde1810f699ac 1-205
+backend/internal/service/openai_gateway_passthrough.go
+  175dde1810f699ac 2053
+backend/internal/service/content_moderation_engines_test.go
+  175dde1810f699ac 1-193
+backend/internal/handler/admin/openai_referral_handler_test.go
+  175dde1810f699ac 1-133
+backend/internal/service/account_usage_service.go
+  175dde1810f699ac 389-391
+backend/internal/service/plugin_manager.go
+  175dde1810f699ac 1060-1061,1066,1068,1073,1076-1087,1089-1091,1093,1095
+backend/internal/repository/account_repo.go
+  175dde1810f699ac 68-69
+backend/internal/handler/admin/content_moderation_engine_test.go
+  175dde1810f699ac 1-53
+backend/internal/service/openai_gateway_service_test.go
+  175dde1810f699ac 3327,3331,3397,3401,3431,3435,3479,3483
+backend/internal/pkg/typesafe/client_test.go
+  175dde1810f699ac 1-82
+backend/internal/service/openai_plugin_account_directory_test.go
+  175dde1810f699ac 1-181
+backend/internal/service/setting_gateway_runtime.go
+  175dde1810f699ac 297-298,393-397,399-400
+backend/internal/service/openai_response_model_rewrite_test.go
+  175dde1810f699ac 1-94
+backend/pkg/pluginapi/v1/runtime.go
+  175dde1810f699ac 20-24
+backend/migrations/238b_content_moderation_engine_meta.sql
+  175dde1810f699ac 1-2
+frontend/src/api/admin/accounts.ts
+  175dde1810f699ac 7,922,926-931,959,978-990
+backend/internal/service/plugin_host_services_broker_test.go
+  175dde1810f699ac 92,114
+frontend/src/api/client.ts
+  175dde1810f699ac 271
+backend/internal/service/account_usage_service_spark_shadow_test.go
+  175dde1810f699ac 120
+backend/internal/service/openai_quota_credits_test.go
+  175dde1810f699ac 1-85
+.gitignore
+  175dde1810f699ac 145,151-152
+backend/internal/service/content_moderation_reminder_test.go
+  175dde1810f699ac 1-226
+backend/internal/service/openai_gateway_request_body.go
+  175dde1810f699ac 833-837
+backend/internal/handler/admin/content_moderation_handler.go
+  175dde1810f699ac 23-28,63-71,94,142
+backend/internal/service/openai_plugin_account_directory.go
+  175dde1810f699ac 5,10-21,23-33,36-67,69-84,86-108,110-116,118,123-126,133-143
+backend/internal/service/gemini_sse_comment_compat_test.go
+  175dde1810f699ac 84-88
+backend/internal/repository/content_moderation_repo_test.go
+  175dde1810f699ac 5,16-59
+backend/internal/service/openai_gateway_chat_completions_raw.go
+  175dde1810f699ac 356,527
+backend/internal/repository/openai_referral_client_test.go
+  175dde1810f699ac 1-140
+backend/internal/repository/http_upstream.go
+  175dde1810f699ac 79-81,1346,1367,1375-1378
+backend/internal/service/plugin_host_services_test.go
+  175dde1810f699ac 84,105,114-115,134,151,203,209,215,225,229,236-239,242-244,247-248,259-262,268-269,274-278,299,309-310,312-317,319-337,339-340
+frontend/src/i18n/locales/zh/common.ts
+  175dde1810f699ac 215
+frontend/src/i18n/locales/en/admin/channels.ts
+  175dde1810f699ac 231-238,247,264,266-267,295,297,339,445
+backend/internal/service/openai_gateway_chat_completions_raw_test.go
+  175dde1810f699ac 9,1244-1278
+Makefile
+  175dde1810f699ac 8-10
+backend/internal/service/content_moderation_input.go
+  175dde1810f699ac 17-31,39,41,43,45,47-48,50-52,58-60,64,78,86,100,108,113-114,118,125-126,129,132,141,146,153,156,158,161-162,164,170,173,178,181,184,186,191,208,220,225,228,247,250,323,328
+backend/internal/service/openai_referral_service_test.go
+  175dde1810f699ac 1-137
+frontend/src/components/account/OpenAIQuotaResetCell.vue
+  175dde1810f699ac 11-12,64-80,194,218-249,436-437,439,445-448,459,462,483-484,489-491,516,519,529-530
+backend/internal/service/openai_codex_version_sync_service_test.go
+  175dde1810f699ac 397-398,403,481-536
+backend/internal/repository/account_repo_codex_display_snapshot_test.go
+  175dde1810f699ac 1-55
+backend/internal/service/openai_quota_spark_window_test.go
+  175dde1810f699ac 211,264,326,379,417,471,567,628,703,705-706,721,777
+backend/internal/service/openai_gateway_response_handling.go
+  175dde1810f699ac 666,1072,1075-1076,1079-1087,1090-1091,1093
+backend/internal/service/openai_referral_client.go
+  175dde1810f699ac 1-19
+backend/internal/server/routes/admin.go
+  175dde1810f699ac 457-458
+frontend/src/i18n/locales/zh/admin/accounts.ts
+  175dde1810f699ac 510-534,537-542,544-545
+backend/internal/handler/admin/openai_referral_handler.go
+  175dde1810f699ac 1-101
+backend/pkg/pluginapi/v1/plugin.proto
+  175dde1810f699ac 30-36,212-214,216-259
+backend/internal/service/plugin_host_services.go
+  175dde1810f699ac 6,50-132,134-135,146-147,150-151,256,262,266-274,278,284,302-314
+backend/internal/service/openai_quota_service.go
+  175dde1810f699ac 38,79-93,105,139,152,159,251-265,271-275,280
+backend/internal/repository/wire.go
+  175dde1810f699ac 165
+frontend/src/components/account/__tests__/OpenAIReferralCell.spec.ts
+  175dde1810f699ac 1-141
+backend/internal/service/content_moderation.go
+  175dde1810f699ac 142-147,180-213,247-252,266-272,276-281,398-426,446,622,630-635,699-705,707-709,726,734-744,778,794,796,798,910-911,922,924,949-969,1059,1075,1109,1380,1420,1441-1445,1511-1513,1597,1620,1662-1664,1671,1711,1719,1721,1725,1727,1746-1748,1797,2131-2133,2147,2297,2304-2305,2315-2316,2326-2327,2349-2350,2367-2368,2427,2437,2463,2466,2471,2474,2479,2481,2487,2491,2498,2500,2669,2695,2700-2702,2908,2922
+backend/internal/service/openai_ws_forwarder_ingress_execution_scope_test.go
+  175dde1810f699ac 313-325
+backend/internal/service/content_moderation_typesafe.go
+  175dde1810f699ac 1-91
+backend/internal/repository/openai_referral_client.go
+  175dde1810f699ac 1-99
+backend/internal/handler/admin/openai_oauth_handler_reset_quota_test.go
+  175dde1810f699ac 20-27,54-59,422-447
+frontend/src/types/index.ts
+  175dde1810f699ac 1195-1199
+backend/internal/repository/content_moderation_repo.go
+  175dde1810f699ac 35-42,64,69,74,108,124,154,182-186
+backend/internal/handler/admin/openai_oauth_handler.go
+  175dde1810f699ac 24,31,62-63,98,529-533
+frontend/src/api/admin/riskControl.ts
+  175dde1810f699ac 4-10,20-21,75-76,94,104-105,142,189,220-222
+backend/internal/service/wire.go
+  175dde1810f699ac 181-187,196,199,941
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "05549870e1b7c58d8ad2cc2bb2dbb8bdcf77dbfb",
+  "prompts": {
+    "175dde1810f699ac": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0aec4-419e-7912-85c6-7bb1a60c27cf",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 9449,
+      "total_deletions": 511,
+      "accepted_lines": 34912,
+      "overriden_lines": 0
+    }
+  }
+}
