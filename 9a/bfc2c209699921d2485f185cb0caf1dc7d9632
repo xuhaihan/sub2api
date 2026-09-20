@@ -1,0 +1,31 @@
+backend/internal/service/openai_gateway_forward.go
+  175dde1810f699ac 84-95
+backend/internal/service/openai_tool_loop_guard.go
+  175dde1810f699ac 1-282
+backend/internal/service/openai_ws_http_bridge.go
+  175dde1810f699ac 675-686
+backend/internal/service/openai_ws_forwarder_ingress.go
+  175dde1810f699ac 2182-2195
+backend/internal/service/openai_tool_loop_guard_test.go
+  175dde1810f699ac 1-130
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "9abfc2c209699921d2485f185cb0caf1dc7d9632",
+  "prompts": {
+    "175dde1810f699ac": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0aec4-419e-7912-85c6-7bb1a60c27cf",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 450,
+      "total_deletions": 0,
+      "accepted_lines": 25920,
+      "overriden_lines": 0
+    }
+  }
+}
