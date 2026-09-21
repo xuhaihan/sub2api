@@ -1,0 +1,31 @@
+backend/internal/service/composite_route_resolver.go
+  175dde1810f699ac 135-180
+backend/internal/handler/openai_gateway_handler.go
+  175dde1810f699ac 2421,2623-2663,2697-2699
+backend/internal/service/composite_route_resolver_test.go
+  175dde1810f699ac 162-224
+backend/internal/service/composite_platform.go
+  175dde1810f699ac 12,73,87-96
+backend/internal/handler/gateway_handler_responses.go
+  175dde1810f699ac 95,192-214
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "1eed3dc1eae900fbad87a2305f5127d9db360274",
+  "prompts": {
+    "175dde1810f699ac": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0aec4-419e-7912-85c6-7bb1a60c27cf",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 193,
+      "total_deletions": 0,
+      "accepted_lines": 30529,
+      "overriden_lines": 0
+    }
+  }
+}
