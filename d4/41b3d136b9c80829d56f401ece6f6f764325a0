@@ -1,0 +1,176 @@
+backend/internal/service/openai_gateway_chat_completions_anthropic_native.go
+  175dde1810f699ac 26,115,136-138
+backend/internal/service/openai_gateway_chat_completions_raw_test.go
+  175dde1810f699ac 459-461
+frontend/src/api/admin/channels.ts
+  175dde1810f699ac 53,183
+backend/internal/service/channel_test.go
+  175dde1810f699ac 196-197,213-214
+backend/internal/service/model_pricing_resolver.go
+  175dde1810f699ac 6,251
+frontend/src/views/admin/ChannelsView.vue
+  d469612dc7458529 637,868,906,1092,1138,1241,1433,1546-1562,1567
+frontend/src/api/channels.ts
+  175dde1810f699ac 48
+.github/release-tools/README.md
+  d469612dc7458529 1-30
+.github/release-tools/release_matrix.py
+  175dde1810f699ac 1-189
+backend/internal/service/model_plaza_service.go
+  175dde1810f699ac 368-370,382,390,573
+backend/internal/service/billing_service_test.go
+  175dde1810f699ac 1810
+backend/internal/service/gateway_compat_reasoning_pricing_test.go
+  175dde1810f699ac 1-115
+frontend/src/components/admin/channel/types.ts
+  175dde1810f699ac 2,33,186-207
+backend/internal/service/gateway_reasoning_pricing_test.go
+  175dde1810f699ac 1-70
+.github/release-tools/release-images.sh
+  175dde1810f699ac 1-38
+backend/internal/service/openai_gateway_service_hotpath_test.go
+  175dde1810f699ac 935-938
+.github/release-tools/test_release_matrix.py
+  175dde1810f699ac 1-191
+backend/internal/service/gateway_forward_as_responses.go
+  175dde1810f699ac 132,137-140
+backend/internal/service/reasoning_effort_billing_test.go
+  175dde1810f699ac 1-245
+backend/internal/repository/channel_repo_account_stats_pricing.go
+  175dde1810f699ac 70,84,88,95-99,181-184,191-192,195
+backend/internal/service/openai_gateway_usage.go
+  175dde1810f699ac 593,730,755,776-785,816,842-852
+.github/workflows/release.yml
+  175dde1810f699ac 10,18-22,24-26,29-33,36,38-46,48,50-66,68-77,84,87-90,93,96,98,100,102,108-109,111-116,118,120,122-126,130,134,138,140-191,193-231,237,245,251-255,258-270,274,277,281,283-293,297,310,312,324,379-380,382-385,394
+frontend/src/i18n/locales/zh/admin/channels.ts
+  175dde1810f699ac 143-149,151
+backend/internal/repository/channel_repo_pricing_reasoning_test.go
+  175dde1810f699ac 1-175
+backend/internal/service/antigravity_gateway_gemini.go
+  175dde1810f699ac 470
+backend/internal/service/gemini_chat_completions_compat_service.go
+  175dde1810f699ac 61,210
+frontend/src/i18n/locales/zh/dashboard.ts
+  175dde1810f699ac 688-689
+backend/migrations/channel_reasoning_effort_multipliers_migration_test.go
+  175dde1810f699ac 1-25
+backend/internal/service/billing_service.go
+  175dde1810f699ac 8,97-119,234-237,239,242-244,246,1307,1380,1395-1397,1399-1401,1424-1426,1490,1785
+backend/internal/handler/available_channel_handler.go
+  175dde1810f699ac 69-79,335-345
+backend/internal/service/openai_gateway_messages_chat_fallback.go
+  175dde1810f699ac 91-94
+.github/release-tools/requirements-release.txt
+  175dde1810f699ac 1
+backend/internal/service/openai_gateway_responses_anthropic_native.go
+  175dde1810f699ac 116,121-123
+frontend/src/components/admin/channel/__tests__/PricingEntryCard.timePricing.spec.ts
+  d469612dc7458529 1,5-9,26,33,76,83,92-159
+backend/internal/service/account_stats_pricing_test.go
+  175dde1810f699ac 481,490
+backend/migrations/239_channel_reasoning_effort_multipliers.sql
+  175dde1810f699ac 1-56
+frontend/src/constants/channel.ts
+  175dde1810f699ac 17-20
+.github/workflows/backend-ci.yml
+  175dde1810f699ac 83-93
+backend/internal/service/channel_service.go
+  175dde1810f699ac 7,691-693,697-712
+frontend/src/components/modelPlaza/PlazaModelPricingTable.vue
+  d469612dc7458529 110-111,113-114,116,323,329-337
+frontend/src/i18n/locales/en/admin/channels.ts
+  175dde1810f699ac 143-149,151
+backend/internal/repository/channel_reasoning_effort_migration_integration_test.go
+  175dde1810f699ac 1-85
+frontend/src/views/admin/GroupsView.vue
+  d469612dc7458529 4378,4382,4457,4479-4481,4504-4506,5940-5950,5966,6298
+backend/internal/service/model_plaza_service_test.go
+  175dde1810f699ac 96-103
+backend/internal/service/openai_gateway_chat_completions_raw.go
+  175dde1810f699ac 187-190
+backend/internal/repository/channel_repo_pricing.go
+  175dde1810f699ac 19,54-57,68,71,103,184,188,196-200,247-250,264,268,285-307
+backend/internal/repository/channel_reasoning_pricing_integration_test.go
+  175dde1810f699ac 1-181
+frontend/src/components/modelPlaza/__tests__/PlazaModelPricingTable.spec.ts
+  d469612dc7458529 71,73,76-91
+backend/internal/service/gateway_forward_as_chat_completions.go
+  175dde1810f699ac 122,127-130,180
+backend/internal/service/gemini_reasoning_effort.go
+  175dde1810f699ac 1-32
+backend/internal/repository/channel_repo_pricing_time_test.go
+  175dde1810f699ac 19,36,108,111,124,156,159,172
+.github/release-tools/.gitignore
+  175dde1810f699ac 1
+backend/internal/service/account_stats_pricing.go
+  175dde1810f699ac 22,119,195
+backend/internal/service/gateway_image_reasoning_pricing_test.go
+  175dde1810f699ac 1-143
+backend/internal/service/channel.go
+  175dde1810f699ac 5,91-110,212,215
+backend/internal/service/gateway_usage_billing.go
+  175dde1810f699ac 906,1031,1049-1059
+backend/internal/service/openai_gateway_converted_reasoning_pricing_test.go
+  175dde1810f699ac 1-133
+backend/internal/service/channel_available.go
+  175dde1810f699ac 6,121,179-184,188-195,199,203
+frontend/src/i18n/locales/en/dashboard.ts
+  175dde1810f699ac 684-685
+backend/internal/service/gemini_messages_compat_service.go
+  175dde1810f699ac 1671
+backend/internal/handler/available_channel_handler_test.go
+  175dde1810f699ac 121-122,132
+backend/internal/service/billing_token_cost_request_test.go
+  175dde1810f699ac 220,231,234,239
+frontend/src/components/admin/channel/PricingEntryCard.vue
+  d469612dc7458529 147,259-295,310-311,349-350,353-362,438
+backend/internal/service/openai_gateway_request_body.go
+  175dde1810f699ac 2351
+backend/internal/service/gemini_native_reasoning_pricing_test.go
+  175dde1810f699ac 1-190
+backend/internal/handler/admin/channel_handler.go
+  175dde1810f699ac 60-75,133-149,263-279,356,362-377,622-630
+backend/internal/handler/admin/channel_handler_test.go
+  175dde1810f699ac 452,455-459,472,481,513-529,602-605,613
+.gitignore
+  175dde1810f699ac 159
+backend/internal/service/channel_reasoning_pricing_test.go
+  175dde1810f699ac 1-42
+frontend/src/views/admin/__tests__/GroupsView.duplicate.spec.ts
+  d469612dc7458529 328-386
+frontend/src/components/admin/channel/__tests__/types.spec.ts
+  175dde1810f699ac 7,11,18-42
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "d441b3d136b9c80829d56f401ece6f6f764325a0",
+  "prompts": {
+    "175dde1810f699ac": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0aec4-419e-7912-85c6-7bb1a60c27cf",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 18321,
+      "total_deletions": 801,
+      "accepted_lines": 47817,
+      "overriden_lines": 0
+    },
+    "d469612dc7458529": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0c7fa-1eb1-7ce3-b7ad-6fea288e10b6",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 310,
+      "total_deletions": 254,
+      "accepted_lines": 309,
+      "overriden_lines": 0
+    }
+  }
+}
