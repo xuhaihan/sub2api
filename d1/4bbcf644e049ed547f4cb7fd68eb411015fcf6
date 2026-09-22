@@ -1,0 +1,24 @@
+backend/internal/service/openai_ws_forwarder_ingress.go
+  d469612dc7458529 551-555,576-666
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.9",
+  "base_commit_sha": "d14bbcf644e049ed547f4cb7fd68eb411015fcf6",
+  "prompts": {
+    "d469612dc7458529": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0c7fa-1eb1-7ce3-b7ad-6fea288e10b6",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 144,
+      "total_deletions": 55,
+      "accepted_lines": 144,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/b988dc9622ebe96d718ba222288f77ef97ea3960030c2d7c249597cc64a60f8d"
+    }
+  }
+}
