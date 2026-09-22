@@ -1,0 +1,47 @@
+deploy/config.example.yaml
+  1df66a3474786054 426-427,429
+deploy/docker-compose.standalone.yml
+  1df66a3474786054 18-19
+deploy/docker-compose.local.yml
+  1df66a3474786054 30-31
+deploy/docker-compose.dev.yml
+  1df66a3474786054 20-21
+deploy/Dockerfile
+  1df66a3474786054 106,108
+deploy/docker-compose.yml
+  1df66a3474786054 22-23
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.9",
+  "base_commit_sha": "a0b1b8b453acfc70242a04131f8afd59cef18651",
+  "prompts": {
+    "1df66a3474786054": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fa2eb-f645-7d73-ab78-80ba66553240",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 27344,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/d3bd9a92ef9dd3e5a9213ac349696de7102b0e9aafd262ce3515609a6f096838"
+    },
+    "62cc737ec6ffaeb7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "93ead742-79f7-4434-98ce-4e3fe7117aa9",
+        "model": "glm-4.7"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    }
+  }
+}
