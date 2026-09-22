@@ -1,0 +1,40 @@
+backend/internal/service/openai_deepseek_compact_test.go
+  d469612dc7458529 32,59,82,106,113
+backend/internal/service/openai_gateway_response_handling.go
+  d469612dc7458529 1618-1621,1623
+backend/internal/service/openai_ws_forwarder_ingress.go
+  d469612dc7458529 2182-2194
+backend/internal/service/openai_gateway_request_body.go
+  d469612dc7458529 188-190,193
+backend/internal/service/openai_gateway_responses_client_tools_test.go
+  d469612dc7458529 243,279,282-285,288,344-346,349-351,395,428
+backend/internal/service/openai_gateway_passthrough.go
+  d469612dc7458529 652-655
+backend/internal/service/openai_deepseek_compact.go
+  d469612dc7458529 26-29,43-45,80-81,88-96,116-117,125,174-176,179
+backend/internal/service/openai_ws_http_bridge.go
+  d469612dc7458529 271,280,559,562,602,604,664-674,819,892
+backend/internal/service/openai_gateway_forward.go
+  d469612dc7458529 27-29,31,62-94,133,137,147,163,194,196,1455-1457,1465,1467-1468,1470
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.9",
+  "base_commit_sha": "9cf27af7b1cec15973f482e758326547107a2784",
+  "prompts": {
+    "d469612dc7458529": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0c7fa-1eb1-7ce3-b7ad-6fea288e10b6",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 518,
+      "total_deletions": 789,
+      "accepted_lines": 384,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/eca34b36c2a6a8dcb8877860a614db17433049dad65dc16e330ab367d4a95915"
+    }
+  }
+}
