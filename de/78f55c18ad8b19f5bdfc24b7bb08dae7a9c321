@@ -1,0 +1,24 @@
+backend/internal/service/openai_deepseek_compact.go
+  d469612dc7458529 34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.9",
+  "base_commit_sha": "de78f55c18ad8b19f5bdfc24b7bb08dae7a9c321",
+  "prompts": {
+    "d469612dc7458529": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0c7fa-1eb1-7ce3-b7ad-6fea288e10b6",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 4,
+      "total_deletions": 61,
+      "accepted_lines": 4,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/3714a496217ef250598ed41c9ca2cf367f22ccd08c9273b99b34afb02eeb35c1"
+    }
+  }
+}
