@@ -1,0 +1,64 @@
+frontend/src/components/account/AccountTestModal.vue
+  175dde1810f699ac 69-100,286,304,309,323,325-327,330-333,335-350,385-388,552,583-595,614,632-655
+frontend/src/i18n/locales/en/admin/accounts.ts
+  175dde1810f699ac 467-487,727
+frontend/src/views/admin/AccountsView.vue
+  175dde1810f699ac 252-260,465,468,612,2325,2332,2335-2350
+backend/internal/service/openai_compact_probe_test.go
+  175dde1810f699ac 22
+frontend/src/types/index.ts
+  175dde1810f699ac 1171-1185,1216
+frontend/src/components/admin/account/__tests__/AccountActionMenu.spark_shadow.spec.ts
+  175dde1810f699ac 52-71
+backend/internal/service/openai_codex_turn_state.go
+  175dde1810f699ac 60,90-94,98
+frontend/src/components/account/__tests__/AccountTestModal.spec.ts
+  175dde1810f699ac 151-212
+frontend/src/i18n/locales/zh/admin/accounts.ts
+  175dde1810f699ac 294-314,836
+frontend/src/components/admin/account/AccountActionMenu.vue
+  175dde1810f699ac 18-21,77,137-139
+backend/internal/service/account_test_service.go
+  175dde1810f699ac 773-775,791-793,945-957
+backend/internal/service/openai_codex_risk_control.go
+  175dde1810f699ac 1-167
+backend/internal/service/openai_codex_risk_control_test.go
+  175dde1810f699ac 1-204
+backend/internal/service/openai_compact_probe.go
+  175dde1810f699ac 19-20,29-30
+backend/internal/service/openai_gateway_service.go
+  175dde1810f699ac 515-517
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.7",
+  "base_commit_sha": "9253d6305cf495bad72826e0591e3d127b74a2d0",
+  "prompts": {
+    "175dde1810f699ac": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0aec4-419e-7912-85c6-7bb1a60c27cf",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 911,
+      "total_deletions": 17,
+      "accepted_lines": 46080,
+      "overriden_lines": 0
+    },
+    "d469612dc7458529": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0c7fa-1eb1-7ce3-b7ad-6fea288e10b6",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 1,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    }
+  }
+}
