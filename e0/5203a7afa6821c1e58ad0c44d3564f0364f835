@@ -1,0 +1,24 @@
+backend/internal/service/openai_ws_http_bridge.go
+  d469612dc7458529 516
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.9",
+  "base_commit_sha": "e05203a7afa6821c1e58ad0c44d3564f0364f835",
+  "prompts": {
+    "d469612dc7458529": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0c7fa-1eb1-7ce3-b7ad-6fea288e10b6",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 11,
+      "total_deletions": 68,
+      "accepted_lines": 11,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/528c1be27e070cb81447e586c1b277ccfedd7c36f45cc04c304ed0dad7e19498"
+    }
+  }
+}
