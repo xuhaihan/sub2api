@@ -1,0 +1,30 @@
+backend/internal/service/scheduler_snapshot_service.go
+  175dde1810f699ac 301-317
+backend/internal/service/openai_gateway_scheduling.go
+  175dde1810f699ac 1633-1679
+backend/internal/handler/openai_gateway_handler.go
+  175dde1810f699ac 74-75,2786-2790,2864-2896,2901-2903
+backend/internal/service/openai_ws_turn_account_recheck_test.go
+  175dde1810f699ac 5-152
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.9",
+  "base_commit_sha": "bf7481a2e2a63d85f999c59cdcdee257b3c18d29",
+  "prompts": {
+    "175dde1810f699ac": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0aec4-419e-7912-85c6-7bb1a60c27cf",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 322,
+      "total_deletions": 68,
+      "accepted_lines": 312,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/0d990054f785d5ba84aed33b36531188233a5439188688c731b0b4982c943a27"
+    }
+  }
+}
