@@ -1,0 +1,252 @@
+backend/internal/pkg/apicompat/chatcompletions_to_responses.go
+  dd05fc68d17afff5 7-8,32-39,44,371,373-375,381-383,389-393
+backend/internal/service/pricing_service.go
+  dd05fc68d17afff5 22,77-118,182,682,1389-1394,1495-1497,1526-1533
+backend/internal/service/openai_gateway_chat_completions_raw.go
+  dd05fc68d17afff5 12,84-87
+backend/internal/service/wire.go
+  dd05fc68d17afff5 13,423-434,814-818,916,948
+backend/internal/service/gateway_billing_header.go
+  dd05fc68d17afff5 17-21,23
+backend/internal/handler/wire.go
+  dd05fc68d17afff5 52,56
+backend/internal/service/openai_gateway_messages.go
+  dd05fc68d17afff5 150
+backend/internal/service/admin_account_upstream_billing_probe_test.go
+  dd05fc68d17afff5 7,753-914
+backend/internal/service/gateway_forward.go
+  dd05fc68d17afff5 96-106
+backend/internal/service/gateway_upstream_request.go
+  dd05fc68d17afff5 87-91,93,180,425,862-864,872,876-878
+backend/internal/service/openai_passthrough_normalization_test.go
+  dd05fc68d17afff5 132,156,176
+backend/internal/handler/admin/account_handler.go
+  dd05fc68d17afff5 69,81-84,684,689-699,960-961
+backend/internal/pkg/apicompat/types.go
+  dd05fc68d17afff5 69,230,314-317,661,705-709
+backend/internal/service/setting_update.go
+  dd05fc68d17afff5 490-493,749
+backend/internal/service/openai_codex_models_service.go
+  dd05fc68d17afff5 489-492,517-519,568-569,632,698,703
+backend/internal/service/gateway_anthropic_apikey_passthrough_test.go
+  dd05fc68d17afff5 916,1772-1812
+backend/internal/service/gateway_forward_as_responses.go
+  dd05fc68d17afff5 63,79-94,422-423,456-458,519
+backend/internal/server/routes/admin.go
+  dd05fc68d17afff5 367-368,386-388
+backend/internal/pkg/openai/constants.go
+  dd05fc68d17afff5 26-27,162-178
+frontend/src/i18n/locales/en/admin/settings.ts
+  dd05fc68d17afff5 480-491,557-561
+backend/internal/service/settings_view.go
+  dd05fc68d17afff5 253-255
+backend/internal/pkg/apicompat/responses_to_anthropic_tool_pairing_test.go
+  dd05fc68d17afff5 61
+backend/internal/repository/account_repo.go
+  dd05fc68d17afff5 652-674,691-702,714-716,732-733,811-829,872-909,3100-3132,3163-3200,3202-3210
+backend/internal/service/setting_claude_code_version_test.go
+  dd05fc68d17afff5 1-64
+backend/internal/service/identity_service.go
+  dd05fc68d17afff5 75-77,84-85,103-107,113,120-132,200,275,278,282-288,338
+frontend/src/api/admin/settings.ts
+  dd05fc68d17afff5 642-644,965-966
+frontend/src/i18n/locales/zh/admin/settings.ts
+  dd05fc68d17afff5 473-484,550-554
+backend/internal/service/domain_constants.go
+  dd05fc68d17afff5 575-577,715-723
+backend/internal/handler/dto/mappers.go
+  dd05fc68d17afff5 244-247,258,425-427,468-469
+backend/internal/pkg/apicompat/responses_to_anthropic_request.go
+  dd05fc68d17afff5 4,8-9,17,57-84,134,199-218
+backend/cmd/server/wire_gen_test.go
+  dd05fc68d17afff5 44,73,99
+backend/internal/service/openai_codex_models_service_test.go
+  dd05fc68d17afff5 3763-3782
+backend/internal/repository/proxy_repo.go
+  dd05fc68d17afff5 237-238,248-251
+backend/internal/service/openai_gateway_chat_completions_test.go
+  dd05fc68d17afff5 1139-1251
+backend/internal/service/gateway_claude_oauth_body.go
+  dd05fc68d17afff5 266,307,770-773,777,780
+backend/internal/service/openai_upstream_transport_error.go
+  dd05fc68d17afff5 129,132
+backend/internal/pkg/claude/constants.go
+  dd05fc68d17afff5 111-130,179-183
+backend/internal/pkg/apicompat/anthropic_to_responses_response.go
+  dd05fc68d17afff5 5,11-12,19-31,55-63,75-78,219-223,305,337,350-351,528-531,692-695,713
+backend/internal/service/openai_compat_prompt_cache_key.go
+  dd05fc68d17afff5 10,18-19
+backend/internal/service/setting_gateway_runtime.go
+  dd05fc68d17afff5 15,123-135,395-487
+backend/cmd/server/wire.go
+  dd05fc68d17afff5 103,129,282-285,394-396
+backend/internal/pkg/apicompat/responses_to_anthropic_instructions_test.go
+  dd05fc68d17afff5 83,100,119
+backend/internal/handler/admin/account_opencode_go_usage.go
+  dd05fc68d17afff5 1-121
+backend/internal/repository/account_repo_opencode_go_usage.go
+  dd05fc68d17afff5 1-516
+backend/internal/service/claude_code_version_sync_service.go
+  dd05fc68d17afff5 1-218
+backend/internal/pkg/claude/cli_version_runtime_test.go
+  dd05fc68d17afff5 1-73
+backend/internal/service/gateway_cli_version_runtime_test.go
+  dd05fc68d17afff5 1-120
+backend/internal/service/openai_codex_transform.go
+  dd05fc68d17afff5 14-15,65-66
+backend/internal/service/openai_gateway_chat_completions_anthropic_native.go
+  dd05fc68d17afff5 66-73,76
+backend/internal/service/openai_gateway_request_body.go
+  dd05fc68d17afff5 9,1344-1345,1348-1379,1382-1390,1494,1600,2569-2571,2581
+backend/internal/service/setting_service.go
+  dd05fc68d17afff5 133-134
+backend/internal/service/gateway_upstream_response.go
+  dd05fc68d17afff5 365,367
+backend/internal/service/openai_compat_prompt_cache_key_test.go
+  dd05fc68d17afff5 167-175
+backend/internal/service/opencode_go_usage.go
+  dd05fc68d17afff5 1-1095
+backend/internal/service/opencode_go.go
+  dd05fc68d17afff5 325-329,335-336
+backend/internal/repository/account_repo_opencode_go_usage_test.go
+  dd05fc68d17afff5 1-526
+frontend/src/api/__tests__/admin.accounts.opencodeGoUsage.spec.ts
+  dd05fc68d17afff5 1-58
+frontend/src/composables/__tests__/useModelWhitelist.spec.ts
+  dd05fc68d17afff5 20-21,55-56
+backend/internal/handler/admin/setting_handler_update.go
+  dd05fc68d17afff5 260-261,1460-1468,1782-1795,2339-2341
+backend/cmd/server/VERSION
+  dd05fc68d17afff5 1
+backend/internal/service/openai_gateway_forward.go
+  dd05fc68d17afff5 88
+frontend/src/composables/useModelWhitelist.ts
+  dd05fc68d17afff5 13,37,294,311,314
+backend/internal/service/claude_code_version_sync_service_test.go
+  dd05fc68d17afff5 1-373
+backend/internal/service/billing_service_test.go
+  dd05fc68d17afff5 9,1935-2038
+backend/internal/service/gateway_forward_as_responses_test.go
+  dd05fc68d17afff5 6,8-9,513-582
+backend/internal/service/gateway_request.go
+  dd05fc68d17afff5 226,569-588,607,1344,1361,1402-1407
+backend/internal/pkg/claude/constants_cli_version_test.go
+  dd05fc68d17afff5 24
+backend/internal/service/opencode_go_usage_test.go
+  dd05fc68d17afff5 1-981
+backend/internal/service/gateway_count_tokens.go
+  dd05fc68d17afff5 26-36,512-515,581
+frontend/src/api/admin/accounts.ts
+  dd05fc68d17afff5 32-34,1102-1133,1197-1202
+frontend/src/components/account/EditAccountModal.vue
+  dd05fc68d17afff5 2006-2090,3118,3135-3137,3192,3286-3366
+backend/internal/handler/admin/setting_handler.go
+  dd05fc68d17afff5 306-308
+backend/internal/handler/gateway_models_test.go
+  dd05fc68d17afff5 1482-1512
+backend/internal/service/billing_service.go
+  dd05fc68d17afff5 15-16,424-433,544-572,978-980,1160-1161,1319,1843-1844,1847-1848,1852-1856,1866-1868,1878
+frontend/src/views/admin/SettingsView.vue
+  dd05fc68d17afff5 4913-4996,5862-5916,9175-9182,9990-9993,10981-10988,11622-11624,12075-12105,12856
+backend/internal/service/account_test_service.go
+  dd05fc68d17afff5 313,322,579
+backend/internal/pkg/openai/constants_test.go
+  dd05fc68d17afff5 35-44
+backend/internal/service/opencode_go_test.go
+  dd05fc68d17afff5 208-227
+frontend/src/components/account/OpenCodeGoUsageCell.vue
+  dd05fc68d17afff5 1-106
+backend/internal/pkg/claude/cli_version_test.go
+  dd05fc68d17afff5 63
+frontend/src/components/keys/UseKeyModal.vue
+  dd05fc68d17afff5 1399-1416,1451-1468,1900-1914
+backend/internal/service/identity_service_user_agent_validation_test.go
+  dd05fc68d17afff5 100,163-164,206,238
+backend/internal/service/openai_model_alias.go
+  dd05fc68d17afff5 40-46,161-163
+frontend/src/components/account/__tests__/AccountUsageCell.spec.ts
+  dd05fc68d17afff5 77-97,103-106,267-342
+backend/internal/service/openai_account_runtime_block_fastpath.go
+  dd05fc68d17afff5 102
+backend/internal/pkg/apicompat/anthropic_to_responses.go
+  dd05fc68d17afff5 7-8,475
+backend/resources/model-pricing/model_prices_and_context_window.json
+  dd05fc68d17afff5 13-160
+backend/cmd/server/wire_gen.go
+  dd05fc68d17afff5 290-291,347,357,413,439,591-594,703-705
+backend/internal/server/api_contract_test.go
+  dd05fc68d17afff5 956-958,1276-1278
+frontend/src/components/keys/__tests__/UseKeyModal.spec.ts
+  dd05fc68d17afff5 671,677-678,693-706
+backend/internal/handler/dto/types.go
+  dd05fc68d17afff5 219,344
+backend/internal/service/gateway_billing_header_test.go
+  dd05fc68d17afff5 141
+frontend/src/i18n/locales/zh/admin/accounts.ts
+  dd05fc68d17afff5 404-428
+backend/internal/pkg/claude/cli_version_runtime.go
+  dd05fc68d17afff5 1-43
+backend/internal/handler/dto/account_list_item_opencode_usage_test.go
+  dd05fc68d17afff5 1-57
+backend/internal/repository/account_repo_upstream_billing_probe_update_test.go
+  dd05fc68d17afff5 84-85,175-176,214-215,374-375
+backend/internal/handler/admin/setting_handler_audit.go
+  dd05fc68d17afff5 494-499
+backend/internal/service/openai_gateway_chat_completions.go
+  dd05fc68d17afff5 270,352-355
+backend/internal/service/setting_parse.go
+  dd05fc68d17afff5 249-251,897-903
+frontend/src/types/index.ts
+  dd05fc68d17afff5 1186-1225,1239
+backend/internal/repository/account_repo_opencode_go_usage_integration_test.go
+  dd05fc68d17afff5 1-371
+backend/internal/service/account_test_service_cn_adaptive.go
+  dd05fc68d17afff5 80,268
+backend/internal/handler/admin/account_opencode_go_usage_test.go
+  dd05fc68d17afff5 1-206
+backend/internal/pkg/apicompat/anthropic_responses_test.go
+  dd05fc68d17afff5 1822-1887
+backend/internal/service/admin_account.go
+  dd05fc68d17afff5 438-439,620,709-710,726-727,814-824,1021-1022,1050-1051
+frontend/src/i18n/locales/en/admin/accounts.ts
+  dd05fc68d17afff5 180-204
+frontend/src/components/account/AccountStatusIndicator.vue
+  dd05fc68d17afff5 233
+frontend/src/components/account/AccountUsageCell.vue
+  dd05fc68d17afff5 473-486,627-633,692,715,1625-1626
+backend/internal/service/gateway_forward_as_chat_completions.go
+  dd05fc68d17afff5 53,69-84
+backend/internal/pkg/claude/constants_model_test.go
+  dd05fc68d17afff5 21-32
+frontend/src/components/account/__tests__/OpenCodeGoUsageCell.spec.ts
+  dd05fc68d17afff5 1-168
+backend/internal/service/openai_gateway_responses_anthropic_native.go
+  dd05fc68d17afff5 23,68-75,78,253-254,276-278,338
+backend/internal/pkg/claude/effort_catalog.go
+  dd05fc68d17afff5 27,43-45
+backend/internal/handler/dto/settings.go
+  dd05fc68d17afff5 220-222
+backend/internal/service/upstream_models.go
+  dd05fc68d17afff5 1006,1054
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.9",
+  "base_commit_sha": "cf5dcf73818f5051a06f5c5d4ad3d910238e3356",
+  "prompts": {
+    "dd05fc68d17afff5": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0ca17-3ef2-7792-b30e-c4ed5810a189",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 12636,
+      "total_deletions": 256,
+      "accepted_lines": 34507,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/f2462666b855728d276221b6aaa8e166f61bb997af6bb789cb5ed06c4e7f8baa"
+    }
+  }
+}
