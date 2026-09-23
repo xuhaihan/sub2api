@@ -1,0 +1,28 @@
+backend/internal/service/openai_codex_risk_control.go
+  dd05fc68d17afff5 16,22
+backend/internal/service/openai_codex_risk_control_test.go
+  dd05fc68d17afff5 67,71,77,98-99,110-114,118-120,123-128,158,177-179
+backend/internal/service/account_test_service.go
+  dd05fc68d17afff5 972,974
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.9",
+  "base_commit_sha": "109397a933a6a2e1da6a40a600692de6866a55ca",
+  "prompts": {
+    "dd05fc68d17afff5": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0ca17-3ef2-7792-b30e-c4ed5810a189",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 27,
+      "total_deletions": 81,
+      "accepted_lines": 21923,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/3245ef2e78adf2913a52cf9a19cddabb491876c5db48961ad64f85719658bc7b"
+    }
+  }
+}
