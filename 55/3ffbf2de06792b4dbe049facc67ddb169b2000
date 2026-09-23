@@ -1,0 +1,280 @@
+backend/internal/service/affiliate_service.go
+  dd05fc68d17afff5 5-6,22-24,110,165-167,169,174,177-178,185-186,189,206-217,586-620
+frontend/src/components/user/__tests__/MonitorDetailDialog.spec.ts
+  dd05fc68d17afff5 1-43
+frontend/src/i18n/locales/zh/dashboard.ts
+  dd05fc68d17afff5 628-629
+backend/internal/handler/admin/affiliate_handler.go
+  dd05fc68d17afff5 204-239,253-254,267-268
+backend/internal/service/billing_cache_service_simple_mode_test.go
+  dd05fc68d17afff5 1-96
+backend/internal/service/openai_account_scheduler_upstream_cost_test.go
+  dd05fc68d17afff5 404-405,409,414,433,439,449-452,464,475-477,482,489,510,515,524,541,546,838,840,852
+frontend/src/views/admin/BackupView.vue
+  dd05fc68d17afff5 133,152,155,160,164-170,172,231-235,239-241,424,431,490-525,758-765,767,774,777-779,877-878,880
+frontend/src/components/admin/BackupArchiveSettings.vue
+  dd05fc68d17afff5 1-125
+backend/internal/handler/admin/setting_handler_audit.go
+  dd05fc68d17afff5 509
+backend/internal/service/openai_codex_models_service_test.go
+  dd05fc68d17afff5 3707-3762
+backend/internal/service/ratelimit_service.go
+  dd05fc68d17afff5 2479,2505-2506
+deploy/docker-compose.yml
+  dd05fc68d17afff5 55
+frontend/src/i18n/locales/en/admin/ops.ts
+  dd05fc68d17afff5 44-51,78
+frontend/src/components/common/DateRangePicker.vue
+  dd05fc68d17afff5 46,60,111,115,119,134,164,175,186,199
+frontend/src/api/admin/backup.ts
+  dd05fc68d17afff5 18-30,48,51,170-171
+backend/internal/service/backup_restore_state.go
+  dd05fc68d17afff5 1-85
+frontend/src/i18n/locales/zh/admin/settings.ts
+  dd05fc68d17afff5 1216-1218
+frontend/src/views/admin/affiliates/__tests__/AffiliateOfflineWithdrawDialog.spec.ts
+  dd05fc68d17afff5 1-225
+backend/internal/repository/dashboard_aggregation_repo.go
+  dd05fc68d17afff5 242-245,267,274,304,311
+backend/internal/service/setting_service_update_test.go
+  dd05fc68d17afff5 413,457,518-523
+frontend/src/components/user/MonitorDetailDialog.vue
+  dd05fc68d17afff5 90,93,97-98,100,103,109-110
+frontend/src/components/admin/channel/ModelTagInput.vue
+  dd05fc68d17afff5 26,28,69-74,76,87-88
+frontend/src/i18n/locales/zh/admin/ops.ts
+  dd05fc68d17afff5 44-51,78
+backend/internal/handler/admin/affiliate_handler_withdraw_test.go
+  dd05fc68d17afff5 1-172
+frontend/src/views/admin/ops/components/__tests__/OpsSystemLogTable.spec.ts
+  dd05fc68d17afff5 5,13-14,22,28,67,101,159-213
+backend/internal/service/gateway_simple_mode_record_usage_test.go
+  dd05fc68d17afff5 1-62
+frontend/src/components/user/__tests__/UserAttributeForm.race.spec.ts
+  dd05fc68d17afff5 1-42
+backend/migrations/240_affiliate_ledger_operation_id.sql
+  dd05fc68d17afff5 1-10
+backend/internal/handler/admin/backup_handler.go
+  dd05fc68d17afff5 143-149
+backend/internal/handler/openai_gateway_handler_test.go
+  dd05fc68d17afff5 384-397,1933-1935,2982-2988,3023,3035-3037,3080-3084,3119-3123,3236-3268
+backend/internal/service/setting_parse.go
+  dd05fc68d17afff5 918,1083,1135-1141,1144,1146
+deploy/docker-compose.dev.yml
+  dd05fc68d17afff5 34
+backend/internal/config/config.go
+  dd05fc68d17afff5 108-110,2005
+frontend/src/i18n/locales/zh/admin/overview.ts
+  dd05fc68d17afff5 125,127-134,137-161,425-426,428-430,455-481
+frontend/src/components/channels/__tests__/SupportedModelChip.spec.ts
+  dd05fc68d17afff5 15-69
+backend/internal/service/account.go
+  dd05fc68d17afff5 2070-2071
+backend/internal/service/backup_recovery_test.go
+  dd05fc68d17afff5 1-222
+frontend/src/views/admin/ops/components/LogRetentionSelect.vue
+  dd05fc68d17afff5 1-43
+backend/internal/service/setting_update.go
+  dd05fc68d17afff5 502-505
+backend/internal/service/openai_codex_models_service.go
+  dd05fc68d17afff5 14,448,640-679
+frontend/src/api/admin/affiliates.ts
+  dd05fc68d17afff5 49-53,55,60,63-64,71-74,77,90-109,248-268,279
+frontend/src/components/user/UserAttributeForm.vue
+  dd05fc68d17afff5 115,130,134,190-192
+backend/internal/repository/dashboard_aggregation_group_usage_test.go
+  dd05fc68d17afff5 252-263,286
+backend/internal/service/request_log_retention_test.go
+  dd05fc68d17afff5 1-109
+frontend/src/views/admin/affiliates/AdminAffiliateRecordsTable.vue
+  dd05fc68d17afff5 15-23,48,50,71-72,78-79,82-83,89,92-93,98-102,136-142,181,205,233,336-344
+frontend/src/components/common/__tests__/SubscriptionProgressMini.spec.ts
+  dd05fc68d17afff5 1-23
+backend/internal/pkg/antigravity/attribution_test.go
+  dd05fc68d17afff5 89-183
+backend/internal/service/openai_images.go
+  dd05fc68d17afff5 62-63,232-239,506-529,546-548,633,637
+frontend/src/views/admin/affiliates/AffiliateOfflineWithdrawDialog.vue
+  dd05fc68d17afff5 1-357
+backend/internal/repository/affiliate_repo_integration_test.go
+  dd05fc68d17afff5 7-8,10,423-801
+frontend/src/components/user/profile/TotpSetupModal.vue
+  dd05fc68d17afff5 193,332,402
+backend/internal/service/openai_gateway_upstream_errors.go
+  dd05fc68d17afff5 289-292,303
+backend/internal/service/ratelimit_service_401_test.go
+  dd05fc68d17afff5 249-271
+backend/internal/service/openai_responses_tool_schema_test.go
+  dd05fc68d17afff5 655-793
+README_CN.md
+  dd05fc68d17afff5 740-741
+backend/internal/service/account_test_models_test.go
+  dd05fc68d17afff5 6,9,77-107,122-128,153-292
+backend/internal/service/account_test_service.go
+  dd05fc68d17afff5 202-208,212,232,239-241,246-262,264-265
+backend/internal/service/billing_cache_service.go
+  dd05fc68d17afff5 752-758,800-824
+backend/internal/service/openai_gateway_messages.go
+  dd05fc68d17afff5 36-44
+backend/internal/service/ops_settings_models.go
+  dd05fc68d17afff5 80-87
+backend/internal/service/ops_log_runtime.go
+  dd05fc68d17afff5 17-23,25-33,71-74,100-102,157-159
+backend/internal/service/dashboard_aggregation_service.go
+  dd05fc68d17afff5 6,8,60,101-102,368-373,376-382,384-387,391-393,397-399,408-450
+backend/internal/service/payment_fulfillment_test.go
+  dd05fc68d17afff5 153-156
+deploy/.env.example
+  dd05fc68d17afff5 125-126
+frontend/src/components/admin/user/__tests__/UserBalanceModal.spec.ts
+  dd05fc68d17afff5 1-27
+backend/internal/service/openai_scheduling_rate_fallback_test.go
+  dd05fc68d17afff5 1-125
+backend/internal/handler/admin/setting_handler_oauth_rate_test.go
+  dd05fc68d17afff5 1-76
+frontend/src/views/admin/__tests__/SettingsView.spec.ts
+  dd05fc68d17afff5 204-206,1441-1488,1501,1535,1538
+frontend/src/components/common/SubscriptionProgressMini.vue
+  dd05fc68d17afff5 192,279-282
+backend/internal/service/settings_view.go
+  dd05fc68d17afff5 271
+deploy/config.example.yaml
+  dd05fc68d17afff5 108-110
+deploy/docker-compose.local.yml
+  dd05fc68d17afff5 59
+backend/cmd/server/wire_gen.go
+  dd05fc68d17afff5 188
+frontend/src/components/admin/channel/__tests__/ModelTagInput.keyboard.spec.ts
+  dd05fc68d17afff5 16-42
+backend/internal/handler/openai_gateway_handler.go
+  dd05fc68d17afff5 2540-2553,2860-2864,3010
+README.md
+  dd05fc68d17afff5 730-731
+backend/internal/service/backup_retention.go
+  dd05fc68d17afff5 1-193
+frontend/src/i18n/locales/zh/admin/channels.ts
+  dd05fc68d17afff5 30-31
+frontend/src/views/admin/affiliates/__tests__/AdminAffiliateRecordsTable.spec.ts
+  dd05fc68d17afff5 1-179
+frontend/src/components/channels/SupportedModelChip.vue
+  dd05fc68d17afff5 138-145,183-184,247-248,260-262
+backend/internal/service/openai_images_compatible_test.go
+  dd05fc68d17afff5 1-151
+frontend/src/components/user/profile/__tests__/totp-timer-cleanup.spec.ts
+  dd05fc68d17afff5 82-93
+backend/internal/service/openai_gateway_service_test.go
+  dd05fc68d17afff5 1613-1616,1681-1727,2845-2848
+backend/internal/service/openai_gateway_usage.go
+  dd05fc68d17afff5 488-489,503-515
+frontend/src/components/account/__tests__/TempUnschedStatusModal.spec.ts
+  dd05fc68d17afff5 1-50
+frontend/src/components/admin/user/UserBalanceModal.vue
+  dd05fc68d17afff5 32,84
+backend/internal/server/routes/composite_images_compatible_test.go
+  dd05fc68d17afff5 1-165
+frontend/src/views/admin/__tests__/GroupsView.codexManifest.spec.ts
+  dd05fc68d17afff5 11,17,28,241,253
+frontend/src/views/admin/ops/components/OpsSystemLogTable.vue
+  dd05fc68d17afff5 5,42,52-53,235,246-247,250,257-262,274,299,440,443-447,465
+backend/internal/config/config_test.go
+  dd05fc68d17afff5 82-90
+backend/internal/service/openai_account_scheduler.go
+  dd05fc68d17afff5 48,59,1912,1924,1941,1984,2752,2760,2883,2950,2978-2980,2982-2990
+backend/internal/repository/affiliate_repo_test.go
+  dd05fc68d17afff5 23,29-74
+frontend/src/components/common/__tests__/DateRangePicker.midnight.spec.ts
+  dd05fc68d17afff5 1-33
+backend/internal/service/gateway_usage_billing.go
+  dd05fc68d17afff5 5,86-95,320-327,360-364,397-410,419,432,876-877,896-906
+backend/internal/repository/request_log_retention_integration_test.go
+  dd05fc68d17afff5 1-46
+frontend/src/views/admin/SettingsView.vue
+  dd05fc68d17afff5 9542,9568,10843-10846,11246-11255,11514,11623-11624
+backend/internal/service/openai_responses_tool_schema.go
+  dd05fc68d17afff5 91,111,282-290,469-471,493
+backend/internal/handler/admin/setting_handler_update.go
+  dd05fc68d17afff5 1812-1815
+backend/internal/repository/affiliate_repo.go
+  dd05fc68d17afff5 344-508,634-635,639-641,665,675-676,689-692,694,699,702-703,711-714,731,743,754,781,1138-1142
+backend/internal/service/backup_service.go
+  dd05fc68d17afff5 52-58,114-118,123-140,234-236,257-258,260-267,271-273,275,279-281,284-293,296-314,319-321,324,328,337,340,347-349,395-396,402-408,463-467,471,477-479,564-568,570,575,600-603,636,678-679,725,1024-1029,1047,1066,1073,1078,1088,1097,1105,1111,1198,1217-1230,1253-1258,1381-1384,1405-1413,1415-1432,1438,1444,1447-1462,1473-1477,1486,1492-1494,1496-1498,1500-1514,1516-1517,1520-1527,1530,1549
+backend/internal/service/backup_service_test.go
+  dd05fc68d17afff5 375-421,1196-1200
+frontend/src/components/user/profile/ProfileInfoCard.vue
+  dd05fc68d17afff5 284
+frontend/src/views/admin/__tests__/BackupView.spec.ts
+  dd05fc68d17afff5 10-11,18-19,34,38,63,79-80,82,89-90,93,98-100,106,166-279
+frontend/src/i18n/locales/en/admin/settings.ts
+  dd05fc68d17afff5 1222-1224
+frontend/src/views/admin/affiliates/affiliateWithdrawOperation.ts
+  dd05fc68d17afff5 1-68
+frontend/src/i18n/locales/en/dashboard.ts
+  dd05fc68d17afff5 623-624
+frontend/src/components/user/profile/TotpDisableDialog.vue
+  dd05fc68d17afff5 104,136,185
+backend/internal/handler/openai_images.go
+  dd05fc68d17afff5 168
+frontend/src/api/admin/ops.ts
+  dd05fc68d17afff5 825
+frontend/src/i18n/locales/en/admin/channels.ts
+  dd05fc68d17afff5 30-31
+backend/internal/service/model_not_found_error_test.go
+  dd05fc68d17afff5 125
+backend/internal/service/backup_retention_test.go
+  dd05fc68d17afff5 1-334
+deploy/docker-compose.standalone.yml
+  dd05fc68d17afff5 45
+frontend/src/api/admin/settings.ts
+  dd05fc68d17afff5 686-687,1004-1005
+frontend/src/i18n/locales/en/admin/overview.ts
+  dd05fc68d17afff5 125,127-134,137-161,425-426,428-430,455-481
+backend/internal/handler/dto/settings.go
+  dd05fc68d17afff5 239-265
+backend/internal/pkg/antigravity/request_transformer.go
+  dd05fc68d17afff5 10,301-323,352,368
+backend/internal/service/dashboard_aggregation_service_test.go
+  dd05fc68d17afff5 14-31,77,83,89,223,244
+backend/internal/service/openai_account_scheduler_canonical_quota_test.go
+  dd05fc68d17afff5 100
+backend/internal/handler/auth_email_oauth_test.go
+  dd05fc68d17afff5 410-411
+backend/internal/service/affiliate_service_test.go
+  dd05fc68d17afff5 8,133-245
+backend/internal/service/ratelimit_service_model_not_found_test.go
+  dd05fc68d17afff5 72-94
+backend/internal/service/openai_gateway_response_handling.go
+  dd05fc68d17afff5 317,322-324,329,339-340,457,472-473,936
+frontend/src/components/account/TempUnschedStatusModal.vue
+  dd05fc68d17afff5 178,240-241,244-245,247,251,276-277
+frontend/src/components/user/profile/__tests__/ProfileInfoCard.spec.ts
+  dd05fc68d17afff5 38,74-86
+frontend/src/views/admin/affiliates/__tests__/affiliateWithdrawOperation.spec.ts
+  dd05fc68d17afff5 1-50
+backend/internal/service/wire.go
+  dd05fc68d17afff5 388,390
+backend/internal/service/gateway_usage_billing_simple_mode_test.go
+  dd05fc68d17afff5 1-144
+backend/internal/server/routes/admin.go
+  dd05fc68d17afff5 827
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.9",
+  "base_commit_sha": "553ffbf2de06792b4dbe049facc67ddb169b2000",
+  "prompts": {
+    "dd05fc68d17afff5": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0ca17-3ef2-7792-b30e-c4ed5810a189",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 28392,
+      "total_deletions": 493,
+      "accepted_lines": 28389,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/b4106947bc86ed27484b8b1901dfffafee5c47ffbcf22359974da1129a12a2fd"
+    }
+  }
+}
