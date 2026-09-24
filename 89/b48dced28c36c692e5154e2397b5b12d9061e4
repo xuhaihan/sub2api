@@ -1,0 +1,56 @@
+backend/internal/service/cn_providers_test.go
+  dd05fc68d17afff5 741-765
+backend/internal/service/openai_gateway_request_body_reasoning_test.go
+  dd05fc68d17afff5 409,412,422
+backend/internal/service/openai_ws_v2_passthrough_adapter.go
+  dd05fc68d17afff5 760,1013
+backend/internal/service/openai_account_scheduler.go
+  dd05fc68d17afff5 2496-2500,2502
+backend/internal/service/openai_gateway_apikey_item_id_test.go
+  dd05fc68d17afff5 261,271,285
+backend/internal/service/openai_oauth_input_metadata_test.go
+  dd05fc68d17afff5 32,35
+backend/internal/service/openai_passthrough_normalization_test.go
+  dd05fc68d17afff5 55,58,66,72,84,98,105,194,197,204,207,213,219,222
+backend/internal/service/openai_ws_http_bridge.go
+  dd05fc68d17afff5 271-272
+backend/internal/service/openai_compact_body_signal_test.go
+  dd05fc68d17afff5 105,109
+backend/internal/service/openai_responses_tool_schema_test.go
+  dd05fc68d17afff5 508,519
+backend/internal/service/openai_gateway_responses_client_tools_test.go
+  dd05fc68d17afff5 478
+backend/internal/service/openai_codex_tool_names_test.go
+  dd05fc68d17afff5 94
+backend/internal/service/openai_gateway_request_body.go
+  dd05fc68d17afff5 1441,1488,1514
+backend/internal/service/account.go
+  dd05fc68d17afff5 1470-1472,1486-1490
+backend/internal/service/openai_ws_forwarder_ingress.go
+  dd05fc68d17afff5 289-291,454
+backend/internal/service/openai_gateway_passthrough.go
+  dd05fc68d17afff5 258
+backend/internal/service/openai_responses_input_compat_test.go
+  dd05fc68d17afff5 91,116,123
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.9",
+  "base_commit_sha": "89b48dced28c36c692e5154e2397b5b12d9061e4",
+  "prompts": {
+    "dd05fc68d17afff5": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0ca17-3ef2-7792-b30e-c4ed5810a189",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 185,
+      "total_deletions": 465,
+      "accepted_lines": 26811,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/d4c7aa47669d5a751b5a74c9d85a98517d509ba980190eec41314a44a6a039c6"
+    }
+  }
+}
