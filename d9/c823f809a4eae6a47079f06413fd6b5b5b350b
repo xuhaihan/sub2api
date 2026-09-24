@@ -1,0 +1,102 @@
+backend/internal/service/account.go
+  45945b82bd9ba83a 288-291,331-336,685-687,1313-1325,1412-1441,1444-1445,1456,1461-1463,1466-1494,1542,1561-1570,1664-1670,1876-1880
+backend/internal/service/account_test_service.go
+  45945b82bd9ba83a 292-293
+  8e0d67cc776f7fa8 693,709,2043,2055
+backend/internal/service/account_test_service_cn_adaptive.go
+  45945b82bd9ba83a 21-22,47,167-173,216-322
+backend/internal/service/account_test_service_cn_adaptive_test.go
+  45945b82bd9ba83a 93,95,121,131-155,205-292
+backend/internal/service/adaptive_api_protocol_test.go
+  45945b82bd9ba83a 112,122,132-149,176,181-203,219,226-227,229-246,284
+backend/internal/service/cn_providers_test.go
+  45945b82bd9ba83a 180-207,258-315,318-341,416-437,617,621,626-628,644-645,652-662,677,699-715,874-889
+  8e0d67cc776f7fa8 58-60,407-408,546-548,568-575,830-831
+backend/internal/service/domain_constants.go
+  45945b82bd9ba83a 81-83
+backend/internal/service/openai_apikey_responses_probe.go
+  45945b82bd9ba83a 127-129,131
+backend/internal/service/openai_apikey_responses_probe_test.go
+  45945b82bd9ba83a 58,65-66,74
+backend/internal/service/openai_gateway_chat_completions.go
+  45945b82bd9ba83a 152-153,158,176
+backend/internal/service/openai_gateway_forward.go
+  1a596f2ff9bd0e21 684-685
+  45945b82bd9ba83a 1358,1363,1387
+  4cb38f3a99c565fe 23-31,35-38,67-73,83-92,137-146,157,160-171,179-195,202-213,384-388,391-392,398,409-419,527-531,537-545,630-637,656-660,688-710,731-759,1203-1210,1350-1354,1378-1383,1496-1499,1527-1529
+frontend/src/components/account/CreateAccountModal.vue
+  45945b82bd9ba83a 4187,4194,4204-4206,4275-4297,5486-5490
+frontend/src/components/account/EditAccountModal.vue
+  45945b82bd9ba83a 3219-3230,3242-3286,3288-3324,3415-3418,3428-3433,3465-3466,3481-3499,3599-3623,4011-4012,4367-4375,5075-5111
+frontend/src/components/account/__tests__/CreateAccountModal.spec.ts
+  45945b82bd9ba83a 213-256,292-398,446-504,523-569,574-596
+frontend/src/components/account/__tests__/EditAccountModal.spec.ts
+  45945b82bd9ba83a 565-566,582-583
+frontend/src/components/account/__tests__/credentialsBuilder.cnAdaptive.spec.ts
+  45945b82bd9ba83a 38
+frontend/src/components/account/credentialsBuilder.ts
+  45945b82bd9ba83a 265,318-363,385-388,433-446,473-476
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.9",
+  "base_commit_sha": "d9c823f809a4eae6a47079f06413fd6b5b5b350b",
+  "prompts": {
+    "1a596f2ff9bd0e21": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fc557-66e1-7341-8889-16b5995be1ce",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 2,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/fa75f5ff04879a38d6058405a890a7772f3b75d2d0303d37fcb0dd5a82b3abf0"
+    },
+    "45945b82bd9ba83a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a01e32-5188-7123-b760-31f8772f3c97",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 118,
+      "total_deletions": 5,
+      "accepted_lines": 1202,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/90e8b5b7aab17d3db942d397a98ee1bf0e3aafccca8964f30e97447226607832"
+    },
+    "4cb38f3a99c565fe": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a01b3d-471e-7771-9765-6c1a92cc660f",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 206,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/61015d19d783f6f9eac30ff3e72aec6b0ff5637beed3454ec97d138aac470725"
+    },
+    "8e0d67cc776f7fa8": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a019cb-8172-7cc3-a104-63932e6d2114",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 22,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/440295409c39ac2fab3147e250d36a08c35eeb307250c814ca9f764dafca7947"
+    }
+  }
+}
