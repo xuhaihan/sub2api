@@ -1,0 +1,207 @@
+backend/internal/service/api_key_service.go
+  dd05fc68d17afff5 33-34,53,178,441-468,564-567,965
+backend/internal/service/openai_compat_model.go
+  dd05fc68d17afff5 7,11-13,27-40
+backend/internal/service/openai_compat_prompt_cache_key.go
+  dd05fc68d17afff5 19
+backend/internal/service/billing_inflight_reservation_test.go
+  dd05fc68d17afff5 1-500
+backend/internal/server/routes/admin.go
+  dd05fc68d17afff5 371-372
+backend/internal/server/routes/claude_reset_redeem_routes_test.go
+  dd05fc68d17afff5 1-57
+backend/internal/handler/gateway_handler.go
+  dd05fc68d17afff5 266-278,2530,2533-2535,2563
+backend/cmd/server/wire_gen.go
+  dd05fc68d17afff5 291-292
+backend/internal/repository/api_key_cache.go
+  dd05fc68d17afff5 18,28-32,63-74
+backend/internal/service/openai_codex_models_service.go
+  dd05fc68d17afff5 380,514,523,543-549,649,2073,2644-2681
+backend/internal/service/api_key_service_cache_test.go
+  dd05fc68d17afff5 141-142
+backend/internal/service/api_key_service_quota_test.go
+  dd05fc68d17afff5 45-46
+backend/internal/service/openai_gateway_chat_completions.go
+  dd05fc68d17afff5 209-212
+backend/internal/service/openai_gateway_chat_completions_raw.go
+  dd05fc68d17afff5 77-80,88-91
+backend/internal/handler/gateway_handler_claude_code_fallback_test.go
+  dd05fc68d17afff5 1-181
+backend/internal/handler/gateway_handler_responses.go
+  dd05fc68d17afff5 109-113,155-166
+backend/internal/handler/gateway_models_test.go
+  dd05fc68d17afff5 1502,1504
+backend/internal/service/openai_gateway_responses_chat_fallback.go
+  dd05fc68d17afff5 17,177-185
+backend/internal/handler/openai_images.go
+  dd05fc68d17afff5 146-157
+backend/internal/service/openai_model_alias.go
+  dd05fc68d17afff5 40-42,166
+frontend/src/api/codex.ts
+  dd05fc68d17afff5 4,7,21-25,51-52,59-60
+frontend/src/composables/useModelWhitelist.ts
+  dd05fc68d17afff5 13,313
+backend/internal/handler/gateway_inflight_reservation_test.go
+  dd05fc68d17afff5 1-204
+frontend/src/components/keys/UseKeyModal.vue
+  dd05fc68d17afff5 189-201,276,326-332,338-339,654,671-672,986,992,1218,1229,1298,1302,1332,1338,1426-1427
+backend/resources/model-pricing/model_prices_and_context_window.json
+  dd05fc68d17afff5 2-55
+frontend/src/i18n/locales/en/admin/accounts.ts
+  dd05fc68d17afff5 974-1000
+backend/internal/handler/admin/claude_reset_handler_test.go
+  dd05fc68d17afff5 1-56
+backend/internal/handler/grok_media.go
+  dd05fc68d17afff5 176-187
+deploy/config.example.yaml
+  dd05fc68d17afff5 721-732,1142-1170
+backend/internal/pkg/openai/constants.go
+  dd05fc68d17afff5 6-7,28,84-89,152-161,199-228
+backend/internal/service/openai_gateway_chat_completions_test.go
+  dd05fc68d17afff5 1216,1252-1331
+frontend/src/components/account/credentialsBuilder.ts
+  dd05fc68d17afff5 1,529,544,547,549-551,553
+frontend/src/components/keys/__tests__/UseKeyModal.spec.ts
+  dd05fc68d17afff5 496-497,597-598,713,719,803-804,826,859-860,862-864,870,884-885,911,944-945,956,998,1028,1030-1041,1046-1100
+frontend/src/utils/planType.ts
+  dd05fc68d17afff5 1,6-28,30-41
+backend/internal/service/wire.go
+  dd05fc68d17afff5 887,1080-1086
+backend/internal/handler/admin/claude_reset_handler.go
+  dd05fc68d17afff5 13,36-55
+backend/internal/pkg/openai/codex_gpt61_sol.json
+  dd05fc68d17afff5 1-177
+backend/internal/service/openai_codex_transform.go
+  dd05fc68d17afff5 14,66
+backend/internal/service/openai_gateway_messages.go
+  dd05fc68d17afff5 99-102
+frontend/src/i18n/locales/zh/dashboard.ts
+  dd05fc68d17afff5 226,232,238,243,247-250,252
+backend/internal/service/openai_gateway_messages_chat_fallback.go
+  dd05fc68d17afff5 13,63-71
+backend/internal/pkg/apicompat/anthropic_to_responses.go
+  dd05fc68d17afff5 16-18,65-67
+backend/internal/repository/billing_inflight_cache.go
+  dd05fc68d17afff5 1-144
+frontend/src/api/__tests__/codex.spec.ts
+  dd05fc68d17afff5 3,15,19-26,55,62,71,83,89-98
+frontend/src/components/account/ClaudeResetCreditsCell.vue
+  dd05fc68d17afff5 7-9,19,39-64,94-115,123-129,132-133,138-143,148-157,194,199-208,217-317,319
+backend/internal/handler/gateway_inflight_reservation.go
+  dd05fc68d17afff5 1-132
+frontend/src/components/common/PlatformTypeBadge.vue
+  dd05fc68d17afff5 121,262-263,269-270
+backend/internal/service/billing_inflight_reservation.go
+  dd05fc68d17afff5 1-714
+backend/internal/handler/gateway_web_search.go
+  dd05fc68d17afff5 91-102
+backend/internal/repository/api_key_create_count_test.go
+  dd05fc68d17afff5 1-43
+backend/internal/handler/openai_embeddings.go
+  dd05fc68d17afff5 111-122
+backend/internal/service/openai_codex_models_service_test.go
+  dd05fc68d17afff5 3771,3789-3852
+backend/internal/repository/billing_inflight_cache_test.go
+  dd05fc68d17afff5 1-287
+backend/internal/handler/openai_chat_completions.go
+  dd05fc68d17afff5 149-161
+backend/internal/pkg/apicompat/anthropic_responses_test.go
+  dd05fc68d17afff5 1982-1994
+backend/internal/service/service_tier_billing.go
+  dd05fc68d17afff5 56-57
+backend/cmd/server/VERSION
+  dd05fc68d17afff5 1
+frontend/src/i18n/locales/en/dashboard.ts
+  dd05fc68d17afff5 222,228,234,239,243-246,248
+backend/internal/service/billing_service.go
+  dd05fc68d17afff5 99-100,158-160,558-571,1190,1349,1867,1876-1878,1893,1905
+backend/internal/service/claude_reset_credits.go
+  dd05fc68d17afff5 79-82,146-155,183,201,205,219-235
+frontend/src/i18n/locales/zh/admin/accounts.ts
+  dd05fc68d17afff5 1075-1101
+backend/internal/service/pricing_service.go
+  dd05fc68d17afff5 77-93,1555-1560
+backend/internal/handler/grok_audio.go
+  dd05fc68d17afff5 52-63,227-238
+backend/internal/service/openai_compat_prompt_cache_key_test.go
+  dd05fc68d17afff5 169,172
+backend/internal/service/openai_gateway_request_body.go
+  dd05fc68d17afff5 1345,2615-2636
+backend/internal/service/service_tier_billing_test.go
+  dd05fc68d17afff5 19-23
+frontend/src/components/account/__tests__/ClaudeResetCreditsCell.spec.ts
+  dd05fc68d17afff5 6-19,28-40,43,80,82-215
+backend/internal/service/openai_codex_model_metadata.go
+  dd05fc68d17afff5 6,12,26-31,73,97-106
+backend/internal/server/api_contract_test.go
+  dd05fc68d17afff5 1740-1741
+frontend/src/components/account/__tests__/credentialsBuilder.spec.ts
+  dd05fc68d17afff5 1,455-457,459,463-465,487-495,497-502,504-507,509-510,513-517,542-550
+frontend/src/components/common/__tests__/PlatformTypeBadge.openaiPlans.spec.ts
+  dd05fc68d17afff5 22,26,31,35,37,41,44,73,75,81,86,91-108
+backend/internal/service/api_key_service_delete_test.go
+  dd05fc68d17afff5 251-253,303,312,324
+backend/internal/pkg/apicompat/chatcompletions_to_responses.go
+  dd05fc68d17afff5 21-23
+backend/internal/service/claude_reset_redeem_test.go
+  dd05fc68d17afff5 1-368
+backend/internal/service/auth_cache_invalidation_outbox_test.go
+  dd05fc68d17afff5 70-73
+frontend/src/composables/__tests__/useModelWhitelist.spec.ts
+  dd05fc68d17afff5 20,27
+backend/internal/config/config.go
+  dd05fc68d17afff5 92,925-947,1723-1730,2128-2134,2374-2375,2755-2760,3112-3115
+frontend/src/api/admin/claudeResetCredits.ts
+  dd05fc68d17afff5 28-47
+backend/internal/handler/gemini_v1beta_handler.go
+  dd05fc68d17afff5 393-405
+backend/internal/handler/openai_alpha_search.go
+  dd05fc68d17afff5 112-123
+backend/internal/service/claude_reset_redeem.go
+  dd05fc68d17afff5 1-335
+backend/internal/handler/gateway_handler_chat_completions.go
+  dd05fc68d17afff5 104-108,150-161
+backend/internal/handler/openai_gateway_handler.go
+  dd05fc68d17afff5 263-266,268-272,275,277,618-630,1267-1278,2579-2589,3432,3435-3437,3474
+backend/internal/service/openai_codex_pat_service_test.go
+  dd05fc68d17afff5 124-133
+backend/internal/service/gateway_usage_billing.go
+  dd05fc68d17afff5 480-489
+frontend/src/components/account/AccountUsageCell.vue
+  dd05fc68d17afff5 91
+backend/internal/service/api_key_service_create_limit_test.go
+  dd05fc68d17afff5 1-158
+backend/internal/pkg/openai/constants_test.go
+  dd05fc68d17afff5 45-63
+backend/internal/service/billing_service_test.go
+  dd05fc68d17afff5 1985,2049,2087,2089,2093-2141
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.8.0",
+  "base_commit_sha": "a46b074970bce32bbf0accfa21f0f3d380c96d77",
+  "prompts": {
+    "dd05fc68d17afff5": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0ca17-3ef2-7792-b30e-c4ed5810a189",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 5153,
+      "total_deletions": 303,
+      "accepted_lines": 5148,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/0b4688fe91555aa83f8c229e51fd03e41a3059caeec4d98377dd4ad7c8d812f3",
+      "token_usage": {
+        "input_tokens": 9400303,
+        "output_tokens": 329686,
+        "cache_read_tokens": 129494912,
+        "cache_creation_tokens": null,
+        "total_cost": null
+      }
+    }
+  }
+}
