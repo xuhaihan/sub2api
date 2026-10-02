@@ -1,0 +1,334 @@
+frontend/src/types/index.ts
+  38c20f47dab8d34b 541,931
+backend/ent/runtime/runtime.go
+  38c20f47dab8d34b 1330-1333,1335,1339,1345,1349,1353,1359,1363,1367,1373,1377,1381,1385,1389,1393,1397
+backend/internal/handler/dto/recharge_bonus_tiers.go
+  38c20f47dab8d34b 1-7
+backend/internal/service/admin_account.go
+  38c20f47dab8d34b 431-433,599-600
+backend/migrations/241_add_payment_order_bonus_amount.sql
+  38c20f47dab8d34b 1-3
+backend/internal/repository/email_cache_atomic_test.go
+  38c20f47dab8d34b 1-150
+backend/ent/paymentorder_update.go
+  38c20f47dab8d34b 157-177,905-910,1247-1267,2025-2029
+backend/internal/service/payment_fulfillment.go
+  38c20f47dab8d34b 744-747
+README_CN.md
+  38c20f47dab8d34b 746-770
+backend/internal/handler/gateway_handler_responses.go
+  38c20f47dab8d34b 85-87
+frontend/src/components/admin/user/__tests__/UserPlatformQuotaModal.spec.ts
+  38c20f47dab8d34b 78,104,109,119,123,140,155-156,161,178,243
+frontend/src/views/admin/SettingsView.vue
+  38c20f47dab8d34b 4058,4393,8451-8458,9034-9041,9758-9761,9826-9828,11099-11105,11713-11717
+frontend/src/components/user/UserPlatformQuotaCell.vue
+  38c20f47dab8d34b 37
+backend/internal/service/domain_constants.go
+  38c20f47dab8d34b 51,141
+frontend/src/constants/__tests__/platforms.spec.ts
+  38c20f47dab8d34b 14-15
+backend/internal/service/channel_service.go
+  38c20f47dab8d34b 371
+backend/internal/handler/gateway_systemone.go
+  38c20f47dab8d34b 1-287
+frontend/src/components/payment/__tests__/AmountInput.spec.ts
+  38c20f47dab8d34b 5-10,43-90
+backend/internal/pkg/typesafe/systemone_test.go
+  38c20f47dab8d34b 1-124
+frontend/src/components/payment/AmountInput.vue
+  38c20f47dab8d34b 8,14,17-19,21,24-46,76-78,85-92,97-100,116-147
+frontend/src/i18n/locales/zh/dashboard.ts
+  38c20f47dab8d34b 186,189-191
+backend/internal/service/content_moderation.go
+  38c20f47dab8d34b 59
+frontend/src/i18n/locales/en/misc.ts
+  38c20f47dab8d34b 294-300,367-368
+backend/internal/handler/gateway_models_test.go
+  38c20f47dab8d34b 935-938,1529-1571
+backend/internal/securityaudit/prompt_snapshot_test.go
+  38c20f47dab8d34b 415-464
+backend/ent/migrate/schema.go
+  38c20f47dab8d34b 1132,1175,1184,1192,1197,1202,1207,1212,1217,1222
+backend/internal/repository/api_key_repo_sort_test.go
+  38c20f47dab8d34b 1-78
+backend/internal/service/scheduler_snapshot_service.go
+  38c20f47dab8d34b 629,844-845
+frontend/src/components/keys/UseKeyModal.vue
+  38c20f47dab8d34b 369-370,501-504,589-590,648-649,778-779,834-873,1338
+frontend/src/components/payment/PaymentStatusPanel.vue
+  38c20f47dab8d34b 25-30
+frontend/src/components/user/dashboard/UserDashboardStats.vue
+  38c20f47dab8d34b 262,289
+frontend/src/views/user/KeysView.vue
+  38c20f47dab8d34b 1269
+backend/internal/handler/gateway_handler_chat_completions.go
+  38c20f47dab8d34b 85-87
+backend/internal/service/payment_service.go
+  38c20f47dab8d34b 95
+backend/internal/pkg/typesafe/client.go
+  38c20f47dab8d34b 16-21,44-51,53-79,81-132,137,139
+backend/internal/service/billing_service.go
+  38c20f47dab8d34b 701-706,1003-1005
+backend/internal/service/composite_platform_test.go
+  38c20f47dab8d34b 267-268,305,311
+backend/internal/handler/admin/setting_handler_recharge_bonus.go
+  38c20f47dab8d34b 1-33
+backend/internal/server/routes/payment.go
+  38c20f47dab8d34b 4-5,8,13-22,37,67-70,73-75
+backend/internal/handler/admin/setting_handler_update.go
+  38c20f47dab8d34b 315-323,2135-2137,2417-2419,2496
+frontend/src/i18n/locales/zh/admin/overview.ts
+  38c20f47dab8d34b 981
+frontend/src/components/admin/settings/RechargeBonusTierEditor.vue
+  38c20f47dab8d34b 1-297
+backend/internal/service/email_service_reset_token_test.go
+  38c20f47dab8d34b 1-50
+backend/internal/handler/admin/payment_handler.go
+  38c20f47dab8d34b 128,186
+frontend/src/components/account/__tests__/AccountPriorityCell.spec.ts
+  38c20f47dab8d34b 1-92
+backend/internal/server/api_contract_test.go
+  38c20f47dab8d34b 866,974-976,1192,1297-1299
+frontend/src/i18n/locales/en/admin/accounts.ts
+  38c20f47dab8d34b 101-106,120,886
+frontend/src/i18n/locales/en/dashboard.ts
+  38c20f47dab8d34b 185,188-190
+backend/internal/service/antigravity_gateway_gemini.go
+  38c20f47dab8d34b 408-409
+frontend/src/utils/keyGroupProviders.ts
+  38c20f47dab8d34b 19-20
+backend/internal/service/auth_service_email_bind_test.go
+  38c20f47dab8d34b 1168-1183
+backend/internal/handler/admin/group_handler.go
+  38c20f47dab8d34b 187,261,335
+backend/internal/service/user_service.go
+  38c20f47dab8d34b 1320
+frontend/src/views/admin/ChannelsView.vue
+  38c20f47dab8d34b 766,768
+backend/internal/service/account.go
+  38c20f47dab8d34b 20,272-275,1008-1011,1033-1052
+backend/internal/handler/endpoint.go
+  38c20f47dab8d34b 19,98-99,229-230
+frontend/src/i18n/locales/zh/admin/settings.ts
+  38c20f47dab8d34b 745-774
+frontend/src/api/admin/settings.ts
+  38c20f47dab8d34b 13,21,34,674-676,998-1000
+backend/internal/server/routes/gateway.go
+  38c20f47dab8d34b 205-206
+backend/internal/service/antigravity_upstream_error_sanitize_test.go
+  38c20f47dab8d34b 1-50
+frontend/src/utils/rechargeBonus.ts
+  38c20f47dab8d34b 1-207
+backend/internal/handler/endpoint_test.go
+  38c20f47dab8d34b 26,101
+backend/internal/model/error_passthrough_rule.go
+  38c20f47dab8d34b 49,65
+backend/ent/paymentorder/paymentorder.go
+  38c20f47dab8d34b 31-32,120,172-173,257-259
+backend/internal/handler/payment_handler.go
+  38c20f47dab8d34b 152-154,172-174,491,527,636,675
+backend/internal/handler/user_handler_test.go
+  38c20f47dab8d34b 9,815-829
+backend/internal/service/billing_service_test.go
+  38c20f47dab8d34b 133-146
+backend/internal/service/email_service.go
+  38c20f47dab8d34b 6,41-43,49,55-57,79,388-406,413-419,421,423,429-430,506-510,512-517,577-582,586,591,598,600,604-610
+frontend/src/views/admin/AccountsView.vue
+  38c20f47dab8d34b 390-395,536
+backend/internal/service/gateway_systemone.go
+  38c20f47dab8d34b 1-182
+frontend/src/components/account/EditAccountModal.vue
+  38c20f47dab8d34b 4042,4493-4494
+backend/internal/handler/admin/account_handler.go
+  38c20f47dab8d34b 30,2960-2962
+backend/ent/paymentorder.go
+  38c20f47dab8d34b 36-37,137,209-214,491-492
+frontend/src/types/payment.ts
+  38c20f47dab8d34b 28-33,80-85,104-105,227
+backend/internal/repository/email_cache.go
+  38c20f47dab8d34b 20-23,26-55,87,96-98,102,107-141,145,172-181,203,207-211,215
+backend/cmd/server/VERSION
+  38c20f47dab8d34b 1
+backend/internal/server/routes/payment_public_rate_limit_test.go
+  38c20f47dab8d34b 1-84
+backend/internal/server/routes/prompt_audit_route_coverage_test.go
+  38c20f47dab8d34b 32
+backend/internal/service/account_test_service_typesafe_test.go
+  38c20f47dab8d34b 1-92
+frontend/src/api/admin/users.ts
+  38c20f47dab8d34b 336
+backend/ent/paymentorder/where.go
+  38c20f47dab8d34b 93-97,598-635
+backend/internal/service/payment_order.go
+  38c20f47dab8d34b 64-76,108,157,193,480,745
+backend/internal/handler/admin/account_handler_available_models_test.go
+  38c20f47dab8d34b 529-561
+backend/migrations/typesafe_platform_migration_test.go
+  38c20f47dab8d34b 1-21
+frontend/src/utils/__tests__/rechargeBonus.spec.ts
+  38c20f47dab8d34b 1-141
+backend/internal/service/account_service.go
+  38c20f47dab8d34b 5,227-229,522-523
+backend/internal/securityaudit/prompt_snapshot.go
+  38c20f47dab8d34b 109-110,125-195
+backend/internal/domain/constants.go
+  38c20f47dab8d34b 31
+backend/internal/handler/admin/setting_handler.go
+  38c20f47dab8d34b 365-367
+backend/internal/service/content_moderation_input.go
+  38c20f47dab8d34b 49-52,68-126
+backend/internal/handler/gateway_handler.go
+  38c20f47dab8d34b 27,226-228,1169,1213-1216,1268,1294-1297,1304-1307,1491-1492,1496-1498,2184
+backend/internal/service/channel_service_test.go
+  38c20f47dab8d34b 2130
+backend/internal/service/gateway_systemone_test.go
+  38c20f47dab8d34b 1-402
+backend/internal/repository/api_key_repo.go
+  38c20f47dab8d34b 655-665
+frontend/src/components/account/AccountPriorityCell.vue
+  38c20f47dab8d34b 1-182
+backend/ent/mutation.go
+  38c20f47dab8d34b 30186-30187,30655-30710,32254,32276-32278,32397-32398,32486-32487,32610-32616,32858-32860,32887-32888,32927-32933,33133-33134
+backend/internal/service/composite_platform.go
+  38c20f47dab8d34b 165-166,208-209,299
+backend/internal/handler/admin/channel_handler.go
+  38c20f47dab8d34b 647
+backend/internal/service/admin_group.go
+  38c20f47dab8d34b 20,309-310,331-333
+frontend/src/views/user/PaymentResultView.vue
+  38c20f47dab8d34b 58-62,232-235
+frontend/src/views/user/__tests__/KeysView.spec.ts
+  38c20f47dab8d34b 213,515-519,536-542,545,548,556-557,564,595-596,654
+backend/internal/handler/gateway_models_retrieve_test.go
+  38c20f47dab8d34b 30
+backend/internal/service/account_test_service_typesafe.go
+  38c20f47dab8d34b 1-95
+frontend/src/i18n/locales/en/admin/overview.ts
+  38c20f47dab8d34b 1048
+frontend/src/api/__tests__/settings.authSourceDefaults.spec.ts
+  38c20f47dab8d34b 12,19,242,245,247,295
+backend/ent/schema/payment_order.go
+  38c20f47dab8d34b 53-56
+backend/internal/service/antigravity_upstream_error_sanitize.go
+  38c20f47dab8d34b 1-97
+frontend/src/components/admin/payment/AdminOrderTable.vue
+  38c20f47dab8d34b 60,62-64
+backend/internal/pkg/typesafe/systemone.go
+  38c20f47dab8d34b 1-202
+frontend/src/constants/platforms.ts
+  38c20f47dab8d34b 23-24
+backend/internal/handler/admin/group_handler_platform_test.go
+  38c20f47dab8d34b 31,75-76
+backend/internal/service/auth_service_register_test.go
+  38c20f47dab8d34b 1013-1028
+backend/migrations/241_add_typesafe_platform.sql
+  38c20f47dab8d34b 1-26
+backend/ent/paymentorder_create.go
+  38c20f47dab8d34b 84-97,534-537,598-600,749-752,1058-1075,1757-1777,2710-2727
+backend/internal/service/account_test_service.go
+  38c20f47dab8d34b 433-436
+frontend/src/components/account/CreateAccountModal.vue
+  38c20f47dab8d34b 231-243,4062-4063,4086-4087,4297-4303,4881-4882,4889-4894,5817-5818
+backend/internal/server/router.go
+  38c20f47dab8d34b 132
+README.md
+  38c20f47dab8d34b 830-854
+frontend/src/components/admin/payment/AdminOrderDetail.vue
+  38c20f47dab8d34b 32-36
+backend/internal/service/payment_config_service.go
+  38c20f47dab8d34b 65-76,104-112,233,264-265,281,360-368,403-410
+backend/internal/service/payment_recharge_bonus.go
+  38c20f47dab8d34b 1-337
+frontend/src/i18n/locales/zh/misc.ts
+  38c20f47dab8d34b 318-324,391-392
+backend/internal/service/content_moderation_systemone_test.go
+  38c20f47dab8d34b 1-34
+frontend/src/views/admin/__tests__/SettingsView.spec.ts
+  38c20f47dab8d34b 491-493,1067-1160,2019,2032,2035,2051,2065,2090
+backend/internal/model/error_passthrough_rule_test.go
+  38c20f47dab8d34b 21
+frontend/src/i18n/locales/zh/admin/accounts.ts
+  38c20f47dab8d34b 99-104,344,988-989
+backend/internal/service/payment_order_provider_snapshot_test.go
+  38c20f47dab8d34b 91
+backend/internal/handler/dto/settings.go
+  38c20f47dab8d34b 282-290
+backend/internal/handler/gateway_systemone_test.go
+  38c20f47dab8d34b 1-109
+backend/internal/server/routes/gateway_model_allowlist_test.go
+  38c20f47dab8d34b 155
+frontend/src/components/user/dashboard/__tests__/UserDashboardStats.spec.ts
+  38c20f47dab8d34b 135-142
+frontend/src/components/payment/OrderTable.vue
+  38c20f47dab8d34b 21,23-25
+frontend/src/components/user/__tests__/UserPlatformQuotaCell.spec.ts
+  38c20f47dab8d34b 60,65,73
+frontend/src/utils/platformColors.ts
+  38c20f47dab8d34b 19,34,51,67,84,102,119,136,153,170,187,204,221,237,256,325
+frontend/src/i18n/locales/en/admin/settings.ts
+  38c20f47dab8d34b 750-779
+backend/internal/handler/auth_oauth_pending_flow_test.go
+  38c20f47dab8d34b 3596-3612
+.github/SECURITY.md
+  38c20f47dab8d34b 1-107
+backend/internal/service/payment_recharge_bonus_test.go
+  38c20f47dab8d34b 1-349
+frontend/src/composables/useModelWhitelist.ts
+  38c20f47dab8d34b 478
+backend/ent/schema/user_platform_quota.go
+  38c20f47dab8d34b 45
+backend/internal/handler/admin/channel_handler_test.go
+  38c20f47dab8d34b 568
+frontend/src/views/user/PaymentView.vue
+  38c20f47dab8d34b 53-59,65-68,83-87,93,97-101,103,299,535,542-548,581-582,664-676,684,691-692,696-698,700,705,711-712,719,767
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.8.1",
+  "base_commit_sha": "5646ac1d3dbb373aaa0769fa0685a94c6444d51a",
+  "prompts": {
+    "38c20f47dab8d34b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0fc6e-a0db-73f0-ab26-5a960f425bd0",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 5800,
+      "total_deletions": 291,
+      "accepted_lines": 5788,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/ef5bf1b3e3af1716598329b6fe5d1f4650b0a86eb0104a8bec9cfb3658aa606b",
+      "token_usage": {
+        "input_tokens": 73949,
+        "output_tokens": 7021,
+        "cache_read_tokens": 1840256,
+        "cache_creation_tokens": null,
+        "total_cost": null
+      }
+    },
+    "4054dde50442f416": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0f5d5-9473-7c10-b4e5-c57a0eaf6afa",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 1,
+      "accepted_lines": 1,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/f586b5af138a911e74ac8c74eee185967a467a6fac2f1d3dde231a18f7c3f304",
+      "token_usage": {
+        "input_tokens": 340166,
+        "output_tokens": 15235,
+        "cache_read_tokens": 5861504,
+        "cache_creation_tokens": null,
+        "total_cost": null
+      }
+    }
+  }
+}
