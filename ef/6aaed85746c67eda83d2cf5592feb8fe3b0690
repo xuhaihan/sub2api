@@ -1,0 +1,131 @@
+backend/internal/repository/scheduler_cache_unit_test.go
+  38c20f47dab8d34b 464,483
+backend/internal/service/openai_quota_auto_reset_config.go
+  38c20f47dab8d34b 62
+backend/internal/service/openai_quota_auto_reset_test.go
+  38c20f47dab8d34b 22-23,37-58,115-128,223-229
+frontend/src/components/account/EditAccountModal.vue
+  38c20f47dab8d34b 2570-2573,2582,2587-2590,2599,3627-3628,4174-4175,5151-5154,5749-5750
+  8381e3e4eeaacd07 75,3423,3433,4404
+frontend/src/components/account/__tests__/EditAccountModal.spec.ts
+  38c20f47dab8d34b 1687-1688,1720-1721,1729-1753
+  45945b82bd9ba83a 584,600
+frontend/src/i18n/locales/en/admin/accounts.ts
+  38c20f47dab8d34b 982-984,987
+frontend/src/i18n/locales/zh/admin/accounts.ts
+  38c20f47dab8d34b 1084-1086,1089
+frontend/src/types/index.ts
+  175dde1810f699ac 1156-1157
+  38c20f47dab8d34b 1229-1230
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.8.1",
+  "base_commit_sha": "ef6aaed85746c67eda83d2cf5592feb8fe3b0690",
+  "prompts": {
+    "175dde1810f699ac": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0aec4-419e-7912-85c6-7bb1a60c27cf",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 911,
+      "total_deletions": 17,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    },
+    "38c20f47dab8d34b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0fc6e-a0db-73f0-ab26-5a960f425bd0",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 301,
+      "total_deletions": 14,
+      "accepted_lines": 107,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/2b83c4433f6c20d4d94326bcacf0d339b5157eb9ef124deacb5cbe4242ffa2c1",
+      "token_usage": {
+        "input_tokens": 1710128,
+        "output_tokens": 63855,
+        "cache_read_tokens": 39271168,
+        "cache_creation_tokens": null,
+        "total_cost": null
+      }
+    },
+    "45945b82bd9ba83a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a01e32-5188-7123-b760-31f8772f3c97",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 118,
+      "total_deletions": 5,
+      "accepted_lines": 2,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/90e8b5b7aab17d3db942d397a98ee1bf0e3aafccca8964f30e97447226607832"
+    },
+    "8381e3e4eeaacd07": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a02d3b-87e7-7051-a4c6-5413230b79af",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 4,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/f7ac91a16114c5d68499ae0e1fc43daee56882f5052c973a182e6355bb792b01"
+    },
+    "a5486ee95907b216": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019feee2-3893-70c1-b12c-2b751ece5599",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 0,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/7f534fcdcafe9fdc41fc4af615f00c41e5532976f5ffb5f0576151fc603c9440"
+    },
+    "d469612dc7458529": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0c7fa-1eb1-7ce3-b7ad-6fea288e10b6",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 0,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/4540a41cab26774f331c23ba4076dc5f1719eb859fe26d5426e3a28680ab24cb"
+    },
+    "f965f3800c91023f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0908a-561f-7e13-ac9c-c51661659735",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 0,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/56e1f96d84c5cc2ff0afe370bafcc83194ad4497c95c434f80744deeb3c4e8ac"
+    }
+  }
+}
