@@ -1,0 +1,30 @@
+frontend/src/components/keys/__tests__/UseKeyModal.spec.ts
+  38c20f47dab8d34b 418,560,608
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.8.1",
+  "base_commit_sha": "d33f020ee08faeb3d9729d643320ed7e15e90c1c",
+  "prompts": {
+    "38c20f47dab8d34b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0fc6e-a0db-73f0-ab26-5a960f425bd0",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 4,
+      "total_deletions": 4,
+      "accepted_lines": 4,
+      "overriden_lines": 0,
+      "token_usage": {
+        "input_tokens": 1111818,
+        "output_tokens": 41080,
+        "cache_read_tokens": 26924800,
+        "cache_creation_tokens": null,
+        "total_cost": null
+      }
+    }
+  }
+}
