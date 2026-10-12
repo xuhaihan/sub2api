@@ -1,0 +1,142 @@
+frontend/src/views/user/ChannelStatusV1View.vue
+  fa9636068918358f 10,70,112-113
+frontend/src/i18n/locales/en/channelMonitorV2.ts
+  fa9636068918358f 99-100
+frontend/src/views/user/__tests__/ChannelStatusV1View.details.spec.ts
+  fa9636068918358f 1-77
+frontend/src/components/account/AccountGroupsCell.vue
+  fa9636068918358f 3-4,13-14,65-66
+backend/internal/service/openai_image_generation_controls_test.go
+  fa9636068918358f 427-496,597-631
+frontend/src/composables/useGeminiOAuth.ts
+  fa9636068918358f 5,65-66
+frontend/src/views/admin/ops/components/__tests__/OpsRequestDetailsModal.spec.ts
+  fa9636068918358f 7,9,11,17,42,46-48,52-58,88,93-99
+backend/internal/service/openai_gateway_cn_fixes_test.go
+  fa9636068918358f 77
+backend/internal/repository/group_repo_integration_test.go
+  fa9636068918358f 8,10,54-102,311-313,316-318,336-403
+frontend/src/views/admin/ops/components/__tests__/OpsDashboardHeader.timezone.spec.ts
+  fa9636068918358f 1-54
+backend/internal/service/content_moderation.go
+  fa9636068918358f 723-734
+frontend/src/components/admin/group/GroupRateMultipliersModal.vue
+  fa9636068918358f 429
+backend/internal/service/openai_codex_models_service_test.go
+  fa9636068918358f 2406,3801,3854-3874
+backend/internal/service/openai_gateway_service.go
+  fa9636068918358f 622-625,627-629
+frontend/src/components/common/Select.vue
+  fa9636068918358f 449
+frontend/src/views/admin/ops/utils/accountNameMap.ts
+  fa9636068918358f 1-33
+backend/internal/repository/setting_repo.go
+  fa9636068918358f 5,13-39
+frontend/src/components/payment/__tests__/paymentCountdown.spec.ts
+  fa9636068918358f 1-68
+backend/internal/service/openai_gateway_usage.go
+  fa9636068918358f 17,240,253,287,318,491,564-577,590,647,742,750-751,759
+frontend/src/components/account/UsageProgressBar.vue
+  fa9636068918358f 65,100-104
+frontend/src/composables/__tests__/useGeminiOAuth.errors.spec.ts
+  fa9636068918358f 1-39
+backend/internal/service/billing_service.go
+  fa9636068918358f 1479-1480,1496,1583
+backend/internal/web/embed_test.go
+  fa9636068918358f 649,653,768,772
+frontend/src/components/payment/PaymentStatusPanel.vue
+  fa9636068918358f 453,456
+frontend/src/i18n/locales/zh/channelMonitorV2.ts
+  fa9636068918358f 98-99
+frontend/src/components/common/GroupBadge.vue
+  fa9636068918358f 11,48-49,62
+frontend/src/components/common/__tests__/Select.ime.spec.ts
+  fa9636068918358f 1-32
+backend/internal/repository/group_repo.go
+  fa9636068918358f 960-982
+backend/internal/service/openai_gateway_forward.go
+  fa9636068918358f 165-168,218
+frontend/src/features/channel-monitor-v2/MonitorSettingsPanel.vue
+  fa9636068918358f 92-109,284-285,307-318
+backend/internal/service/openai_codex_models_service.go
+  fa9636068918358f 549-551
+backend/internal/service/openai_alpha_search_billing_test.go
+  fa9636068918358f 54,62,70
+frontend/src/components/payment/PaymentQRDialog.vue
+  fa9636068918358f 237,243
+backend/internal/service/openai_subscription_long_context_test.go
+  fa9636068918358f 1-238
+frontend/src/components/admin/group/GroupRPMOverridesModal.vue
+  fa9636068918358f 249,277,279-280,282-284,288,292,301-303,434
+frontend/src/views/admin/ops/components/OpsRequestDetailsModal.vue
+  fa9636068918358f 11,48,98,165-185,239-241,281-283,314-315
+frontend/src/views/user/PaymentQRCodeView.vue
+  fa9636068918358f 160,166
+frontend/src/features/channel-monitor-v2/__tests__/MonitorSettingsPanel.spec.ts
+  fa9636068918358f 1-153
+frontend/src/components/account/__tests__/UsageProgressBar.spec.ts
+  fa9636068918358f 71-90
+frontend/src/components/admin/group/__tests__/GroupRateMultipliersModal.edit.spec.ts
+  fa9636068918358f 1-52
+frontend/src/components/admin/group/__tests__/GroupRPMOverridesModal.requests.spec.ts
+  fa9636068918358f 1-100
+backend/internal/service/openai_gateway_search_surcharge_test.go
+  fa9636068918358f 41,73,120
+backend/internal/service/gateway_image_reasoning_pricing_test.go
+  fa9636068918358f 134
+frontend/src/i18n/locales/en/admin/ops.ts
+  fa9636068918358f 431
+frontend/src/i18n/locales/zh/admin/ops.ts
+  fa9636068918358f 431
+frontend/src/views/admin/ops/components/OpsDashboardHeader.vue
+  fa9636068918358f 13,181-182
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.8.1",
+  "base_commit_sha": "b1b8931987cb2066c2182a264d8acb8d1e7d3cbd",
+  "prompts": {
+    "4fd64961538fa9ba": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a11a70-7060-7321-9f7e-46778c9acb1a",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 1,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/28cae50eb159b12b80a86b63871f3ecab1383d3dc4d95b588b3de9e7ff20db88",
+      "token_usage": {
+        "input_tokens": 1544351,
+        "output_tokens": 88291,
+        "cache_read_tokens": 58841984,
+        "cache_creation_tokens": null,
+        "total_cost": null
+      }
+    },
+    "fa9636068918358f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a12f5c-2d86-7090-a438-270b76d1bee2",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 1388,
+      "total_deletions": 48,
+      "accepted_lines": 1388,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/46d353cc6e12553e8dceb28604eb084e00cf25fe59ab2aaee252f888e665b762",
+      "token_usage": {
+        "input_tokens": 872650,
+        "output_tokens": 41001,
+        "cache_read_tokens": 15205504,
+        "cache_creation_tokens": null,
+        "total_cost": null
+      }
+    }
+  }
+}
