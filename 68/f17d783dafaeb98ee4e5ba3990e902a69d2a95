@@ -1,0 +1,110 @@
+backend/internal/repository/account_repo_opendesign_usage_integration_test.go
+  876475fc08ef2816 1-44
+backend/internal/handler/dto/mappers.go
+  876475fc08ef2816 261,427-428,474-475
+backend/internal/handler/dto/types.go
+  876475fc08ef2816 225,354
+backend/cmd/server/wire_gen.go
+  876475fc08ef2816 296,300
+frontend/src/types/index.ts
+  876475fc08ef2816 1296-1311,1325
+backend/internal/server/routes/admin.go
+  876475fc08ef2816 395-397
+backend/internal/server/middleware/audit_log.go
+  4a30b494e06c9090 147
+  876475fc08ef2816 148-149,159
+backend/internal/service/admin_account.go
+  876475fc08ef2816 172,453,750,1084,1115
+backend/internal/server/middleware/audit_log_test.go
+  4a30b494e06c9090 155,157,175-177,185-191,197-201
+frontend/src/components/account/AccountUsageCell.vue
+  876475fc08ef2816 722-726,797,811
+  4a30b494e06c9090 902
+backend/internal/service/opendesign_usage.go
+  876475fc08ef2816 27-55
+frontend/src/components/account/OpenDesignUsageSettings.vue
+  4a30b494e06c9090 1-81
+backend/internal/handler/admin/account_handler.go
+  876475fc08ef2816 70,84-86
+backend/internal/handler/admin/account_data.go
+  876475fc08ef2816 7,211,231-237
+frontend/src/i18n/locales/zh/admin/accounts.ts
+  4a30b494e06c9090 137-150
+backend/internal/repository/account_repo_opendesign_usage.go
+  876475fc08ef2816 1-61
+frontend/src/api/admin/accounts.ts
+  876475fc08ef2816 31,1079-1094,1230-1232
+frontend/src/components/account/__tests__/AccountUsageCell.spec.ts
+  876475fc08ef2816 6-8,14-15,471-509
+backend/internal/repository/account_repo.go
+  876475fc08ef2816 741,754-763,965,3301,3362-3372
+backend/internal/handler/admin/account_opendesign_usage.go
+  876475fc08ef2816 1-75
+docs/COMPOSITE_GROUPS.md
+  876475fc08ef2816 109-118
+frontend/src/components/account/OpenDesignUsageCell.vue
+  4a30b494e06c9090 19
+  876475fc08ef2816 1-18,20-65
+backend/internal/handler/wire.go
+  876475fc08ef2816 52,58
+frontend/src/components/account/EditAccountModal.vue
+  4a30b494e06c9090 2318-2323,3499
+backend/internal/service/wire.go
+  876475fc08ef2816 931
+backend/internal/handler/admin/account_opendesign_usage_test.go
+  4a30b494e06c9090 1-20,23-145
+  876475fc08ef2816 21-22
+backend/internal/repository/account_repo_opendesign_usage_test.go
+  4a30b494e06c9090 1-28
+frontend/src/i18n/locales/en/admin/accounts.ts
+  4a30b494e06c9090 293-306
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.8.5",
+  "base_commit_sha": "68f17d783dafaeb98ee4e5ba3990e902a69d2a95",
+  "prompts": {
+    "4a30b494e06c9090": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a20d62-a555-78a0-8d2e-1f7f620909a8",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 311,
+      "total_deletions": 9,
+      "accepted_lines": 307,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/429292e128a8fa7bc2ebaedd398a45820146a4374457f209055f5d38151c4fb4",
+      "token_usage": {
+        "input_tokens": 346955,
+        "output_tokens": 39750,
+        "cache_read_tokens": 18070912,
+        "cache_creation_tokens": null,
+        "total_cost": null
+      }
+    },
+    "876475fc08ef2816": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a20d59-eb2c-7a21-9d43-f55225e4eca7",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 467,
+      "total_deletions": 72,
+      "accepted_lines": 441,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/ff6cc6e282f9b99659cb761437150512e1d8659f37a24a416396928a6965b051",
+      "token_usage": {
+        "input_tokens": 500028,
+        "output_tokens": 55639,
+        "cache_read_tokens": 34813440,
+        "cache_creation_tokens": null,
+        "total_cost": null
+      }
+    }
+  }
+}
