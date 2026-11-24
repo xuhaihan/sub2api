@@ -1,0 +1,33 @@
+frontend/src/components/account/__tests__/AccountUsageCell.spec.ts
+  876475fc08ef2816 427-468
+frontend/src/components/account/AccountUsageCell.vue
+  876475fc08ef2816 896-897
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.8.5",
+  "base_commit_sha": "f0bc452de82ed0068fb532abebd7615e4872796a",
+  "prompts": {
+    "876475fc08ef2816": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a20d59-eb2c-7a21-9d43-f55225e4eca7",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 44,
+      "total_deletions": 0,
+      "accepted_lines": 44,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/cbf3086a62483fb40a6cc0e28093854510e549ec4feb096a6f42723347d81176",
+      "token_usage": {
+        "input_tokens": 208326,
+        "output_tokens": 10121,
+        "cache_read_tokens": 4449024,
+        "cache_creation_tokens": null,
+        "total_cost": null
+      }
+    }
+  }
+}
