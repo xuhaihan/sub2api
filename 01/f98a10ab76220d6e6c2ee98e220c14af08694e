@@ -1,0 +1,51 @@
+backend/internal/server/routes/admin.go
+  876475fc08ef2816 398-399
+frontend/src/i18n/locales/zh/admin/accounts.ts
+  876475fc08ef2816 139-144
+backend/internal/handler/admin/account_opendesign_usage.go
+  876475fc08ef2816 8,19-22,56-102
+frontend/src/components/account/OpenDesignUsageSettings.vue
+  876475fc08ef2816 4,6-15,20,22-23,26-27,36,39,48-61,64,69-128
+backend/internal/server/middleware/audit_log.go
+  876475fc08ef2816 155-166
+frontend/src/api/admin/accounts.ts
+  876475fc08ef2816 32-33,1088-1099,1245-1246
+frontend/src/components/account/__tests__/AccountUsageCell.spec.ts
+  876475fc08ef2816 7,10-12,20-22,487,496-527
+frontend/src/types/index.ts
+  876475fc08ef2816 1312-1324
+backend/internal/handler/admin/account_opendesign_usage_test.go
+  876475fc08ef2816 9,12,16,64,74-97,132-186
+docs/COMPOSITE_GROUPS.md
+  876475fc08ef2816 112-119
+frontend/src/i18n/locales/en/admin/accounts.ts
+  876475fc08ef2816 295-300
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.8.5",
+  "base_commit_sha": "01f98a10ab76220d6e6c2ee98e220c14af08694e",
+  "prompts": {
+    "876475fc08ef2816": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a20d59-eb2c-7a21-9d43-f55225e4eca7",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 336,
+      "total_deletions": 34,
+      "accepted_lines": 335,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/6313be0ecdc6fa9aa4e733565a7b13b0a527bea816f742eb52e05b29432671f4",
+      "token_usage": {
+        "input_tokens": 1764465,
+        "output_tokens": 97553,
+        "cache_read_tokens": 92610432,
+        "cache_creation_tokens": null,
+        "total_cost": null
+      }
+    }
+  }
+}
