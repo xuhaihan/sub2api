@@ -1,0 +1,35 @@
+backend/internal/handler/model_plaza_handler_test.go
+  bdecadbcad3f8059 337
+backend/internal/service/openai_gateway_grok_tool_protocol_test.go
+  bdecadbcad3f8059 373
+backend/internal/service/grok_sse_transport_config_test.go
+  bdecadbcad3f8059 22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.8.5",
+  "base_commit_sha": "1e90fd4a44c04d64d987c0235c1806514b1b35ad",
+  "prompts": {
+    "bdecadbcad3f8059": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a17815-536c-7290-8327-9625951fa52f",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 258,
+      "total_deletions": 58,
+      "accepted_lines": 671,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/9acf142e6caea9e2d937dcc0486ea54a9f036005c4bb38b7b80b8f6b149b79dd",
+      "token_usage": {
+        "input_tokens": 7513345,
+        "output_tokens": 212726,
+        "cache_read_tokens": 139562112,
+        "cache_creation_tokens": null,
+        "total_cost": null
+      }
+    }
+  }
+}
