@@ -1,0 +1,63 @@
+frontend/src/components/account/OllamaCloudUsageCell.vue
+  876475fc08ef2816 24-25,28,39
+frontend/src/components/account/OpenDesignUsageCell.vue
+  876475fc08ef2816 2-4,7-18,25-32,34-40,46,49,51,59-64,66,70,74-75,77,79
+  4a30b494e06c9090 65
+frontend/src/components/account/UsageQueryButton.vue
+  876475fc08ef2816 1-32
+frontend/src/components/account/OpenCodeGoUsageCell.vue
+  876475fc08ef2816 42-43,46,58
+frontend/src/components/account/AccountUsageCell.vue
+  876475fc08ef2816 768-772
+frontend/src/components/account/__tests__/AccountUsageCell.spec.ts
+  4a30b494e06c9090 542-543,546,550-551,558,560-563,565-570,572,576-585
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.8.5",
+  "base_commit_sha": "462e1096db462635304bcf13e09da8dc713df023",
+  "prompts": {
+    "4a30b494e06c9090": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a20d62-a555-78a0-8d2e-1f7f620909a8",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 29,
+      "total_deletions": 8,
+      "accepted_lines": 28,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/a4619b2ffeb095f1e2faf6aaa3cbadaf8574d3b83adc4ff340302a33ab832ccf",
+      "token_usage": {
+        "input_tokens": 860150,
+        "output_tokens": 52515,
+        "cache_read_tokens": 25008640,
+        "cache_creation_tokens": null,
+        "total_cost": null
+      }
+    },
+    "876475fc08ef2816": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a20d59-eb2c-7a21-9d43-f55225e4eca7",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 91,
+      "total_deletions": 78,
+      "accepted_lines": 91,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/156e3a22cd984cbe25e4b248240a66cf47a57402e9fc29b1dd597af01cd62ace",
+      "token_usage": {
+        "input_tokens": 3218637,
+        "output_tokens": 108140,
+        "cache_read_tokens": 114121984,
+        "cache_creation_tokens": null,
+        "total_cost": null
+      }
+    }
+  }
+}
