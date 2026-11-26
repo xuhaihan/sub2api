@@ -1,0 +1,37 @@
+frontend/src/components/account/ZhipuResetCardsSettings.vue
+  4a30b494e06c9090 3-4,9-12,14,17,83,88-102,126,138-148,164,174
+frontend/src/i18n/locales/en/admin/accounts.ts
+  4a30b494e06c9090 300-306
+frontend/src/i18n/locales/zh/admin/accounts.ts
+  4a30b494e06c9090 144-150
+frontend/src/components/account/__tests__/ZhipuResetCardsSettings.spec.ts
+  4a30b494e06c9090 21-23,85,88-89,92-94,97-102,107,110-152
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.8.5",
+  "base_commit_sha": "39ab3cfeb68d5403c2e1c6dc6614ed6c400caa96",
+  "prompts": {
+    "4a30b494e06c9090": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a20d62-a555-78a0-8d2e-1f7f620909a8",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 111,
+      "total_deletions": 24,
+      "accepted_lines": 111,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/aa73ef55ba7cd6895d119519afeaccbda9cf2ed885881fb73dd00d542643a567",
+      "token_usage": {
+        "input_tokens": 4605672,
+        "output_tokens": 167844,
+        "cache_read_tokens": 135037440,
+        "cache_creation_tokens": null,
+        "total_cost": null
+      }
+    }
+  }
+}
