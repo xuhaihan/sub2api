@@ -1,0 +1,47 @@
+backend/internal/handler/dto/account_list_zhipu_reset_cards_test.go
+  4a30b494e06c9090 1-27
+frontend/src/components/account/UsageQueryButton.vue
+  4a30b494e06c9090 23
+backend/internal/handler/dto/mappers.go
+  4a30b494e06c9090 476
+frontend/src/components/account/__tests__/CNProviderQuotaCell.spec.ts
+  4a30b494e06c9090 49-65
+frontend/src/i18n/locales/zh/admin/accounts.ts
+  4a30b494e06c9090 144-146
+frontend/src/components/account/ZhipuResetCardsSettings.vue
+  4a30b494e06c9090 2-25,80-90,97,105-106,124,186-189,215,228,247-248,259
+backend/internal/handler/dto/types.go
+  4a30b494e06c9090 225-226,351-357
+frontend/src/components/account/__tests__/ZhipuResetCardsSettings.spec.ts
+  4a30b494e06c9090 83-104
+frontend/src/i18n/locales/en/admin/accounts.ts
+  4a30b494e06c9090 300-302
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.8.5",
+  "base_commit_sha": "475575639d51cf1cc48ee0e58ba434038e71a313",
+  "prompts": {
+    "4a30b494e06c9090": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a20d62-a555-78a0-8d2e-1f7f620909a8",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 130,
+      "total_deletions": 25,
+      "accepted_lines": 130,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/9d67c3853c0523d76af0bbdc7003113db9ed71d94275e1d015c33bc8b9eca9fa",
+      "token_usage": {
+        "input_tokens": 3704199,
+        "output_tokens": 118156,
+        "cache_read_tokens": 106365056,
+        "cache_creation_tokens": null,
+        "total_cost": null
+      }
+    }
+  }
+}
