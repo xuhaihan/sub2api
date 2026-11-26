@@ -1,0 +1,77 @@
+backend/internal/handler/admin/account_handler.go
+  4a30b494e06c9090 71,90-92
+backend/internal/service/zhipu_reset_cards_test.go
+  4a30b494e06c9090 1-246
+backend/internal/handler/admin/account_zhipu_reset_cards.go
+  4a30b494e06c9090 1-148
+frontend/src/i18n/locales/en/admin/accounts.ts
+  4a30b494e06c9090 293-320
+backend/internal/service/wire.go
+  4a30b494e06c9090 932
+frontend/src/components/account/__tests__/EditAccountModal.spec.ts
+  4a30b494e06c9090 54-57
+backend/internal/handler/admin/account_data.go
+  4a30b494e06c9090 232-234,239
+backend/internal/service/admin_account.go
+  4a30b494e06c9090 173,455,753,1088,1120
+backend/internal/service/zhipu_reset_cards.go
+  4a30b494e06c9090 1-497
+backend/internal/server/middleware/audit_log.go
+  4a30b494e06c9090 114-123,149-154,160-172
+frontend/src/components/account/EditAccountModal.vue
+  4a30b494e06c9090 2324-2329,3506
+backend/internal/service/zhipu_reset_cards_upstream.go
+  4a30b494e06c9090 1-27,30-81,83-158
+backend/internal/repository/account_repo.go
+  4a30b494e06c9090 742,755-761,765,768
+backend/internal/handler/admin/account_zhipu_reset_cards_test.go
+  4a30b494e06c9090 1-63
+frontend/src/api/admin/zhipuResetCards.ts
+  4a30b494e06c9090 1-69
+backend/internal/repository/account_repo_opendesign_usage_test.go
+  4a30b494e06c9090 21
+backend/internal/handler/wire.go
+  4a30b494e06c9090 53,60
+frontend/src/components/account/__tests__/ZhipuResetCardsSettings.spec.ts
+  4a30b494e06c9090 1-97
+backend/internal/server/routes/admin.go
+  4a30b494e06c9090 400-405
+backend/cmd/server/wire_gen.go
+  4a30b494e06c9090 297,301
+frontend/src/components/account/ZhipuResetCardsSettings.vue
+  4a30b494e06c9090 1-231
+frontend/src/i18n/locales/zh/admin/accounts.ts
+  4a30b494e06c9090 137-164
+backend/internal/handler/dto/mappers.go
+  4a30b494e06c9090 427
+backend/internal/repository/account_repo_opendesign_usage.go
+  4a30b494e06c9090 11-12,32-43,49,59,64,67-68
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.8.5",
+  "base_commit_sha": "bae0727cbbc08787eb79f2b4824ea291bf644d29",
+  "prompts": {
+    "4a30b494e06c9090": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a20d62-a555-78a0-8d2e-1f7f620909a8",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 1723,
+      "total_deletions": 97,
+      "accepted_lines": 1659,
+      "overriden_lines": 3,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/d971d8520edaa8b7c4fc47758f0f21c9ef1ceeee60841a532d573908356c4647",
+      "token_usage": {
+        "input_tokens": 2077504,
+        "output_tokens": 95822,
+        "cache_read_tokens": 58869760,
+        "cache_creation_tokens": null,
+        "total_cost": null
+      }
+    }
+  }
+}
