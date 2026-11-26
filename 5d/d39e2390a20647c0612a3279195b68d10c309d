@@ -1,0 +1,43 @@
+frontend/src/components/account/__tests__/ZhipuResetCardsSettings.spec.ts
+  876475fc08ef2816 85-134,141,143,146,152
+frontend/src/components/account/CNProviderQuotaCell.vue
+  876475fc08ef2816 54,82
+frontend/src/i18n/locales/zh/admin/accounts.ts
+  876475fc08ef2816 147
+frontend/src/components/account/ZhipuResetCardsSettings.vue
+  876475fc08ef2816 105-122,124,135,185-188,306-307
+frontend/src/components/account/AccountUsageCell.vue
+  876475fc08ef2816 571
+frontend/src/i18n/locales/en/admin/accounts.ts
+  876475fc08ef2816 303
+frontend/src/components/account/__tests__/CNProviderQuotaCell.spec.ts
+  876475fc08ef2816 51-55,61-63
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.8.5",
+  "base_commit_sha": "5dd39e2390a20647c0612a3279195b68d10c309d",
+  "prompts": {
+    "876475fc08ef2816": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a20d59-eb2c-7a21-9d43-f55225e4eca7",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "xuhaihan <xuhaihan@cvte.com>",
+      "messages": [],
+      "total_additions": 93,
+      "total_deletions": 15,
+      "accepted_lines": 93,
+      "overriden_lines": 0,
+      "messages_url": "https://gitai.gz.cvte.cn/cas/cc3ed6cce94a46c69c01722ae266691a0bb6e2451504161c75373c2f77541bae",
+      "token_usage": {
+        "input_tokens": 4976465,
+        "output_tokens": 127798,
+        "cache_read_tokens": 158744448,
+        "cache_creation_tokens": null,
+        "total_cost": null
+      }
+    }
+  }
+}
